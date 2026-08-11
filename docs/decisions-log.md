@@ -653,9 +653,14 @@ flat:
   never be reduced below 1 by any means — rejected as game-breaking
   (permanent Ruin immunity, and it conflicted with how War/Trade War
   captures are supposed to resolve when a decisive win would take a
-  house's last Land point). Fixed to a single-use-per-campaign save
-  instead: once, when an action would reduce Land to 0, keep 1 —
-  everything else about that action still resolves normally.
+  house's last Land point). Second version — a single-use-per-campaign
+  reactive save (keep 1 Land when it would hit 0) — was then judged too
+  weak, since it might never trigger at all over a whole campaign if
+  the house never gets close to 0 Land. **Final version**: a proactive,
+  guaranteed benefit instead — once per campaign, immediately claim 2
+  Land from the unclaimed pool for free, no roll needed. Open edge
+  case: what happens if the pool has less than 2 Land available at the
+  time.
 
 ## Still open / not yet drafted
 
