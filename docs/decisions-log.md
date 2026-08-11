@@ -710,6 +710,17 @@ rate. A genuine success-threshold-level restriction rather than just
 fewer dice, matching the "rank 2 also alters playstyle" rule more
 literally than a permission-gate did.
 
+Warmonger and Kingmaker were then flagged as too narrow/situational to
+feel like real face-card rewards — Warmonger's death-check tweak might
+never come up, and Kingmaker just amplified an already-universal option
+(any house can already join a Revolt bloc). Reworked: **Warmonger**
+now doubles capture stakes on a decisive War/Border Raid win.
+**Kingmaker** now grants +3 dice to whichever Revolt side this house
+backs, independent of its own stat contribution — the point is their
+endorsement matters, not their army. **Tyrannical**'s benefit was also
+still flat dice (+2 War), which belongs in the 8-10 tier, not K — fixed
+to doubling the King's per-turn powers while holding the crown.
+
 Still awaiting final designer confirm on Clubs before replicating to
 Hearts, Diamonds, and finishing Spades fresh under this system.
 
