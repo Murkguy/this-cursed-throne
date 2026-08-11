@@ -68,20 +68,25 @@ trait table — see `character-traits-bank.md`.)
 
 ## ♣ Clubs — Military/Political
 
+House-level traits only, same rule as Hearts — a whole house's political
+standing or military doctrine, not one person's mood. Cowardly was
+pulled (personal, not institutional) and banked in
+`character-traits-bank.md`; Client House replaces it.
+
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Cowardly** | +2 dice on Espionage tasks. | -2 dice on War tasks. |
-| 2 | **Cruel** | +2 dice on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
-| 3 | **Great Warriors** | +2 dice on War tasks. | -2 dice on Diplomacy tasks. |
-| 4 | **Silver-Tongued** | +2 dice on Diplomacy tasks. | -2 dice on War tasks. |
-| 5 | **Boastful** | +2 dice on War tasks — bravado rallies troops. | -2 dice on Espionage tasks — loud mouths make poor spies. |
+| A | **Client House** | +1 die on Diplomacy tasks — skilled at currying favor from a patron. | -2 dice on War tasks — no independent military might, relies on a patron's protection. |
+| 2 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
+| 3 | **Great Warriors** | +1 die on War tasks. | -2 dice on Diplomacy tasks. |
+| 4 | **Silver-Tongued** | +1 die on Diplomacy tasks — generations of skilled orators and negotiators. | -2 dice on War tasks. |
+| 5 | **Boastful** | +2 dice on War tasks — a warfare culture built on grand declarations and bravado. | -2 dice on Espionage tasks — too loud a reputation for subtlety. |
 | 6 | **Zealous** | +2 dice on the first task a relative attempts each decade. | -2 dice on every other task that same relative attempts that decade. |
 | 7 | **Disciplined** | +1 die on War and Stewardship tasks. | -1 die on Diplomacy and Espionage tasks. |
 | 8 | **Expansionist** | +2 dice on War tasks. | -2 dice on Stewardship tasks — always looking outward. |
-| 9 | **Ambitious** | +2 dice on War tasks that target the current King's house specifically. | -2 dice on War tasks against any other house. |
-| 10 | **Duplicitous** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks — allies never quite trust their word. |
-| 11 | **Warmonger** | +2 dice on War tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
-| 12 | **Kingmaker** | +2 dice on Diplomacy tasks. | -2 dice on Magic tasks — all politics, no patience for mysticism. |
+| 9 | **Ambitious** | +2 dice on War tasks that target the current King's house specifically. | -1 die on War tasks against any other house — no interest in "small" fights. |
+| 10 | **Duplicitous** | +2 dice on Espionage tasks. | -1 die on Diplomacy tasks — allies never quite trust their word. |
+| J | **Warmonger** | This house's War Death Check only applies on a LOSS — a decisive or narrow win never risks the fighting relative's life. | Whenever this house would gain Honor from an event, gain 1 less. |
+| Q | **Kingmaker** | When this house joins a Revolt alliance bloc (King's loyalists or a challenger's), their contribution counts as DOUBLE toward that bloc's strength. | -1 die on Magic tasks — all politics, no patience for mysticism. |
 | K | **Tyrannical** | +2 dice on War tasks. | While this house holds the crown, -2 dice on every OTHER task type — absolute power, absolute overreach. |
 
 ## ♠ Spades — Calamity/Doom

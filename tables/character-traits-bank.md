@@ -30,3 +30,9 @@ assignments once its structure is decided.
 | **Prideful** | +2 dice on Diplomacy tasks. | -2 dice on Trade tasks — too proud to haggle. |
 | **Vengeful** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks — holds grudges too long to negotiate in good faith. |
 | **Restless** | +2 dice on War tasks. | -2 dice on Trade tasks — always looking for the next fight, not the next deal. |
+
+## Pulled from Clubs (house traits), 2026-08-11
+
+| Trait | Benefit | Cost |
+|---|---|---|
+| **Cowardly** | +2 dice on Espionage tasks. | -2 dice on War tasks. |
