@@ -18,8 +18,9 @@ collaborative design approach).
     designer likes to collaborate
   - `decisions-log.md` — everything resolved since the original notes,
     in order (start here for current state)
-- `tables/` — trait tables, the events deck, Calamity modules, task
-  tables (not yet drafted)
+- `tables/` — trait tables, the events deck, Calamity modules
+  - `house-traits.md` — the 25-entry house trait table
+  - (character traits, events deck, Calamity modules not yet drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop

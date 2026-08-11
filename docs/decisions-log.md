@@ -290,12 +290,33 @@ Leader/spouse start at age 3, ~30-39 years old).
 individually against their own card, whoever's flip lands in their death
 band is who dies — no separate house-level pick needed.
 
+## House Trait Table (see `tables/house-traits.md`)
+
+25 entries, drafted 2026-08-11. Roll mechanic: flip 2 cards, sum the
+ranks (Ace=1...King=13, so 2-26, exactly 25 possible sums) — reuses
+cards rather than inventing a new die mechanic, and naturally bell-
+curves so dramatic traits land at the tails (2, 26) and mundane ones
+cluster in the middle (14). Both the 2 chosen and 2 rolled house traits
+(see the 8 original open questions, #8) come from this same list.
+Duplicates reroll; Fecund/Barren and Sickly/Long-Lived are mutually
+exclusive pairs.
+
+Every entry has a real benefit and a real cost — mostly a +2/-2 dice
+pair across two of the six task types, with a few bespoke mechanics for
+the traits that already had defined effects elsewhere (Sickly, Barren,
+Fecund, Long-Lived from `birth-death.md`; Magical, referenced by Birth
+Deal's Magic-conversion rule but never fully specified until now).
+
+Still open: whether task-type bonuses and check-type bonuses (Static vs.
+Competitive) can stack when a task is both at once — not yet checked
+against how the dice-pool rules are actually written.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
   collapse / blight entries)
-- Full trait table content (house traits, character traits — confirmed
-  separate tables, entries not yet written)
+- Character trait table (separate from house traits, confirmed distinct,
+  not yet drafted)
 - Events table content (the actual Hearts/Diamonds/Clubs/Spades entries
   per rank)
 - Whether the spouse can start at a different age than the Leader by

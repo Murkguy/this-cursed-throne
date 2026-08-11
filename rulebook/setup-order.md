@@ -56,12 +56,10 @@ at setup.
 
 ### 3d. Generate house traits
 Every house has **4 traits total**: 2 chosen freely by the player, 2
-rolled on the house trait table. Every trait — chosen or rolled — must
-be given a narrative justification when picked; that justification IS
-the house's lineage/history (no separate lineage system).
-
-*(Open: the house trait table itself hasn't been drafted yet — this step
-can't be fully executed until that content exists.)*
+rolled on the house trait table (`tables/house-traits.md` — flip 2
+cards, sum the ranks, look up 2-26). Every trait — chosen or rolled —
+must be given a narrative justification when picked; that justification
+IS the house's lineage/history (no separate lineage system).
 
 ## 4. Create your House Leader
 The player's starting character (House Leader) is generated using the
