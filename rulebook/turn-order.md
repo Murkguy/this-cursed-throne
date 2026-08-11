@@ -41,13 +41,11 @@ parallel, not more scenes per house.
 
 If two houses' declared scenes conflict (e.g. both target the same third
 house at the same moment, or contradict each other), **house order sets
-priority** — whichever house is earlier in the table's established
-seating/turn order gets their scene as declared; the conflicting house's
-scene is bumped or must be re-narrated around it.
-
-*(Gap — is house order fixed for the whole campaign at setup, or does it
-rotate decade to decade? Not yet decided; proposed default is fixed at
-setup for simplicity, unconfirmed.)*
+priority** — whichever house is earlier in the order gets their scene as
+declared; the conflicting house's scene is bumped or must be re-narrated
+around it. House order is set at setup (see `setup-order.md`) and only
+changes when a King spends the house-order-move power described in
+Phase 4 below.
 
 ## Phase 3: Scene Resolution
 Since nothing is hidden after declaration, every declared scene can run
@@ -78,9 +76,14 @@ Revolt is resolving.
 **The King's per-turn powers happen here too**, as the second half of
 this phase: after the GM's events-deck reveal (and after Revolt
 resolution, if any), the King must grant 1 resource from the unclaimed
-pool, may then redistribute one resource between houses, and may confer
-an eligible moniker. All three are exercised during Kingdom Scene, not as
-a separate phase.
+pool, may then redistribute one resource between houses, may confer an
+eligible moniker, and **may move 1 house's position in the house order**
+(see Phase 2's scene-conflict priority rule). All four are exercised
+during Kingdom Scene, not as a separate phase.
+
+House order is therefore not fixed for the campaign — it only ever
+changes when the King chooses to spend this power, one house at a time,
+one move per turn. No King means no change to the order that decade.
 
 ## Phase 5: Task Assignment
 Players delegate relatives to tasks for the coming decade (War, Trade,

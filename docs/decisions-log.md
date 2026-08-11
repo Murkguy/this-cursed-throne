@@ -173,15 +173,16 @@ points not obvious from the original design notes:
 - Each house declares exactly 1 scene per decade, flat regardless of
   player count.
 - The King's per-turn powers (must grant, may redistribute, may confer a
-  moniker) all happen during Phase 4 (Kingdom Scene), after the GM's
-  events-deck reveal and after any Revolt resolution.
+  moniker, may move 1 house's position in house order) all happen during
+  Phase 4 (Kingdom Scene), after the GM's events-deck reveal and after
+  any Revolt resolution.
 - A declared Revolt resolves at the Kingdom Scene later in the SAME
   decade it was declared, not the following decade's.
 - The House Leader can be personally assigned to a Task like any other
   relative — no restriction keeping them home.
 
-Still open: whether house order (see below) is fixed for the campaign or
-rotates decade to decade.
+House order changes only when a King spends a per-turn power to move one
+house's position (see below) — it never rotates on a fixed schedule.
 
 ## Setup/turn order follow-up pass (resolved 2026-08-11)
 
@@ -242,5 +243,5 @@ band is who dies — no separate house-level pick needed.
   separate tables, entries not yet written)
 - Events table content (the actual Hearts/Diamonds/Clubs/Spades entries
   per rank)
-- Exact slotting of the King's moniker-conferral power into the existing
-  per-turn power sequence (grant → redistribute → ??? confer moniker)
+- Whether the spouse can start at a different age than the Leader by
+  player choice, or must always match
