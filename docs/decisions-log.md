@@ -699,13 +699,19 @@ the new framework first (see above entry) as the template: Great
 Warriors moved rank 3→8 and de-nerfed (+2 War/-1 Diplomacy); Tyrannical
 softened (-2→-1 per other task while holding the crown); Ambitious
 redesigned into a bespoke Ace-tier mechanic (declare War on the King's
-house without ring-adjacency, once per campaign) instead of flat dice;
-Client House (2) gained a playstyle-altering restriction (must secure a
-patron's blessing via Diplomacy before declaring War).
+house without ring-adjacency, once per campaign) instead of flat dice.
 
-Awaiting designer confirm that Clubs correctly captures the intended
-framework before replicating to Hearts, Diamonds, and finishing Spades
-fresh under this system.
+Rank 2 went through two versions. First: **Client House**, a
+patron-permission-gate on declaring War — designer didn't like it.
+**Final: Ill-Trained Levies** — instead of a flat dice penalty, this
+house's Manpower-based rolls (War, Border Raid) only count 6s as
+successes, not the normal 5-6, roughly halving their effective success
+rate. A genuine success-threshold-level restriction rather than just
+fewer dice, matching the "rank 2 also alters playstyle" rule more
+literally than a permission-gate did.
+
+Still awaiting final designer confirm on Clubs before replicating to
+Hearts, Diamonds, and finishing Spades fresh under this system.
 
 ## Still open / not yet drafted
 
