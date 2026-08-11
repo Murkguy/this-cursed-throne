@@ -866,6 +866,26 @@ receive it. Enterprising's cost softened -2→-1 Stewardship to fit the
 8-10 net-+1 tier (everything else in Diamonds already fit the curve
 without changes).
 
+## Diamonds polish pass (2026-08-11)
+
+- **Stingy** renamed **Close-Fisted**, and simplified to match the
+  now-established rank-2 pattern (Ill-Trained Levies in Clubs,
+  Leprosy in Hearts): one dice bonus, and the cost is ENTIRELY a
+  success-threshold restriction, no additional flat dice line stacked
+  on top. Diplomacy rolls only count 6s as successes, not 5-6.
+- **Landed Gentry** (Q) — "take whatever's there" instead of a fixed 2:
+  once every 100 years (10 decades, matching Leprosy's timing pattern),
+  claim ALL Land currently in the unclaimed pool, whatever that amount
+  is. This also resolves the earlier open question about what happens
+  if the pool has less than 2 Land — moot now, since it just takes
+  whatever exists.
+- **Iron Bank** (A) replaced entirely — judged too on-the-nose a Game
+  of Thrones reference, and lending/debt mechanics don't fit this
+  game. New: **Endless Ledgers** — once per decade, convert any amount
+  of one active stat (Land, Manpower, Wealth) into an equal amount of
+  any other, no other house's cooperation needed. Self-contained,
+  unlike the rejected lending version.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
