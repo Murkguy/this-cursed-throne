@@ -71,7 +71,7 @@ trait table — see `character-traits-bank.md`.)
 House-level traits only, same rule as Hearts — a whole house's political
 standing or military doctrine, not one person's mood. Cowardly was
 pulled (personal, not institutional) and banked in
-`character-traits-bank.md`; Client House replaces it.
+`character-traits-bank.md`; Ill-Trained Levies replaces it.
 
 **Rank order is ACE-HIGH** — 2 is the worst card, Ace is the best,
 reversing the low-to-high convention used elsewhere (Birth Deal, the
@@ -82,7 +82,7 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Client House** | +1 die on Diplomacy tasks — skilled at currying favor from a patron. | -2 dice on War tasks. PLUS: this house cannot declare War without first spending a Diplomacy action to secure its patron's blessing — no independent military might. |
+| 2 | **Ill-Trained Levies** | +1 die on Trade tasks — cheap, expendable manpower frees up resources elsewhere. | This house's Manpower-based rolls (War, Border Raid) only count 6s as successes, not 5-6 — a poorly-drilled, wasteful fighting force. |
 | 3 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
 | 4 | **Silver-Tongued** | +1 die on Diplomacy tasks — generations of skilled orators and negotiators. | -2 dice on War tasks. |
 | 5 | **Boastful** | +2 dice on War tasks — a warfare culture built on grand declarations and bravado. | -2 dice on Espionage tasks — too loud a reputation for subtlety. |
