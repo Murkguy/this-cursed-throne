@@ -101,14 +101,6 @@ concrete outcomes.
   from the pool.
 - **Invoke Faith** — STATIC. **Wealth + Land**. Claim unclaimed Piety
   from the pool.
-- **Adopt an Heir** — STATIC. **Wealth + Land**. Gated behind the
-  **Barren** house trait, same principle as Magic being gated behind
-  the Magic trait (see `tables/house-traits.md`, Hearts 4) — a Barren
-  house's real path to new heirs, since natural births are closed off
-  to them. Success: generates a new relative via Birth Deal, starting
-  at **age 2** (an adopted-in ward, not a newborn), same structure as
-  the Priestly Cloister archetype's Ordain a Novice
-  (`house-archetypes.md`).
 - **Declare Heresy** — COMPETITIVE. **Piety + 2** (flat bonus) vs. the
   target's same. Explicit exception to "passive stats aren't rolled" —
   a religious accusation should scale with how devout your house

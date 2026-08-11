@@ -75,8 +75,11 @@ table.
 **Trait modifiers:**
 - **Fecund** widens the birth range to **9-King** (~30.8%) — on top of
   the extra-starting-children bonus already resolved in `setup-order.md`
-- **Barren** removes the birth range entirely — this house cannot
-  produce natural births; heirs only arrive by marrying in
+
+(Barren, which used to remove the birth range entirely, was retired
+from the house trait table in favor of Madness — see
+`tables/house-traits.md`. No trait currently blocks natural births
+outright; Extinction can still occur through ordinary bad luck.)
 
 If a birth occurs, the new child is generated immediately via **Birth
 Deal** (see `decisions-log.md`), starting at age 0.

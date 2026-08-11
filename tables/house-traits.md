@@ -14,10 +14,11 @@ mundane-to-dramatic from Ace to King within each suit.
 **Duplicates:** if a roll produces a trait the house already has (chosen
 or previously rolled), reroll.
 
-**Mutually exclusive pairs:** a house cannot have both **Fecund** and
-**Barren**, or both **Sickly** and **Long-Lived** — direct
-contradictions. If a roll produces one and the house already has its
-opposite, reroll.
+**Mutually exclusive pair:** a house cannot have both **Sickly** and
+**Long-Lived** — direct contradictions. If a roll produces one and the
+house already has the other, reroll. (Fecund/Barren was also
+mutually exclusive, but Barren was retired in favor of Madness — no
+remaining conflict there.)
 
 Every trait cuts both ways — a real benefit paired with a real cost.
 None are pure upside, but they don't need to be precisely balanced
@@ -35,16 +36,20 @@ trait table — see `character-traits-bank.md`.)
 **Rank order is ACE-HIGH**, same framework as Clubs: ranks 2-4 net
 **-1 die** total (rank 2 also carries a bespoke restriction beyond
 dice); ranks 5-7 net **0**; ranks 8-10 net **+1 die**; J/Q/K/A abandon
-dice math for unique, positive mechanics. The four Dynastic bespoke
-traits (Sickly, Barren, Fecund, Long-Lived) already have non-dice
-effects, so most sort by their actual net feel rather than needing new
-designs — Fecund and Long-Lived read strongly positive, Sickly reads
-net-negative, Barren's compensating benefit (dice + unlocking Adopt an
-Heir) pushes it into positive territory.
+dice math for unique, positive mechanics. Sickly and Long-Lived (the
+Dynastic pair tied to `birth-death.md`) already have non-dice effects
+and sort by their actual net feel — Long-Lived reads strongly positive
+(high tier), Sickly reads net-negative (low tier). Barren was replaced
+by **Madness** after feedback that "no natural births, ever" was too
+damaging even with the Adopt an Heir compensation.
+
+No mechanic in this table relies on GM discretion/adjudication —
+resolved by dice, cards, or fixed rules only. (Caught and fixed on
+Feuding Cadets, rank 2, which originally read "the GM may rule...")
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Squabbling Heirs** | +1 die on Espionage tasks — internal rivals are skilled at watching each other. | -2 dice on Diplomacy tasks. PLUS: this house's succession is NOT guaranteed to follow its chosen Succession Custom — when the Leader dies, the GM may rule a different eligible heir claims the seat instead, reflecting real internal rivalry. |
+| 2 | **Feuding Cadets** | +1 die on Espionage tasks — internal rivals are skilled at watching each other. | -2 dice on Diplomacy tasks. PLUS: whenever this house's Leader dies, flip a card before applying the Succession Custom — on an ACE specifically, a cadet branch usurps the seat instead (a wholly new Leader, generated via Birth Deal, unconnected to the deceased's line). |
 | 3 | **Sickly** | +2 Piety — suffering breeds deep devotion. | Death band shifts +1 tier (see `birth-death.md`). |
 | 4 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
@@ -52,11 +57,11 @@ Heir) pushes it into positive territory.
 | 7 | **Steadfast** | +1 die on all STATIC checks. | -1 die on all COMPETITIVE checks — reliable in routine matters, unremarkable in direct contests. |
 | 8 | **Long Memory** | +2 dice on Diplomacy tasks — this house never forgets an old alliance. | -1 die on War tasks — slow to fully commit while still weighing old grudges. |
 | 9 | **Ancestral Seat** | +2 dice on Stewardship tasks — generations of investment in this land. | -1 die on Magic tasks — too grounded in tradition, resistant to strange new practices. |
-| 10 | **Barren** | +2 dice on all Stewardship tasks. Unlocks **Adopt an Heir** (see `rulebook/tasks.md`, Diplomacy) as this house's real path to new heirs. | No natural births, ever (see `birth-death.md`). |
+| 10 | **Madness** | Once per decade, this house may draw 2 cards and keep the BEST for any ONE action it attempts — madness grants flashes of brilliant, reckless genius. | Death band shifts +1 tier — the family's mind and body are burdened by their own instability. |
 | J | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
-| Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -1 die on Magic tasks. |
+| Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -1 die on Espionage tasks — so long a life leaves no secrets, everyone already knows this house's business. |
 | K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | -1 die on Diplomacy tasks — others fear the cursed. |
-| A | **Grand Lineage** | This house's Arrange Marriage and Forge Alliance actions always succeed — no roll needed. A storied bloodline commands unshakeable respect at any court. | -1 die on Espionage tasks — too famous to move unseen. |
+| A | **Grand Lineage** | This house automatically has the +2-dice-acting-together bond with EVERY other house at the table, no Arrange Marriage or Forge Alliance needed — their name alone commands alliance. | -2 dice on Espionage tasks — too famous to move unseen. |
 
 ## ♦ Diamonds — Wealth/Trade
 
