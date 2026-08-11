@@ -16,9 +16,12 @@ decade, so more houses just means more scenes running in parallel).
 
 Establish a **house order** (e.g. seating order at the table) now — this
 sets priority if two houses' declared scenes ever conflict during play
-(see `turn-order.md`, Phase 2). This order doesn't rotate on a schedule;
-it only changes when a King later spends their per-turn power to move
-one house's position (see `turn-order.md`, Phase 4).
+(see `turn-order.md`, Phase 2), AND it's the map of the realm: house
+order forms a ring with the King's seat as the capital, and only
+ring-adjacent houses can go to War with each other (see
+`geography.md`). This order doesn't rotate on a schedule; it only
+changes when a King later spends their per-turn power to move one
+house's position (see `turn-order.md`, Phase 4).
 
 ## 2. Choose a Calamity module
 Before anything else about the world is decided, the table picks ONE

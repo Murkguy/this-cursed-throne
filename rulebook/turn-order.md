@@ -92,6 +92,9 @@ and the house's stats. **The House Leader can be assigned to a task the
 same as any other relative** — no restriction keeping them home. These
 tasks resolve next decade, in Phase 1.
 
+**War can only target a ring-adjacent house** — see `geography.md`.
+Every other task type is unrestricted by geography.
+
 **One Task per relative per decade** — no relative can be double-booked
 across two Tasks in the same decade.
 

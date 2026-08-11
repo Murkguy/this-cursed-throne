@@ -24,6 +24,7 @@ collaborative design approach).
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop
   - `birth-death.md` — the Fate Check (age, natural births/deaths)
+  - `geography.md` — house order as the map of the realm, border wars
 
 ## Status
 

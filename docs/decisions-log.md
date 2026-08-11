@@ -210,6 +210,27 @@ house's position (see below) — it never rotates on a fixed schedule.
   same decade, but at most 2 relatives per house may be double-booked
   (Scene + Task) in a single decade.
 
+## Geography — house order as the map (see `rulebook/geography.md`)
+
+House order isn't just a scene-conflict tiebreaker — it's a **ring**,
+with the King's seat as the capital. Every house has exactly 2
+neighbors (immediate left/right in the ring); those are its only
+borders. The **War task can only target a ring-adjacent house** — every
+other task type (Trade, Diplomacy, Espionage, Stewardship, Magic) stays
+unrestricted by geography, since only armies are geography-bound. The
+King's house keeps its normal ring position — being the capital is
+flavor, not a mechanical hub, and grants no extra war targets or
+protection.
+
+This gives real teeth to the King's per-turn power to move 1 house's
+position (resolved earlier): moving a house now changes who can go to
+war with whom, not just scene priority. The King quite literally draws
+the borders.
+
+Still open: how house order is initially arranged into a ring at setup
+(does seating order = ring order automatically?), and what happens to
+adjacency when a house falls/collapses entirely.
+
 ## Birth & Death — the Fate Check (see `rulebook/birth-death.md`)
 
 Resolves the biggest remaining structural gap. Only the House Leader,
