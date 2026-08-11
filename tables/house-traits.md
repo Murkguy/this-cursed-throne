@@ -44,12 +44,12 @@ by **Madness** after feedback that "no natural births, ever" was too
 damaging even with the Adopt an Heir compensation.
 
 No mechanic in this table relies on GM discretion/adjudication —
-resolved by dice, cards, or fixed rules only. (Caught and fixed on
-Feuding Cadets, rank 2, which originally read "the GM may rule...")
+resolved by dice, cards, or fixed rules only. (Caught on an earlier
+draft of rank 2, which originally read "the GM may rule...")
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Feuding Cadets** | +1 die on Espionage tasks — internal rivals are skilled at watching each other. | -2 dice on Diplomacy tasks. PLUS: whenever this house's Leader dies, flip a card before applying the Succession Custom — on an ACE specifically, a cadet branch usurps the seat instead (a wholly new Leader, generated via Birth Deal, unconnected to the deceased's line). |
+| 2 | **Leprosy** | Once per campaign, this house may generate 1 additional relative via Birth Deal (age 0) for free, no action needed — countryfolk leave a child at their gate, an offering to ward off the disease. | This house's Diplomacy rolls only count 6s as successes, not the normal 5-6 — masked and diseased, no court will treat with them as equals. |
 | 3 | **Sickly** | +2 Piety — suffering breeds deep devotion. | Death band shifts +1 tier (see `birth-death.md`). |
 | 4 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
@@ -60,8 +60,8 @@ Feuding Cadets, rank 2, which originally read "the GM may rule...")
 | 10 | **Madness** | Once per decade, this house may draw 2 cards and keep the BEST for any ONE action it attempts — madness grants flashes of brilliant, reckless genius. | Death band shifts +1 tier — the family's mind and body are burdened by their own instability. |
 | J | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
 | Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -1 die on Espionage tasks — so long a life leaves no secrets, everyone already knows this house's business. |
-| K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | -1 die on Diplomacy tasks — others fear the cursed. |
-| A | **Grand Lineage** | This house automatically has the +2-dice-acting-together bond with EVERY other house at the table, no Arrange Marriage or Forge Alliance needed — their name alone commands alliance. | -2 dice on Espionage tasks — too famous to move unseen. |
+| K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | None — deliberate exception to "every trait needs a cost." The benefit is light enough (a single situational Legend gain) that it doesn't need one. |
+| A | **Giant's Blood** | Every birth in this house rolls trait count ONE TIER HIGHER on the Birth Deal table (Ace-3 acts as 4-6, 4-6 acts as 7-9, 7-9 acts as 10-J, 10-J acts as Q, Q acts as K — capped there) — vigor and size run deep in their ancestry. | -1 die on Espionage tasks — giants' blood makes for poor subtlety, always towering, always noticed. |
 
 ## ♦ Diamonds — Wealth/Trade
 
