@@ -636,6 +636,27 @@ entries confirmed. Diamonds is next.
   curve calls for (strong benefit / weak cost, -1 max), making it read
   as nerfed relative to its rank. Dropped to -1 Magic.
 
+## Diamonds: magnitude curve applied, then 9/J/Q reworked (2026-08-11)
+
+The magnitude-curve redesign for Diamonds had only ever been proposed
+in chat, never written to the file — fixed. Also fixed Golden's cost
+from -2 to -1 to match its K-tier weak-cost expectation (same issue as
+Hearts' Long-Lived).
+
+Then reworked three entries per designer feedback that they still felt
+flat:
+- **Charitable** (9) simplified from a bespoke Honor-redirect mechanic
+  to a plain +2 Diplomacy / -1 Trade die bonus.
+- **Ostentatious** (J) now makes this house's STATIC Diplomacy actions
+  always succeed (no roll needed) instead of a flat +3 dice bonus.
+- **Landed Gentry** (Q) went through two versions. First: Land could
+  never be reduced below 1 by any means — rejected as game-breaking
+  (permanent Ruin immunity, and it conflicted with how War/Trade War
+  captures are supposed to resolve when a decisive win would take a
+  house's last Land point). Fixed to a single-use-per-campaign save
+  instead: once, when an action would reduce Land to 0, keep 1 —
+  everything else about that action still resolves normally.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
