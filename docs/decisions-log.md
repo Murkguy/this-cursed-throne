@@ -180,9 +180,8 @@ points not obvious from the original design notes:
 - The House Leader can be personally assigned to a Task like any other
   relative — no restriction keeping them home.
 
-Still open: the birth/death check mechanic (needs its own dedicated
-design pass, comparable in scope to Birth Deal), and whether house order
-(see below) is fixed for the campaign or rotates decade to decade.
+Still open: whether house order (see below) is fixed for the campaign or
+rotates decade to decade.
 
 ## Setup/turn order follow-up pass (resolved 2026-08-11)
 
@@ -209,6 +208,30 @@ design pass, comparable in scope to Birth Deal), and whether house order
   A relative involved in this decade's Scene CAN also take a Task the
   same decade, but at most 2 relatives per house may be double-booked
   (Scene + Task) in a single decade.
+
+## Birth & Death — the Fate Check (see `rulebook/birth-death.md`)
+
+Resolves the biggest remaining structural gap. Only the House Leader,
+spouse, and direct descendants are mechanically tracked (no procedurally
+generated extended family). Introduces **age** (decades since birth;
+Leader/spouse start at age 3, ~30-39 years old).
+
+- **Death check:** one card flip per tracked relative per decade. Death
+  band widens with age (0-2 → Ace, 3-5 → Ace-2, 6-8 → Ace-4, 9+ → Ace-7).
+  Sickly shifts a character up one age tier; Long-Lived shifts down one
+  tier (floor at the youngest band). Validated by simulation: baseline
+  median death age ~50 years (mean ~51); Sickly drags the mean to ~33;
+  Long-Lived extends it to ~68.
+- **Birth check:** one card flip per viable couple per decade (not
+  age-weighted, unlike death — deliberately not stacking two new curves
+  in one pass). Birth on Queen-King (~15.4%). Fecund widens this to
+  9-King (~30.8%); Barren removes the birth range entirely (heirs only
+  via marrying in).
+- Both checks run during Resolution step 1, before task outcomes are
+  checked in step 2 (unchanged from the prior setup/turn-order pass).
+
+Still open: who specifically dies when a relative's death check
+triggers (deferred pending further thought — not yet decided).
 
 ## Still open / not yet drafted
 

@@ -63,7 +63,10 @@ can't be fully executed until that content exists.)*
 ## 4. Create your House Leader
 The player's starting character (House Leader) is generated using the
 same **Birth Deal** procedure used for any birth during play — no
-special-case rule for the starting leader:
+special-case rule for the starting leader. The Leader starts at **age 3**
+(30-39 years old) — see `birth-death.md` for how age works. The spouse
+(step 5) is assumed to start at the same age unless a player wants to
+narratively justify otherwise.
 
 1. Flip one card for trait count (Ace–3 → 2, 4–6 → 3, 7–9 → 4, 10–J → 5,
    Q → 6, K → 7).

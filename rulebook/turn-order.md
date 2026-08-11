@@ -11,12 +11,9 @@ misread as "assign and resolve immediately."
 ## Phase 1: Resolution
 Opens the decade by settling everything set in motion last decade.
 
-1. **Roll for births and deaths.** *(Gap — no mechanic exists yet. The
-   source notes say this happens but never specify how a birth or death
-   is actually triggered — e.g. is it a check per relative per decade,
-   weighted by Dynastic traits like Fecund/Barren/Long-Lived/Sickly? This
-   needs its own design pass, similar to how Birth Deal needed one — not
-   safe to improvise inline.)*
+1. **Run the Fate Check** for births and deaths. See
+   `birth-death.md` for the full mechanic (per-relative death checks
+   weighted by age and Dynastic traits, per-couple birth checks).
 2. **Check task outcomes.** Every task assigned during last decade's
    Phase 5 resolves now, using the dice-pool mechanic (STATIC or
    COMPETITIVE check, as appropriate to the task) — EXCEPT a task whose
@@ -105,7 +102,7 @@ whether double-booking is allowed at all.
 ---
 
 ## Open items this phase surfaced (not yet resolved)
-- Birth/death check mechanic (needs its own design pass, similar in
-  scope to Birth Deal)
 - Whether house order (scene-conflict priority) is fixed for the
   campaign or rotates decade to decade
+- Who dies when a relative's Fate Check death triggers (see
+  `birth-death.md`)

@@ -20,12 +20,16 @@ collaborative design approach).
     in order (start here for current state)
 - `tables/` — trait tables, the events deck, Calamity modules, task
   tables (not yet drafted)
-- `rulebook/` — the eventual polished rulebook (not yet started)
+- `rulebook/` — the eventual polished rulebook
+  - `setup-order.md` — full campaign setup, step by step
+  - `turn-order.md` — the five-phase decade loop
+  - `birth-death.md` — the Fate Check (age, natural births/deaths)
 
 ## Status
 
 All shape-affecting open questions are resolved (see `decisions-log.md`).
 Core systems are specified: the decade loop, dice-pool task resolution,
 Birth Deal (card-based character generation), the unified events deck,
-and the King/Legend curse mechanic. Table *content* (actual trait
-entries, Calamity modules, events) has not been drafted yet.
+the King/Legend curse mechanic, and the Fate Check (birth/death). Table
+*content* (actual trait entries, Calamity modules, events) has not been
+drafted yet.
