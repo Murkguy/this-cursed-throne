@@ -91,9 +91,9 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 | 8 | **Great Warriors** | +2 dice on War tasks. | -1 die on Diplomacy tasks. |
 | 9 | **Expansionist** | +2 dice on War tasks. | -1 die on Stewardship tasks — always looking outward. |
 | 10 | **Duplicitous** | +2 dice on Espionage tasks. | -1 die on Diplomacy tasks — allies never quite trust their word. |
-| J | **Warmonger** | This house's War Death Check only applies on a LOSS — a decisive or narrow win never risks the fighting relative's life. | Whenever this house would gain Honor from an event, gain 1 less. |
-| Q | **Kingmaker** | When this house joins a Revolt alliance bloc (King's loyalists or a challenger's), their contribution counts as DOUBLE toward that bloc's strength. | -1 die on Magic tasks — all politics, no patience for mysticism. |
-| K | **Tyrannical** | +2 dice on War tasks. | While this house holds the crown, -1 die on every OTHER task type — absolute power, absolute overreach. |
+| J | **Warmonger** | Whenever this house's War or Border Raid results in a decisive win, capture DOUBLE the normal stakes. | Whenever this house would gain Honor from an event, gain 1 less. |
+| Q | **Kingmaker** | Whichever side (King's loyalists or a challenger's bloc) this house joins during a Revolt resolution gets +3 dice on the roll — regardless of this house's own stat contribution. Their endorsement carries the weight, not their army. | -1 die on Magic tasks — all politics, no patience for mysticism. |
+| K | **Tyrannical** | While this house holds the crown, it may exercise EACH King's per-turn power (grant, redistribute, confer a moniker, move house order) twice per decade instead of once. | While this house holds the crown, -1 die on every OTHER task type — absolute power, absolute overreach. |
 | A | **Ambitious** | Once per campaign, this house may declare War on the King's house even if not ring-adjacent — ambition transcends geography. | -1 die on Stewardship tasks — too fixed on the throne to tend their own lands. |
 
 ## ♠ Spades — Calamity/Doom
