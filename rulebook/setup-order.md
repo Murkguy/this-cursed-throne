@@ -38,28 +38,31 @@ number.)*
 
 ## 3. Create your House
 
-### 3a. Allocate starting resources
-Each house divides **12 points** among Land, Manpower, and Wealth as the
-player chooses, with a **minimum of 1 point in each stat**. (E.g. a
-war-first house might go 8/2/2; a balanced house might go 4/4/4.) This is
-a per-house budget, not drawn from one shared pool — every house gets the
-same 12 points to allocate independently.
+### 3a. Generate house traits
+Every house has **4 traits total**: 2 chosen freely by the player, 2
+rolled on the house trait table (`tables/house-traits.md` — flip 1
+card, look up its exact suit and rank directly, no math). Every trait —
+chosen or rolled — must be given a narrative justification when picked;
+that justification IS the house's lineage/history (no separate lineage
+system). Done first, because one trait (**Golden**) changes the resource
+budget used in the next step.
 
-### 3b. Set starting Honor/Infamy
+### 3b. Allocate starting resources
+Each house divides **12 points** (or **14**, if the house took Golden)
+among Land, Manpower, and Wealth as the player chooses, with a
+**minimum of 1 point in each stat**. (E.g. a war-first house might go
+8/2/2; a balanced house might go 4/4/4.) This is a per-house budget, not
+drawn from one shared pool — every house gets the same budget to
+allocate independently.
+
+### 3c. Set starting Honor/Infamy
 Every house starts at **0** Honor/Infamy. Nothing to divide up — the
 pool only grows from here via random events during play.
 
-### 3c. Set starting Legend
+### 3d. Set starting Legend
 Every house starts at **0** Legend. Legend is built entirely through
 play (dramatic acts, Magic use, surviving calamities) — never allocated
 at setup.
-
-### 3d. Generate house traits
-Every house has **4 traits total**: 2 chosen freely by the player, 2
-rolled on the house trait table (`tables/house-traits.md` — flip 2
-cards, sum the ranks, look up 2-26). Every trait — chosen or rolled —
-must be given a narrative justification when picked; that justification
-IS the house's lineage/history (no separate lineage system).
 
 ## 4. Create your House Leader
 The player's starting character (House Leader) is generated using the

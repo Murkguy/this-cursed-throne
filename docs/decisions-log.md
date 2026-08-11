@@ -292,20 +292,32 @@ band is who dies — no separate house-level pick needed.
 
 ## House Trait Table (see `tables/house-traits.md`)
 
-25 entries, drafted 2026-08-11. Roll mechanic: flip 2 cards, sum the
-ranks (Ace=1...King=13, so 2-26, exactly 25 possible sums) — reuses
-cards rather than inventing a new die mechanic, and naturally bell-
-curves so dramatic traits land at the tails (2, 26) and mundane ones
-cluster in the middle (14). Both the 2 chosen and 2 rolled house traits
-(see the 8 original open questions, #8) come from this same list.
-Duplicates reroll; Fecund/Barren and Sickly/Long-Lived are mutually
-exclusive pairs.
+Drafted 2026-08-11, REVISED same day after playtester feedback that the
+first version's roll mechanic (flip 2 cards, sum ranks 2-26, 25 entries)
+was hard to grasp — summing added arithmetic on top of a lookup.
+
+**Current mechanic: 52 entries, flip 1 card, direct lookup** by its
+exact suit+rank, no math at all. Reuses the events deck's suit-as-
+category language (♥ Dynastic/Personal, ♦ Wealth/Trade, ♣ Military/
+Political, ♠ Calamity/Doom) so it's not a new thing to learn — same four
+categories, same meanings. Rank runs roughly mundane-to-dramatic from
+Ace to King within each suit. Both the 2 chosen and 2 rolled house
+traits (see the 8 original open questions, #8) come from this same
+52-entry list. Duplicates reroll; Fecund/Barren and Sickly/Long-Lived
+are mutually exclusive pairs.
 
 Every entry has a real benefit and a real cost — mostly a +2/-2 dice
-pair across two of the six task types, with a few bespoke mechanics for
-the traits that already had defined effects elsewhere (Sickly, Barren,
+pair across two of the six task types, with bespoke mechanics for the
+traits that already had defined effects elsewhere (Sickly, Barren,
 Fecund, Long-Lived from `birth-death.md`; Magical, referenced by Birth
-Deal's Magic-conversion rule but never fully specified until now).
+Deal's Magic-conversion rule) plus a few new capstone traits at King
+rank per suit (Cursed, Golden, Tyrannical, Harbinger).
+
+**Golden** (Diamonds K) changes the starting resource budget from 12 to
+14 points — this reordered `setup-order.md` step 3 so house traits are
+now generated BEFORE resource allocation (previously the other way
+around), since a house needs to know if it has Golden before spending
+its budget.
 
 Still open: whether task-type bonuses and check-type bonuses (Static vs.
 Competitive) can stack when a task is both at once — not yet checked
