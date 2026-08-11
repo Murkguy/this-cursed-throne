@@ -809,6 +809,32 @@ sweeping, always-on effect: this house automatically has the
 action needed at all. Cost bumped from -1 to -2 Espionage to match the
 much stronger benefit.
 
+## Rank 2 finally lands: Leprosy; Cursed and Ace revisited again (2026-08-11)
+
+Two more rounds after the above:
+
+- **Cursed** (K) — designer noted its benefit (+1 Legend on Leader's
+  death) is light enough that it doesn't need a cost at all. Removed
+  the cost entirely, a deliberate exception to "every trait needs a
+  cost" (same category of exception as Magic/Piety being exceptions to
+  the active/passive stat rule).
+- **Grand Lineage** (Ace) — the alliance-bond concept itself was
+  rejected ("I think we just change the concept"), not just its
+  numbers. Designer suggested "giant's blood." New: **Giant's Blood** —
+  every birth in this house rolls trait count ONE TIER HIGHER on the
+  Birth Deal table (Ace-3 acts as 4-6, 4-6 acts as 7-9, ... capped at
+  Q acting as K) — vigor and size run deep in their ancestry. Cost: -1
+  Espionage (too towering to move unseen).
+- **Rank 2** — Feuding Cadets (the GM-free fix from the previous
+  round) STILL wasn't right; two attempts total before this. Third
+  and final: **Leprosy** — once per campaign, generate 1 additional
+  relative via Birth Deal (age 0) for free, no action needed
+  (countryfolk leave children at the gate, an offering to ward off the
+  disease). Cost: Diplomacy rolls only count 6s as successes, not the
+  normal 5-6 (reuses the success-threshold-restriction pattern
+  established by Clubs' Ill-Trained Levies) — masked and diseased, no
+  court treats them as equals.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
