@@ -617,9 +617,11 @@ Restarted the Hearts review after the Archetype/Renegotiate detour and
 caught three problems:
 
 - **Sickly** (2) — its only benefit (a narrow Magic-conversion trigger
-  widening) felt thin next to a real cost (death band +1 tier). Added
-  **+1 Piety** ("suffering breeds devotion") as an immediate, tangible
-  payoff alongside the existing widening.
+  widening) felt thin next to a real cost (death band +1 tier). First
+  tried adding +1 Piety alongside the widening, then dropped the
+  widening entirely as still lackluster — final: **+2 Piety** alone
+  ("suffering breeds deep devotion"), a single tangible payoff instead
+  of one strong effect plus one weak one.
 - **Barren** (4) — "no natural births, ever" with no concrete
   alternative path was effectively a death sentence: eventually the
   house has no heir and hits Extinction with no way to prevent it. Gave

@@ -35,7 +35,7 @@ trait table — see `character-traits-bank.md`.)
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
 | A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -2 dice on Diplomacy tasks — insular, awkward with outsiders. |
-| 2 | **Sickly** | +1 Piety (suffering breeds devotion), AND the Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
+| 2 | **Sickly** | +2 Piety — suffering breeds deep devotion. | Death band shifts +1 tier (see `birth-death.md`). |
 | 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
 | 4 | **Barren** | +2 dice on all Stewardship tasks. Unlocks **Adopt an Heir** (see `rulebook/tasks.md`, Diplomacy) as this house's real path to new heirs. | No natural births, ever (see `birth-death.md`). |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
