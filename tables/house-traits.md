@@ -35,9 +35,9 @@ trait table — see `character-traits-bank.md`.)
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
 | A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -2 dice on Diplomacy tasks — insular, awkward with outsiders. |
-| 2 | **Sickly** | The Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
+| 2 | **Sickly** | +1 Piety (suffering breeds devotion), AND the Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
 | 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
-| 4 | **Barren** | +2 dice on all Stewardship tasks. | No natural births, ever (see `birth-death.md`) — heirs only by marrying in. |
+| 4 | **Barren** | +2 dice on all Stewardship tasks. Unlocks **Adopt an Heir** (see `rulebook/tasks.md`, Diplomacy) as this house's real path to new heirs. | No natural births, ever (see `birth-death.md`). |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
 | 6 | **Hostage Culture** | +2 dice on Espionage tasks — generations of practice handling prisoners as leverage. | -2 dice on Trade tasks — the practice poisons trade relationships. |
 | 7 | **Steadfast** | +1 die on all STATIC checks. | -1 die on all COMPETITIVE checks — reliable in routine matters, unremarkable in direct contests. |
@@ -45,7 +45,7 @@ trait table — see `character-traits-bank.md`.)
 | 9 | **Ancestral Seat** | +2 dice on Stewardship tasks — generations of investment in this land. | -1 die on Magic tasks — too grounded in tradition, resistant to strange new practices. |
 | 10 | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
 | J | **Grand Lineage** | +3 dice on Diplomacy tasks — a storied bloodline commands real respect at court. | -1 die on Espionage tasks — too famous to move unseen. |
-| Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -2 dice on Magic tasks. |
+| Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -1 die on Magic tasks. |
 | K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | -1 die on Diplomacy tasks — others fear the cursed. |
 
 ## ♦ Diamonds — Wealth/Trade

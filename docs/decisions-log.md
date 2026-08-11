@@ -611,6 +611,28 @@ Still open: the actual face-card mechanic upgrades themselves (only the
 brainstormed menu exists so far, not concrete J/Q/K designs beyond
 Golden, which was already locked).
 
+## Hearts fixes: Sickly, Barren, Long-Lived (2026-08-11)
+
+Restarted the Hearts review after the Archetype/Renegotiate detour and
+caught three problems:
+
+- **Sickly** (2) — its only benefit (a narrow Magic-conversion trigger
+  widening) felt thin next to a real cost (death band +1 tier). Added
+  **+1 Piety** ("suffering breeds devotion") as an immediate, tangible
+  payoff alongside the existing widening.
+- **Barren** (4) — "no natural births, ever" with no concrete
+  alternative path was effectively a death sentence: eventually the
+  house has no heir and hits Extinction with no way to prevent it. Gave
+  it a real lifeline: unlocks a new action, **Adopt an Heir** (Diplomacy
+  category, `rulebook/tasks.md` — STATIC, Wealth + Land, generates a
+  relative via Birth Deal at age 2), reusing the same structure as the
+  Priestly Cloister archetype's Ordain a Novice. A Barren house isn't
+  doomed anymore, it just grows differently — spending Task Assignment
+  slots on adoption instead of relying on the passive Fate Check.
+- **Long-Lived** (Q) — its cost (-2 Magic) was heavier than the Q-tier
+  curve calls for (strong benefit / weak cost, -1 max), making it read
+  as nerfed relative to its rank. Dropped to -1 Magic.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
