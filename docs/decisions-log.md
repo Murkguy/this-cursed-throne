@@ -243,8 +243,16 @@ the borders.
 The initial ring arrangement is pure table negotiation — players sort
 out who sits where at setup, no roll or fixed rule involved.
 
-Still open: what happens to adjacency when a house falls/collapses
-entirely.
+**When a house falls, the ring closes the gap** — its two former
+neighbors become newly adjacent to each other. **The player is not
+eliminated** — they build a brand new house using the identical setup
+procedure (full 12-point budget, no restart penalty), inserted into the
+ring adjacent to a house of their choosing. Every player stays engaged
+for the whole campaign.
+
+Still open: what precisely triggers "a house falls/collapses entirely"
+— referenced throughout (the King's reign ends if their house collapses)
+but never given a concrete definition.
 
 ## Birth & Death — the Fate Check (see `rulebook/birth-death.md`)
 

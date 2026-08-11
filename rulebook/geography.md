@@ -37,12 +37,28 @@ away from an ally who might reinforce them, or force two feuding houses
 into forced neighboring adjacency. The crown quite literally draws the
 borders.
 
+## When a house falls
+If a house falls/collapses entirely, it's removed from the ring and the
+**gap closes** — its two former neighbors become newly adjacent to each
+other, same as if the fallen house had never been there.
+
+**The player is not out of the campaign.** They create a brand new house
+using the exact same procedure as any house at setup (`setup-order.md`,
+steps 2-5: full 12-point resource allocation, house traits, House Leader
++ family via Birth Deal) — no restart penalty, no reduced budget. The
+new house is inserted into the ring **adjacent to a house of the
+player's choosing**, expanding the ring by one seat at that point. This
+keeps every player engaged for the whole campaign rather than sitting
+out for however many decades/sessions remain.
+
 ---
 
 The initial ring arrangement is pure table negotiation — players sort
 out who sits where at setup, no roll or fixed rule involved.
 
 ## Open items this pass surfaced (not yet resolved)
-- What happens to ring adjacency if a house falls/collapses entirely —
-  do its former neighbors become newly adjacent to each other, closing
-  the gap?
+- What precisely triggers "a house falls/collapses entirely" — this is
+  referenced (a King's reign ends if their house collapses) but never
+  given a concrete definition anywhere in the resolved rules (e.g. does
+  it require every tracked relative to be dead with no heir, hitting 0
+  in a core stat, or something else?)
