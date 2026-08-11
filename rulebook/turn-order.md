@@ -20,7 +20,9 @@ Opens the decade by settling everything set in motion last decade.
    assigned relative died in step 1 above, which **auto-fails**, no roll
    made. Death is checked first specifically so this is possible; a dead
    relative's pending task is already known to be dead-on-arrival by the
-   time you get here.
+   time you get here. A relative whose task was **War** gets one
+   additional death check right now (see `birth-death.md`) once that
+   War's outcome is known.
 3. **Apply trait changes.** Whenever a character is directly involved in
    a Destiny-triggering event (death of the house's leader, the house
    overtaking #1 in some ranking, the house becoming the new lowest-

@@ -54,6 +54,14 @@ there's no separate "who dies" decision to make — whoever's flip lands
 in their death band is who dies. No house-level pick, no arbitration
 needed.
 
+**War Death Check:** a relative assigned to a War task gets **one
+additional death check** — same age/trait-adjusted band as above, just
+a second flip — when that task's outcome is determined (Phase 1, step
+2, see `turn-order.md`). Win or lose, war is dangerous; no separate
+threshold to track for victory vs. defeat. This is currently the only
+task type with its own death check — War is the only task that risks a
+relative's life directly as part of the task itself.
+
 ## Birth Check — per viable couple, per decade
 Every viable couple in the tracked family (a pairing capable of having a
 child — narratively determined, not restricted by gender) gets **one
@@ -72,6 +80,21 @@ table.
 
 If a birth occurs, the new child is generated immediately via **Birth
 Deal** (see `decisions-log.md`), starting at age 0.
+
+## House collapse
+A house falls/collapses entirely under either of two independent
+triggers:
+
+- **Extinction:** the House Leader dies with no living heir (spouse,
+  child, or further tracked descendant) to inherit. The line has ended.
+- **Ruin:** Land, Manpower, AND Wealth all hit 0 **simultaneously**. Not
+  Land alone — a merchant house with low/no Land or Manpower but real
+  Wealth is a legitimate, stable archetype under this game, not a house
+  on the verge of collapse. Only total destitution across all three
+  counts as Ruin.
+
+See `geography.md` for what happens to a fallen house's ring position,
+and to the player.
 
 ---
 

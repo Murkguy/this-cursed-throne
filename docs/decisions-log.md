@@ -250,9 +250,20 @@ procedure (full 12-point budget, no restart penalty), inserted into the
 ring adjacent to a house of their choosing. Every player stays engaged
 for the whole campaign.
 
-Still open: what precisely triggers "a house falls/collapses entirely"
-— referenced throughout (the King's reign ends if their house collapses)
-but never given a concrete definition.
+**"House falls/collapses entirely" is now defined** — two independent
+triggers: EXTINCTION (the House Leader dies with no living heir to
+inherit) or RUIN (Land, Manpower, AND Wealth all hit 0 simultaneously —
+deliberately not Land alone, to keep a low-Land/low-Manpower,
+high-Wealth merchant-house archetype viable rather than perpetually on
+the verge of collapse).
+
+This surfaced that War — despite being the game's namesake conflict
+task — had no way to actually kill anyone, only move resources. New
+**War Death Check**: a relative assigned to a War task gets one
+additional death check (same age/trait-adjusted band as the ambient
+Fate Check, just a second flip) when that task's outcome is determined.
+Win or lose, war is dangerous — no separate win/loss threshold, kept
+simple per designer feedback.
 
 ## Birth & Death — the Fate Check (see `rulebook/birth-death.md`)
 

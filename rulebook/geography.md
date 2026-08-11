@@ -56,9 +56,5 @@ out for however many decades/sessions remain.
 The initial ring arrangement is pure table negotiation — players sort
 out who sits where at setup, no roll or fixed rule involved.
 
-## Open items this pass surfaced (not yet resolved)
-- What precisely triggers "a house falls/collapses entirely" — this is
-  referenced (a King's reign ends if their house collapses) but never
-  given a concrete definition anywhere in the resolved rules (e.g. does
-  it require every tracked relative to be dead with no heir, hitting 0
-  in a core stat, or something else?)
+"House falls/collapses entirely" is now defined in `birth-death.md`
+(Extinction or Ruin).
