@@ -73,6 +73,14 @@ resolves, if one was declared — NOT next decade's Kingdom Scene, this
 one, later in the same loop. Alliances are drawn live at this point if a
 Revolt is resolving.
 
+**Decade 1 is a special case: the throne cannot leave this Kingdom Scene
+still vacant.** If a house declared a bid in Decade 1's Phase 2, it
+resolves here normally. If nobody did, the GM flips one card per house
+right now, highest card is forced to assume the throne (redraw ties).
+See `setup-order.md`, step 6. No other decade has this forcing rule —
+after Decade 1, the throne can stay vacant indefinitely if no one bids
+for it.
+
 **The King's per-turn powers happen here too**, as the second half of
 this phase: after the GM's events-deck reveal (and after Revolt
 resolution, if any), the King must grant 1 resource from the unclaimed

@@ -96,10 +96,17 @@ Leader, in addition to the Leader itself.
   via Birth Deal, same as any other.
 
 ## 6. Confirm the throne is vacant
-No house starts as King. The crown is claimed for the first time only
-once a house declares a bid during a future Scene Declaration phase,
-resolving at the next Kingdom Scene — the same reactive mechanism used
-for every Revolt thereafter.
+No house starts as King. Nobody knows who the king will be yet.
+
+**But the throne cannot stay empty past Decade 1.** If one or more
+houses declare a bid during Decade 1's Scene Declaration (Phase 2), it
+resolves normally at Decade 1's Kingdom Scene via the standard
+alliance/bloc mechanism — same as any later Revolt. But if NO house
+volunteers a bid, the GM flips one card per house at the start of Decade
+1's Kingdom Scene; **the house with the highest card is forced to
+assume the throne** (redraw among tied houses only). The curse doesn't
+wait for volunteers — by the end of the first decade, someone wears the
+crown. See `turn-order.md`, Phase 4.
 
 ## 7. Begin play
 Proceed to the first decade's Resolution phase. See `turn-order.md`.

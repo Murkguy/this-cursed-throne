@@ -210,6 +210,19 @@ house's position (see below) — it never rotates on a fixed schedule.
   same decade, but at most 2 relatives per house may be double-booked
   (Scene + Task) in a single decade.
 
+## Decade 1 must produce a King (see `setup-order.md` step 6 and
+`turn-order.md` Phase 4)
+
+The throne starts vacant (already resolved), but **it cannot stay vacant
+past Decade 1** — this is a deliberate exception to the otherwise fully
+reactive King/Revolt system. If a house declares a bid during Decade 1's
+Scene Declaration, it resolves normally at that decade's Kingdom Scene.
+If nobody volunteers, the GM flips one card per house at Decade 1's
+Kingdom Scene; the house with the highest card is forced onto the
+throne (redraw among ties). "The curse doesn't wait for volunteers." No
+other decade has this forcing rule — after Decade 1, the throne can sit
+vacant indefinitely if no one bids.
+
 ## Geography — house order as the map (see `rulebook/geography.md`)
 
 House order isn't just a scene-conflict tiebreaker — it's a **ring**,
