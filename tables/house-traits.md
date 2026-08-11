@@ -73,21 +73,28 @@ standing or military doctrine, not one person's mood. Cowardly was
 pulled (personal, not institutional) and banked in
 `character-traits-bank.md`; Client House replaces it.
 
+**Rank order is ACE-HIGH** — 2 is the worst card, Ace is the best,
+reversing the low-to-high convention used elsewhere (Birth Deal, the
+events deck). Within a suit: ranks 2-4 net **-1 die** total (benefit
+minus cost), with rank 2 also carrying a bespoke restriction beyond
+dice; ranks 5-7 net **0** (a pure sidegrade); ranks 8-10 net **+1 die**;
+J/Q/K/A abandon dice math entirely for unique, positive mechanics.
+
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Client House** | +1 die on Diplomacy tasks — skilled at currying favor from a patron. | -2 dice on War tasks — no independent military might, relies on a patron's protection. |
-| 2 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
-| 3 | **Great Warriors** | +1 die on War tasks. | -2 dice on Diplomacy tasks. |
+| 2 | **Client House** | +1 die on Diplomacy tasks — skilled at currying favor from a patron. | -2 dice on War tasks. PLUS: this house cannot declare War without first spending a Diplomacy action to secure its patron's blessing — no independent military might. |
+| 3 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
 | 4 | **Silver-Tongued** | +1 die on Diplomacy tasks — generations of skilled orators and negotiators. | -2 dice on War tasks. |
 | 5 | **Boastful** | +2 dice on War tasks — a warfare culture built on grand declarations and bravado. | -2 dice on Espionage tasks — too loud a reputation for subtlety. |
 | 6 | **Zealous** | +2 dice on the first task a relative attempts each decade. | -2 dice on every other task that same relative attempts that decade. |
 | 7 | **Disciplined** | +1 die on War and Stewardship tasks. | -1 die on Diplomacy and Espionage tasks. |
-| 8 | **Expansionist** | +2 dice on War tasks. | -2 dice on Stewardship tasks — always looking outward. |
-| 9 | **Ambitious** | +2 dice on War tasks that target the current King's house specifically. | -1 die on War tasks against any other house — no interest in "small" fights. |
+| 8 | **Great Warriors** | +2 dice on War tasks. | -1 die on Diplomacy tasks. |
+| 9 | **Expansionist** | +2 dice on War tasks. | -1 die on Stewardship tasks — always looking outward. |
 | 10 | **Duplicitous** | +2 dice on Espionage tasks. | -1 die on Diplomacy tasks — allies never quite trust their word. |
 | J | **Warmonger** | This house's War Death Check only applies on a LOSS — a decisive or narrow win never risks the fighting relative's life. | Whenever this house would gain Honor from an event, gain 1 less. |
 | Q | **Kingmaker** | When this house joins a Revolt alliance bloc (King's loyalists or a challenger's), their contribution counts as DOUBLE toward that bloc's strength. | -1 die on Magic tasks — all politics, no patience for mysticism. |
-| K | **Tyrannical** | +2 dice on War tasks. | While this house holds the crown, -2 dice on every OTHER task type — absolute power, absolute overreach. |
+| K | **Tyrannical** | +2 dice on War tasks. | While this house holds the crown, -1 die on every OTHER task type — absolute power, absolute overreach. |
+| A | **Ambitious** | Once per campaign, this house may declare War on the King's house even if not ring-adjacent — ambition transcends geography. | -1 die on Stewardship tasks — too fixed on the throne to tend their own lands. |
 
 ## ♠ Spades — Calamity/Doom
 
