@@ -360,16 +360,56 @@ two independent modifiers on the same pool — no conflict.
 ## Piety — a new 6th house stat
 
 Added after the designer flagged "I feel like we're missing religion."
-Full house-level stat alongside Land/Manpower/Wealth/Honor/Legend — same
-zero-sum-with-growing-unclaimed-pool model as Honor/Infamy, same ~20
-soft cap, starts at 0 (never allocated at setup). Claimed via Diplomacy's
-Invoke Faith. Its main mechanical role: the defense stat against Curse,
-deliberately separate from Honor/Infamy — a devout-but-reviled house and
-a beloved-but-godless house are now mechanically distinct.
+Full house-level stat, same zero-sum-with-growing-unclaimed-pool model
+as Honor/Infamy, same ~20 soft cap, starts at 0 (never allocated at
+setup). Claimed via Diplomacy's Invoke Faith. (Its role as Curse's
+defense stat was superseded almost immediately — see Active vs. Passive
+stats, below.)
+
+## Active vs. Passive stats — a 7th stat (Cunning) and a rule split
+
+REVISED again same day, twice more. First: after trying to patch the
+"Piety has 0 actions" problem with invented actions (Crusade,
+Excommunicate) that the designer didn't like, the fix was combo dice
+pools instead — "War should be both manpower and wealth... maybe all
+actions invoke combos of stats." Then, mid-revision, the designer
+reframed the whole stat block: **Legend, Piety, and Honor/Infamy are
+never rolled in Task actions at all.** Instead, they're PASSIVE —
+checked by events (Kingdom Scene, house events) for who's highest/
+lowest and rewarded or punished accordingly. This generalizes a pattern
+Legend already had (Doom Clock trigger, moniker eligibility, the King's
++10, Birth Deal's trait bonus were all already "passive stat affects
+external systems") and Honor already had (Destiny's ranking triggers) —
+just locked as a universal rule covering all three, and explicitly
+including Piety now too. Action OUTCOMES can still change a passive
+stat (Bless still grants +1 Piety) — only the dice POOL is restricted.
+
+That left only 3 stats (Land, Manpower, Wealth) available to roll,
+which wasn't enough — Espionage in particular had been rolling on
+Wealth the whole time, a mismatch for "spycraft." Added **Cunning** as
+a 4th ACTIVE stat: your house's reputation for guile and trickery, NOT
+zero-sum (grows through play like Legend — decisive wins on Espionage
+or Border Raid grant +1). Starts at a flat **3** (not 0 like Legend/
+Honor/Piety, not part of the 12-point budget) specifically so Espionage
+and Border Raid aren't nearly impossible before any Cunning is earned.
+
+**Combo dice pools use the LOWER of the two stats**, not the sum —
+prevents a 2-stat action from just rolling a bigger pool than a
+1-stat one. Every action in `rulebook/tasks.md` was remapped onto only
+the 4 active stats: War → Manpower+Cunning (raid) / Manpower+Wealth
+(war), Trade → Wealth+Cunning / Wealth+Manpower, Diplomacy → various
+Land/Wealth/Manpower/Cunning combos (Court Favor and the new **Declare
+Heresy** action use Cunning alone), Espionage → all Cunning-based now,
+Stewardship → Land-based combos, Magic → all Cunning-based (Curse and
+Bless dropped their Piety/Legend pools entirely, now Cunning vs.
+Cunning or Cunning alone).
 
 Still open: the STATIC check target number (proposing 2 successes as
 default, not yet confirmed); whether the Pious house trait should be
-updated now that Piety is a real stat rather than just a matching name.
+updated now that Piety exists as a real passive stat; the actual
+events-deck CONTENT that checks passive stats (which specific cards
+reward/punish the most/least Pious/Honorable/Legendary house) is future
+table-content work, not yet drafted.
 
 ## House Trait Table (see `tables/house-traits.md`)
 

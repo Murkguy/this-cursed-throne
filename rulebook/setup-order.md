@@ -65,9 +65,16 @@ play (dramatic acts, Magic use, surviving calamities) — never allocated
 at setup.
 
 ### 3e. Set starting Piety
-Every house starts at **0** Piety (see `tasks.md`, Piety section).
-Built entirely through play (Invoke Faith, Blessings received) — never
-allocated at setup, same as Honor/Infamy and Legend.
+Every house starts at **0** Piety (see `tasks.md`, Active vs. Passive
+stats). Built entirely through play (Invoke Faith, Blessings received)
+— never allocated at setup, same as Honor/Infamy and Legend. Piety is a
+PASSIVE stat — never rolled in a Task action, only checked by events.
+
+### 3f. Set starting Cunning
+Every house starts at **3** Cunning (see `tasks.md`) — a small flat
+value, not part of the 12-point budget in 3b and not a hard 0 like
+Honor/Legend/Piety, so Espionage and Border Raid aren't nearly
+impossible before any Cunning has been earned through play.
 
 ## 4. Create your House Leader
 The player's starting character (House Leader) is generated using the
