@@ -662,6 +662,19 @@ flat:
   case: what happens if the pool has less than 2 Land available at the
   time.
 
+## Clubs suit reworked (2026-08-11)
+
+Applied the now-established two rules directly (house-vs-personal audit
++ magnitude curve) rather than presenting the stale version first —
+only **Cowardly** needed migrating to the character trait bank (personal,
+not institutional); Clubs' political/military reputation traits read as
+institutional far more naturally than Hearts' emotional ones did.
+Replaced with **Client House** (a subordinate house reliant on a
+patron's protection). Also gave the J/Q face cards unique mechanics,
+consistent with the Diamonds precedent: **Warmonger** (J) now means the
+War Death Check only applies on a loss, never a win; **Kingmaker** (Q)
+means this house's contribution to a Revolt alliance bloc counts double.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
