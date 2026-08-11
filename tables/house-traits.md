@@ -20,7 +20,9 @@ contradictions. If a roll produces one and the house already has its
 opposite, reroll.
 
 Every trait cuts both ways — a real benefit paired with a real cost.
-None are pure upside.
+None are pure upside, but they don't need to be precisely balanced
+against each other — some traits are simply stronger or weaker than
+others, same as any trait table.
 
 ## ♥ Hearts — Dynastic/Personal
 
