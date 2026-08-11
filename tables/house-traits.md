@@ -34,9 +34,9 @@ trait table — see `character-traits-bank.md`.)
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -3 dice on Diplomacy tasks — insular, awkward with outsiders. |
+| A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -2 dice on Diplomacy tasks — insular, awkward with outsiders. |
 | 2 | **Sickly** | The Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
-| 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -3 dice on Stewardship tasks — always distracted managing outside children. |
+| 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
 | 4 | **Barren** | +2 dice on all Stewardship tasks. | No natural births, ever (see `birth-death.md`) — heirs only by marrying in. |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
 | 6 | **Hostage Culture** | +2 dice on Espionage tasks — generations of practice handling prisoners as leverage. | -2 dice on Trade tasks — the practice poisons trade relationships. |
@@ -119,14 +119,18 @@ drafted in their place at the same rank (same magnitude tier). Applied
 to Hearts so far; still needs applying to Diamonds, Clubs, and Spades.
 
 ## Rank-tier magnitude curve
-Within each suit, low ranks (A-4) skew weak benefit / strong cost,
-mid ranks (5-8) stay roughly balanced, and high ranks (9-K) skew
-strong benefit / weak cost — "the lower the card, the worse it is,"
-reusing the same low=bad/high=good convention as everything else in the
-game. Traits don't need to be precisely balanced against each other,
-only internally honest (a real cost, a real benefit, weighted to their
-rank). Applied to Hearts; still needs applying to Diamonds, Clubs, and
-Spades.
+Within each suit, low ranks (A-4) have a weak benefit (+1) paired with
+a standard cost (-2), mid ranks (5-8) stay standard on both (+2/-2),
+and high ranks (9-K) get a strong benefit (+2 to +3) paired with a weak
+cost (-1) — "the lower the card, the worse it is," reusing the same
+low=bad/high=good convention as everything else in the game. **Cost
+never exceeds -2** — starting stats can be as low as 1 (the point-buy
+floor) or a modest 4-6 typically, so anything harsher is crippling
+rather than a flavorful tradeoff; the curve works entirely through the
+benefit side instead. Traits don't need to be precisely balanced
+against each other, only internally honest (a real cost, a real
+benefit, weighted to their rank). Applied to Hearts; still needs
+applying to Diamonds, Clubs, and Spades.
 
 ## Open items this pass surfaced (not yet resolved)
 - Character (relative) trait table — separate from this one, not yet
