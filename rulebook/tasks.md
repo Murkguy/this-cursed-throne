@@ -64,8 +64,10 @@ Always targets a ring-adjacent house (see `geography.md`).
   Wealth from the pool.
 - **Trade War** — COMPETITIVE. **Wealth + Cunning** (not Manpower — a
   trade war is fought with capital and guile, not soldiers) vs. the
-  target's same combo. Same margin rules as Border Raid. NOT restricted
-  by geography.
+  target's same combo. Decisive win: capture 1 Wealth directly from the
+  target. Narrow win: that Wealth is destroyed instead — sent to the
+  unclaimed pool, not captured. Loss: nothing. NOT restricted by
+  geography.
 
 ## Diplomacy — mixed
 Diplomacy is the most roleplay-forward category — most of the actual
@@ -76,12 +78,13 @@ concrete outcomes.
 - **Arrange Marriage** — STATIC. **Wealth + Land**. Only rolled for a
   **foreign marriage** — marrying a relative into (or in from) another
   PLAYER house. A marriage to an NPC/the wider world needs no roll.
-  Success: the incoming spouse is generated via Birth Deal (same as any
-  spouse), joins the house, and both houses gain +2 dice on ANY task
-  they take together going forward. Decisive win also grants a
-  **dowry** — 1 Wealth transferred between the two houses (direction by
-  agreement/narrative). Narrow win: the marriage and the alliance bond
-  still happen, no dowry.
+  STATIC checks are pure pass/fail, no margin grading — so the "chance
+  at a dowry" is a separate card flip, not a margin outcome. Success:
+  the incoming spouse is generated via Birth Deal, joins the house,
+  both houses gain +2 dice on ANY task they take together going
+  forward, THEN flip 1 card for the dowry — Queen or King transfers 1
+  Wealth between the two houses, any other rank means no dowry.
+  Failure: the marriage doesn't happen.
 - **Forge Alliance** — STATIC. **Manpower + Cunning**. Same lasting
   +2-dice-acting-together bond as Arrange Marriage, without a marriage.
 - **Court Favor** — STATIC. **Cunning** alone. Claim unclaimed Honor
@@ -93,8 +96,11 @@ concrete outcomes.
   a religious accusation should scale with how devout your house
   actually is, and the flat +2 keeps it usable even at low Piety.
   Decisive win: the target is branded heretic, -2 dice on all Diplomacy
-  actions until they clear their name. Loss: it backfires — the
-  accusing house takes that same -2 Diplomacy penalty instead.
+  actions until they clear their name. Narrow win: suspicion, not a
+  lasting scandal — same -2 Diplomacy penalty, but only until the
+  target's NEXT Diplomacy attempt, not indefinitely. Loss: it backfires
+  — the accusing house takes the full indefinite -2 Diplomacy penalty
+  instead, having overreached.
 - **Broker Peace** — NO ROLL. Pure roleplay resolution — ends an active
   vendetta or a standing War peacefully. Grants +1 Honor. Can also
   trigger Destiny, per the existing "resolving a vendetta" trigger.
@@ -163,8 +169,10 @@ effect or a passive-stat change, never an active-stat claim.
   any other.
 - **Curse** — COMPETITIVE. **Legend + Cunning** vs. the target's same
   combo (resisting magic doesn't require having the Magic trait
-  yourself). Success: the target draws 2 cards and keeps the WORST on
-  their next relevant draw.
+  yourself). Decisive win: the target draws 2 cards and keeps the WORST
+  on their next TWO relevant draws. Narrow win: same effect, but only
+  their next ONE relevant draw. Loss: it backfires — the CASTER draws 2
+  and keeps the worst on their own next relevant draw instead.
 - **Bless** — **Legend + Cunning**, no opposed roll — can only target
   another house, never yourself. The target draws 2 cards and keeps
   the BEST on their next relevant draw, and gains +1 Piety.

@@ -453,6 +453,26 @@ whether the Pious house trait should be updated now that Piety exists
 as a real passive stat; the actual events-deck CONTENT that checks
 passive stats is future table-content work, not yet drafted.
 
+## Margin-completeness pass (2026-08-11, same day)
+
+Audited every COMPETITIVE action for a fully spelled-out decisive/
+narrow/loss (or equivalent) outcome — none should say just "success" or
+defer to "same as X action" without restating it inline. Found and
+fixed three gaps: **Trade War** was deferring to "same as Border Raid,"
+now spelled out inline. **Declare Heresy** was missing its narrow-win
+case entirely — added (suspicion, -2 Diplomacy but only until the
+target's next Diplomacy attempt, vs. the indefinite penalty on a
+decisive win). **Curse** only said "Success," no margin differentiation
+at all — now decisive win afflicts the next TWO relevant draws, narrow
+win just the next ONE, and loss backfires onto the caster.
+
+Also caught a real bug while auditing: **Arrange Marriage** is STATIC
+(pure pass/fail, no margin grading — an established rule from the
+original design), but had been written with decisive/narrow-win
+language for the dowry. Fixed: the dowry "chance" is now a separate
+card flip after a successful marriage roll (Queen or King grants it),
+not a margin outcome — keeps the Static check itself properly binary.
+
 ## House Trait Table (see `tables/house-traits.md`)
 
 Drafted 2026-08-11, REVISED same day after playtester feedback that the
