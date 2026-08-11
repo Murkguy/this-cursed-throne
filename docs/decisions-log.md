@@ -611,10 +611,11 @@ Still open: the actual face-card mechanic upgrades themselves (only the
 brainstormed menu exists so far, not concrete J/Q/K designs beyond
 Golden, which was already locked).
 
-## Hearts fixes: Sickly, Barren, Long-Lived (2026-08-11)
+## Hearts fixes: Sickly, Barren, Long-Lived (2026-08-11) — HEARTS LOCKED
 
 Restarted the Hearts review after the Archetype/Renegotiate detour and
-caught three problems:
+caught three problems. **Hearts suit is now fully locked** — all 13
+entries confirmed. Diamonds is next.
 
 - **Sickly** (2) — its only benefit (a narrow Magic-conversion trigger
   widening) felt thin next to a real cost (death band +1 tier). First
