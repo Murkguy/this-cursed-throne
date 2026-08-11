@@ -9,78 +9,63 @@ action from the relevant category, not just "the task."
 The house stat block splits into two groups:
 
 - **ACTIVE stats — rolled in Task actions**: Land, Manpower, Wealth,
-  **Cunning** (new).
+  Cunning.
 - **PASSIVE stats — never rolled**: Honor/Infamy, Piety, Legend. These
   are checked by EVENTS (Kingdom Scene, house events) for who's
   highest/lowest and rewarded or punished accordingly, rather than
-  being something a player actively spends dice on. This generalizes a
-  pattern that was already true of Legend (the Doom Clock trigger,
-  moniker eligibility, the King's +10, Birth Deal's trait bonus are all
-  "passive stat affects how systems treat you") and Honor (Destiny's
-  "overtakes #1" / "becomes new lowest" triggers) — just applied
-  consistently to all three now, and locked as a rule: these three
-  NEVER determine a dice pool.
+  being something a player actively spends dice on.
 
-Action OUTCOMES can still change a passive stat (Bless still grants +1
-Piety, Sow Rumors still damages Honor/Infamy) — only the pool itself is
-restricted to the four active stats.
+**Task categories are not stats.** War, Trade, Diplomacy, Espionage,
+Stewardship, and Magic are groupings of actions, not rollable values —
+"opposed by Stewardship" is meaningless, since Stewardship itself rolls
+Land. Any opposition always names the actual stat.
 
-## Cunning — new active stat
+**Two explicit exceptions** to "passive stats are never rolled," both
+called out where they happen: **Declare Heresy** uses Piety (see
+Diplomacy), and **all of Magic** uses Legend — Magic is thematically
+unique enough to justify breaking the rule on purpose.
+
+## Cunning — active stat
 Your house's reputation for guile and trickery. Starts at **3** for
 every house at setup (see `setup-order.md`) — a small flat value,
 deliberately not part of the 12-point Land/Manpower/Wealth budget and
-deliberately not a hard 0 like Legend/Honor/Piety, so Espionage and
-Border Raid aren't nearly impossible in the early game. Grows through
-play: a decisive win on any Espionage or Border Raid action grants +1
-Cunning — the same dynastic-engine feedback loop Legend already has
-(successful schemes breed a reputation for cleverness, which enables
-more successful schemes).
+deliberately not a hard 0, so Espionage and Border Raid aren't nearly
+impossible in the early game. Grows through play: a decisive win on any
+Espionage or Border Raid action grants +1 Cunning.
 
 ## Dice pools COMBINE both stats when an action lists a combo
-A combo action's pool is the two listed stats added together, not the
-lower of the two — committing two resources to something genuinely
-rolls a bigger pool than committing one. This deliberately makes War,
-Trade War, and other combo actions feel like the bigger, more serious
-commitments they are, at the cost of a real tension with the original
-"~20 dice stays rollable" pacing rationale behind the stat caps — a
-house strong in both halves of a combo (e.g. 15 Manpower + 15 Wealth for
-War) rolls a pool well past that. Accepted as intentional: big wars
-should feel big at the table, even if that means more dice to count on
-the decade's biggest rolls.
+A combo action's pool is the two listed stats added together — a
+genuinely bigger pool than a single-stat action, at the cost of some
+tension with the original "~20 dice stays rollable" pacing rationale on
+a house's biggest actions. Accepted as intentional.
 
 ## War — Manpower-based
 Always targets a ring-adjacent house (see `geography.md`).
 
 - **Border Raid** — a one-off strike. COMPETITIVE, this house's
-  **Manpower + Cunning** (combined) vs. the target's
-  Stewardship (raiding hits infrastructure, not armies — see
-  Stewardship below). Stakes: 1 Wealth — decisive win captures it,
-  narrow win destroys it (sent to the unclaimed pool), loss gets
-  nothing. No death check — a raid isn't a real battle.
+  **Manpower + Cunning** vs. the target's **Land** (raiding hits
+  infrastructure, defended by the same stat Stewardship rolls — not
+  "Stewardship" itself, which isn't a stat). Stakes: 1 Wealth —
+  decisive win captures it, narrow win destroys it (sent to the
+  unclaimed pool), loss gets nothing. No death check.
 - **War** — a standing state, not a one-off action. Declaring it
   (Phase 5) resolves an immediate battle: COMPETITIVE, this house's
-  **Manpower + Wealth** (combined — an army needs pay, not
-  just bodies) vs. the target's same combo. Stakes: 1 Land AND 1
-  Manpower — decisive win captures both, narrow win sends both to the
-  unclaimed pool, loss gets nothing. The declaring relative takes a War
-  Death Check (see `birth-death.md`).
+  **Manpower + Wealth** vs. the target's same combo. Stakes: 1 Land AND
+  1 Manpower — decisive win captures both, narrow win sends both to
+  the unclaimed pool, loss gets nothing. The declaring relative takes a
+  War Death Check (see `birth-death.md`).
 
-  **Once declared, the war continues automatically every decade** —
-  the same battle re-resolves at the top of every Resolution phase for
-  both houses, no Task Assignment needed to keep it going, including a
-  War Death Check each time. If the declaring relative dies, the war
-  still continues (stats vs. stats), but no further death checks occur
-  for that house until a new relative is assigned to lead the war
-  effort. Ends only when either house resolves **Broker Peace**.
+  **Once declared, the war continues automatically every decade** until
+  either house resolves **Broker Peace** — see the full mechanic
+  unchanged from before.
 
 ## Trade — Wealth-based
-- **Broker Deal** — STATIC. **Wealth + Cunning** (combined). Claim
-  unclaimed Wealth from the pool — a shrewd trader needs both capital
-  and guile.
-- **Trade War** — COMPETITIVE. **Wealth + Manpower** (combined — economic
-  warfare needs some muscle to enforce it) vs. the target's same combo.
-  Same margin rules as Border Raid. NOT restricted by geography — coin
-  and economic pressure reach further than armies.
+- **Broker Deal** — STATIC. **Wealth + Cunning**. Claim unclaimed
+  Wealth from the pool.
+- **Trade War** — COMPETITIVE. **Wealth + Cunning** (not Manpower — a
+  trade war is fought with capital and guile, not soldiers) vs. the
+  target's same combo. Same margin rules as Border Raid. NOT restricted
+  by geography.
 
 ## Diplomacy — mixed
 Diplomacy is the most roleplay-forward category — most of the actual
@@ -88,96 +73,108 @@ work happens in the scene itself (see `turn-order.md`, Phase 3's
 freeform-by-default rule); the roll only matters for these specific,
 concrete outcomes.
 
-- **Arrange Marriage** — STATIC. **Wealth + Land** (combined — a dowry and
-  territory to offer). Success forges a lasting bond between two
-  houses: both gain +2 dice on ANY task the two houses take together
-  going forward.
-- **Forge Alliance** — STATIC. **Manpower + Cunning** (combined — a
-  mutual-defense pact needs real military weight and cleverly drawn
-  terms). Same lasting +2-dice-acting-together bond as Arrange
-  Marriage, without a marriage.
-- **Court Favor** — STATIC. **Cunning** alone — plain charm. Claim
-  unclaimed Honor from the pool. (The action's pool is Cunning; its
-  reward still touches the passive Honor stat — see above.)
-- **Invoke Faith** — STATIC. **Wealth + Land** (combined — funding
-  temples and religious infrastructure). Claim unclaimed Piety from the
-  pool.
-- **Declare Heresy** — COMPETITIVE. **Cunning** vs. the target's
-  Cunning (building a credible accusation vs. defending against one).
+- **Arrange Marriage** — STATIC. **Wealth + Land**. Only rolled for a
+  **foreign marriage** — marrying a relative into (or in from) another
+  PLAYER house. A marriage to an NPC/the wider world needs no roll.
+  Success: the incoming spouse is generated via Birth Deal (same as any
+  spouse), joins the house, and both houses gain +2 dice on ANY task
+  they take together going forward. Decisive win also grants a
+  **dowry** — 1 Wealth transferred between the two houses (direction by
+  agreement/narrative). Narrow win: the marriage and the alliance bond
+  still happen, no dowry.
+- **Forge Alliance** — STATIC. **Manpower + Cunning**. Same lasting
+  +2-dice-acting-together bond as Arrange Marriage, without a marriage.
+- **Court Favor** — STATIC. **Cunning** alone. Claim unclaimed Honor
+  from the pool.
+- **Invoke Faith** — STATIC. **Wealth + Land**. Claim unclaimed Piety
+  from the pool.
+- **Declare Heresy** — COMPETITIVE. **Piety + 2** (flat bonus) vs. the
+  target's same. Explicit exception to "passive stats aren't rolled" —
+  a religious accusation should scale with how devout your house
+  actually is, and the flat +2 keeps it usable even at low Piety.
   Decisive win: the target is branded heretic, -2 dice on all Diplomacy
   actions until they clear their name. Loss: it backfires — the
-  accusing house takes that same -2 Diplomacy penalty instead, having
-  overreached.
+  accusing house takes that same -2 Diplomacy penalty instead.
 - **Broker Peace** — NO ROLL. Pure roleplay resolution — ends an active
   vendetta or a standing War peacefully. Grants +1 Honor. Can also
   trigger Destiny, per the existing "resolving a vendetta" trigger.
 
 ## Espionage — Cunning-based
-Always COMPETITIVE, opposed by the target's Stewardship.
+Always COMPETITIVE, opposed by the target's **Land** (the same stat
+Stewardship rolls).
 
-- **Assassinate** — **Cunning + Manpower** (combined). Targets a specific
-  enemy relative. Decisive win: the relative dies. Narrow win: the
-  attempt fails and is never traced back. Loss: the attacking relative
-  is caught — they take a death check of their own (same as the War
-  Death Check).
-- **Turn a Relative** — **Cunning + Wealth** (combined — a clever approach
-  backed by a bribe). Targets a specific enemy relative. Decisive win:
-  that relative becomes a secret asset — their house's next Task
-  Assignment is revealed to you before it resolves, or (player's
-  choice) their next task automatically fails. Narrow win: a seed of
-  doubt is planted, no mechanical effect yet. Loss: your attempt is
-  discovered — your house gains +1 Infamy.
+- **Assassinate** — **Cunning + Manpower**. Targets a specific enemy
+  relative. Outcome depends on the margin (attacker's successes minus
+  defender's):
+  - **Win by any margin**: the relative dies, cleanly — the assassin is
+    not discovered.
+  - **Tie**: the relative dies, but the assassin is discovered and
+    captured by the target house.
+  - **Lose by 1**: the attempt fails, cleanly — the assassin escapes
+    undetected.
+  - **Lose by 2 or more**: the attempt fails AND the assassin is
+    discovered and captured.
+
+  Being "captured" doesn't kill the assassin automatically — they
+  become a prisoner of the target house, a real narrative complication
+  (ransom, execution, a hostage to trade) rather than an immediate
+  death check. *(This margin table is my best reading of the intended
+  breakpoints — flag if the win/tie/loss boundaries should sit
+  differently.)*
 - **Steal Secrets** — **Cunning** alone, the purest expression of
-  spycraft. Targets a house. Decisive win: claim 1 Wealth directly from
-  them AND see their next decade's Task Assignments in advance. Narrow
-  win: a small amount of Wealth goes to the unclaimed pool instead.
-  Loss: nothing.
-- **Sow Rumors** — **Cunning + Wealth** (combined — funded agents spread a
-  story convincingly). Targets a house. Decisive win: their
+  spycraft. Targets a house. Decisive win: choose ONE of the target's
+  PASSIVE stats (Piety, Honor/Infamy, or Legend) and reduce it by 2 —
+  blackmail material, made public. Narrow win: reduce the chosen stat
+  by 1 instead. Loss: nothing. (This replaces the old Wealth-theft
+  version — Steal Secrets is now specifically about digging up
+  something reputationally damaging, not robbery.)
+- **Sow Rumors** — **Cunning + Wealth**. Targets a house. Keeps its
+  original, narrower niche next to Steal Secrets' flexibility: always
+  Honor/Infamy specifically, never Piety or Legend. Decisive win: their
   Honor/Infamy shifts 2 points toward Infamy. Narrow win: shifts 1
   point. Loss: backfires — the attacker's own house gains 1 point
   toward Infamy instead.
 
+~~Turn a Relative~~ — removed, too hard to track reliably at the table.
+
 ## Stewardship — Land-based
-Always STATIC. Never initiates a Competitive check, but is the stat a
-house defends with when targeted by Espionage or a War Border Raid.
+Always STATIC. Never initiates a Competitive check, but Land is the
+stat a house rolls defensively when targeted by Espionage or a War
+Border Raid (see above).
 
-- **Develop Territory** — **Land + Manpower** (combined — land needs
-  laborers). Claim unclaimed Land, Wealth, OR Manpower (player's
-  choice of which) — Stewardship is the generalist "administer the
-  realm" option, Trade the specialist one.
-- **Fortify** — **Land + Wealth** (combined — fortifications need
-  funding). No resource claim. Instead, this house gains +2 dice on
-  the next Espionage or Border Raid defense it has to roll (banked
-  until used).
+- **Develop Territory** — **Land + Manpower**. Claim unclaimed Land,
+  Wealth, OR Manpower (player's choice of which).
+- **Fortify** — **Land + Wealth**. No resource claim. Instead, this
+  house gains +2 dice on the next Espionage or Border Raid defense it
+  has to roll (banked until used).
 
-## Magic — Cunning-based
-Always STATIC unless noted. Gated behind the Magic house trait (or a
-narrower trigger, like Sickly's Ace-2-of-Spades conversion — see
-`tables/house-traits.md`). Never touches the standard resource economy
-— the payoff is always a unique effect or a passive-stat change, never
-an active-stat claim.
+## Magic — Legend-based (unique exception)
+Every Magic action uses **Legend + Cunning** — the second explicit
+exception to "passive stats aren't rolled." Magic is thematically
+singular enough to justify it: mystical renown (Legend) channeled
+through cleverness (Cunning). Always STATIC unless noted. Gated behind
+the Magic house trait (or a narrower trigger, like Sickly's
+Ace-2-of-Spades conversion — see `tables/house-traits.md`). Never
+touches the standard resource economy — the payoff is always a unique
+effect or a passive-stat change, never an active-stat claim.
 
-- **Scry** — **Cunning** alone. Peek at the next card of any deck
+- **Scry** — **Legend + Cunning**. Peek at the next card of any deck
   (Birth Deal, the events deck) before it's drawn, for this house or
   any other.
-- **Curse** — COMPETITIVE. **Cunning** vs. the target's Cunning (only
-  the clever see through dark workings, or resist them). Success: the
-  target draws 2 cards and keeps the WORST on their next relevant draw
-  (same "disadvantage" mechanic already used for the King's harsh draw
-  and the Cursed house trait).
-- **Bless** — **Cunning** alone, no opposed roll — can only target
+- **Curse** — COMPETITIVE. **Legend + Cunning** vs. the target's same
+  combo (resisting magic doesn't require having the Magic trait
+  yourself). Success: the target draws 2 cards and keeps the WORST on
+  their next relevant draw.
+- **Bless** — **Legend + Cunning**, no opposed roll — can only target
   another house, never yourself. The target draws 2 cards and keeps
-  the BEST on their next relevant draw (the mirror of Curse), and
-  gains +1 Piety.
+  the BEST on their next relevant draw, and gains +1 Piety.
 
 ---
 
 ## Open items this pass surfaced (not yet resolved)
 - Static check target number (proposing 2 successes as default, not yet
   confirmed)
-- The exact events-deck CONTENT that checks passive stats (which cards
-  reward/punish the most/least Pious, Honorable, or Legendary house) is
-  future table-content work, not yet drafted — this pass only locks the
-  PRINCIPLE that such cards exist and that passive stats are never
-  rolled directly
+- Assassinate's exact win/tie/loss breakpoints — written as my best
+  reading of the description, not yet explicitly confirmed
+- The exact events-deck CONTENT that checks passive stats is future
+  table-content work, not yet drafted

@@ -410,12 +410,48 @@ Stewardship → Land-based combos, Magic → all Cunning-based (Curse and
 Bless dropped their Piety/Legend pools entirely, now Cunning vs.
 Cunning or Cunning alone).
 
+## Action-by-action correction pass (2026-08-11, same day)
+
+Caught a real error: several actions were "opposed by the target's
+Stewardship," but Stewardship is a task CATEGORY, not a stat — it rolls
+Land. Fixed everywhere; any opposition now names the actual stat
+(Land). Locked as an explicit rule: task categories are never
+themselves rollable/opposable values.
+
+Other fixes from a full designer pass:
+- **Trade War** now rolls Wealth+Cunning (not Wealth+Manpower) vs. the
+  same — fought with capital and guile, not soldiers.
+- **Arrange Marriage** now only rolled for FOREIGN marriages (into/from
+  another player house — NPC marriages need no roll). Success generates
+  the incoming spouse via Birth Deal and grants a chance at a 1-Wealth
+  dowry on a decisive win.
+- **Declare Heresy** now explicitly uses Piety + a flat +2 — the second
+  deliberate exception (after nothing previously) to "passive stats
+  aren't rolled," justified because a religious accusation should scale
+  with actual devotion.
+- **Assassinate** gained a discovery/capture mechanic: win by any
+  margin = clean kill; tie = kill succeeds but the assassin is
+  captured; lose by 1 = clean failure; lose by 2+ = failure AND
+  captured. Capture doesn't auto-kill the assassin — they become a
+  prisoner, a narrative complication rather than a resolved death.
+- **Turn a Relative** removed entirely — too hard to track reliably.
+- **Steal Secrets** redefined: no longer Wealth theft — now lets the
+  attacker choose ONE of the target's passive stats (Piety, Honor/
+  Infamy, or Legend) to damage, representing flexible blackmail.
+  **Sow Rumors** keeps its narrower original niche (Honor/Infamy only)
+  next to Steal Secrets' new flexibility.
+- **Magic** reworked a second time: now uses Legend + Cunning for every
+  action (not Cunning alone) — the third deliberate exception to
+  "passive stats aren't rolled," justified because Magic is
+  thematically unique enough to warrant it. Reverses the previous
+  all-Cunning version from the prior revision.
+
 Still open: the STATIC check target number (proposing 2 successes as
-default, not yet confirmed); whether the Pious house trait should be
-updated now that Piety exists as a real passive stat; the actual
-events-deck CONTENT that checks passive stats (which specific cards
-reward/punish the most/least Pious/Honorable/Legendary house) is future
-table-content work, not yet drafted.
+default, not yet confirmed); Assassinate's exact win/tie/loss
+breakpoints (written as best-reading, not explicitly confirmed);
+whether the Pious house trait should be updated now that Piety exists
+as a real passive stat; the actual events-deck CONTENT that checks
+passive stats is future table-content work, not yet drafted.
 
 ## House Trait Table (see `tables/house-traits.md`)
 
