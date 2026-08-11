@@ -721,6 +721,15 @@ endorsement matters, not their army. **Tyrannical**'s benefit was also
 still flat dice (+2 War), which belongs in the 8-10 tier, not K — fixed
 to doubling the King's per-turn powers while holding the crown.
 
+**Ambitious** (A) was then caught as not actually useful — War doesn't
+grant the crown, only Revolt does, and anyone can already declare a
+Revolt, so "declare War on the King's house without ring-adjacency"
+didn't give a real edge toward the throne. Redesigned: whenever this
+house declares a Revolt bid, it immediately gains Destiny for that
+resolution if it doesn't already hold it — a genuine edge on the actual
+path to power, distinct from Kingmaker's "back someone else's bid"
+angle (Ambitious is about seizing it yourself).
+
 Still awaiting final designer confirm on Clubs before replicating to
 Hearts, Diamonds, and finishing Spades fresh under this system.
 
