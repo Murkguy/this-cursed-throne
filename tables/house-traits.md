@@ -70,12 +70,15 @@ draft of rank 2, which originally read "the GM may rule...")
 beyond dice); ranks 5-7 net **0**; ranks 8-10 net **+1 die**; J/Q/K/A
 abandon dice math for unique, positive mechanics. Hospitable was
 retired (there were 4 candidates for 3 weak-tier slots) and replaced
-with a new unique mechanic, Iron Bank, to fill out J/Q/K/A (which
-otherwise only had 3 existing unique traits for 4 slots).
+with a new unique mechanic to fill out J/Q/K/A (which otherwise only
+had 3 existing unique traits for 4 slots) — that slot went through two
+versions before landing on Endless Ledgers (a lending/debt version,
+Iron Bank, felt too on-the-nose as a Game of Thrones reference, and
+loaning mechanics don't fit this game).
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Stingy** | +1 die on Trade tasks. | -2 dice on Diplomacy tasks. PLUS: this house can never use Renegotiate to GIVE Wealth to another house, only receive it — pure miserliness, they take but never give. |
+| 2 | **Close-Fisted** | +1 die on Trade tasks. | This house's Diplomacy rolls only count 6s as successes, not the normal 5-6 — pure miserliness leaves no room for the generosity real diplomacy requires. |
 | 3 | **Pious** | +1 die on Stewardship tasks — temple and faith organize a community well. | -2 dice on Trade tasks — forbidden from the most profitable but impious dealings. |
 | 4 | **Cunning Traders** | +1 die on Trade tasks. | -2 dice on War tasks. |
 | 5 | **Stewards Born** | +2 dice on Stewardship tasks. | -2 dice on War tasks. |
@@ -85,9 +88,9 @@ otherwise only had 3 existing unique traits for 4 slots).
 | 9 | **Charitable** | +2 dice on Diplomacy tasks — generosity wins hearts and favor. | -1 die on Trade tasks — too generous to profit. |
 | 10 | **Frugal** | +2 dice on Trade tasks. | -1 die on War tasks — unwilling to fund costly campaigns. |
 | J | **Ostentatious** | This house's STATIC Diplomacy actions always succeed — no roll needed, wealth speaks loud enough that failure isn't an option. | -2 dice on Espionage tasks — too visible to ever move unseen. |
-| Q | **Landed Gentry** | Once per campaign, this house may immediately claim 2 Land from the unclaimed pool for free — no roll, no Task Assignment slot spent, an ancestral claim honored on sight. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
+| Q | **Landed Gentry** | Once every 100 years (10 decades), this house may immediately claim ALL Land currently sitting in the unclaimed pool, whatever that amount is — no roll, no Task Assignment slot spent, an ancestral claim to every free holding, honored on sight. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
 | K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -1 die on War tasks — wealth breeds complacency. |
-| A | **Iron Bank** | Once per decade, this house may lend 1 Wealth to another house. After 3 decades, the borrowing house must repay 2 Wealth (interest) — or this house may instead seize 1 Land or Manpower from them if unpaid. | -1 die on War tasks — bankers don't fight, they finance. |
+| A | **Endless Ledgers** | Once per decade, this house may convert any amount of one active stat (Land, Manpower, or Wealth) into an equal amount of any other active stat — total mastery over their own resources, no other house's cooperation needed. | -1 die on War tasks — bookkeepers, not soldiers. |
 
 ## ♣ Clubs — Military/Political
 
