@@ -230,8 +230,9 @@ Leader/spouse start at age 3, ~30-39 years old).
 - Both checks run during Resolution step 1, before task outcomes are
   checked in step 2 (unchanged from the prior setup/turn-order pass).
 
-Still open: who specifically dies when a relative's death check
-triggers (deferred pending further thought — not yet decided).
+"Who dies" is resolved by construction: since every relative is checked
+individually against their own card, whoever's flip lands in their death
+band is who dies — no separate house-level pick needed.
 
 ## Still open / not yet drafted
 

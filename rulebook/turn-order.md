@@ -104,5 +104,3 @@ whether double-booking is allowed at all.
 ## Open items this phase surfaced (not yet resolved)
 - Whether house order (scene-conflict priority) is fixed for the
   campaign or rotates decade to decade
-- Who dies when a relative's Fate Check death triggers (see
-  `birth-death.md`)

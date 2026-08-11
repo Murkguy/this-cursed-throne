@@ -49,8 +49,10 @@ years (mean ~51). Sickly drags the mean down to ~33 years; Long-Lived
 extends it to ~68. A meaningful, felt difference in both directions —
 consistent with "no pure upside" trait design.
 
-**Who dies, if the check triggers:** open question, not yet decided (see
-below).
+Because every relative is checked individually against their own card,
+there's no separate "who dies" decision to make — whoever's flip lands
+in their death band is who dies. No house-level pick, no arbitration
+needed.
 
 ## Birth Check — per viable couple, per decade
 Every viable couple in the tracked family (a pairing capable of having a
@@ -74,8 +76,5 @@ Deal** (see `decisions-log.md`), starting at age 0.
 ---
 
 ## Open items this pass surfaced (not yet resolved)
-- Who dies when a relative's death check triggers — player's choice, or
-  some other method? (Deferred from the original discussion pending
-  further thought.)
 - Whether the spouse can start at a different age than the Leader by
   player choice, or must always match
