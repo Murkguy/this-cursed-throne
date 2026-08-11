@@ -36,25 +36,30 @@ Cunning — the same dynastic-engine feedback loop Legend already has
 (successful schemes breed a reputation for cleverness, which enables
 more successful schemes).
 
-## Dice pools use the LOWER of two stats when an action lists a combo
-Prevents combo actions from just being strictly better than single-stat
-ones (summing two ~20-cap stats would roll pools nearly double a
-single-stat action). A combo action is bottlenecked by whichever of its
-two stats is currently weaker — a wealthy house with a thin army still
-can't wage effective War.
+## Dice pools COMBINE both stats when an action lists a combo
+A combo action's pool is the two listed stats added together, not the
+lower of the two — committing two resources to something genuinely
+rolls a bigger pool than committing one. This deliberately makes War,
+Trade War, and other combo actions feel like the bigger, more serious
+commitments they are, at the cost of a real tension with the original
+"~20 dice stays rollable" pacing rationale behind the stat caps — a
+house strong in both halves of a combo (e.g. 15 Manpower + 15 Wealth for
+War) rolls a pool well past that. Accepted as intentional: big wars
+should feel big at the table, even if that means more dice to count on
+the decade's biggest rolls.
 
 ## War — Manpower-based
 Always targets a ring-adjacent house (see `geography.md`).
 
 - **Border Raid** — a one-off strike. COMPETITIVE, this house's
-  **Manpower + Cunning** (lower of the two) vs. the target's
+  **Manpower + Cunning** (combined) vs. the target's
   Stewardship (raiding hits infrastructure, not armies — see
   Stewardship below). Stakes: 1 Wealth — decisive win captures it,
   narrow win destroys it (sent to the unclaimed pool), loss gets
   nothing. No death check — a raid isn't a real battle.
 - **War** — a standing state, not a one-off action. Declaring it
   (Phase 5) resolves an immediate battle: COMPETITIVE, this house's
-  **Manpower + Wealth** (lower of the two — an army needs pay, not
+  **Manpower + Wealth** (combined — an army needs pay, not
   just bodies) vs. the target's same combo. Stakes: 1 Land AND 1
   Manpower — decisive win captures both, narrow win sends both to the
   unclaimed pool, loss gets nothing. The declaring relative takes a War
@@ -69,10 +74,10 @@ Always targets a ring-adjacent house (see `geography.md`).
   effort. Ends only when either house resolves **Broker Peace**.
 
 ## Trade — Wealth-based
-- **Broker Deal** — STATIC. **Wealth + Cunning** (lower). Claim
+- **Broker Deal** — STATIC. **Wealth + Cunning** (combined). Claim
   unclaimed Wealth from the pool — a shrewd trader needs both capital
   and guile.
-- **Trade War** — COMPETITIVE. **Wealth + Manpower** (lower — economic
+- **Trade War** — COMPETITIVE. **Wealth + Manpower** (combined — economic
   warfare needs some muscle to enforce it) vs. the target's same combo.
   Same margin rules as Border Raid. NOT restricted by geography — coin
   and economic pressure reach further than armies.
@@ -83,18 +88,18 @@ work happens in the scene itself (see `turn-order.md`, Phase 3's
 freeform-by-default rule); the roll only matters for these specific,
 concrete outcomes.
 
-- **Arrange Marriage** — STATIC. **Wealth + Land** (lower — a dowry and
+- **Arrange Marriage** — STATIC. **Wealth + Land** (combined — a dowry and
   territory to offer). Success forges a lasting bond between two
   houses: both gain +2 dice on ANY task the two houses take together
   going forward.
-- **Forge Alliance** — STATIC. **Manpower + Cunning** (lower — a
+- **Forge Alliance** — STATIC. **Manpower + Cunning** (combined — a
   mutual-defense pact needs real military weight and cleverly drawn
   terms). Same lasting +2-dice-acting-together bond as Arrange
   Marriage, without a marriage.
 - **Court Favor** — STATIC. **Cunning** alone — plain charm. Claim
   unclaimed Honor from the pool. (The action's pool is Cunning; its
   reward still touches the passive Honor stat — see above.)
-- **Invoke Faith** — STATIC. **Wealth + Land** (lower — funding
+- **Invoke Faith** — STATIC. **Wealth + Land** (combined — funding
   temples and religious infrastructure). Claim unclaimed Piety from the
   pool.
 - **Declare Heresy** — COMPETITIVE. **Cunning** vs. the target's
@@ -110,12 +115,12 @@ concrete outcomes.
 ## Espionage — Cunning-based
 Always COMPETITIVE, opposed by the target's Stewardship.
 
-- **Assassinate** — **Cunning + Manpower** (lower). Targets a specific
+- **Assassinate** — **Cunning + Manpower** (combined). Targets a specific
   enemy relative. Decisive win: the relative dies. Narrow win: the
   attempt fails and is never traced back. Loss: the attacking relative
   is caught — they take a death check of their own (same as the War
   Death Check).
-- **Turn a Relative** — **Cunning + Wealth** (lower — a clever approach
+- **Turn a Relative** — **Cunning + Wealth** (combined — a clever approach
   backed by a bribe). Targets a specific enemy relative. Decisive win:
   that relative becomes a secret asset — their house's next Task
   Assignment is revealed to you before it resolves, or (player's
@@ -127,7 +132,7 @@ Always COMPETITIVE, opposed by the target's Stewardship.
   them AND see their next decade's Task Assignments in advance. Narrow
   win: a small amount of Wealth goes to the unclaimed pool instead.
   Loss: nothing.
-- **Sow Rumors** — **Cunning + Wealth** (lower — funded agents spread a
+- **Sow Rumors** — **Cunning + Wealth** (combined — funded agents spread a
   story convincingly). Targets a house. Decisive win: their
   Honor/Infamy shifts 2 points toward Infamy. Narrow win: shifts 1
   point. Loss: backfires — the attacker's own house gains 1 point
@@ -137,11 +142,11 @@ Always COMPETITIVE, opposed by the target's Stewardship.
 Always STATIC. Never initiates a Competitive check, but is the stat a
 house defends with when targeted by Espionage or a War Border Raid.
 
-- **Develop Territory** — **Land + Manpower** (lower — land needs
+- **Develop Territory** — **Land + Manpower** (combined — land needs
   laborers). Claim unclaimed Land, Wealth, OR Manpower (player's
   choice of which) — Stewardship is the generalist "administer the
   realm" option, Trade the specialist one.
-- **Fortify** — **Land + Wealth** (lower — fortifications need
+- **Fortify** — **Land + Wealth** (combined — fortifications need
   funding). No resource claim. Instead, this house gains +2 dice on
   the next Espionage or Border Raid defense it has to roll (banked
   until used).

@@ -393,12 +393,18 @@ or Border Raid grant +1). Starts at a flat **3** (not 0 like Legend/
 Honor/Piety, not part of the 12-point budget) specifically so Espionage
 and Border Raid aren't nearly impossible before any Cunning is earned.
 
-**Combo dice pools use the LOWER of the two stats**, not the sum —
-prevents a 2-stat action from just rolling a bigger pool than a
-1-stat one. Every action in `rulebook/tasks.md` was remapped onto only
-the 4 active stats: War → Manpower+Cunning (raid) / Manpower+Wealth
-(war), Trade → Wealth+Cunning / Wealth+Manpower, Diplomacy → various
-Land/Wealth/Manpower/Cunning combos (Court Favor and the new **Declare
+**Combo dice pools COMBINE (add together) both stats**, REVISED from an
+initial "lower of the two" rule the same day — the designer wanted
+committing two resources to genuinely roll a bigger pool, not just be
+bottlenecked by the weaker one. Accepted tradeoff: this reopens real
+tension with the original "~20 dice stays rollable" pacing rationale
+behind the stat caps (a house strong in both halves of a combo can roll
+well past 20 on its biggest actions), kept intentional — big wars
+should feel big at the table. Every action in `rulebook/tasks.md` was
+remapped onto only the 4 active stats: War → Manpower+Cunning (raid) /
+Manpower+Wealth (war), Trade → Wealth+Cunning / Wealth+Manpower,
+Diplomacy → various Land/Wealth/Manpower/Cunning combos (Court Favor
+and the new **Declare
 Heresy** action use Cunning alone), Espionage → all Cunning-based now,
 Stewardship → Land-based combos, Magic → all Cunning-based (Curse and
 Bless dropped their Piety/Legend pools entirely, now Cunning vs.
