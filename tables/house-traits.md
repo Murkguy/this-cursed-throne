@@ -63,7 +63,7 @@ trait table — see `character-traits-bank.md`.)
 | 9 | **Charitable** | +2 dice on Diplomacy tasks — generosity wins hearts and favor. | -1 die on Trade tasks — too generous to profit. |
 | 10 | **Frugal** | +2 dice on Trade tasks. | -1 die on War tasks — unwilling to fund costly campaigns. |
 | J | **Ostentatious** | This house's STATIC Diplomacy actions always succeed — no roll needed, wealth speaks loud enough that failure isn't an option. | -2 dice on Espionage tasks — too visible to ever move unseen. |
-| Q | **Landed Gentry** | Once per campaign, when an action would reduce this house's Land to 0, the house may instead keep 1 Land — everything else about that action still resolves normally (other stats still transfer, death checks still happen), just that one Land loss is blocked. Single use for the whole campaign, not a permanent floor. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
+| Q | **Landed Gentry** | Once per campaign, this house may immediately claim 2 Land from the unclaimed pool for free — no roll, no Task Assignment slot spent, an ancestral claim honored on sight. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
 | K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -1 die on War tasks — wealth breeds complacency. |
 
 ## ♣ Clubs — Military/Political
@@ -135,3 +135,6 @@ applying to Diamonds, Clubs, and Spades.
 ## Open items this pass surfaced (not yet resolved)
 - Character (relative) trait table — separate from this one, not yet
   drafted (`character-traits-bank.md` has 7 candidates banked so far)
+- Landed Gentry (Diamonds Q): what happens if the unclaimed pool has
+  less than 2 Land available when claimed — take whatever's there, or
+  can it go unclaimed and wait?
