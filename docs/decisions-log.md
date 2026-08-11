@@ -585,6 +585,32 @@ to 3d-3g.
 Still open: whether a spousal-regency exception is wanted for
 succession (currently: no, by design, not an oversight).
 
+## Face-card traits get more interesting mechanics; new Trade action: Renegotiate
+
+Designer wants J/Q/K entries to feel like a different KIND of reward,
+not just bigger dice numbers — the same spirit as **Golden** (which
+changes the starting resource budget, not a dice pool). Brainstormed a
+menu of mechanic types (breaking an established rule once, bending
+Succession Custom, reaching into the King's business, touching the
+Doom Clock, bigger card manipulation, extra economy actions) for future
+face-card design.
+
+That led to a genuinely new task: **Renegotiate** (Trade category,
+`rulebook/tasks.md`) — NO ROLL, same cooperative-deal principle as
+Broker Peace. Restricted to ring-adjacent houses only (trade routes run
+along shared borders, same logic as why War is ring-locked, but for
+cooperation instead of conflict). Two neighboring houses may mutually
+exchange any amount of Land, Manpower, or Wealth for any other, at
+whatever rate they agree to. Doesn't touch the unclaimed pool, just
+redistributes between two consenting houses. Not capped per use — each
+use still costs a Task Assignment slot on both sides, which already
+rate-limits it, but flagged as worth watching for resource
+consolidation between cooperating players.
+
+Still open: the actual face-card mechanic upgrades themselves (only the
+brainstormed menu exists so far, not concrete J/Q/K designs beyond
+Golden, which was already locked).
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-

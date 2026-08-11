@@ -68,6 +68,16 @@ Always targets a ring-adjacent house (see `geography.md`).
   target. Narrow win: that Wealth is destroyed instead — sent to the
   unclaimed pool, not captured. Loss: nothing. NOT restricted by
   geography.
+- **Renegotiate** — NO ROLL. A cooperative deal between two willing
+  houses, not a contest — same principle as Broker Peace. Restricted to
+  **ring-adjacent houses only** (trade routes run along shared borders,
+  the same logic that makes War ring-locked, but for cooperation
+  instead of conflict). Two neighboring houses may mutually agree to
+  exchange any amount of Land, Manpower, or Wealth for any other, at
+  whatever rate they negotiate — Wealth for Manpower, Land for Wealth,
+  whatever the table agrees to. Doesn't touch the unclaimed pool or
+  change the total in play, just redistributes between two consenting
+  houses.
 
 ## Diplomacy — mixed
 Diplomacy is the most roleplay-forward category — most of the actual
@@ -186,3 +196,8 @@ effect or a passive-stat change, never an active-stat claim.
   reading of the description, not yet explicitly confirmed
 - The exact events-deck CONTENT that checks passive stats is future
   table-content work, not yet drafted
+- Renegotiate has no cap on how much can change hands per use — flagging
+  in case repeated use lets two cooperating players consolidate
+  resources onto one house faster than intended. Not capped for now
+  since each use still costs a Task Assignment slot on both sides,
+  which already rate-limits it somewhat.
