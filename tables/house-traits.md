@@ -52,19 +52,19 @@ trait table — see `character-traits-bank.md`.)
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Stingy** | +2 dice on Trade tasks. | -2 dice on Diplomacy tasks. |
-| 2 | **Hospitable** | +2 dice on Diplomacy tasks. | -2 dice on Trade tasks. |
-| 3 | **Pious** | +2 dice on Stewardship tasks — temple and faith organize a community well. | -2 dice on Trade tasks — forbidden from the most profitable but impious dealings. |
-| 4 | **Cunning Traders** | +2 dice on Trade tasks. | -2 dice on War tasks. |
+| A | **Stingy** | +1 die on Trade tasks. | -2 dice on Diplomacy tasks. |
+| 2 | **Hospitable** | +1 die on Diplomacy tasks. | -2 dice on Trade tasks. |
+| 3 | **Pious** | +1 die on Stewardship tasks — temple and faith organize a community well. | -2 dice on Trade tasks — forbidden from the most profitable but impious dealings. |
+| 4 | **Cunning Traders** | +1 die on Trade tasks. | -2 dice on War tasks. |
 | 5 | **Stewards Born** | +2 dice on Stewardship tasks. | -2 dice on War tasks. |
 | 6 | **Isolationist** | +2 dice on Stewardship tasks. | -2 dice on Diplomacy tasks. |
 | 7 | **Extravagant** | +2 dice on Diplomacy tasks — lavish feasts win favor. | -2 dice on Trade tasks — spends too freely. |
 | 8 | **Enterprising** | +2 dice on Trade tasks. | -2 dice on Stewardship tasks — always chasing the next venture. |
-| 9 | **Charitable** | Once per decade, may send a resource won via a COMPETITIVE check to the unclaimed pool instead of keeping it, to gain +1 Honor. | -2 dice on Trade tasks — too generous to profit. |
-| 10 | **Frugal** | +2 dice on Trade tasks. | -2 dice on War tasks — unwilling to fund costly campaigns. |
-| 11 | **Ostentatious** | +2 dice on Diplomacy tasks — impressive displays of wealth win favor. | -2 dice on Espionage tasks — too visible to move unseen. |
-| 12 | **Landed Gentry** | +2 dice on Stewardship tasks. | -2 dice on Trade tasks — comfortable, not hungry for more. |
-| K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -2 dice on War tasks — wealth breeds complacency. |
+| 9 | **Charitable** | Once per decade, may send a resource won via a COMPETITIVE check to the unclaimed pool instead of keeping it, to gain +1 Honor. | -1 die on Trade tasks — too generous to profit. |
+| 10 | **Frugal** | +2 dice on Trade tasks. | -1 die on War tasks — unwilling to fund costly campaigns. |
+| J | **Ostentatious** | +3 dice on Diplomacy tasks — impressive displays of wealth win favor. | -1 die on Espionage tasks — too visible to move unseen. |
+| Q | **Landed Gentry** | +3 dice on Stewardship tasks. | -1 die on Trade tasks — comfortable, not hungry for more. |
+| K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -1 die on War tasks — wealth breeds complacency. |
 
 ## ♣ Clubs — Military/Political
 
