@@ -506,6 +506,42 @@ Still open: whether task-type bonuses and check-type bonuses (Static vs.
 Competitive) can stack when a task is both at once — not yet checked
 against how the dice-pool rules are actually written.
 
+## House trait table — suit-by-suit revision pass (in progress, 2026-08-11)
+
+Started reviewing the house trait table suit by suit (Hearts first).
+Two rules emerged and are now locked for the rest of the pass:
+
+1. **House-level vs. personal traits.** A house trait must describe
+   something the whole dynasty shares across generations — a military
+   tradition, a bloodline curse, a mercantile reputation — not one
+   person's mood ("we won't have a house full of timid people"). Traits
+   that read as individual personality get pulled and moved to
+   `tables/character-traits-bank.md`, a holding pen for the future
+   character trait table, with a house-appropriate replacement drafted
+   at the same rank.
+2. **Rank-tier magnitude curve.** Within each suit, low ranks (A-4) skew
+   weak benefit / strong cost, mid ranks (5-8) stay roughly balanced,
+   high ranks (9-K) skew strong benefit / weak cost — reusing the same
+   low=bad/high=good convention as everything else card-based in the
+   game. Traits don't need to be precisely balanced against each other,
+   only internally honest for their own rank.
+
+**Hearts, revised**: Timid, Humble, Hot-Blooded, Doting, Prideful,
+Vengeful, and Restless were pulled (personal, not dynastic) and banked.
+Replaced with 7 new house-level traits at the same ranks/magnitudes:
+Inbred Line (A), Fostering Tradition (3), Kinslayers (5), Hostage
+Culture (6), Long Memory (8), Ancestral Seat (9), Grand Lineage (J).
+Sickly, Barren, Fecund, and Long-Lived were repositioned within the
+suit (not renumbered in content, just moved to ranks matching their
+already-existing benefit/cost weight — Sickly and Barren's severe costs
+fit low ranks, Fecund and Long-Lived's strong benefits fit high ranks).
+Cursed (K) had its cost lightened (dropped the "always draws 2 keep
+worst on any draw" penalty down to a single -1 Diplomacy die) so the
+rarest card in the suit reads as net-positive, matching the curve.
+
+Diamonds, Clubs, and Spades still need the same two-rule treatment
+applied.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-

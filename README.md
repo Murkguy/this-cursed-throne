@@ -19,8 +19,12 @@ collaborative design approach).
   - `decisions-log.md` — everything resolved since the original notes,
     in order (start here for current state)
 - `tables/` — trait tables, the events deck, Calamity modules
-  - `house-traits.md` — the 25-entry house trait table
-  - (character traits, events deck, Calamity modules not yet drafted)
+  - `house-traits.md` — the 52-entry house trait table (1 card, direct
+    suit+rank lookup), under active revision suit by suit
+  - `character-traits-bank.md` — personality traits pulled out of the
+    house table, held for the future character trait table
+  - (character traits proper, events deck, Calamity modules not yet
+    drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop

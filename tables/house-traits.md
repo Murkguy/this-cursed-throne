@@ -24,23 +24,29 @@ None are pure upside, but they don't need to be precisely balanced
 against each other — some traits are simply stronger or weaker than
 others, same as any trait table.
 
-## ♥ Hearts — Dynastic/Personal
+## ♥ Hearts — Dynastic
+
+House-level traits only — institutional, bloodline, or generational
+characteristics a whole dynasty shares, not one person's mood. (An
+earlier draft of this suit mixed in individual personality traits like
+Timid and Prideful; those were pulled out to seed the future character
+trait table — see `character-traits-bank.md`.)
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Timid** | +2 dice on Stewardship tasks. | -2 dice on War tasks. |
-| 2 | **Humble** | +2 dice on Stewardship tasks. | -2 dice on Diplomacy tasks. |
-| 3 | **Hot-Blooded** | +2 dice on War tasks. | -2 dice on Stewardship tasks. |
-| 4 | **Doting** | +2 dice on Diplomacy tasks — warmth wins allies. | -2 dice on Espionage tasks — too open for secrets. |
-| 5 | **Prideful** | +2 dice on Diplomacy tasks. | -2 dice on Trade tasks — too proud to haggle. |
-| 6 | **Vengeful** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks — holds grudges too long to negotiate in good faith. |
+| A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -3 dice on Diplomacy tasks — insular, awkward with outsiders. |
+| 2 | **Sickly** | The Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
+| 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -3 dice on Stewardship tasks — always distracted managing outside children. |
+| 4 | **Barren** | +2 dice on all Stewardship tasks. | No natural births, ever (see `birth-death.md`) — heirs only by marrying in. |
+| 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
+| 6 | **Hostage Culture** | +2 dice on Espionage tasks — generations of practice handling prisoners as leverage. | -2 dice on Trade tasks — the practice poisons trade relationships. |
 | 7 | **Steadfast** | +1 die on all STATIC checks. | -1 die on all COMPETITIVE checks — reliable in routine matters, unremarkable in direct contests. |
-| 8 | **Restless** | +2 dice on War tasks. | -2 dice on Trade tasks — always looking for the next fight, not the next deal. |
-| 9 | **Sickly** | The Magic-conversion trigger widens from Ace of Spades only to any Ace or 2 of Spades for this house's characters. | Death band shifts +1 tier (see `birth-death.md`). |
+| 8 | **Long Memory** | +2 dice on Diplomacy tasks — this house never forgets an old alliance. | -1 die on War tasks — slow to fully commit while still weighing old grudges. |
+| 9 | **Ancestral Seat** | +2 dice on Stewardship tasks — generations of investment in this land. | -1 die on Magic tasks — too grounded in tradition, resistant to strange new practices. |
 | 10 | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
-| 11 | **Barren** | +2 dice on all Stewardship tasks. | No natural births, ever (see `birth-death.md`) — heirs only by marrying in. |
-| 12 | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -2 dice on Magic tasks. |
-| K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | This house always draws 2 cards and keeps the worst on any events-deck draw targeting it, even without Legend 10+. |
+| J | **Grand Lineage** | +3 dice on Diplomacy tasks — a storied bloodline commands real respect at court. | -1 die on Espionage tasks — too famous to move unseen. |
+| Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -2 dice on Magic tasks. |
+| K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | -1 die on Diplomacy tasks — others fear the cursed. |
 
 ## ♦ Diamonds — Wealth/Trade
 
@@ -103,6 +109,25 @@ Task stats, categories, and named actions are now fully defined in
 since every individual ACTION (not category — Trade now has both a
 Static action and a Competitive one) has exactly one fixed check type.
 
+## House-level vs. personal traits
+A house trait must describe something the whole dynasty shares across
+generations — a military tradition, a bloodline curse, a mercantile
+reputation — not one person's mood. Traits that read as individual
+personality get pulled and banked in `character-traits-bank.md` for the
+future character trait table, with house-appropriate replacements
+drafted in their place at the same rank (same magnitude tier). Applied
+to Hearts so far; still needs applying to Diamonds, Clubs, and Spades.
+
+## Rank-tier magnitude curve
+Within each suit, low ranks (A-4) skew weak benefit / strong cost,
+mid ranks (5-8) stay roughly balanced, and high ranks (9-K) skew
+strong benefit / weak cost — "the lower the card, the worse it is,"
+reusing the same low=bad/high=good convention as everything else in the
+game. Traits don't need to be precisely balanced against each other,
+only internally honest (a real cost, a real benefit, weighted to their
+rank). Applied to Hearts; still needs applying to Diamonds, Clubs, and
+Spades.
+
 ## Open items this pass surfaced (not yet resolved)
-- Character (relative) trait table — separate from this one (confirmed
-  earlier), not yet drafted
+- Character (relative) trait table — separate from this one, not yet
+  drafted (`character-traits-bank.md` has 7 candidates banked so far)
