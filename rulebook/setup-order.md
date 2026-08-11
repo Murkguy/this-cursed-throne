@@ -64,6 +64,11 @@ Every house starts at **0** Legend. Legend is built entirely through
 play (dramatic acts, Magic use, surviving calamities) — never allocated
 at setup.
 
+### 3e. Set starting Piety
+Every house starts at **0** Piety (see `tasks.md`, Piety section).
+Built entirely through play (Invoke Faith, Blessings received) — never
+allocated at setup, same as Honor/Infamy and Legend.
+
 ## 4. Create your House Leader
 The player's starting character (House Leader) is generated using the
 same **Birth Deal** procedure used for any birth during play — no

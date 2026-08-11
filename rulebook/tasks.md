@@ -10,15 +10,27 @@ a trait fits) + scene modifiers.
 ## War — Manpower
 Always targets a ring-adjacent house (see `geography.md`).
 
-- **Border Raid** — the standard War action. COMPETITIVE vs. the
-  target's Manpower, resolved with the existing margin rules (decisive
-  win captures, narrow win sends to the unclaimed pool, loss gets
-  nothing). One additional death check for the relative who fought it
-  either way (see `birth-death.md`).
-- **Full Invasion** — commits fully. +2 dice on the pool. Stakes
-  double (decisive win captures 2x, decisive loss costs the attacker
-  2x). The War Death Check for this action shifts +1 tier harsher —
-  heavier forces committed means heavier casualties, win or lose.
+- **Border Raid** — a one-off strike. COMPETITIVE, this house's
+  Manpower vs. the target's **Stewardship** (raiding hits
+  infrastructure, not armies). Stakes: 1 Wealth — decisive win captures
+  it, narrow win destroys it (sent to the unclaimed pool), loss gets
+  nothing. No death check — a raid isn't a real battle.
+- **War** — a standing state, not a one-off action. Declaring it (Phase
+  5, Task Assignment) resolves an immediate battle: COMPETITIVE, this
+  house's Manpower vs. the target's Manpower. Stakes: 1 Land AND 1
+  Manpower — decisive win captures both, narrow win sends both to the
+  unclaimed pool, loss gets nothing. The declaring relative takes a War
+  Death Check (see `birth-death.md`).
+
+  **Once declared, the war continues automatically every decade** —
+  the same battle (Manpower vs. Manpower, same stakes, same War Death
+  Check for the relative who declared it) re-resolves at the top of
+  every Resolution phase for BOTH houses, with no Task Assignment
+  needed to keep it going. If the declaring relative dies, the war
+  still continues (stats vs. stats), but no further death checks occur
+  for that house until a new relative is assigned to lead the war
+  effort (a fresh Task Assignment, optional). The war only ends when
+  either house resolves **Broker Peace** (see Diplomacy, below).
 
 ## Trade — Wealth
 - **Broker Deal** — STATIC. Claim unclaimed Wealth from the pool.
@@ -34,15 +46,17 @@ freeform-by-default rule); the roll only matters for these specific,
 concrete outcomes.
 
 - **Arrange Marriage** — STATIC. Success forges a lasting bond between
-  two houses: both gain +2 dice on Diplomacy actions with each other
-  going forward.
-- **Forge Alliance** — STATIC. Same lasting +2-dice-with-each-other
+  two houses: both gain +2 dice on ANY task the two houses take
+  together going forward (not Diplomacy-only).
+- **Forge Alliance** — STATIC. Same lasting +2-dice-acting-together
   bond as Arrange Marriage, without a marriage — a political or
   military pact instead.
 - **Court Favor** — STATIC. Claim unclaimed Honor from the pool.
-- **Broker Peace** — STATIC (or GM may call for a roll from the other
-  party if they're resisting). Resolves an active vendetta peacefully
-  — can trigger Destiny, per the existing "resolving a vendetta"
+- **Invoke Faith** — STATIC. Claim unclaimed Piety from the pool (see
+  Piety, below).
+- **Broker Peace** — NO ROLL. Pure roleplay resolution — ends an active
+  vendetta or a standing War (see above) peacefully. Grants +1 Honor.
+  Can also trigger Destiny, per the existing "resolving a vendetta"
   trigger.
 
 ## Espionage — Wealth
@@ -74,12 +88,18 @@ resource capture.
 
 ## Stewardship — Land
 Always STATIC. Never initiates a Competitive check, but is the stat a
-house defends with when targeted by Espionage (see above).
+house defends with when targeted by Espionage or a War Border Raid (see
+above).
 
-- **Develop Territory** — claim unclaimed Land from the pool.
+- **Develop Territory** — claim unclaimed Land, Wealth, OR Manpower
+  from the pool (player's choice of which) — still rolled against the
+  Stewardship (Land) pool regardless of which resource is claimed. This
+  overlaps with Trade's Broker Deal on purpose: Stewardship is the
+  generalist "administer the realm" option, Trade is the specialist
+  option (and the only path to a Trade War).
 - **Fortify** — no resource claim. Instead, this house gains +2 dice on
-  the next Espionage defense it has to roll (banked until used) — a
-  proactive investment in security rather than growth.
+  the next Espionage or Border Raid defense it has to roll (banked
+  until used) — a proactive investment in security rather than growth.
 
 ## Magic — Legend
 Always STATIC. Gated behind the Magic house trait (or a narrower
@@ -87,25 +107,42 @@ trigger, like Sickly's Ace-2-of-Spades conversion — see
 `tables/house-traits.md`). Never touches the standard resource economy
 — the payoff is always a unique effect, not a stat claim.
 
-- **Scry** — gain hidden information about a target house: their next
-  decade's Task Assignments, or a trait they haven't revealed yet.
-- **Curse** — targets a rival house. Success inflicts a lasting
-  penalty: -2 dice on one task type of the caster's choice, for that
-  house's next decade.
-- **Commune** — gain insight into the Doom Clock: learn its exact
-  current value (if normally kept hidden by the GM), or grant this
-  house's next events-deck draw a reroll if the GM allows it.
+- **Scry** — peek at the next card of any deck (Birth Deal, the events
+  deck) before it's drawn, for this house or any other.
+- **Curse** — COMPETITIVE, this house's Legend vs. the target's
+  **Piety** (see below). Success: the target draws 2 cards and keeps
+  the WORST on their next relevant draw (same "disadvantage" mechanic
+  already used for the King's harsh draw and the Cursed house trait).
+- **Bless** — can only target another house, never yourself. No
+  opposed roll. The target draws 2 cards and keeps the BEST on their
+  next relevant draw (the mirror of Curse), and gains +1 Piety.
+
+## Piety — the sixth house stat
+Every house also tracks **Piety**, alongside Land, Manpower, Wealth,
+Honor/Infamy, and Legend. Same model as Honor/Infamy: zero-sum among
+current holders at any moment, but random events feed a growing
+unclaimed pool over time (see the original unclaimed-pool rules). Same
+soft cap (~20) as every other stat. Starts at **0** for every house at
+setup (see `setup-order.md`) — built through play via Invoke Faith
+(Diplomacy, above), never allocated at setup.
+
+Piety is the defense stat against Curse — a devout house resists
+curses better than a godless one, regardless of how honored or
+infamous it is. This is deliberately a SEPARATE axis from Honor/Infamy:
+a beloved-but-godless house and a devout-but-reviled house are now
+mechanically distinct from each other.
 
 ---
 
 ## Open items this pass surfaced (not yet resolved)
 - Static check target number (proposing 2 successes as default, not yet
   confirmed)
-- Whether other categories (Diplomacy, Espionage, Stewardship, Magic)
-  should also get a "small vs. large commitment" scale option the way
-  War now has Border Raid vs. Full Invasion, or whether that's
-  War-specific
+- Whether other categories (Trade, Diplomacy, Espionage, Magic) should
+  also get a War-style "standing state" option, or whether that's
+  specific to War
 - Exact wording/limits on "Turn a Relative" and "Curse" — both grant
-  fairly open-ended GM-adjudicated effects ("their next task
-  automatically fails," "-2 dice on one task type") that may need
-  tighter bounds once playtested
+  fairly open-ended GM-adjudicated effects that may need tighter bounds
+  once playtested
+- Whether the Pious house trait (Diamonds 3, `tables/house-traits.md`)
+  should be updated now that Piety is a real tracked stat, rather than
+  just a flavor-matched name with no mechanical tie to it

@@ -326,8 +326,50 @@ level: since every individual action (not category) has exactly one
 fixed check type, task-type and check-type trait bonuses are still just
 two independent modifiers on the same pool — no conflict.
 
+**REVISED again same day** after a detailed pass through every action:
+
+- **War** split into a one-off action and a standing state. **Border
+  Raid**: Manpower vs. the target's Stewardship (not Manpower vs.
+  Manpower), 1 Wealth stakes, no death check. **War**: Manpower vs.
+  Manpower, 1 Land + 1 Manpower stakes, AND — once declared — the same
+  battle **auto-resolves every decade** without needing re-assignment,
+  including a War Death Check each time, until either side resolves
+  **Broker Peace**. This is a real structural change: War is now a
+  standing state between two houses, not a single roll.
+- **Trade** unchanged (Broker Deal / Trade War).
+- **Diplomacy**: Arrange Marriage/Forge Alliance's bond now applies to
+  ANY task the two houses take together, not just Diplomacy. Broker
+  Peace dropped its roll entirely (pure roleplay, grants +1 Honor) and
+  now also ends a standing War. New action **Invoke Faith** claims
+  unclaimed Piety (see below).
+- **Espionage** keeps all 4 actions with distinct effects: Assassinate,
+  Turn a Relative, Steal Secrets (Wealth theft + intel), and Sow Rumors
+  (Honor/Infamy damage, contested vs. Stewardship — this was briefly
+  misnamed "Steal Secrets" mid-conversation and corrected).
+- **Stewardship**'s Develop Territory now claims Land, Wealth, OR
+  Manpower (player's choice) — Stewardship becomes the generalist
+  pool-claiming option, Trade the specialist one (and the only path to
+  a Trade War). Deliberate overlap.
+- **Magic** dropped Commune, kept **Scry** (peek the next card of any
+  deck before it's drawn), redefined **Curse** (Legend vs. the target's
+  Piety — success inflicts "draw 2 keep worst" on the target's next
+  relevant draw, reusing the same disadvantage mechanic as the King's
+  harsh draw), and added **Bless** (target-only, never self; grants
+  "draw 2 keep best" plus +1 Piety).
+
+## Piety — a new 6th house stat
+
+Added after the designer flagged "I feel like we're missing religion."
+Full house-level stat alongside Land/Manpower/Wealth/Honor/Legend — same
+zero-sum-with-growing-unclaimed-pool model as Honor/Infamy, same ~20
+soft cap, starts at 0 (never allocated at setup). Claimed via Diplomacy's
+Invoke Faith. Its main mechanical role: the defense stat against Curse,
+deliberately separate from Honor/Infamy — a devout-but-reviled house and
+a beloved-but-godless house are now mechanically distinct.
+
 Still open: the STATIC check target number (proposing 2 successes as
-default, not yet confirmed).
+default, not yet confirmed); whether the Pious house trait should be
+updated now that Piety is a real stat rather than just a matching name.
 
 ## House Trait Table (see `tables/house-traits.md`)
 
