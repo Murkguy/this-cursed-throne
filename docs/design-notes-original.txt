@@ -1,0 +1,351 @@
+THRONE GAME — DESIGN NOTES (working title)
+=============================================
+A GoT-style political RPG where players lead noble houses vying for the
+throne while a shared calamity looms over the realm.
+
+-------------------------------------------
+CORE PREMISE
+-------------------------------------------
+- Each player creates and plays the leader of a noble House.
+- The game unfolds across DECADES (not single sessions) — a campaign can
+  span generations, with characters dying/aging out and heirs stepping up.
+- Win condition: the house with the HIGHEST STATS once the looming
+  CALAMITY has been survived/avoided. You can't win by seizing power
+  while the realm collapses — the throne only counts if the realm endures.
+- The economy is ZERO-SUM: Land, Manpower, and Wealth are fixed/shared
+  pools. One house's gain is another's loss. This guarantees real conflict.
+
+-------------------------------------------
+HOUSE STAT BLOCK
+-------------------------------------------
+Core stats (zero-sum, pooled across all houses):
+  - LAND      — territory; changes hands via war, marriage, inheritance
+  - MANPOWER  — fighting strength, drawn from land/population
+  - WEALTH    — liquid resource for bribes, dowries, feasts, hiring
+  - HONOR/INFAMY — single axis (e.g. -10 to +10), reputation.
+    RESOLVED: zero-sum among houses at any given moment (same as Land/
+    Manpower/Wealth), BUT random events (drawn from the same tables that
+    govern Calamity/Kingdom scenes) continually add fresh Honor into an
+    UNCLAIMED POOL over time, breaking the zero-sum until a house
+    actively claims it (e.g. via a task, a war, a scene). So the total
+    pool in play grows across the campaign even though any given moment
+    is zero-sum among current holders. Same unclaimed-pool model applies
+    to Land/Manpower/Wealth too. Open detail: who gets newly generated
+    resources by default (split evenly? whoever the event narratively
+    involves? contested via a task?) — TBD when drafting the actual
+    event tables.
+  - LEGEND — NEW house stat (Targaryen-inspired). Rises through
+    dramatic/magical acts (winning duels others feared to attempt,
+    surviving calamities, successful Magic use). RESOLVED roles:
+    (1) likely the stat MAGIC tasks roll against, (2) a high Legend
+    ADDS A BONUS TO THE NUMBER OF TRAITS ROLLED AT BIRTH for that
+    house's children — "very few boring Targs." This creates a
+    self-reinforcing dynastic engine: legendary houses produce more
+    Greater (high-trait-count) heirs — more chances to roll into Magic
+    — more legendary acts — Legend rises further. It also IS the
+    house's risk mechanism at high values, since more traits means
+    more volatility, not just more power — a high-Legend house is
+    likely to keep producing magical prodigies right alongside
+    burden-heavy disasters (a "Mad King" emerges from the trait math
+    itself, no separate corruption roll needed). (3) likely the
+    trigger stat for reputation MONIKERS (see Monikers section).
+    RESOLVED — BONUS CURVE: +1 trait rolled at birth per 5 points of
+    Legend (e.g. Legend 20 = +4 bonus traits). Chosen to be meaningful
+    at the stat cap without being absurd.
+
+STAT CAPS (RESOLVED): all house stats (Land, Manpower, Wealth, Legend,
+etc.) soft cap around 20. Keeps dice pools rollable/fast at the table
+(past ~20 dice, rolling and counting successes gets unwieldy and fights
+the pacing goal) and keeps Legend's trait bonus proportionate rather
+than spiraling unchecked.
+
+Traits (house-level, all must have a real mechanical benefit AND cost —
+no pure upside):
+  - DYNASTIC traits — affect succession/time, e.g. Long-Lived, Fecund,
+    Barren, Sickly
+  - CULTURAL traits — affect specific action rolls, e.g. Great Warriors,
+    Cruel, Pious, Cunning Traders. Should cut both ways (Cruel = bonus to
+    intimidation/intrigue, penalty to loyalty from smallfolk).
+  - HOUSE TRAIT GENERATION (RESOLVED): a house has 4 traits total at
+    creation — 2 CHOSEN freely by the player + 2 ROLLED on the trait
+    table. Every trait, chosen or rolled, must be given a narrative
+    justification when picked.
+
+Lineage — RESOLVED: no separate lineage system or unlock mechanic.
+Lineage emerges organically — when a player picks or rolls a trait
+(house or character), they must explain it narratively, and that
+explanation *is* the house's lineage/history. Generated for free,
+trait by trait, rather than needing its own table.
+
+Special abilities — house-unique perks, likely tied to lineage.
+
+Characters (individuals, i.e. the player's current leader and blood
+relatives) have their own TRAITS separate from house traits. Relatives
+are the pool of potential heirs and the units players delegate tasks to.
+
+-------------------------------------------
+THE DECADE LOOP (turn structure)
+-------------------------------------------
+1. RESOLUTION — check outcomes of last decade's tasks; roll for births/
+   deaths per lineage traits; apply any trait changes.
+2. SCENE DECLARATION — RESOLVED: all secrecy lives ONLY in the moment
+   of commitment, not afterward. Every house writes their scene intent
+   (who they want a scene with, what they're attempting — including
+   poisonings, backroom deals, betrayals, alliances) on a NOTECARD, all
+   cards flip/reveal SIMULTANEOUSLY. Nothing stays hidden once flipped —
+   this avoids meta-gaming during the declaration itself while keeping
+   everything open and GM-light afterward. No separate "secret scene"
+   category, no notes held privately by the GM, no later reveal
+   mechanism needed.
+   - Number of scenes scales with player count.
+3. SCENE RESOLUTION — since nothing is hidden after declaration, all
+   scenes can run in parallel around the table with no GM bottleneck.
+4. KINGDOM SCENE — GM reveals the decade's big public moment. Drawn
+   randomly or pulled from an ongoing plotline. No longer needs to
+   double as a "secret reveal" valve — it's free to just be the big
+   story set-piece on its own terms.
+5. TASK ASSIGNMENT — players delegate blood relatives to new tasks for
+   the coming decade, based on relative traits + house stats.
+
+-------------------------------------------
+ACTION / TASK TYPES
+-------------------------------------------
+Candidates (each ties to 1-2 house stats + the acting relative's traits):
+  - WAR
+  - TRADE
+  - DIPLOMACY
+  - ESPIONAGE
+  - STEWARDSHIP (managing own land/manpower growth)
+  - FAITH (maybe)
+
+-------------------------------------------
+RESOLUTION MECHANIC
+-------------------------------------------
+- Base roll: POOL OF d6s. Count 5-6 as a success.
+- Pool size = relevant house stat + relative's trait bonus (if trait
+  fits the task) + scene modifiers.
+- Opposed tasks: compare pools/successes directly (e.g. Espionage vs.
+  Stewardship defense).
+- Zero-sum tie-in: War task outcomes directly transfer Land/Manpower/
+  Wealth dice from the losing house's pool to the winner's for the next
+  decade, so pools visibly shrink/grow as the game progresses.
+
+CHECK TYPES (RESOLVED — two distinct resolution modes):
+- STATIC CHECKS — used when claiming from the UNCLAIMED POOL or acting
+  on the world/circumstance rather than against another house (e.g.
+  Stewardship, Trade, claiming unclaimed Land). Rolled against a fixed
+  target number. PURE PASS/FAIL — no margin grading, no partial
+  success. Simple and fast, since these aren't inherently dramatic
+  interpersonal conflicts.
+- COMPETITIVE CHECKS — opposed rolls directly against another house
+  (War, contested claims, duels). GRADED VICTORY based on margin of
+  successes:
+    - Win by MORE THAN 1 success — decisive win, CAPTURE the resource
+      directly from the opponent's house.
+    - Win by EXACTLY 1 success — narrow win, the resource does NOT
+      transfer to you — it goes to the UNCLAIMED POOL instead. You won,
+      but not decisively enough to claim the spoils outright.
+    - Lose — you get nothing (and may lose resources yourself,
+      depending on the task's stakes).
+  Rationale: keeps interpersonal conflict from being purely predatory
+  (a narrow win doesn't let you strip a rival bare), gives losers a
+  reason to still contest even at bad odds (forcing a narrow win denies
+  the winner the spoils), and gives the unclaimed pool another feed
+  source beyond random events. Open: sanity-check the margin-of-1
+  threshold against real dice math once a War task is playtested — if
+  wins by exactly 1 are rare/common at typical pool sizes, the rule may
+  need tuning.
+
+-------------------------------------------
+DESTINY (single-use, not a resource pool)
+-------------------------------------------
+- Not a spendable currency/score — a single-use FLAG. A house either
+  holds Destiny or doesn't. Only ONE per house at a time.
+- Effect when spent: ALL 6s in the pool explode (reroll and keep adding),
+  not just one die — bigger pools = more explosive potential.
+- Earned by (must be an EVENT/CHANGE, not a static state):
+  - The leader of a house dies — the new heir inherits Destiny
+  - A house OVERTAKES the current #1 in some stat/ranking (not for
+    just being #1 — must be the moment of dethroning)
+  - A house BECOMES the new lowest-ranked (displacing prior bottom
+    house — not for sitting at the bottom)
+  - A calamity roll (plague, fire, ruin) grants it as compensation
+  - Resolving a vendetta against another house (winning a duel, winning
+    a hand in marriage, etc.)
+  - Winning the crown (see King/Revolt below)
+- Design intent: Destiny rewards PEAKS, VALLEYS, and MOMENTS OF CHANGE —
+  not stability. Nobody in the comfortable middle gets it.
+
+-------------------------------------------
+KING & REVOLT
+-------------------------------------------
+- A King is elected from among the houses; wins Destiny upon election.
+- The King's house draws from a HARSHER calamity table than other
+  houses (and/or other houses get bonus odds when scheming/warring
+  against the King's house specifically) — "heavy is the head that
+  wears the crown."
+- The King remains King until:
+  a) Their house falls/collapses entirely, or
+  b) A REVOLT is triggered.
+- This makes the crown self-destabilizing: no house can camp the throne
+  indefinitely, since holding it actively increases the odds of losing
+  it.
+
+ELECTION/REVOLT TRIGGER (RESOLVED — reactive, not scheduled):
+- No recurring election cycle. A house (or houses) DECLARES a bid to
+  contest the crown during Scene Declaration (same notecard/simultaneous
+  mechanism as regular scenes). This resolves at the NEXT Kingdom scene.
+- FAILURE RISK for a challenger: the challenging leader's life is at
+  risk, AND a quarter of their house's stats return to the central
+  unclaimed pool. Reaching for the crown and missing can badly cripple a
+  dynasty, not just embarrass it.
+
+ALLIANCES & RESOLUTION (RESOLVED):
+- At the Kingdom scene where the Revolt resolves, ALLIANCES ARE DRAWN
+  live — any houses (challengers or loyalists) can band together into a
+  bloc, pooling their combined stats into one shared pool for the roll.
+- The King's house is NOT passive — they actively gather LOYALIST houses
+  into their own defending bloc during this same phase, mirroring the
+  challengers. This means the King's past behavior (pool grants given,
+  redistributions taken) directly determines how many loyalists show up
+  — generosity and coercion as King are literally banking future support
+  for the moment a Revolt happens.
+- Resulting blocs (however many form) roll against each other for the
+  crown.
+- SUCCESSION WHEN A COALITION WINS: not mechanically resolved. The
+  winning houses must agree amongst themselves who actually takes the
+  crown. If they can't agree (or the deal falls apart), that can itself
+  spiral into a FOLLOWING REVOLT. Left to table negotiation/roleplay on
+  purpose — the coalition falling apart after winning is meant to be a
+  story beat, not a rule.
+
+KING'S POWERS (per turn, RESOLVED — fixed sequence, not a free choice):
+1. MUST draw first: grant 1 unit of any resource (Wealth, Manpower,
+   etc.) to any 1 house, drawn from the shared UNCLAIMED POOL (costs the
+   King's own house nothing).
+2. THEN, additionally, may take 1 unit of a resource from one house and
+   give it to another (redistribution) — a sharper, more coercive tool
+   that almost certainly generates friction with the house it's taken
+   from. This is a natural, built-in Revolt-generator: an aggressive
+   King manufactures the grievances that lead to their own downfall,
+   without needing an extra rule to force it.
+- MERCY: the King may choose to SPARE a defeated rebel house instead of
+  enforcing the failure cost (leader's life / quarter-stats-to-pool).
+  RESOLVED: mercy is mechanically FREE — no stat cost, no forced Infamy
+  change. The cost lives entirely at the TABLE, not on the sheet: it's
+  a visible political choice other players will remember and factor
+  into their own future alliances/Revolt calculations. Consistent with
+  how Honor/Infamy already work — consequence lives in play, not in a
+  forced number.
+
+-------------------------------------------
+CHARACTER GENERATION (births)
+-------------------------------------------
+Rolled during the RESOLUTION phase whenever a birth occurs.
+
+- TRAIT COUNT — roll a number of traits between 2 and 7 for the newborn.
+  This count alone determines LESSER vs. GREATER status; there is no
+  separate Lesser/Greater roll, it's just how many traits you get.
+  - IMPORTANT: Greater does NOT mean better. More traits just means a
+    more DEFINED and VOLATILE character — more likely to roll both
+    strong boons and real liabilities (Cruel, Sickly, Cowardly, Cursed,
+    etc. are just as available as Great Warrior). A Lesser character
+    with 2 clean traits can be a safer bet than a Greater one dragging
+    several burdens alongside their gifts.
+  - Trait table is MIXED (boons and burdens together, not split into
+    separate tables) — any roll can land either way.
+- EACH TRAIT SLOT — roll individually on the (mixed) trait table.
+- MAGIC — extremely rare. No separate roll; instead, a chosen MAGICAL
+  HOUSE TRAIT lets the player replace any individual trait roll of X-or-
+  higher with Magic instead, when it comes up.
+  - Side effect (intended): Greater characters roll more trait slots,
+    so they naturally get more chances to hit the magic threshold —
+    magic is more likely to "find" exceptional (high trait count)
+    characters, without that being an explicit separate rule. Now
+    reinforced further by LEGEND (see house stat block) increasing
+    trait counts for legendary houses.
+  - The magical house trait itself should carry a real cost proportional
+    to how much it bends the odds (candidates: Infamy, drawing Calamity
+    attention, straining Honor) — magic being rare and powerful is the
+    point, so a trait that makes it common needs to hurt.
+  - RESOLVED — conversion is a PLAYER CHOICE, not automatic. Even with
+    a qualifying roll, the player decides whether to take Magic or keep
+    what they rolled — different from burden traits like Cursed, which
+    just land on you with no opt-out. Reinforces that Magic is
+    something a house deliberately reaches for.
+  - RESOLVED — mechanical effect: Magic does NOT grant bonus dice like
+    a cultural trait. Instead it UNLOCKS UNIQUE TASK OPTIONS other
+    characters simply cannot attempt at all (e.g. scrying, cursing a
+    rival's harvest, communing with something not fully of this world).
+    Keeps Magic feeling exceptional rather than a stacked stat bonus.
+  - RESOLVED — magical tasks use the SAME d6 pool / count-successes
+    mechanic as everything else, just gated behind having the Magic
+    trait to attempt them. Likely rolls against LEGEND (see house stat
+    block) rather than a standard task stat — not fully locked.
+
+-------------------------------------------
+HONOR / INFAMY — CLARIFICATION
+-------------------------------------------
+- Honor/Infamy is NOT rolled and not tied to traits. Traits describe
+  CAPABILITY and DISPOSITION (Great Warrior, Cunning, Cruel, Silver-
+  Tongued) — they are morally neutral. Honor/Infamy is earned entirely
+  through PLAY — how a player actually uses those capabilities in scenes
+  and tasks (a Great Warrior trait doesn't make you honorable OR
+  villainous — using it to defend the realm vs. slaughter a wedding
+  party does).
+- This keeps the trait table free of needing separate "good" and "evil"
+  trait categories.
+
+-------------------------------------------
+MONIKERS
+-------------------------------------------
+- Two flavors under consideration:
+  - PHYSICAL monikers ("the Tall," "the One-Eyed," "the Fair") — could
+    be a birth-roll table alongside traits.
+  - REPUTATION monikers ("the Butcher," "the Just," "the Kingslayer") —
+    EARNED through play, not rolled at birth.
+- DECISION: Only the HOUSE LEADER can earn a reputation moniker, and
+  only through actions (not rolled at birth). This keeps monikers
+  meaningful and marks which characters in a house's lineage actually
+  mattered — a chronicle of leaders could read "Aldric the Just, then
+  Wren the Cruel, then Tomas who was never named," which says something
+  on its own.
+- Open: is a moniker awarded at GM discretion based on how a Kingdom
+  scene/major action played out, or tied to specific mechanical
+  triggers (e.g. win 3 War tasks — unlock a "Conqueror"-tier moniker
+  pool; hit very negative Infamy — unlock a "Cruel"-tier pool)? Leaning
+  toward mechanical triggers to stay consistent with how Destiny and
+  other systems in this game are dice/table-driven rather than pure GM
+  fiat.
+
+-------------------------------------------
+PACING
+-------------------------------------------
+- RESOLVED: sessions run a couple hours and should cover roughly 30-80
+  years — i.e. 3-8 decades per session (a generation or two). This means
+  each full decade loop (Resolution — Scene Declaration — Scene
+  Resolution — Kingdom Scene — Task Assignment) needs to move fast,
+  targeting roughly 15-25 minutes per decade. Reinforces earlier calls:
+  flat d6 pools over heavier resolution, notecard scenes should stay
+  quick to write/resolve rather than long negotiations every decade.
+
+-------------------------------------------
+DESIGN PRINCIPLES CARRIED FROM THIS DISCUSSION
+-------------------------------------------
+- All traits must have both a mechanical benefit AND a cost — no pure
+  upside traits. This is what keeps house identity feeling like a
+  narrative choice rather than a build-optimization exercise.
+- Zero-sum economy is core to guaranteeing real player-vs-player
+  conflict — no house can grow in isolation.
+- Chosen/parallel scenes avoid GM bottlenecks; secret scenes are the
+  one category that need GM involvement (private info).
+- The throne and the calamity are fused into one win condition on
+  purpose — you can't "win" by seizing power while the realm burns.
+- Destiny should stay a rare, dramatic trigger tied to CHANGE (death,
+  overtaking, falling, calamity, crowning) — not a passive stat-based
+  bonus.
+
+[NOTE: this file is the frozen original design-conversation transcript,
+preserved as-is. See decisions-log.md for everything resolved since,
+including the "This Cursed Throne" title and the card-based mechanics
+(Birth Deal, the unified events deck).]
