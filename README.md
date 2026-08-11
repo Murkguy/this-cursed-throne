@@ -26,6 +26,7 @@ collaborative design approach).
   - `turn-order.md` — the five-phase decade loop
   - `birth-death.md` — the Fate Check (age, natural births/deaths)
   - `geography.md` — house order as the map of the realm, border wars
+  - `tasks.md` — the six tasks: stats, check types, example actions
 
 ## Status
 

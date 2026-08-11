@@ -96,10 +96,10 @@ None are pure upside.
 
 ---
 
+Task stats, check types, and actions are now fully defined in
+`rulebook/tasks.md` — task-type and check-type bonuses stack freely
+since every task has exactly one fixed check type.
+
 ## Open items this pass surfaced (not yet resolved)
-- Whether Static/Competitive check bonuses (e.g. Steadfast) and task-type
-  bonuses (e.g. Great Warriors) can stack on the same roll if a task is
-  both War and a STATIC check, or whether that's even possible under the
-  existing check-type rules
 - Character (relative) trait table — separate from this one (confirmed
   earlier), not yet drafted

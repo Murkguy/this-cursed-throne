@@ -97,10 +97,11 @@ one move per turn. No King means no change to the order that decade.
 
 ## Phase 5: Task Assignment
 Players delegate relatives to tasks for the coming decade (War, Trade,
-Diplomacy, Espionage, Stewardship, Magic), based on the relative's traits
-and the house's stats. **The House Leader can be assigned to a task the
-same as any other relative** — no restriction keeping them home. These
-tasks resolve next decade, in Phase 1.
+Diplomacy, Espionage, Stewardship, Magic — see `tasks.md` for each
+task's stat, check type, and example actions), based on the relative's
+traits and the house's stats. **The House Leader can be assigned to a
+task the same as any other relative** — no restriction keeping them
+home. These tasks resolve next decade, in Phase 1.
 
 **War can only target a ring-adjacent house** — see `geography.md`.
 Every other task type is unrestricted by geography.

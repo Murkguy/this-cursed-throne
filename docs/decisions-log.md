@@ -290,6 +290,39 @@ Leader/spouse start at age 3, ~30-39 years old).
 individually against their own card, whoever's flip lands in their death
 band is who dies — no separate house-level pick needed.
 
+## Tasks defined (see `rulebook/tasks.md`)
+
+The six tasks never had more than a one-line gloss each — this pass
+ties each to a stat, a fixed check type, and example actions:
+
+| Task | Stat | Check Type | Opposed By |
+|---|---|---|---|
+| War | Manpower | Competitive, always (ring-adjacent only) | Manpower |
+| Trade | Wealth | Static, always | — |
+| Diplomacy | \|Honor/Infamy\| | Static, always | — |
+| Espionage | Wealth | Competitive, always | Stewardship |
+| Stewardship | Land | Static, always | (defends vs. Espionage) |
+| Magic | Legend | Static, always (Magic trait gated) | — |
+
+Wealth is shared by Trade and Espionage (matches Wealth's original
+description covering "bribes, dowries, feasts, hiring"). Only War and
+Espionage are Competitive — both are inherently adversarial (always
+have a target); the other four are Static. **Diplomacy uses the
+ABSOLUTE VALUE of Honor/Infamy** — an infamous house is just as
+diplomatically potent as a beloved one (fear works as well as trust),
+and a reputationally invisible house has the weakest pool of all.
+Static successes on Trade/Diplomacy/Stewardship let a house claim the
+matching resource from the unclaimed pool; Magic never touches the
+standard resource economy, always a unique narrative effect instead.
+
+This also resolved the house-trait-table's stacking question: since
+every task now has exactly one fixed check type (never situational),
+task-type and check-type trait bonuses are just two independent
+modifiers on the same pool — no conflict, nothing further to decide.
+
+Still open: the STATIC check target number (proposing 2 successes as
+default, not yet confirmed).
+
 ## House Trait Table (see `tables/house-traits.md`)
 
 Drafted 2026-08-11, REVISED same day after playtester feedback that the
