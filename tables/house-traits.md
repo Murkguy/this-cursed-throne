@@ -63,7 +63,7 @@ trait table — see `character-traits-bank.md`.)
 | 9 | **Charitable** | +2 dice on Diplomacy tasks — generosity wins hearts and favor. | -1 die on Trade tasks — too generous to profit. |
 | 10 | **Frugal** | +2 dice on Trade tasks. | -1 die on War tasks — unwilling to fund costly campaigns. |
 | J | **Ostentatious** | This house's STATIC Diplomacy actions always succeed — no roll needed, wealth speaks loud enough that failure isn't an option. | -2 dice on Espionage tasks — too visible to ever move unseen. |
-| Q | **Landed Gentry** | This house's Land can never be reduced below 1 by any means — deeply entrenched, impossible to fully dispossess. Notable side effect: this house can never trigger the Ruin collapse condition (`birth-death.md`), since Ruin requires Land, Manpower, AND Wealth to all hit 0 simultaneously. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
+| Q | **Landed Gentry** | Once per campaign, when an action would reduce this house's Land to 0, the house may instead keep 1 Land — everything else about that action still resolves normally (other stats still transfer, death checks still happen), just that one Land loss is blocked. Single use for the whole campaign, not a permanent floor. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
 | K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -1 die on War tasks — wealth breeds complacency. |
 
 ## ♣ Clubs — Military/Political
