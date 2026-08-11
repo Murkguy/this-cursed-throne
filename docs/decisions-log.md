@@ -636,7 +636,7 @@ entries confirmed. Diamonds is next.
   curve calls for (strong benefit / weak cost, -1 max), making it read
   as nerfed relative to its rank. Dropped to -1 Magic.
 
-## Diamonds: magnitude curve applied, then 9/J/Q reworked (2026-08-11)
+## Diamonds: magnitude curve applied, then 9/J/Q reworked (2026-08-11) — DIAMONDS LOCKED
 
 The magnitude-curve redesign for Diamonds had only ever been proposed
 in chat, never written to the file — fixed. Also fixed Golden's cost
