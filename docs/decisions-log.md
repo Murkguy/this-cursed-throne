@@ -735,8 +735,22 @@ this house already holds one — an explicit, deliberate exception to
 the "only one Destiny per house" rule, per designer instruction to let
 it break the rule outright rather than gate on "if not already held."
 
-Still awaiting final designer confirm on Clubs before replicating to
-Hearts, Diamonds, and finishing Spades fresh under this system.
+Clubs confirmed. **Hearts refactored to the same framework** — all 13
+entries reordered into the new tiers. The four Dynastic bespoke traits
+(Sickly, Barren, Fecund, Long-Lived) already had non-dice effects, so
+most sorted into place by their actual net feel without needing a
+redesign: Fecund and Long-Lived read strongly positive (high tier),
+Sickly reads net-negative (low tier), Barren's compensating benefit
+(dice + unlocking Adopt an Heir) pushed it into positive territory
+despite its severe cost. New: **Squabbling Heirs** (rank 2) breaks the
+"succession is fully deterministic" promise specifically for this
+house — the GM may rule a different eligible heir claims the seat when
+the Succession Custom would normally dictate otherwise. **Grand
+Lineage** (Ace) reworked from flat +3 Diplomacy into "Arrange Marriage
+and Forge Alliance always succeed." **Inbred Line retired** — its
+concept is subsumed by Squabbling Heirs' rank-2 slot.
+
+Diamonds and Spades still need the same treatment.
 
 ## Still open / not yet drafted
 
