@@ -292,33 +292,39 @@ band is who dies — no separate house-level pick needed.
 
 ## Tasks defined (see `rulebook/tasks.md`)
 
-The six tasks never had more than a one-line gloss each — this pass
-ties each to a stat, a fixed check type, and example actions:
+The six tasks never had more than a one-line gloss each. First pass
+gave each a stat and one fixed check type; REVISED same day after
+designer feedback that this was too abstract ("what do people gain
+here?" — Espionage in particular had no defined payoff) and that a
+single roll per task couldn't capture real differences in scale (a war
+can be a border raid or a full invasion).
 
-| Task | Stat | Check Type | Opposed By |
-|---|---|---|---|
-| War | Manpower | Competitive, always (ring-adjacent only) | Manpower |
-| Trade | Wealth | Static, always | — |
-| Diplomacy | \|Honor/Infamy\| | Static, always | — |
-| Espionage | Wealth | Competitive, always | Stewardship |
-| Stewardship | Land | Static, always | (defends vs. Espionage) |
-| Magic | Legend | Static, always (Magic trait gated) | — |
+**Current model: each of the six tasks is a CATEGORY containing a menu
+of named actions**, not one generic roll. Stat-per-category is
+unchanged (War/Manpower, Trade/Wealth, Diplomacy/\|Honor-Infamy\|,
+Espionage/Wealth, Stewardship/Land, Magic/Legend, Wealth shared by
+Trade and Espionage), but check type is now per-ACTION, not per-
+category — e.g. Trade has both a Static action (Broker Deal) and a
+Competitive one (Trade War, "trade wars exist," deliberately NOT
+restricted by geography the way War is).
 
-Wealth is shared by Trade and Espionage (matches Wealth's original
-description covering "bribes, dowries, feasts, hiring"). Only War and
-Espionage are Competitive — both are inherently adversarial (always
-have a target); the other four are Static. **Diplomacy uses the
-ABSOLUTE VALUE of Honor/Infamy** — an infamous house is just as
-diplomatically potent as a beloved one (fear works as well as trust),
-and a reputationally invisible house has the weakest pool of all.
-Static successes on Trade/Diplomacy/Stewardship let a house claim the
-matching resource from the unclaimed pool; Magic never touches the
-standard resource economy, always a unique narrative effect instead.
+Key actions per category: War gets Border Raid (standard) vs. Full
+Invasion (+2 dice, double stakes, harsher War Death Check — the
+scale distinction the designer specifically asked for). Diplomacy
+leans roleplay-first (Arrange Marriage, Forge Alliance both grant a
+lasting +2-dice bond between the two houses; Court Favor claims
+unclaimed Honor; Broker Peace resolves vendettas). Espionage finally
+has real payoffs: Assassinate (kill a targeted relative on a decisive
+win), Turn a Relative (make them a secret asset), Steal Secrets (direct
+Wealth theft + intel), Sow Rumors (Honor/Infamy manipulation). Magic
+gets Scry, Curse, Commune, matching the original notes' own examples.
+Stewardship keeps Develop Territory (claim unclaimed Land) and adds
+Fortify (banks +2 dice for a future Espionage defense).
 
-This also resolved the house-trait-table's stacking question: since
-every task now has exactly one fixed check type (never situational),
-task-type and check-type trait bonuses are just two independent
-modifiers on the same pool — no conflict, nothing further to decide.
+This resolved the house-trait-table's stacking question at the ACTION
+level: since every individual action (not category) has exactly one
+fixed check type, task-type and check-type trait bonuses are still just
+two independent modifiers on the same pool — no conflict.
 
 Still open: the STATIC check target number (proposing 2 successes as
 default, not yet confirmed).

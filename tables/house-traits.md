@@ -96,9 +96,10 @@ None are pure upside.
 
 ---
 
-Task stats, check types, and actions are now fully defined in
-`rulebook/tasks.md` — task-type and check-type bonuses stack freely
-since every task has exactly one fixed check type.
+Task stats, categories, and named actions are now fully defined in
+`rulebook/tasks.md`. Task-type and check-type bonuses stack freely
+since every individual ACTION (not category — Trade now has both a
+Static action and a Competitive one) has exactly one fixed check type.
 
 ## Open items this pass surfaced (not yet resolved)
 - Character (relative) trait table — separate from this one (confirmed

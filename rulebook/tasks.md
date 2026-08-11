@@ -1,70 +1,111 @@
-# Tasks — Stats, Check Types, and Actions
+# Tasks — Categories, Stats, and Actions
 
-Every task's dice pool = its stat below + the acting relative's trait
-bonus (if a trait fits) + scene modifiers (see `turn-order.md`, Phase 5).
-Five house stats, six tasks — Wealth is shared by Trade and Espionage,
-matching the original notes' description of Wealth as covering
-"bribes, dowries, feasts, **hiring**."
+The six tasks (War, Trade, Diplomacy, Espionage, Stewardship, Magic) are
+**categories**, not single moves — each contains a small menu of named
+actions. A player assigning a relative in Phase 5 picks a specific
+action from the relevant category, not just "the task." Every action's
+dice pool = its category's stat + the acting relative's trait bonus (if
+a trait fits) + scene modifiers.
 
-| Task | Stat | Check Type | Opposed By | Example actions |
-|---|---|---|---|---|
-| **War** | Manpower | COMPETITIVE, always — target must be ring-adjacent (see `geography.md`) | Manpower | Campaigns, sieges, border raids. |
-| **Trade** | Wealth | STATIC, always | — | Brokering deals, establishing trade routes, claiming unclaimed Wealth. |
-| **Diplomacy** | \|Honor/Infamy\| (absolute value — see below) | STATIC, always | — | Marriage proposals, forging alliances, courting favor, claiming unclaimed Honor. |
-| **Espionage** | Wealth | COMPETITIVE, always — always has a target | Stewardship | Spying, sabotage, assassination attempts, blackmail. |
-| **Stewardship** | Land | STATIC, always (never initiates a Competitive check) | (see above — defends against Espionage) | Developing land, growing population, claiming unclaimed Land. |
-| **Magic** | Legend | STATIC, always — gated behind the Magic trait | — | Scrying, cursing a rival's harvest, communing with something not fully of this world (see `decisions-log.md` for the Magic-trait rules). |
+## War — Manpower
+Always targets a ring-adjacent house (see `geography.md`).
 
-Only War and Espionage are Competitive — both are inherently adversarial
-(they always target a specific house). The other four are Static: about
-growing what you have or acting on the world/circumstance rather than
-directly contesting a rival, per the original resolution-mechanic rules.
+- **Border Raid** — the standard War action. COMPETITIVE vs. the
+  target's Manpower, resolved with the existing margin rules (decisive
+  win captures, narrow win sends to the unclaimed pool, loss gets
+  nothing). One additional death check for the relative who fought it
+  either way (see `birth-death.md`).
+- **Full Invasion** — commits fully. +2 dice on the pool. Stakes
+  double (decisive win captures 2x, decisive loss costs the attacker
+  2x). The War Death Check for this action shifts +1 tier harsher —
+  heavier forces committed means heavier casualties, win or lose.
 
-## Diplomacy uses |Honor/Infamy|, not Honor/Infamy directly
-A house with -8 Infamy rolls the same Diplomacy pool size as a house
-with +8 Honor — an infamous house is just as diplomatically potent as a
-beloved one, just through fear and reputation rather than trust. A
-house sitting near 0 (unknown, unremarkable) has the weakest Diplomacy
-pool of all. This makes staying reputationally invisible an active
-liability, not a safe default.
+## Trade — Wealth
+- **Broker Deal** — STATIC. Claim unclaimed Wealth from the pool.
+- **Trade War** — COMPETITIVE vs. the target's Wealth, same margin
+  rules as Border Raid. NOT restricted by geography — coin and
+  economic pressure reach further than armies, so a Trade War can
+  target any house, not just a ring-adjacent one.
 
-## Static check target number
-STATIC checks need a fixed number of successes to pass — proposing **2
-successes** as the default target, adjustable by the GM for unusually
-easy or hard circumstances. Not yet confirmed; flagging rather than
-quietly assuming, since nothing in the resolved rules ever set this
-number.
+## Diplomacy — |Honor/Infamy|
+Diplomacy is the most roleplay-forward category — most of the actual
+work happens in the scene itself (see `turn-order.md`, Phase 3's
+freeform-by-default rule); the roll only matters for these specific,
+concrete outcomes.
 
-## Stewardship's dual role
-Stewardship never initiates a Competitive check, but it IS the stat a
-house defends with when targeted by an Espionage task — an attacker's
-Wealth-based Espionage pool rolls against the defender's Land-based
-Stewardship pool. Confirms and preserves the "Espionage vs. Stewardship
-defense" example from the original design notes.
+- **Arrange Marriage** — STATIC. Success forges a lasting bond between
+  two houses: both gain +2 dice on Diplomacy actions with each other
+  going forward.
+- **Forge Alliance** — STATIC. Same lasting +2-dice-with-each-other
+  bond as Arrange Marriage, without a marriage — a political or
+  military pact instead.
+- **Court Favor** — STATIC. Claim unclaimed Honor from the pool.
+- **Broker Peace** — STATIC (or GM may call for a roll from the other
+  party if they're resisting). Resolves an active vendetta peacefully
+  — can trigger Destiny, per the existing "resolving a vendetta"
+  trigger.
 
-## What a successful Static task grants
-Trade, Diplomacy, and Stewardship successes let a house claim the
-matching resource from the unclaimed pool (Wealth, Honor, and Land
-respectively) — consistent with the already-resolved rule that
-unclaimed-pool resources are only ever claimed via a task, never
-auto-assigned. Magic does not touch the standard resource economy at
-all — its reward is always a unique narrative effect, never a stat
-claim, per the already-resolved "Magic unlocks unique task options
-rather than granting bonus dice" rule.
+## Espionage — Wealth
+Always COMPETITIVE, opposed by the target's Stewardship. Every action
+below uses the same margin structure (decisive/narrow/loss) but with
+outcomes specific to what's actually being risked — not a generic
+resource capture.
+
+- **Assassinate** — targets a specific enemy relative. Decisive win:
+  the relative dies. Narrow win: the attempt fails and is never traced
+  back. Loss: the attacking relative is caught — they take a death
+  check of their own (same as the War Death Check), being caught in a
+  failed assassination is dangerous.
+- **Turn a Relative** — targets a specific enemy relative. Decisive
+  win: that relative becomes a secret asset — their house's next Task
+  Assignment is revealed to you before it resolves, or (player's
+  choice) their next task automatically fails. Narrow win: a seed of
+  doubt is planted, no mechanical effect yet, but the GM notes it for
+  future scenes. Loss: your attempt is discovered — your house gains
+  +1 Infamy.
+- **Steal Secrets** — targets a house. Decisive win: claim 1 Wealth
+  directly from them (not from the unclaimed pool) AND see their next
+  decade's Task Assignments in advance. Narrow win: a small amount of
+  Wealth goes to the unclaimed pool instead. Loss: nothing.
+- **Sow Rumors** — targets a house. Decisive win: their Honor/Infamy
+  shifts 2 points toward Infamy. Narrow win: shifts 1 point. Loss: it
+  backfires — the attacker's own house gains 1 point toward Infamy
+  instead.
+
+## Stewardship — Land
+Always STATIC. Never initiates a Competitive check, but is the stat a
+house defends with when targeted by Espionage (see above).
+
+- **Develop Territory** — claim unclaimed Land from the pool.
+- **Fortify** — no resource claim. Instead, this house gains +2 dice on
+  the next Espionage defense it has to roll (banked until used) — a
+  proactive investment in security rather than growth.
+
+## Magic — Legend
+Always STATIC. Gated behind the Magic house trait (or a narrower
+trigger, like Sickly's Ace-2-of-Spades conversion — see
+`tables/house-traits.md`). Never touches the standard resource economy
+— the payoff is always a unique effect, not a stat claim.
+
+- **Scry** — gain hidden information about a target house: their next
+  decade's Task Assignments, or a trait they haven't revealed yet.
+- **Curse** — targets a rival house. Success inflicts a lasting
+  penalty: -2 dice on one task type of the caster's choice, for that
+  house's next decade.
+- **Commune** — gain insight into the Doom Clock: learn its exact
+  current value (if normally kept hidden by the GM), or grant this
+  house's next events-deck draw a reroll if the GM allows it.
 
 ---
-
-## Task-type and check-type trait bonuses stack freely
-Now that every task has exactly ONE fixed check type (never
-situational), the stacking question from the house trait table is
-resolved: they're just two independent modifiers added to the same
-pool. A Steadfast house (+1 Static/-1 Competitive) attempting Trade
-(always Static) gets Steadfast's +1; the same house attempting War
-(always Competitive) gets Steadfast's -1. A Great Warriors house
-(+2/-2 War/Diplomacy) attempting War gets its own +2 on top of whatever
-check-type modifier applies. No conflict, no special stacking rule
-needed — they were never actually competing for the same modifier slot.
 
 ## Open items this pass surfaced (not yet resolved)
 - Static check target number (proposing 2 successes as default, not yet
   confirmed)
+- Whether other categories (Diplomacy, Espionage, Stewardship, Magic)
+  should also get a "small vs. large commitment" scale option the way
+  War now has Border Raid vs. Full Invasion, or whether that's
+  War-specific
+- Exact wording/limits on "Turn a Relative" and "Curse" — both grant
+  fairly open-ended GM-adjudicated effects ("their next task
+  automatically fails," "-2 dice on one task type") that may need
+  tighter bounds once playtested
