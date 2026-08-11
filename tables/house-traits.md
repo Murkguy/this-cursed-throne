@@ -65,21 +65,29 @@ draft of rank 2, which originally read "the GM may rule...")
 
 ## ♦ Diamonds — Wealth/Trade
 
+**Rank order is ACE-HIGH**, same framework as Hearts and Clubs: ranks
+2-4 net **-1 die** total (rank 2 also carries a bespoke restriction
+beyond dice); ranks 5-7 net **0**; ranks 8-10 net **+1 die**; J/Q/K/A
+abandon dice math for unique, positive mechanics. Hospitable was
+retired (there were 4 candidates for 3 weak-tier slots) and replaced
+with a new unique mechanic, Iron Bank, to fill out J/Q/K/A (which
+otherwise only had 3 existing unique traits for 4 slots).
+
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Stingy** | +1 die on Trade tasks. | -2 dice on Diplomacy tasks. |
-| 2 | **Hospitable** | +1 die on Diplomacy tasks. | -2 dice on Trade tasks. |
+| 2 | **Stingy** | +1 die on Trade tasks. | -2 dice on Diplomacy tasks. PLUS: this house can never use Renegotiate to GIVE Wealth to another house, only receive it — pure miserliness, they take but never give. |
 | 3 | **Pious** | +1 die on Stewardship tasks — temple and faith organize a community well. | -2 dice on Trade tasks — forbidden from the most profitable but impious dealings. |
 | 4 | **Cunning Traders** | +1 die on Trade tasks. | -2 dice on War tasks. |
 | 5 | **Stewards Born** | +2 dice on Stewardship tasks. | -2 dice on War tasks. |
 | 6 | **Isolationist** | +2 dice on Stewardship tasks. | -2 dice on Diplomacy tasks. |
 | 7 | **Extravagant** | +2 dice on Diplomacy tasks — lavish feasts win favor. | -2 dice on Trade tasks — spends too freely. |
-| 8 | **Enterprising** | +2 dice on Trade tasks. | -2 dice on Stewardship tasks — always chasing the next venture. |
+| 8 | **Enterprising** | +2 dice on Trade tasks. | -1 die on Stewardship tasks — always chasing the next venture. |
 | 9 | **Charitable** | +2 dice on Diplomacy tasks — generosity wins hearts and favor. | -1 die on Trade tasks — too generous to profit. |
 | 10 | **Frugal** | +2 dice on Trade tasks. | -1 die on War tasks — unwilling to fund costly campaigns. |
 | J | **Ostentatious** | This house's STATIC Diplomacy actions always succeed — no roll needed, wealth speaks loud enough that failure isn't an option. | -2 dice on Espionage tasks — too visible to ever move unseen. |
 | Q | **Landed Gentry** | Once per campaign, this house may immediately claim 2 Land from the unclaimed pool for free — no roll, no Task Assignment slot spent, an ancestral claim honored on sight. | -2 dice on Trade tasks — comfortable old money, not hungry for more. |
 | K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -1 die on War tasks — wealth breeds complacency. |
+| A | **Iron Bank** | Once per decade, this house may lend 1 Wealth to another house. After 3 decades, the borrowing house must repay 2 Wealth (interest) — or this house may instead seize 1 Land or Manpower from them if unpaid. | -1 die on War tasks — bankers don't fight, they finance. |
 
 ## ♣ Clubs — Military/Political
 
