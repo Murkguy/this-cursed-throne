@@ -39,10 +39,10 @@ borders.
 
 ---
 
+The initial ring arrangement is pure table negotiation — players sort
+out who sits where at setup, no roll or fixed rule involved.
+
 ## Open items this pass surfaced (not yet resolved)
-- How house order is initially arranged around the ring at setup (does
-  seating order = ring order automatically, or is there a separate step
-  to decide who neighbors whom?)
 - What happens to ring adjacency if a house falls/collapses entirely —
   do its former neighbors become newly adjacent to each other, closing
   the gap?

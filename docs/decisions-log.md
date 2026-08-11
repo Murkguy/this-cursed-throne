@@ -240,9 +240,11 @@ position (resolved earlier): moving a house now changes who can go to
 war with whom, not just scene priority. The King quite literally draws
 the borders.
 
-Still open: how house order is initially arranged into a ring at setup
-(does seating order = ring order automatically?), and what happens to
-adjacency when a house falls/collapses entirely.
+The initial ring arrangement is pure table negotiation — players sort
+out who sits where at setup, no roll or fixed rule involved.
+
+Still open: what happens to adjacency when a house falls/collapses
+entirely.
 
 ## Birth & Death — the Fate Check (see `rulebook/birth-death.md`)
 
