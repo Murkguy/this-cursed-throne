@@ -849,6 +849,23 @@ would claim them, no matter the cause (Fate Check, War Death Check,
 Assassination, anything). Spent individually per character; once used,
 that character is mortal as normal thereafter.
 
+**Hearts confirmed** — all 13 entries settled after many rounds.
+
+## Diamonds refactored to Ace-high (2026-08-11)
+
+Third suit converted. Counting existing entries surfaced a mismatch:
+4 candidates for the 3 weak-tier slots (Stingy, Hospitable, Pious,
+Cunning Traders) and only 3 existing unique-mechanic traits (Ostentatious,
+Landed Gentry, Golden) for the 4 J/Q/K/A slots. Retired **Hospitable**
+and added a new unique mechanic, **Iron Bank** (Ace) — once per decade,
+lend 1 Wealth to another house; after 3 decades they owe 2 back
+(interest), or this house may seize 1 Land or Manpower if unpaid. First
+lending/debt mechanic in the game. **Stingy** (2) gained a bespoke
+restriction: can never use Renegotiate to give Wealth away, only
+receive it. Enterprising's cost softened -2→-1 Stewardship to fit the
+8-10 net-+1 tier (everything else in Diamonds already fit the curve
+without changes).
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
