@@ -181,9 +181,34 @@ points not obvious from the original design notes:
   relative — no restriction keeping them home.
 
 Still open: the birth/death check mechanic (needs its own dedicated
-design pass, comparable in scope to Birth Deal), trait-change-over-time,
-what happens to a task whose relative dies before resolution, and
-conflicting-scene-declaration adjudication.
+design pass, comparable in scope to Birth Deal), and whether house order
+(see below) is fixed for the campaign or rotates decade to decade.
+
+## Setup/turn order follow-up pass (resolved 2026-08-11)
+
+- No upper player-count cap; minimum 4 stands alone.
+- Starting spouse generated via full Birth Deal, same as the Leader.
+- Starting children: exactly 1 by default; a house with the **Fecund**
+  house trait starts with 1-2 *extra* children instead, determined by a
+  single card flip (rank Ace-6 → 1 extra, rank 7-King → 2 extra), each
+  generated via Birth Deal individually.
+- **House order** (e.g. seating order) is established at setup and sets
+  priority when two houses' declared scenes conflict during play.
+- Traits CAN change after generation: whenever a character is directly
+  involved in a Destiny-triggering event, they may swap one existing
+  trait for a newly flipped one (single card flip, same 13-entry trait
+  table as Birth Deal). Reuses the existing Destiny trigger list rather
+  than a new "how major is major" judgment call.
+- Resolution phase internal order flipped: births/deaths are now rolled
+  BEFORE task outcomes are checked (not after) — this makes it possible
+  for a relative to die before their own pending task resolves. A task
+  whose assigned relative died this Resolution **auto-fails**, no roll.
+- Conflicting scene declarations are adjudicated by house order (see
+  above) — earlier house in the order gets their scene as declared.
+- One Task per relative per decade (no double-booking across two Tasks).
+  A relative involved in this decade's Scene CAN also take a Task the
+  same decade, but at most 2 relatives per house may be double-booked
+  (Scene + Task) in a single decade.
 
 ## Still open / not yet drafted
 

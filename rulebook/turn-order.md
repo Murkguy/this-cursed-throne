@@ -11,20 +11,27 @@ misread as "assign and resolve immediately."
 ## Phase 1: Resolution
 Opens the decade by settling everything set in motion last decade.
 
-1. **Check task outcomes.** Every task assigned during last decade's
-   Phase 5 resolves now, using the dice-pool mechanic (STATIC or
-   COMPETITIVE check, as appropriate to the task).
-2. **Roll for births and deaths.** *(Gap — no mechanic exists yet. The
+1. **Roll for births and deaths.** *(Gap — no mechanic exists yet. The
    source notes say this happens but never specify how a birth or death
    is actually triggered — e.g. is it a check per relative per decade,
    weighted by Dynastic traits like Fecund/Barren/Long-Lived/Sickly? This
    needs its own design pass, similar to how Birth Deal needed one — not
    safe to improvise inline.)*
-3. **Apply trait changes**, if any. *(Gap — no mechanic exists for
-   characters gaining/losing traits over time. Also unspecified: what
-   happens to a task assigned to a relative who died this Resolution
-   before their task outcome was checked — does it auto-fail, resolve
-   posthumously, or pass to another relative?)*
+2. **Check task outcomes.** Every task assigned during last decade's
+   Phase 5 resolves now, using the dice-pool mechanic (STATIC or
+   COMPETITIVE check, as appropriate to the task) — EXCEPT a task whose
+   assigned relative died in step 1 above, which **auto-fails**, no roll
+   made. Death is checked first specifically so this is possible; a dead
+   relative's pending task is already known to be dead-on-arrival by the
+   time you get here.
+3. **Apply trait changes.** Whenever a character is directly involved in
+   a Destiny-triggering event (death of the house's leader, the house
+   overtaking #1 in some ranking, the house becoming the new lowest-
+   ranked, calamity compensation, resolving a vendetta, or winning the
+   crown), that character may swap one existing trait for a newly
+   flipped one — a single card flip, same 13-entry trait table lookup as
+   Birth Deal. Reuses the Destiny trigger list rather than a separate
+   "how major is major" judgment call.
 
 ## Phase 2: Scene Declaration
 Every house writes **exactly 1 scene intent** for the decade on a
@@ -35,9 +42,15 @@ house, flat, regardless of player count — "scales with player count" is
 satisfied automatically, since more houses means more scenes running in
 parallel, not more scenes per house.
 
-*(Gap — what happens when two houses' declared scenes conflict, e.g.
-both target the same third house at the same moment? No priority/
-ordering rule exists yet.)*
+If two houses' declared scenes conflict (e.g. both target the same third
+house at the same moment, or contradict each other), **house order sets
+priority** — whichever house is earlier in the table's established
+seating/turn order gets their scene as declared; the conflicting house's
+scene is bumped or must be re-narrated around it.
+
+*(Gap — is house order fixed for the whole campaign at setup, or does it
+rotate decade to decade? Not yet decided; proposed default is fixed at
+setup for simplicity, unconfirmed.)*
 
 ## Phase 3: Scene Resolution
 Since nothing is hidden after declaration, every declared scene can run
@@ -79,17 +92,20 @@ and the house's stats. **The House Leader can be assigned to a task the
 same as any other relative** — no restriction keeping them home. These
 tasks resolve next decade, in Phase 1.
 
-*(Gap — can one relative be assigned more than one task in a decade, and
-can a relative who's already involved in a Scene this decade also take a
-Task?)*
+**One Task per relative per decade** — no relative can be double-booked
+across two Tasks in the same decade.
+
+A relative involved in this decade's Scene CAN also be assigned a Task
+the same decade, but **at most 2 relatives per house** may be
+double-booked this way (Scene + Task) in a single decade. This matters
+because a Scene can involve more than one of a house's relatives at
+once — the cap limits how much a house can pack into one decade, not
+whether double-booking is allowed at all.
 
 ---
 
 ## Open items this phase surfaced (not yet resolved)
 - Birth/death check mechanic (needs its own design pass, similar in
   scope to Birth Deal)
-- Trait-change-over-time mechanic (if any)
-- What happens to a task whose assigned relative dies before resolution
-- Conflicting scene declarations — priority/adjudication rule
-- Whether one relative can be assigned multiple tasks, or take a task
-  and a scene in the same decade
+- Whether house order (scene-conflict priority) is fixed for the
+  campaign or rotates decade to decade

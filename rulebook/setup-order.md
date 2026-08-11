@@ -10,12 +10,16 @@ Each player will create and lead one noble House for the campaign. One
 person runs the GM role (calls Kingdom Scenes, adjudicates static-check
 target numbers, narrates event outcomes).
 
-**Minimum 4 players.** There's a soft upper cap rather than a hard
-maximum — proposing **around 6-7** as the practical ceiling before scene
-count and King/Revolt bloc-forming start to strain a couple-hours session
-(this number is a proposal, not yet confirmed). More is possible if the
-table wants it; pacing is the only real constraint, since scene count
-already scales with player count.
+**Minimum 4 players.** No upper cap — trust the GM to judge table size.
+Scene count already scales with player count (1 scene per house per
+decade, so more houses just means more scenes running in parallel).
+
+Establish a **house order** (e.g. seating order at the table) now — this
+sets priority if two houses' declared scenes ever conflict during play
+(see `turn-order.md`, Phase 2).
+
+*(Open: does house order stay fixed for the whole campaign, or rotate
+decade to decade? Proposed default is fixed, unconfirmed.)*
 
 ## 2. Choose a Calamity module
 Before anything else about the world is decided, the table picks ONE
@@ -76,15 +80,15 @@ step can't be fully executed until that content exists.)*
 Every house begins with a **spouse** and **at least 1 child** for the
 Leader, in addition to the Leader itself.
 
-- **Spouse:** proposed default — generated via the same Birth Deal
-  procedure as the Leader (not yet explicitly confirmed; flagging rather
-  than assuming, since the resolved rules don't say whether a spouse who
-  "married in" gets generated the same way as someone born into the
-  house).
-- **Child(ren):** at least 1, generated via Birth Deal per child. Whether
-  a player may start with more than 1 child, and whether doing so costs
-  anything mechanically, is not yet decided — proposed default is no
-  mechanical cost, purely a narrative choice, but this is unconfirmed.
+- **Spouse:** generated via the same Birth Deal procedure as the Leader
+  — no special-case rule, even though they married in rather than being
+  born into the house.
+- **Child(ren):** every house starts with exactly 1 child, generated via
+  Birth Deal, UNLESS the house took the **Fecund** house trait, in which
+  case it starts with 1-2 *extra* children instead. Determine the extra
+  count with a single card flip: rank Ace-6 → 1 extra child, rank 7-King
+  → 2 extra children. Each extra child is then individually generated
+  via Birth Deal, same as any other.
 
 ## 6. Confirm the throne is vacant
 No house starts as King. The crown is claimed for the first time only
@@ -98,9 +102,4 @@ Proceed to the first decade's Resolution phase. See `turn-order.md`.
 ---
 
 ## Open items this step surfaced (not yet resolved)
-- Exact soft-cap player count (proposed ~6-7, unconfirmed)
 - Doom Clock starting length (likely per-Calamity-module, not universal)
-- Whether the starting spouse is generated via Birth Deal or some other
-  method
-- Whether more than 1 starting child is allowed, and at what (if any)
-  mechanical cost
