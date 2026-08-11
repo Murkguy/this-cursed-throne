@@ -143,6 +143,48 @@ simplified into one after designer feedback that the two-rule version was
   already established in Birth Deal's trait-count table rather than
   inventing a new concept.
 
+## Setup Order (see `rulebook/setup-order.md`)
+
+Full step-by-step campaign setup, written with no assumed knowledge:
+- Minimum 4 players, proposed soft cap ~6-7 (unconfirmed)
+- Calamity module chosen by the table before anything else (content TBD)
+- Starting resources: 12 points per house, split across Land/Manpower/
+  Wealth by player choice, minimum 1 in each stat
+- Starting Honor/Infamy: 0 for every house
+- Starting Legend: 0 for every house
+- House traits: 2 chosen + 2 rolled (trait table content TBD)
+- House Leader generated via full Birth Deal, same as any birth
+- Each house also starts with a spouse and at least 1 child for the
+  Leader (spouse generation method and multi-child rules still proposed
+  defaults, not fully confirmed)
+- Throne starts vacant; first King emerges through play
+
+## Turn Order (see `rulebook/turn-order.md`)
+
+Full decade loop, five phases, written with no assumed knowledge. Key
+points not obvious from the original design notes:
+- Tasks assigned in Phase 5 of one decade resolve at the top of Phase 1
+  of the NEXT decade — a full decade of in-fiction lag between assigning
+  a task and its outcome.
+- **Scenes are freeform by default**, only calling for a dice-pool check
+  (STATIC/COMPETITIVE, matching task type) when something concrete is
+  actually being risked. Reuses the task-resolution system rather than a
+  separate scene mechanic.
+- Each house declares exactly 1 scene per decade, flat regardless of
+  player count.
+- The King's per-turn powers (must grant, may redistribute, may confer a
+  moniker) all happen during Phase 4 (Kingdom Scene), after the GM's
+  events-deck reveal and after any Revolt resolution.
+- A declared Revolt resolves at the Kingdom Scene later in the SAME
+  decade it was declared, not the following decade's.
+- The House Leader can be personally assigned to a Task like any other
+  relative — no restriction keeping them home.
+
+Still open: the birth/death check mechanic (needs its own dedicated
+design pass, comparable in scope to Birth Deal), trait-change-over-time,
+what happens to a task whose relative dies before resolution, and
+conflicting-scene-declaration adjudication.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
