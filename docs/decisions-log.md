@@ -675,6 +675,38 @@ consistent with the Diamonds precedent: **Warmonger** (J) now means the
 War Death Check only applies on a loss, never a win; **Kingmaker** (Q)
 means this house's contribution to a Revolt alliance bloc counts double.
 
+## Trait table framework overhaul: ACE-HIGH tiers (2026-08-11)
+
+Triggered by feedback that Great Warriors (rank 3, weak tier) didn't
+match its iconic name, and Tyrannical (K) felt too nerfed relative to
+holding the crown. New system, replacing the earlier ascending-rank
+magnitude curve entirely:
+
+- **Rank order flips to ACE-HIGH** — 2 is the worst card, Ace is the
+  best. Reverses the low-to-high convention used elsewhere in the game
+  (Birth Deal, the events deck) — deliberately, for this table only.
+- **Ranks 2-4**: net **-1 die** total (benefit minus cost). Rank 2 also
+  carries a bespoke restriction beyond dice, not just a numeric one.
+- **Ranks 5-7**: net **0** — a pure sidegrade, reflavors capability
+  without a net power change.
+- **Ranks 8-10**: net **+1 die** total.
+- **J, Q, K, A**: abandon dice math entirely — each is a unique,
+  strictly positive mechanic (no more flat bonuses at this tier).
+
+**This reopens Hearts and Diamonds**, both previously locked under the
+old system — they need the same refactor. Clubs was rebuilt fully under
+the new framework first (see above entry) as the template: Great
+Warriors moved rank 3→8 and de-nerfed (+2 War/-1 Diplomacy); Tyrannical
+softened (-2→-1 per other task while holding the crown); Ambitious
+redesigned into a bespoke Ace-tier mechanic (declare War on the King's
+house without ring-adjacency, once per campaign) instead of flat dice;
+Client House (2) gained a playstyle-altering restriction (must secure a
+patron's blessing via Diplomacy before declaring War).
+
+Awaiting designer confirm that Clubs correctly captures the intended
+framework before replicating to Hearts, Diamonds, and finishing Spades
+fresh under this system.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
