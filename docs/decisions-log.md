@@ -835,6 +835,20 @@ Two more rounds after the above:
   established by Clubs' Ill-Trained Levies) — masked and diseased, no
   court treats them as equals.
 
+## Two more tweaks: Leprosy timing, Giant's Blood redefined (2026-08-11)
+
+**Leprosy**'s free-relative benefit changed from once-per-campaign to
+**once every 100 years (10 decades)** — recurring but rare, rather than
+a single grant for the whole campaign.
+
+**Giant's Blood** (Ace) had its benefit redefined entirely (cost kept
+as-is): instead of shifting Birth Deal trait-count rolls up a tier, it
+now grants a **death ward** — every character connected to this house
+(Leader, spouse, children, descendants) survives the FIRST death that
+would claim them, no matter the cause (Fate Check, War Death Check,
+Assassination, anything). Spent individually per character; once used,
+that character is mortal as normal thereafter.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
