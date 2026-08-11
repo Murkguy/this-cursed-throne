@@ -82,7 +82,7 @@ None are pure upside.
 |---|---|---|---|
 | A | **Superstitious** | +2 dice on Magic tasks. | -2 dice on Trade tasks — refuses deals struck under the wrong omens. |
 | 2 | **Scholarly** | +2 dice on Magic tasks. | -2 dice on War tasks. |
-| 3 | **Cunning** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks. |
+| 3 | **Sly** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks. |
 | 4 | **Paranoid** | +2 dice on Espionage tasks — always watching. | -2 dice on Trade tasks — trusts no merchant. |
 | 5 | **Reclusive** | +2 dice on Magic tasks. | -2 dice on Diplomacy tasks. |
 | 6 | **Watchful** | +1 die on Espionage tasks. | -1 die on Trade tasks. |
