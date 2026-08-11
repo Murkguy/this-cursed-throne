@@ -540,7 +540,50 @@ worst on any draw" penalty down to a single -1 Diplomacy die) so the
 rarest card in the suit reads as net-positive, matching the curve.
 
 Diamonds, Clubs, and Spades still need the same two-rule treatment
-applied.
+applied. Paused mid-review of Diamonds (drafted, awaiting confirm) for
+House Archetype/Succession Custom — see below.
+
+## House Archetype & Succession Custom (see `rulebook/house-archetypes.md`)
+
+Surfaced by the designer noting the trait table only covered a generic
+landed noble house — "think of all the powers in these books, they're
+noble houses, merchant houses, bands of men, priestly cloisters, etc."
+These are explicitly NOT house trait table entries — a separate
+setup-time choice, made once per campaign, alongside (not instead of)
+the 4 house traits.
+
+**House Archetype** (7 options, all require some official/legitimate
+standing in the realm — a criminal syndicate and an unsanctioned raider
+fleet were both considered and cut for lacking that): Noble House
+(baseline, no bonus/cost), Merchant House (+1 Trade/-1 War), Mercenary
+Company (+1 War/-1 Stewardship), Priestly Cloister (+1 Invoke
+Faith+Declare Heresy/-1 Trade, plus a new **Ordain a Novice** action —
+generates a relative via Birth Deal starting at age 2, an adult
+convert, as an additional growth path alongside normal births), Magical
+Order (auto-grants the Magical house trait's effect without spending a
+trait pick, -1 War), Knightly Order (+1 War/-1 Trade), Scholarly Order
+(+1 Stewardship/-1 Diplomacy).
+
+**Succession Custom** (4 options) closes a real, previously-unresolved
+gap — how the game picks a new Leader when the old one dies. All four
+are fully deterministic (on purpose — 3 other candidates considered,
+Elective/Strongest-Claims-It/Gavelkind, were cut for not working well
+for planning): Primogeniture (eldest child, any gender), Patriarchal
+(eldest son, daughters only if no sons), Matriarchal (eldest daughter,
+sons only if no daughters), Ultimogeniture (youngest child — new
+addition beyond the original 3-option draft). If no qualifying child is
+alive, the house hits the existing EXTINCTION collapse condition — a
+surviving spouse never inherits under any custom.
+
+Reordered `setup-order.md` step 3: Archetype/Succession Custom is now
+chosen FIRST (3a), before house traits (3b, was 3a) — Magical Order
+auto-granting the Magical trait means a player needs to know their
+Archetype before spending a free trait pick that might now be
+redundant. Resource allocation moved to 3c, Honor/Legend/Piety/Cunning
+to 3d-3g.
+
+Still open: whether a spousal-regency exception is wanted for
+succession (currently: no, by design, not an oversight).
 
 ## Still open / not yet drafted
 

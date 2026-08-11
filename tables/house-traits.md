@@ -1,7 +1,7 @@
 # House Trait Table
 
 Every house has 4 traits: 2 chosen freely by the player, 2 rolled (see
-`setup-order.md` step 3d). Both chosen and rolled traits come from this
+`setup-order.md` step 3b). Both chosen and rolled traits come from this
 same 52-entry list — "chosen" means picking which card's trait you want,
 not inventing a new one.
 
@@ -64,7 +64,7 @@ trait table — see `character-traits-bank.md`.)
 | 10 | **Frugal** | +2 dice on Trade tasks. | -2 dice on War tasks — unwilling to fund costly campaigns. |
 | 11 | **Ostentatious** | +2 dice on Diplomacy tasks — impressive displays of wealth win favor. | -2 dice on Espionage tasks — too visible to move unseen. |
 | 12 | **Landed Gentry** | +2 dice on Stewardship tasks. | -2 dice on Trade tasks — comfortable, not hungry for more. |
-| K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3a) is 14 points instead of 12. | -2 dice on War tasks — wealth breeds complacency. |
+| K | **Golden** | At setup, this house's resource budget (`setup-order.md` step 3c) is 14 points instead of 12. | -2 dice on War tasks — wealth breeds complacency. |
 
 ## ♣ Clubs — Military/Political
 

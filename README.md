@@ -31,6 +31,8 @@ collaborative design approach).
   - `birth-death.md` — the Fate Check (age, natural births/deaths)
   - `geography.md` — house order as the map of the realm, border wars
   - `tasks.md` — the six tasks: stats, check types, example actions
+  - `house-archetypes.md` — House Archetype (7 options) and Succession
+    Custom (4 options), setup-time choices distinct from house traits
 
 ## Status
 

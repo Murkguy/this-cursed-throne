@@ -38,16 +38,27 @@ number.)*
 
 ## 3. Create your House
 
-### 3a. Generate house traits
+### 3a. Choose House Archetype and Succession Custom
+Before anything else about the house — pick a **House Archetype**
+(Noble House, Merchant House, Mercenary Company, Priestly Cloister,
+Magical Order, Knightly Order, or Scholarly Order) and a **Succession
+Custom** (Primogeniture, Patriarchal, Matriarchal, or Ultimogeniture).
+Both are one-time choices for the whole campaign — see
+`house-archetypes.md` for what each one does. Done first because some
+archetypes affect the next two steps (Magical Order auto-grants the
+Magical trait, so a player needs to know that before spending a free
+trait pick on it in step 3b; Golden similarly matters before step 3c).
+
+### 3b. Generate house traits
 Every house has **4 traits total**: 2 chosen freely by the player, 2
 rolled on the house trait table (`tables/house-traits.md` — flip 1
 card, look up its exact suit and rank directly, no math). Every trait —
 chosen or rolled — must be given a narrative justification when picked;
 that justification IS the house's lineage/history (no separate lineage
-system). Done first, because one trait (**Golden**) changes the resource
-budget used in the next step.
+system). Done before resource allocation, because one trait (**Golden**)
+changes the resource budget used in the next step.
 
-### 3b. Allocate starting resources
+### 3c. Allocate starting resources
 Each house divides **12 points** (or **14**, if the house took Golden)
 among Land, Manpower, and Wealth as the player chooses, with a
 **minimum of 1 point in each stat**. (E.g. a war-first house might go
@@ -55,24 +66,24 @@ among Land, Manpower, and Wealth as the player chooses, with a
 drawn from one shared pool — every house gets the same budget to
 allocate independently.
 
-### 3c. Set starting Honor/Infamy
+### 3d. Set starting Honor/Infamy
 Every house starts at **0** Honor/Infamy. Nothing to divide up — the
 pool only grows from here via random events during play.
 
-### 3d. Set starting Legend
+### 3e. Set starting Legend
 Every house starts at **0** Legend. Legend is built entirely through
 play (dramatic acts, Magic use, surviving calamities) — never allocated
 at setup.
 
-### 3e. Set starting Piety
+### 3f. Set starting Piety
 Every house starts at **0** Piety (see `tasks.md`, Active vs. Passive
 stats). Built entirely through play (Invoke Faith, Blessings received)
 — never allocated at setup, same as Honor/Infamy and Legend. Piety is a
 PASSIVE stat — never rolled in a Task action, only checked by events.
 
-### 3f. Set starting Cunning
+### 3g. Set starting Cunning
 Every house starts at **3** Cunning (see `tasks.md`) — a small flat
-value, not part of the 12-point budget in 3b and not a hard 0 like
+value, not part of the 12-point budget in 3c and not a hard 0 like
 Honor/Legend/Piety, so Espionage and Border Raid aren't nearly
 impossible before any Cunning has been earned through play.
 
