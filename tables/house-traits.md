@@ -32,21 +32,31 @@ earlier draft of this suit mixed in individual personality traits like
 Timid and Prideful; those were pulled out to seed the future character
 trait table — see `character-traits-bank.md`.)
 
+**Rank order is ACE-HIGH**, same framework as Clubs: ranks 2-4 net
+**-1 die** total (rank 2 also carries a bespoke restriction beyond
+dice); ranks 5-7 net **0**; ranks 8-10 net **+1 die**; J/Q/K/A abandon
+dice math for unique, positive mechanics. The four Dynastic bespoke
+traits (Sickly, Barren, Fecund, Long-Lived) already have non-dice
+effects, so most sort by their actual net feel rather than needing new
+designs — Fecund and Long-Lived read strongly positive, Sickly reads
+net-negative, Barren's compensating benefit (dice + unlocking Adopt an
+Heir) pushes it into positive territory.
+
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Inbred Line** | +1 die on Trade tasks — a tightly controlled internal economy. | -2 dice on Diplomacy tasks — insular, awkward with outsiders. |
-| 2 | **Sickly** | +2 Piety — suffering breeds deep devotion. | Death band shifts +1 tier (see `birth-death.md`). |
-| 3 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
-| 4 | **Barren** | +2 dice on all Stewardship tasks. Unlocks **Adopt an Heir** (see `rulebook/tasks.md`, Diplomacy) as this house's real path to new heirs. | No natural births, ever (see `birth-death.md`). |
+| 2 | **Squabbling Heirs** | +1 die on Espionage tasks — internal rivals are skilled at watching each other. | -2 dice on Diplomacy tasks. PLUS: this house's succession is NOT guaranteed to follow its chosen Succession Custom — when the Leader dies, the GM may rule a different eligible heir claims the seat instead, reflecting real internal rivalry. |
+| 3 | **Sickly** | +2 Piety — suffering breeds deep devotion. | Death band shifts +1 tier (see `birth-death.md`). |
+| 4 | **Fostering Tradition** | +1 die on Diplomacy tasks — wards and hostages exchanged as political bonds. | -2 dice on Stewardship tasks — always distracted managing outside children. |
 | 5 | **Kinslayers** | +2 dice on War tasks — a family hardened by its own internal bloodshed. | -2 dice on Diplomacy tasks — no one fully trusts a house that turns on its own. |
 | 6 | **Hostage Culture** | +2 dice on Espionage tasks — generations of practice handling prisoners as leverage. | -2 dice on Trade tasks — the practice poisons trade relationships. |
 | 7 | **Steadfast** | +1 die on all STATIC checks. | -1 die on all COMPETITIVE checks — reliable in routine matters, unremarkable in direct contests. |
 | 8 | **Long Memory** | +2 dice on Diplomacy tasks — this house never forgets an old alliance. | -1 die on War tasks — slow to fully commit while still weighing old grudges. |
 | 9 | **Ancestral Seat** | +2 dice on Stewardship tasks — generations of investment in this land. | -1 die on Magic tasks — too grounded in tradition, resistant to strange new practices. |
-| 10 | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
-| J | **Grand Lineage** | +3 dice on Diplomacy tasks — a storied bloodline commands real respect at court. | -1 die on Espionage tasks — too famous to move unseen. |
+| 10 | **Barren** | +2 dice on all Stewardship tasks. Unlocks **Adopt an Heir** (see `rulebook/tasks.md`, Diplomacy) as this house's real path to new heirs. | No natural births, ever (see `birth-death.md`). |
+| J | **Fecund** | Birth band widens to 9-King (see `birth-death.md`). | -1 Wealth each time a birth occurs. |
 | Q | **Long-Lived** | Death band shifts -1 tier (see `birth-death.md`). | -1 die on Magic tasks. |
 | K | **Cursed** | Whenever this house's Leader dies, gain +1 Legend automatically (on top of normal Destiny inheritance). | -1 die on Diplomacy tasks — others fear the cursed. |
+| A | **Grand Lineage** | This house's Arrange Marriage and Forge Alliance actions always succeed — no roll needed. A storied bloodline commands unshakeable respect at any court. | -1 die on Espionage tasks — too famous to move unseen. |
 
 ## ♦ Diamonds — Wealth/Trade
 
