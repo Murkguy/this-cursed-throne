@@ -730,6 +730,11 @@ resolution if it doesn't already hold it — a genuine edge on the actual
 path to power, distinct from Kingmaker's "back someone else's bid"
 angle (Ambitious is about seizing it yourself).
 
+Refined once more: Ambitious now grants a 1 ADDITIONAL Destiny even if
+this house already holds one — an explicit, deliberate exception to
+the "only one Destiny per house" rule, per designer instruction to let
+it break the rule outright rather than gate on "if not already held."
+
 Still awaiting final designer confirm on Clubs before replicating to
 Hearts, Diamonds, and finishing Spades fresh under this system.
 
