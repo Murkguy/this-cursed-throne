@@ -752,6 +752,63 @@ concept is subsumed by Squabbling Heirs' rank-2 slot.
 
 Diamonds and Spades still need the same treatment.
 
+## Major design principle surfaced: no GM discretion (2026-08-11)
+
+While reviewing Hearts rank 2 (Squabbling Heirs, which read "the GM may
+rule a different eligible heir claims the seat"), the designer flagged
+that **the game is trying to eliminate the persistent GM role
+entirely** — the King acts as a temporary GM instead. This is a
+significant, previously-unstated design principle that affects
+anything referencing GM discretion/adjudication going forward.
+
+**Immediate scope**: no mechanic in the house trait table (or any
+future content) should resolve via "the GM decides X." Resolution
+must be dice, cards, or a fixed rule. Fixed on the spot: **Feuding
+Cadets** replaces Squabbling Heirs — same succession-uncertainty
+tension (this house's Leader dying doesn't guarantee the Succession
+Custom is followed), but resolved by a card flip (Ace = a cadet branch
+usurps the seat) instead of GM adjudication.
+
+**Not yet addressed**: `setup-order.md` step 1 still says "choose a
+GM," and `turn-order.md`/`tasks.md` reference GM adjudication in
+several places (Static check target numbers, Kingdom Scene narration,
+Broker Peace's "GM may call for a roll from the resisting party," etc).
+This is a genuinely large, separate design question — whether the King
+literally replaces the GM's remaining functions, or whether some
+lighter-weight facilitation role still exists — flagged for a dedicated
+pass, not fixed retroactively in this trait-table session.
+
+## Barren retired, replaced with Madness (2026-08-11)
+
+"No natural births, ever" was judged too damaging even with the Adopt
+an Heir compensation (unlocked a whole new action just to offset one
+trait's cost — a lot of mechanical weight for one card). Retired
+Barren, replaced with **Madness** (rank 10): once per decade, draw 2
+cards and keep the best for any ONE action this house attempts —
+madness grants flashes of brilliant, reckless genius. Cost: death band
++1 tier, unchanged in spirit from Sickly's cost but now representing
+the family's mind and body being burdened by their own instability.
+
+This orphaned three things, all fixed: **Adopt an Heir** removed from
+`rulebook/tasks.md` entirely (it existed only to compensate Barren).
+The **Fecund/Barren mutual-exclusivity rule** removed from
+`tables/house-traits.md` (Sickly/Long-Lived remains the one exclusive
+pair). **`birth-death.md`**'s description of Barren's birth-blocking
+effect removed, with a note that no trait currently blocks natural
+births outright — Extinction can still occur through ordinary bad luck.
+
+## Long-Lived and Grand Lineage further polished (2026-08-11)
+
+**Long-Lived**'s cost changed from -1 Magic to -1 Espionage — no
+functional reason given, just a different flavor fit ("so long a life
+leaves no secrets"). **Grand Lineage** (Ace) was called "pretty weak" —
+"Arrange Marriage/Forge Alliance always succeed" barely mattered
+against an already-forgiving Static target number. Strengthened to a
+sweeping, always-on effect: this house automatically has the
++2-dice-acting-together bond with EVERY other house at the table, no
+action needed at all. Cost bumped from -1 to -2 Espionage to match the
+much stronger benefit.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
