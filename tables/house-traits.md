@@ -124,21 +124,30 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 
 ## ♠ Spades — Calamity/Doom
 
+Same ACE-HIGH framework as the other three suits. House-vs-personal
+audit: nothing needed migrating — magical traditions and espionage
+reputations read institutional naturally, same as Clubs and Diamonds.
+Counting existing entries surfaced the same mismatch pattern as
+Diamonds: only 3 truly bespoke traits (Magical, Doom-Touched,
+Harbinger) for 4 unique-tier slots. **Shadow-Bound**'s conditional dice
+bonus (targeting the King's house) was upgraded into a genuine unique
+mechanic, **Crown's Shadow**, to fill the gap.
+
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| A | **Superstitious** | +2 dice on Magic tasks. | -2 dice on Trade tasks — refuses deals struck under the wrong omens. |
-| 2 | **Scholarly** | +2 dice on Magic tasks. | -2 dice on War tasks. |
-| 3 | **Sly** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks. |
-| 4 | **Paranoid** | +2 dice on Espionage tasks — always watching. | -2 dice on Trade tasks — trusts no merchant. |
-| 5 | **Reclusive** | +2 dice on Magic tasks. | -2 dice on Diplomacy tasks. |
-| 6 | **Watchful** | +1 die on Espionage tasks. | -1 die on Trade tasks. |
-| 7 | **Secretive** | +2 dice on Espionage tasks. | -2 dice on Trade tasks — too guarded to grease a deal. |
-| 8 | **Ruthless** | +2 dice on Espionage tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
-| 9 | **Omen-Marked** | +2 dice on Magic tasks. | -2 dice on Espionage tasks — their omens give them away. |
-| 10 | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | This house always draws 2 cards and keeps the worst specifically on Spade-suited events-deck draws targeting it. |
-| 11 | **Doom-Touched** | Whenever this house's kept events-deck card triggers the Doom Clock, also gain +1 Legend. | -2 dice on Diplomacy tasks — people are wary of them. |
-| 12 | **Shadow-Bound** | +2 dice on Espionage tasks targeting the King's house specifically. | -2 dice on Espionage tasks against any other house. |
+| 2 | **Paranoid** | +1 die on Espionage tasks — always watching. | This house's Diplomacy rolls only count 6s as successes, not the normal 5-6 — too suspicious to trust anyone enough to negotiate normally. |
+| 3 | **Superstitious** | +1 die on Magic tasks. | -2 dice on Trade tasks — refuses deals struck under the wrong omens. |
+| 4 | **Reclusive** | +1 die on Magic tasks. | -2 dice on Diplomacy tasks. |
+| 5 | **Sly** | +2 dice on Espionage tasks. | -2 dice on Diplomacy tasks. |
+| 6 | **Secretive** | +2 dice on Espionage tasks. | -2 dice on Trade tasks — too guarded to grease a deal. |
+| 7 | **Watchful** | +2 dice on Magic tasks. | -2 dice on Trade tasks. |
+| 8 | **Scholarly** | +2 dice on Magic tasks. | -1 die on War tasks. |
+| 9 | **Ruthless** | +2 dice on Espionage tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
+| 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
+| J | **Doom-Touched** | Whenever this house's kept events-deck card triggers the Doom Clock, also gain +1 Legend. | -2 dice on Diplomacy tasks — people are wary of them. |
+| Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | This house always draws 2 cards and keeps the worst specifically on Spade-suited events-deck draws targeting it. |
 | K | **Harbinger** | Once per decade, may voluntarily advance the Doom Clock by 1 to gain +1 Legend. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
+| A | **Crown's Shadow** | Whenever this house uses an Espionage action against the King's house, margin restrictions are ignored — even a narrow win or a tie counts as a decisive result. | -1 die on Trade tasks — shadows don't profit. |
 
 ---
 
