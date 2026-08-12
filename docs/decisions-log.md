@@ -1049,6 +1049,14 @@ with no Magic-task dependency:
 Removed the now-orphaned Time-Binder's Rite/Unweaving/Soul Trade's Rite
 definitions from `rulebook/tasks.md`.
 
+## HOUSE TRAIT TABLE FULLY LOCKED (2026-08-11)
+
+Spades confirmed — all 52 entries across all four suits (Hearts,
+Diamonds, Clubs, Spades) are now locked under the Ace-high framework.
+This closes out the entire house trait table content-drafting effort
+that began earlier this session. See `tables/house-traits.md` for the
+final table.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-

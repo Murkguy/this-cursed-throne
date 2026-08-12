@@ -20,7 +20,7 @@ collaborative design approach).
     in order (start here for current state)
 - `tables/` — trait tables, the events deck, Calamity modules
   - `house-traits.md` — the 52-entry house trait table (1 card, direct
-    suit+rank lookup), under active revision suit by suit
+    suit+rank lookup) — **LOCKED**, all four suits confirmed
   - `character-traits-bank.md` — personality traits pulled out of the
     house table, held for the future character trait table
   - (character traits proper, events deck, Calamity modules not yet
@@ -39,6 +39,7 @@ collaborative design approach).
 All shape-affecting open questions are resolved (see `decisions-log.md`).
 Core systems are specified: the decade loop, dice-pool task resolution,
 Birth Deal (card-based character generation), the unified events deck,
-the King/Legend curse mechanic, and the Fate Check (birth/death). Table
-*content* (actual trait entries, Calamity modules, events) has not been
-drafted yet.
+the King/Legend curse mechanic, and the Fate Check (birth/death). The
+**house trait table is fully drafted and locked** (52 entries, all four
+suits). Remaining table content — character trait table, events table,
+Calamity modules — has not been drafted yet.

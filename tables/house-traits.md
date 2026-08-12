@@ -1,5 +1,7 @@
 # House Trait Table
 
+**STATUS: LOCKED.** All 52 entries across all four suits are confirmed.
+
 Every house has 4 traits: 2 chosen freely by the player, 2 rolled (see
 `setup-order.md` step 3b). Both chosen and rolled traits come from this
 same 52-entry list — "chosen" means picking which card's trait you want,
@@ -8,8 +10,13 @@ not inventing a new one.
 **Rolling:** flip 1 card. Its exact identity (e.g. "7 of Hearts") is a
 direct lookup below — no math, no summing, just find that card. Suit is
 the same four categories as the events deck (♥ Dynastic/Personal, ♦
-Wealth/Trade, ♣ Military/Political, ♠ Calamity/Doom); rank runs roughly
-mundane-to-dramatic from Ace to King within each suit.
+Wealth/Trade, ♣ Military/Political, ♠ Calamity/Doom). **Rank is
+ACE-HIGH** — 2 is the worst card in each suit, Ace is the best — the
+reverse of the low-to-high convention used elsewhere (Birth Deal, the
+events deck). Ranks 2-4 skew weak benefit / real cost (2 also carries a
+bespoke restriction beyond dice), 5-7 are roughly a net-zero sidegrade,
+8-10 skew strong benefit / light cost, and J/Q/K/A abandon dice math
+entirely for unique mechanics.
 
 **Duplicates:** if a roll produces a trait the house already has (chosen
 or previously rolled), reroll.
