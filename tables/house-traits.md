@@ -129,26 +129,18 @@ audit: nothing needed migrating — magical traditions and espionage
 reputations read institutional naturally, same as Clubs and Diamonds.
 Counting existing entries surfaced the same mismatch pattern as
 Diamonds: only 3 truly bespoke traits for 4 unique-tier slots.
-**Shadow-Bound**'s conditional dice bonus (targeting the King's house)
-was upgraded into a unique mechanic, but that version ("ignore margin
-restrictions on Espionage vs. the King's house") didn't land — replaced
-with **Fate's Hand** (Ace): shifting the Doom Clock itself.
 
-**No trait in this table rewards or enables advancing the Doom Clock**
-— the Clock threatens every house's win condition equally, so nothing
-should ever give a rational reason to want it higher. Doom-Touched (J),
-Harbinger (K), and Fate's Hand (A) are all purely protective/predictive
-as a result: Doom-Touched sees the next card of ANY events-deck draw
-before it happens; Harbinger can outright prevent a Doom Clock advance
-once per decade; Fate's Hand can only push the Clock BACK, never
-forward, buying the whole realm time. (Harbinger no longer claims to
-"know the Doom Clock's value" — that's public information already,
-tracked openly at the table, so it wasn't actually granting anything.)
-Being purely protective meant Harbinger and Fate's Hand were pure
-collective goods with no edge for the owning house specifically — both
-now grant a personal reward (Legend, and for Fate's Hand also Piety)
-exclusively to the house that spends the power, on top of the shared
-benefit to the whole realm.
+The J/Q/K/A tier went through several concepts (Shadow-Bound's
+conditional dice bonus, then a Doom Clock-focused cluster) before
+settling on its final theme: **magic that lets a house cheat the
+normal rules of the game.** Time-Binder (J), Unweaver (K), and Soul
+Trade (A) each unlock a brand-new Magic action (see `rulebook/tasks.md`
+for the full definitions) that breaks an established rule on purpose —
+doing two Tasks in one decade, capturing a resource with no roll and no
+opposition, or converting an active stat straight into Legend without
+earning it through deeds. Magical (Q) is the one holdover from the
+original draft, since it was never part of the rejected Doom Clock
+cluster.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
@@ -161,10 +153,10 @@ benefit to the whole realm.
 | 8 | **Scholarly** | +2 dice on Magic tasks. | -1 die on War tasks. |
 | 9 | **Ruthless** | +2 dice on Espionage tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
 | 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
-| J | **Doom-Touched** | This house may always look at the top card of the events deck before ANY draw in the game, not just ones targeting them — they see the shape of what's coming before anyone else. | -2 dice on Diplomacy tasks — people are wary of a house that speaks of omens. |
+| J | **Time-Binder** | Unlocks a new Magic action: once per decade, one relative may perform TWO Tasks in the same decade instead of the normal limit of one — magic cheats time itself. | -1 die on War tasks — their focus turns inward and arcane, not martial. |
 | Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | -1 die on Diplomacy tasks — a house openly touched by magic unsettles the courts of the realm. |
-| K | **Harbinger** | Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. Whenever they do, this house alone gains +1 Legend, recognized across the realm as the ones who held back the end. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
-| A | **Fate's Hand** | Once per campaign, this house may push the Doom Clock BACK by up to 3 — buying the entire realm more time. The rarest gift a house can give: more time before the end, for everyone. When they do, this house alone gains +1 Piety and +1 Legend — the realm remembers who bought them their reprieve. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
+| K | **Unweaver** | Unlocks a new Magic action: COMPETITIVE, Legend + Cunning vs. the target's same. Success directly removes 1 point of any ONE active stat from the target house — pure sabotage, bypassing War, Trade War, and Espionage entirely. | -1 die on Diplomacy tasks — a house known to unmake others is trusted by none. |
+| A | **Soul Trade** | Unlocks a new Magic action: once per campaign, sacrifice any amount of one active stat to gain an equal amount of Legend — cheating the rule that Legend only grows through dramatic deeds, trading mundane power directly for renown. | -1 die on Trade tasks — magic that consumes wealth for glory leaves little room for commerce. |
 
 ---
 

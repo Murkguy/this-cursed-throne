@@ -187,6 +187,29 @@ effect or a passive-stat change, never an active-stat claim.
   another house, never yourself. The target draws 2 cards and keeps
   the BEST on their next relevant draw, and gains +1 Piety.
 
+### Trait-gated Magic actions
+These three don't just require the Magic house trait — each is
+additionally gated behind its own specific house trait (Spades J/K/A —
+see `tables/house-traits.md`), since they're deliberately rule-breaking
+in a way the base Magic actions above aren't.
+
+- **Time-Binder's Rite** (gated by the Time-Binder trait) — STATIC,
+  **Legend + Cunning**. Once per decade, designate one relative to
+  perform TWO Tasks in the same decade — breaks the normal one-task-
+  per-relative limit on purpose.
+- **Unweaving** (gated by the Unweaver trait) — COMPETITIVE, **Legend +
+  Cunning** vs. the target's same combo. Decisive win: the caster
+  removes 1 point of any ONE active stat of their choice from the
+  target — destroyed, sent to the unclaimed pool, not captured (this
+  is unmaking, not theft). Narrow win: the working fizzles, no effect.
+  Loss: it backfires — the caster's own chosen stat is reduced by 1
+  instead.
+- **Soul Trade's Rite** (gated by the Soul Trade trait) — NO ROLL, a
+  purely internal, voluntary sacrifice with no external interference.
+  Sacrifice any amount of one active stat to gain an equal amount of
+  Legend — cheats the rule that Legend only grows through dramatic
+  deeds, trading mundane power directly for renown.
+
 ---
 
 ## Open items this pass surfaced (not yet resolved)
