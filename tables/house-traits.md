@@ -78,7 +78,7 @@ loaning mechanics don't fit this game).
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Close-Fisted** | +1 die on Trade tasks. | This house's Diplomacy rolls only count 6s as successes, not the normal 5-6 — pure miserliness leaves no room for the generosity real diplomacy requires. |
+| 2 | **Close-Fisted** | +1 die on Trade tasks. | This house's Stewardship rolls only count 6s as successes, not the normal 5-6 — too miserly to invest in their own land's upkeep and development. |
 | 3 | **Pious** | +1 die on Stewardship tasks — temple and faith organize a community well. | -2 dice on Trade tasks — forbidden from the most profitable but impious dealings. |
 | 4 | **Cunning Traders** | +1 die on Trade tasks. | -2 dice on War tasks. |
 | 5 | **Stewards Born** | +2 dice on Stewardship tasks. | -2 dice on War tasks. |
