@@ -988,6 +988,18 @@ value" clause redundant — everyone already knows it by default, so the
 clause wasn't actually granting anything. Removed; Harbinger now just
 grants the once-per-decade prevent-an-advance power.
 
+## Harbinger and Fate's Hand needed a personal edge (2026-08-11)
+
+Once both traits became purely protective (per the Doom-Clock
+incentive-alignment fix above), they'd turned into pure collective
+goods — preventing/delaying the Clock helps every house at the table
+equally, with no advantage for the house that actually holds the
+trait and spends the power. Fixed: **Harbinger** now grants the owning
+house +1 Legend whenever it prevents an advance. **Fate's Hand** now
+grants +1 Piety and +1 Legend whenever it pushes the Clock back. Both
+keep the shared realm-wide benefit, but now also reward the specific
+house that acted.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
