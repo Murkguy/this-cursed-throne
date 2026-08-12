@@ -95,10 +95,16 @@ special-case rule for the starting leader. The Leader starts at **age 3**
 (step 5) is assumed to start at the same age unless a player wants to
 narratively justify otherwise.
 
-1. Flip one card for trait count (Ace–3 → 2, 4–6 → 3, 7–9 → 4, 10–J → 5,
-   Q → 6, K → 7).
-2. Flip that many additional cards; each rank is a row-lookup on the
-   13-entry mixed character trait table.
+1. Roll **10d6** for trait count — count successes on **5-6** (the same
+   threshold used everywhere else). Add **automatic hits equal to the
+   house's Legend ÷ 5, rounded down** — a house with Legend 12 adds 2
+   automatic hits on top of whatever the dice roll. No floor, no cap:
+   a Legend-0 house can (rarely) roll as few as 0 traits, and a
+   high-Legend house can roll well past what the old card-table's max
+   of 7 ever allowed — Legend paying off as a visible dynastic engine
+   is the point.
+2. Flip that many cards; each rank is a row-lookup on the 13-entry
+   mixed character trait table.
 3. An Ace of Spades is always eligible for Magic conversion; if the
    house has the Magic house trait, any face card is also eligible.
    Conversion is a player choice.

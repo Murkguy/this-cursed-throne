@@ -1057,6 +1057,42 @@ This closes out the entire house trait table content-drafting effort
 that began earlier this session. See `tables/house-traits.md` for the
 final table.
 
+## Birth Deal trait count: dice pool replaces the card-table lookup (2026-08-12)
+
+Replaced the old "flip 1 card, look up trait count on a 6-tier table"
+step (`setup-order.md` step 4.1) with a dice pool: roll **10d6**,
+count successes on **5-6**, that's the trait count. Reasons:
+
+- Matches the success threshold used everywhere else in the game
+  (dice = things that happen to a house, but the resolution math
+  should still feel like the rest of the system).
+- Finally wires in the original design notes' Legend bonus, which
+  never actually made it into the current rulebook text: **automatic
+  hits equal to Legend ÷ 5, rounded down**, added on top of the dice
+  result. A Legend-12 house adds 2 guaranteed traits to whatever it
+  rolls.
+
+Validated the distribution before locking it in (10d6, success on 5-6,
+plus auto hits):
+
+| Legend | Auto hits | Mean traits | % below old min (2) | % above old max (7) |
+|---|---|---|---|---|
+| 0  | 0 | 3.33 | 10.4% | 0.3% |
+| 5  | 1 | 4.33 | 1.8%  | 2.0% |
+| 10 | 2 | 5.33 | 0%    | 7.6% |
+| 15 | 3 | 6.34 | —     | 21.3% |
+| 20 | 4 | 7.34 | —     | 44.1% |
+
+Decided **no floor, no cap** — a Legend-0 house can rarely roll 0-1
+traits (real variance at the low end), and a high-Legend house
+routinely exceeds the old max of 7 (Legend paying off as a visible,
+uncapped dynastic engine is the point, not a bug to clamp away).
+
+Confirmed Giant's Blood (Spades Ace, see `tables/house-traits.md`)
+doesn't reference the old card-table tier system — it was already
+redefined to the death-ward mechanic in an earlier pass, so no
+follow-up edit needed there.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
