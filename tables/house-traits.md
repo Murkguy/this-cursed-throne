@@ -108,7 +108,7 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
-| 2 | **Ill-Trained Levies** | +1 die on Trade tasks — cheap, expendable manpower frees up resources elsewhere. | This house's Manpower-based rolls (War, Border Raid) only count 6s as successes, not 5-6 — a poorly-drilled, wasteful fighting force. |
+| 2 | **Ill-Trained Levies** | +1 die on Trade tasks — cheap, expendable manpower frees up resources elsewhere. | This house's WAR tasks (Border Raid, War) only count 6s as successes, not 5-6 — a poorly-drilled, wasteful fighting force. Scoped to the War category specifically, not the Manpower stat — Assassinate and Develop Territory also use Manpower in their pool but aren't affected. |
 | 3 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
 | 4 | **Silver-Tongued** | +1 die on Diplomacy tasks — generations of skilled orators and negotiators. | -2 dice on War tasks. |
 | 5 | **Boastful** | +2 dice on War tasks — a warfare culture built on grand declarations and bravado. | -2 dice on Espionage tasks — too loud a reputation for subtlety. |
