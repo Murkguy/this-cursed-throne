@@ -940,8 +940,17 @@ Even after moving Spades' Paranoid off Diplomacy, Hearts (Leprosy) and
 Diamonds (Close-Fisted) still both used Diplomacy. Moved **Close-Fisted**
 to **Stewardship** instead ("too miserly to invest in their own land's
 upkeep and development") — the success-threshold restriction is now
-spread across four distinct tasks with no repeats: Manpower (Clubs),
-Diplomacy (Hearts), Stewardship (Diamonds), Trade (Spades).
+spread across four distinct tasks with no repeats: ~~Manpower~~ War
+(Clubs), Diplomacy (Hearts), Stewardship (Diamonds), Trade (Spades).
+
+Immediately caught a mislabel: "Manpower" is a STAT, not a task
+category — describing Clubs' entry that way was wrong. **Ill-Trained
+Levies**' actual wording said "Manpower-based rolls," which under a
+literal reading would ALSO restrict Assassinate (Cunning+Manpower) and
+Develop Territory (Land+Manpower), not just War/Border Raid — never
+the intent. Rescoped explicitly to the **War** task category, matching
+how the other three entries are scoped to a category (Diplomacy,
+Stewardship, Trade), not a stat.
 
 Still awaiting final designer confirm on Spades (and the table as a
 whole) before considering all 52 entries locked.
