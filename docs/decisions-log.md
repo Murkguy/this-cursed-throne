@@ -1275,3 +1275,32 @@ Magical-trait cross-references, `rulebook/king-and-revolt.md` (new),
 Static check target number + Check Types section in `tasks.md`,
 Zealous rescoped house-wide, Magical Order's 5-trait exception
 documented.
+
+## No-GM-discretion terminology finally applied game-wide (2026-08-12)
+
+Last remaining piece of the "the game eliminates the persistent GM
+role" principle (surfaced back during the house-trait-table pass,
+never retroactively applied to setup-order.md/turn-order.md). Every
+"the GM does X" phrase in the rulebook was checked — Static-check
+target numbers and event outcomes are now both fixed rules (the
+round(pool÷3)+1 formula and table lookups), so there was never
+anything left needing a judgment call. Resolved:
+
+- **setup-order.md step 1** rewritten from "gather players and choose
+  a GM" to just "gather players" — no dedicated role chosen at setup.
+- **Kingdom Scene's events-deck reveal** (`turn-order.md` Phase 4) is
+  now performed by **the King's player** when a King is seated (the
+  King already acts as a temporary, powerless-beyond-the-fixed-rules
+  host of that moment) — or, if the throne is vacant, **any player**,
+  since the outcome is a fixed table lookup regardless of who flips
+  the card.
+- **Decade 1's forced-king draw** (both `setup-order.md` step 6 and
+  `turn-order.md` Phase 4) changed from "the GM flips" to "any player
+  flips" — purely mechanical, no King exists yet to assign it to.
+- Softened the remaining descriptive "no GM bottleneck" / "not a GM
+  secret" phrasings to describe the actual mechanism (no
+  single-adjudicator bottleneck; the Doom Clock is never hidden)
+  rather than presupposing a GM role exists to contrast against.
+
+Updated the note in `king-and-revolt.md` that had flagged this as a
+known leftover — no longer applicable.

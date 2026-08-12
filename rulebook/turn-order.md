@@ -52,7 +52,8 @@ Phase 4 below.
 
 ## Phase 3: Scene Resolution
 Since nothing is hidden after declaration, every declared scene can run
-in parallel around the table with no GM bottleneck.
+in parallel around the table — no single-adjudicator bottleneck, since
+there's no persistent GM to run every scene through.
 
 **Scenes are freeform by default.** A Scene is played out narratively;
 it only calls for a dice-pool check (STATIC or COMPETITIVE, using the
@@ -63,17 +64,20 @@ conversation/politics needs no roll at all. This reuses the exact same
 task-type dice system rather than a separate "scene mechanic."
 
 ## Phase 4: Kingdom Scene
-The GM reveals the decade's big public moment by drawing from the
-**events deck**: suit = category (♥ Dynastic/Personal, ♦ Wealth/Trade, ♣
-Military/Political, ♠ Calamity/Doom), rank = outcome quality (low→high =
-bad→good). If any house has Legend 10+ (including any King, who gets +10
-automatically), that house draws extra cards per every 10 Legend and
-keeps the lowest. If the kept card is an Ace/2/3, the Doom Clock advances
-by 1. Deck is reshuffled after every draw. **The Doom Clock's current
-value is public** — tracked openly at the table (a visible counter or
-token), not a GM secret. It threatens every house's win condition
-equally, so there's no reason to hide it — consistent with the game's
-general move away from GM-gatekept information.
+**The King's player** reveals the decade's big public moment by drawing
+from the **events deck** — or, if the throne is currently vacant, any
+player does (it doesn't matter who physically draws, the fixed table
+lookup decides the outcome either way). Suit = category (♥
+Dynastic/Personal, ♦ Wealth/Trade, ♣ Military/Political, ♠
+Calamity/Doom), rank = outcome quality (low→high = bad→good). If any
+house has Legend 10+ (including any King, who gets +10 automatically),
+that house draws extra cards per every 10 Legend and keeps the lowest.
+If the kept card is an Ace/2/3, the Doom Clock advances by 1. Deck is
+reshuffled after every draw. **The Doom Clock's current value is
+public** — tracked openly at the table (a visible counter or token),
+never hidden. It threatens every house's win condition equally, so
+there's no reason to hide it — consistent with there being no
+persistent GM to gatekeep it in the first place.
 
 This is also where a declared Revolt (from this same decade's Phase 2)
 resolves, if one was declared — NOT next decade's Kingdom Scene, this
@@ -83,14 +87,14 @@ procedure (bids, alliances, the roll, failure cost, Mercy).
 
 **Decade 1 is a special case: the throne cannot leave this Kingdom Scene
 still vacant.** If a house declared a bid in Decade 1's Phase 2, it
-resolves here normally. If nobody did, the GM flips one card per house
-right now, highest card is forced to assume the throne (redraw ties).
-See `setup-order.md`, step 6. No other decade has this forcing rule —
-after Decade 1, the throne can stay vacant indefinitely if no one bids
-for it.
+resolves here normally. If nobody did, any player flips one card per
+house right now, highest card is forced to assume the throne (redraw
+ties). See `setup-order.md`, step 6. No other decade has this forcing
+rule — after Decade 1, the throne can stay vacant indefinitely if no
+one bids for it.
 
 **The King's per-turn powers happen here too**, as the second half of
-this phase: after the GM's events-deck reveal (and after Revolt
+this phase: after the events-deck reveal above (and after Revolt
 resolution, if any), the King must grant 1 resource from the unclaimed
 pool, may then redistribute one resource between houses, may confer an
 eligible moniker, and **may move 1 house's position in the house order**

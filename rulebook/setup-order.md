@@ -5,14 +5,23 @@ Throne*. Every step below is either a RESOLVED rule or an explicitly
 flagged placeholder awaiting content — nothing here should require the
 table to guess.
 
-## 1. Gather players and choose a GM
-Each player will create and lead one noble House for the campaign. One
-person runs the GM role (calls Kingdom Scenes, adjudicates static-check
-target numbers, narrates event outcomes).
+## 1. Gather players
+Each player will create and lead one noble House for the campaign.
+**No persistent GM** — every check resolves by fixed rule (dice pool,
+card flip, or table lookup), never by adjudication, so there's no
+judgment call for a dedicated role to make. Kingdom Scene's events-deck
+reveal is handled by whichever house currently holds the crown (see
+`turn-order.md`, Phase 4) — the King acting as a temporary, powerless-
+beyond-the-fixed-rules host of that moment, not a GM. Any purely
+mechanical bookkeeping that comes up before a King exists (e.g. Decade
+1's forced-king draw, step 6 below) can be done by any player — it
+doesn't matter who physically flips the card, since the fixed rule
+decides the outcome either way.
 
-**Minimum 4 players.** No upper cap — trust the GM to judge table size.
-Scene count already scales with player count (1 scene per house per
-decade, so more houses just means more scenes running in parallel).
+**Minimum 4 players.** No upper cap — table size is the players' own
+call, not a role's to judge. Scene count already scales with player
+count (1 scene per house per decade, so more houses just means more
+scenes running in parallel).
 
 Establish a **house order** now — the players sort out among themselves
 who sits where in the ring, no mechanical process (no roll, no fixed
@@ -134,9 +143,9 @@ houses declare a bid during Decade 1's Scene Declaration (Phase 2), it
 resolves normally at Decade 1's Kingdom Scene via the standard
 alliance/bloc mechanism — same as any later Revolt, see
 `king-and-revolt.md`. But if NO house
-volunteers a bid, the GM flips one card per house at the start of Decade
-1's Kingdom Scene; **the house with the highest card is forced to
-assume the throne** (redraw among tied houses only). The curse doesn't
+volunteers a bid, any player flips one card per house at the start of
+Decade 1's Kingdom Scene; **the house with the highest card is forced
+to assume the throne** (redraw among tied houses only). The curse doesn't
 wait for volunteers — by the end of the first decade, someone wears the
 crown. See `turn-order.md`, Phase 4.
 

@@ -13,13 +13,11 @@ There are exactly two ways a house ends up on the throne:
 
 1. **Winning a Revolt** (see below) — the normal path, any decade after
    the first.
-2. **Decade 1's forced draw** — if no house bids during Decade 1, one
-   card is flipped per house at Decade 1's Kingdom Scene; the highest
-   card is forced onto the throne. Already fully specified in
-   `setup-order.md` step 6 and `turn-order.md` Phase 4 (both still use
-   "the GM flips" — a leftover from the still-open no-GM-discretion
-   pass, not something this page should silently change) — not
-   repeated here.
+2. **Decade 1's forced draw** — if no house bids during Decade 1, any
+   player flips one card per house at Decade 1's Kingdom Scene; the
+   highest card is forced onto the throne. Already fully specified in
+   `setup-order.md` step 6 and `turn-order.md` Phase 4 — not repeated
+   here.
 
 **Regardless of which path**, becoming King grants, immediately and
 permanently:
