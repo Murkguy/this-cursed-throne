@@ -1204,3 +1204,34 @@ eligibility's exact mechanical threshold (conferral was already
 resolved as a King's power; eligibility's precise trigger wasn't), and
 Calamity compensation's exact Destiny trigger (pending the undrafted
 Calamity module content).
+
+## Gap #2 closed: Static check target number resolved (2026-08-12)
+
+`tasks.md` had flagged this as its own open item — "proposing 2
+successes as default, not yet confirmed" — the most load-bearing
+unresolved number in the ruleset, since every STATIC action in the
+game depends on it. Validated by simulation before proposing: a flat
+target of 2 is literally impossible at pool 1 and only 11% at pool 2,
+the same "punishes small houses" failure mode the Competitive margin
+bands already had to fix once. A pool-size-scaled hard cutoff (mirror
+the Competitive fix) was tested and rejected too — it produces a
+perverse notch where a BIGGER pool can have WORSE odds right at a tier
+boundary (needing 1 success at pool 2 succeeds 55.6% of the time;
+needing 2 at pool 3 only succeeds 25.9%).
+
+Designer wanted odds that stay roughly constant (~33%) regardless of
+house size — no integer target hits exactly 33% at every pool size,
+but **target successes = round(pool ÷ 3) + 1** stays in a tight
+~21-46% band at every size tested (1-20), with simple mental math at
+the table. Locked in.
+
+Added a new "Check types — STATIC vs. COMPETITIVE" section to
+`tasks.md` (previously the game had no single place defining either
+check type's actual resolution mechanic — both were used constantly
+but never formally specified in one spot). This also finally writes
+down the Competitive margin-band rule itself (pool <5 → any win
+decisive; 5-13 → decisive needs margin 2+; 14+ → decisive needs margin
+3+), which had been RESOLVED back when Competitive margins were first
+validated by simulation but, like King/Revolt/Destiny, never actually
+made it from decisions-log.md into a rulebook file until now. Removed
+the now-resolved open item from `tasks.md`'s open-items list.

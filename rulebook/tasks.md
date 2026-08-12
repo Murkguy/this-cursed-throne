@@ -39,6 +39,30 @@ genuinely bigger pool than a single-stat action, at the cost of some
 tension with the original "~20 dice stays rollable" pacing rationale on
 a house's biggest actions. Accepted as intentional.
 
+## Check types — STATIC vs. COMPETITIVE
+Every die in a pool succeeds on a **5 or 6**. Both check types use that
+same base roll; they differ in what counts as success.
+
+**STATIC** — pure pass/fail, no margin grading. Roll the pool; succeed
+if successes are **at least round(pool ÷ 3) + 1**. This target scales
+with pool size specifically so the odds stay roughly the same — around
+a 1-in-3 chance — whether a house is rolling 2 dice or 20, rather than
+static checks trending toward a rubber stamp for big houses. (E.g. a
+pool of 6 needs 3 successes, ~32%; a pool of 15 needs 6, ~38%.) Tension
+in a Static action comes from which Task slot to spend it on, not from
+padding the pool to guarantee a win.
+
+**COMPETITIVE** — opposed roll, both sides roll their pool and compare
+successes. The margin (attacker's successes minus defender's) decides
+the outcome, using a band width that also scales with the larger pool
+involved, so a narrow win/denial isn't disproportionately common for
+small houses: pool under 5 dice → any win at all is decisive (no
+denial band); pool 5-13 → decisive needs a margin of 2+; pool 14+ →
+decisive needs a margin of 3+. A margin inside the denial band is a
+narrow win; losing (or tying, where a specific action calls that out)
+is a loss. Each action below spells out its own decisive/narrow/loss
+outcomes — never assume a default.
+
 ## War — Manpower-based
 Always targets a ring-adjacent house (see `geography.md`).
 
@@ -203,8 +227,6 @@ Life — with no Magic-task definitions needed here.)
 ---
 
 ## Open items this pass surfaced (not yet resolved)
-- Static check target number (proposing 2 successes as default, not yet
-  confirmed)
 - Assassinate's exact win/tie/loss breakpoints — written as my best
   reading of the description, not yet explicitly confirmed
 - The exact events-deck CONTENT that checks passive stats is future
