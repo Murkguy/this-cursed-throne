@@ -1418,3 +1418,34 @@ Updated `turn-order.md` Phase 4 (Doom Clock consequence is now
 module-dependent, not hardcoded), `setup-order.md` step 2 (Magic-born
 marked drafted, other 3 still open), `README.md`, and `gameflow.md`'s
 closing section to reflect the gap as resolved.
+
+## The Sundering rewritten much harsher (2026-08-12)
+
+Designer caught a real hole in the first draft: a house could fail all
+3 trials and still limp through with partial stats intact (the fail
+effects were -2 Legend, -1 Manpower/-1 Land, and half of remaining
+Land+Wealth — none of that guaranteed zeroing Land, Manpower, AND
+Wealth together, so full Ruin wasn't actually assured). Also asked for
+real prose — "heavy explanation... it needs to hit hard, very hard" —
+and for death checks to hit the WHOLE family on each failure, not one
+chosen relative.
+
+Rewrote all 3 trials:
+- **Trial 1 (Wild Surge, Legend+Cunning):** fail = -2 Legend, -1
+  Cunning, AND every relative tracked by the house takes a death
+  check (not one chosen sacrifice).
+- **Trial 2 (Restless Dead, Manpower+Wealth):** fail = lose ALL
+  Manpower AND ALL Wealth (not -1 each), every relative takes another
+  death check.
+- **Trial 3 (Land Unmade, Land+Wealth):** fail = lose ALL remaining
+  Land AND Wealth (not half), every relative takes a third death
+  check.
+
+This closes the actual hole: failing Trial 2 and Trial 3 together now
+zeroes Manpower, Wealth, AND Land at once regardless of Trial 1's
+result — full Ruin is mathematically guaranteed on a full gauntlet
+failure, not just likely. Also added: every death check during the
+Sundering is treated one age-tier worse than normal (stacks with
+Sickly/Long-Lived) — the Calamity doesn't spare the young or strong.
+Added full narrative prose per trial (dark, visceral, matching the
+"hit hard" ask) rather than dry mechanical bullets.
