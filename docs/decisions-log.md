@@ -909,6 +909,31 @@ All 52 entries across all four suits are now built under the same
 Ace-high framework. Awaiting designer confirm on Spades before the
 house trait table is considered fully locked.
 
+## Spades polish pass (2026-08-11)
+
+- **Paranoid** (2) — its Diplomacy-only-6s restriction repeated the
+  same task Hearts (Leprosy) and Diamonds (Close-Fisted) already used
+  for their rank-2 cards. Moved to **Trade** instead (matches
+  Paranoid's own original flavor, "trusts no merchant") — the
+  success-threshold-restriction pattern is now spread across Manpower
+  (Clubs), Diplomacy (Hearts, Diamonds), and Trade (Spades), not
+  repeated a third time on the same task.
+- **Magical** (Q) — its cost ("draws 2 keeps worst on Spade-suited
+  events targeting it") was awkward and narrower than the framework's
+  weak-cost expectation for this tier. Simplified to a plain -1
+  Diplomacy.
+- **Harbinger** (K) — flagged as too similar to Doom-Touched (J), both
+  originally just "Doom Clock triggers → +1 Legend." Reworked around a
+  different role: foresight and restraint instead of profit — always
+  knows the Doom Clock's exact value, and once per decade may force a
+  redraw of any card that would advance it. Doom-Touched keeps the
+  original passive Legend-gain angle; the two traits no longer overlap.
+- **Ace** — Crown's Shadow ("ignore margin restrictions on Espionage
+  vs. the King's house") was judged not to make sense. Replaced with
+  **Fate's Hand**: once per campaign, shift the Doom Clock itself by up
+  to 3 in either direction — ties directly into the suit's core theme
+  rather than being an Espionage-margin edge case.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
