@@ -132,13 +132,16 @@ Diamonds: only 3 truly bespoke traits for 4 unique-tier slots.
 **Shadow-Bound**'s conditional dice bonus (targeting the King's house)
 was upgraded into a unique mechanic, but that version ("ignore margin
 restrictions on Espionage vs. the King's house") didn't land — replaced
-with **Fate's Hand** (Ace), tying directly into the suit's core theme
-instead: shifting the Doom Clock itself. **Doom-Touched** (J) and
-**Harbinger** (K) were also differentiated — both originally revolved
-around the same "Doom Clock triggers → gain Legend" idea. Doom-Touched
-keeps that (passive, profits when the Clock advances); Harbinger was
-reworked into the opposite role — foresight and restraint (always
-knows the Clock's value, can force a redraw to hold it back).
+with **Fate's Hand** (Ace): shifting the Doom Clock itself.
+
+**No trait in this table rewards or enables advancing the Doom Clock**
+— the Clock threatens every house's win condition equally, so nothing
+should ever give a rational reason to want it higher. Doom-Touched (J),
+Harbinger (K), and Fate's Hand (A) are all purely protective/predictive
+as a result: Doom-Touched sees the next card of ANY events-deck draw
+before it happens; Harbinger can outright prevent a Doom Clock advance
+once per decade; Fate's Hand can only push the Clock BACK, never
+forward, buying the whole realm time.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
@@ -151,10 +154,10 @@ knows the Clock's value, can force a redraw to hold it back).
 | 8 | **Scholarly** | +2 dice on Magic tasks. | -1 die on War tasks. |
 | 9 | **Ruthless** | +2 dice on Espionage tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
 | 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
-| J | **Doom-Touched** | Whenever this house's kept events-deck card triggers the Doom Clock, also gain +1 Legend. | -2 dice on Diplomacy tasks — people are wary of them. |
+| J | **Doom-Touched** | This house may always look at the top card of the events deck before ANY draw in the game, not just ones targeting them — they see the shape of what's coming before anyone else. | -2 dice on Diplomacy tasks — people are wary of a house that speaks of omens. |
 | Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | -1 die on Diplomacy tasks — a house openly touched by magic unsettles the courts of the realm. |
-| K | **Harbinger** | This house always knows the exact current Doom Clock value. Once per decade, this house may force a redraw of any card that would advance the Doom Clock — a harbinger can see it coming, and sometimes turn it aside. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
-| A | **Fate's Hand** | Once per campaign, this house may shift the Doom Clock by up to 3 in either direction — advance it, hastening the end, or push it back, buying the realm more time. The realm's fate rests, if only once, in their hands. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
+| K | **Harbinger** | This house always knows the exact current Doom Clock value. Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
+| A | **Fate's Hand** | Once per campaign, this house may push the Doom Clock BACK by up to 3 — buying the entire realm more time. The rarest gift a house can give: more time before the end, for everyone. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
 
 ---
 
