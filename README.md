@@ -36,6 +36,9 @@ collaborative design approach).
   - `king-and-revolt.md` — how a house takes and loses the throne
     (Revolt: bids, alliances, the roll, failure cost, Mercy), and
     Destiny (the single-use flag, how it's earned and spent)
+  - `gameflow.md` — consolidated linear walkthrough of the whole game,
+    setup through a played-out example campaign; doesn't redefine any
+    rule, cites the other rulebook files for detail
 
 ## Status
 
@@ -45,4 +48,8 @@ Birth Deal (card-based character generation), the unified events deck,
 the King/Legend curse mechanic, and the Fate Check (birth/death). The
 **house trait table is fully drafted and locked** (52 entries, all four
 suits). Remaining table content — character trait table, events table,
-Calamity modules — has not been drafted yet.
+Calamity modules — has not been drafted yet. One larger gap surfaced by
+`gameflow.md`'s worked example: **there is no mechanic yet for what
+happens when the Doom Clock reaches its max, or what "surviving the
+Calamity" resolves as** — the game's stated win condition has no
+endgame procedure defined. See `gameflow.md`'s closing section.

@@ -1352,3 +1352,31 @@ follow-up list: no-GM-discretion terminology, moniker eligibility,
 Assassinate's breakpoints, spouse age, and spousal regency. Remaining
 known gap is purely content-drafting (character trait table, events
 deck, Calamity modules) — not a consistency issue.
+
+## New file: rulebook/gameflow.md (2026-08-12)
+
+Before starting the content-drafting backlog, built a consolidated
+linear walkthrough of the entire game — setup once, then an example
+table of 4 houses (House Ashvale followed closely) played through 5
+decades, hitting Static and Competitive checks, the Fate Check, War as
+a standing state, Broker Peace, Destiny's full trigger list and the
+trait-swap effect, Succession, Kingdom Scene's Legend/Doom-Clock draw,
+the newly-simplified moniker conferral, and a full Revolt. Purpose:
+confirm the known content backlog (character traits, events deck,
+Calamity modules) is actually the COMPLETE list before drafting any of
+it, by tracing a real play sequence and seeing what it touches.
+
+Result: **no new content-type gap found** — every placeholder needed
+in the trace maps to one of the three already-known items. But the
+trace surfaced one larger gap that isn't just missing content:
+
+⚠️ **There is no mechanic anywhere for what happens when the Doom
+Clock reaches its maximum, or what "surviving the Calamity" resolves
+as.** The Doom Clock's advance trigger is fully specified, and the
+README states the entire win condition depends on surviving the
+Calamity — but nothing defines the Doom Clock's max value, what fires
+when it's reached, whether survival is a roll/check/collective
+action, or how a campaign actually concludes. Likely needs its own
+per-Calamity-module "the Calamity strikes" procedure. Flagged as
+probably the single biggest remaining design hole in the game — not
+fixed on this pass, needs a dedicated design discussion.
