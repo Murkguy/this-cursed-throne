@@ -1318,3 +1318,15 @@ improvised at the table to fit what the Leader actually did. **Capped
 at one moniker per Leader, ever** (a later Leader of the same house
 can still earn their own). Documented in `turn-order.md` Phase 4;
 removed the now-resolved open item from `king-and-revolt.md`.
+
+## Assassinate's margin breakpoints confirmed (2026-08-12)
+
+Asked whether Assassinate's "-1 = clean escape, -2+ = captured"
+breakpoints should scale with pool size like the general Competitive
+band-width rule now does (they happen to exactly match that rule's
+width-1 value at the common 5-13 pool range, just weren't tied to it).
+**Designer confirmed: keep them fixed at -1/-2 regardless of pool
+size** — Assassinate is its own bespoke margin table (win/tie/narrow-
+loss/bad-loss, not the standard decisive/narrow/loss shape) and stays
+that way on purpose. Removed the "not yet confirmed" flag from
+`tasks.md`.

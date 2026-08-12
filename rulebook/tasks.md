@@ -159,9 +159,10 @@ Stewardship rolls).
   Being "captured" doesn't kill the assassin automatically — they
   become a prisoner of the target house, a real narrative complication
   (ransom, execution, a hostage to trade) rather than an immediate
-  death check. *(This margin table is my best reading of the intended
-  breakpoints — flag if the win/tie/loss boundaries should sit
-  differently.)*
+  death check. These breakpoints are fixed at -1/-2 regardless of pool
+  size — deliberately NOT scaled by the general Competitive band-width
+  rule (see Check Types above); confirmed as its own bespoke margin
+  table.
 - **Steal Secrets** — **Cunning** alone, the purest expression of
   spycraft. Targets a house. Decisive win: choose ONE of the target's
   PASSIVE stats (Piety, Honor/Infamy, or Legend) and reduce it by 2 —
@@ -227,8 +228,6 @@ Life — with no Magic-task definitions needed here.)
 ---
 
 ## Open items this pass surfaced (not yet resolved)
-- Assassinate's exact win/tie/loss breakpoints — written as my best
-  reading of the description, not yet explicitly confirmed
 - The exact events-deck CONTENT that checks passive stats is future
   table-content work, not yet drafted
 - Renegotiate has no cap on how much can change hands per use — flagging
