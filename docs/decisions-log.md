@@ -1483,3 +1483,22 @@ applies to every allied house, but consequences still land
 individually — each house loses its OWN stats per the outcome, not a
 shared amount. Banding together for better odds is intended and
 encouraged; it doesn't reduce individual stakes.
+
+## Loss tier made uniformly brutal: flat -5 to all 7 stats (2026-08-12)
+
+Designer: "Loss of the first one is still pretty weak. I think each
+check actually should hurt all stats by like a flat -5." The Loss
+tiers had stayed scoped to each trial's own stat pair (Trial 1: -2
+Legend/-1 Cunning; Trial 2/3: zero out their own pair) — real, but
+narrower than the death-check side of the punishment.
+
+Replaced all 3 trials' Loss consequence with the same rule: **lose 5
+points from EVERY one of the 7 stats** (Land, Manpower, Wealth,
+Honor/Infamy, Piety, Legend, Cunning — each floored at 0), on top of
+the existing death-check effects (unchanged: every relative for a
+full Loss). This stacks across multiple lost trials (-10 for two
+losses, -15 for three), which pushes the earlier "losing trials 2+3
+guarantees Ruin" finding even further: for most houses, **even a
+single lost trial now threatens Ruin on its own**, and losing any two
+guarantees it outright regardless of the third. Decisive/narrow win
+tiers unchanged (weren't flagged as weak).

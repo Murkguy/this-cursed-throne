@@ -84,11 +84,14 @@ remembered.
 - **Narrow win:** lose **1 Legend and 1 Cunning**, and the player's
   choice of ONE relative takes a death check — the house comes through
   scarred.
-- **Loss:** lose **2 Legend and 1 Cunning**, and **EVERY relative
-  tracked by this house** (Leader, spouse, every descendant and their
-  own spouses/children still in the family tree) takes a death check.
-  Not one chosen sacrifice — the whole bloodline stands in the surge
-  together.
+- **Loss:** the surge doesn't stop at reputation — it unravels
+  everything this house is. **Lose 5 points from EVERY one of its 7
+  stats** (Land, Manpower, Wealth, Honor/Infamy, Piety, Legend,
+  Cunning — each floored at 0), and **EVERY relative tracked by this
+  house** (Leader, spouse, every descendant and their own
+  spouses/children still in the family tree) takes a death check. Not
+  one chosen sacrifice — the whole bloodline stands in the surge
+  together, and what it takes from a house, it takes from all of it.
 
 ### Trial 2: The Restless Dead — Manpower + Wealth
 What the surge does not claim outright, it wakes. Barrows crack open.
@@ -100,11 +103,12 @@ walks toward the living.
   Manpower**.
 - **Narrow win:** lose **1 Manpower and 1 Wealth**, and ONE chosen
   relative assigned to the defense takes a death check.
-- **Loss:** this house's standing army breaks entirely — **lose ALL
-  Manpower and ALL Wealth** (the coin spent buying loyalty and steel
-  is worthless against the dead; there is nothing left to hire,
-  nothing left to arm) — and **EVERY relative** takes another death
-  check, on top of whatever Trial 1 already cost this family.
+- **Loss:** this house's standing army breaks entirely, and the dead
+  do not stop at the gate. **Lose 5 points from EVERY one of its 7
+  stats** (floored at 0) — coin, land, faith, renown, none of it
+  matters to something that's already dead — and **EVERY relative**
+  takes another death check, on top of whatever Trial 1 already cost
+  this family.
 
 ### Trial 3: The Land Unmade — Land + Wealth
 Last, and worst: the ground itself stops agreeing to exist. Fields,
@@ -116,18 +120,22 @@ light comes back.
   ground stops moving — lose **1 Land**.
 - **Narrow win:** lose **1 Land and 1 Wealth**, and ONE chosen
   relative takes a death check.
-- **Loss:** **lose ALL remaining Land and ALL remaining Wealth** —
-  there is no "half" left to lose by this point, a house that loses
-  this trial already wounded loses whatever ground it still stood on
-  — and **EVERY relative** takes a third death check.
+- **Loss:** there is no ground left to stand on, and nothing that
+  stood on it is spared. **Lose 5 points from EVERY one of its 7
+  stats** (floored at 0) — a house that loses this trial already
+  wounded loses whatever it had left standing — and **EVERY
+  relative** takes a third death check.
 
-Losing Trial 2 and Trial 3 together already zeroes Manpower, Wealth,
-AND Land at once — full Ruin, guaranteed, regardless of Trial 1's
-result. Losing all three additionally means the family line has taken
+**These -5-to-everything losses stack.** A house that loses two
+trials takes -10 to every stat across the round; losing all three is
+-15 to every stat, floored at 0 each time — for the overwhelming
+majority of houses, even one lost trial is enough to threaten Ruin on
+its own, and losing any two guarantees it regardless of how the third
+goes. Losing all three additionally means the family line has taken
 three consecutive age-worsened death checks — Extinction is a very
 live possibility on top of Ruin, not a separate bad-luck outcome.
-**There is no version of losing the whole gauntlet that leaves a
-house quietly surviving.**
+**There is no version of losing the whole gauntlet — or even losing
+badly partway through it — that leaves a house quietly surviving.**
 
 ## Determining the winner
 After all 3 trials resolve, any house that collapsed during the round
