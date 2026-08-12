@@ -144,6 +144,11 @@ once per decade; Fate's Hand can only push the Clock BACK, never
 forward, buying the whole realm time. (Harbinger no longer claims to
 "know the Doom Clock's value" — that's public information already,
 tracked openly at the table, so it wasn't actually granting anything.)
+Being purely protective meant Harbinger and Fate's Hand were pure
+collective goods with no edge for the owning house specifically — both
+now grant a personal reward (Legend, and for Fate's Hand also Piety)
+exclusively to the house that spends the power, on top of the shared
+benefit to the whole realm.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
@@ -158,8 +163,8 @@ tracked openly at the table, so it wasn't actually granting anything.)
 | 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
 | J | **Doom-Touched** | This house may always look at the top card of the events deck before ANY draw in the game, not just ones targeting them — they see the shape of what's coming before anyone else. | -2 dice on Diplomacy tasks — people are wary of a house that speaks of omens. |
 | Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | -1 die on Diplomacy tasks — a house openly touched by magic unsettles the courts of the realm. |
-| K | **Harbinger** | Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
-| A | **Fate's Hand** | Once per campaign, this house may push the Doom Clock BACK by up to 3 — buying the entire realm more time. The rarest gift a house can give: more time before the end, for everyone. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
+| K | **Harbinger** | Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. Whenever they do, this house alone gains +1 Legend, recognized across the realm as the ones who held back the end. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
+| A | **Fate's Hand** | Once per campaign, this house may push the Doom Clock BACK by up to 3 — buying the entire realm more time. The rarest gift a house can give: more time before the end, for everyone. When they do, this house alone gains +1 Piety and +1 Legend — the realm remembers who bought them their reprieve. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
 
 ---
 
