@@ -30,13 +30,35 @@ Ten decades of mounting Legend have worn the world thin. When the
 Doom Clock strikes its final mark, the wound tears open all at once —
 this is the **last decade of the campaign**, and it does not resolve
 gently. Before Task Assignment that decade, every house still standing
-faces **3 sequential trials** — not one roll, a gauntlet. Each trial
-is a STATIC check (target = round(pool÷3)+1, same formula as any other
-Static check) rolled individually by every house still in the
-campaign. Stats update immediately after each trial's consequences
-apply, so a house wounded by an early trial enters the next one
-already bleeding — the damage compounds on purpose, and it is meant to
-be felt.
+faces **3 sequential trials** — not one roll, a gauntlet. Stats update
+immediately after each trial's consequences apply, so a house wounded
+by an early trial enters the next one already bleeding — the damage
+compounds on purpose, and it is meant to be felt.
+
+**Each trial is COMPETITIVE, rolled against the Calamity itself**, not
+a Static check against a fixed target — the Calamity's pool for Trial
+N is **(the current decade number) × N**, so a Sundering triggered in
+decade 10 pits Trial 1 against a pool of 10, Trial 2 against 20, Trial
+3 against 30. This scales with however long the campaign actually ran
+(more decades means more accumulated power on every side, so the
+threat never goes stale) and gets meaningfully harder trial to trial.
+Margin is graded using the normal Competitive band-width rule (see
+`tasks.md`, Check Types) against whichever pool — house's or
+Calamity's — is larger.
+
+**Houses may ally on any trial.** Any number of houses facing the same
+trial may pool their relevant stats into ONE combined roll against the
+Calamity's pool for that trial — better odds for everyone involved.
+But alliance only pools the DICE. **The outcome (decisive/narrow/loss)
+applies identically to every allied house, but each house still
+suffers its own consequences individually, using its own stats** — if
+the trial calls for losing all Manpower, each allied house loses all
+of its own Manpower, not a shared amount. Banding together to face the
+end of the world is intended and encouraged; it does not make anyone
+safe from it.
+
+**Even a decisive win still costs something.** Nothing about the
+Sundering is free.
 
 **Every death check rolled during the Sundering is treated as one
 age-tier worse than normal** (stacking with Sickly/Long-Lived) — the
@@ -45,53 +67,66 @@ Calamity does not spare the young or favor the strong.
 A house that hits **Ruin or Extinction** (see `birth-death.md`) at any
 point during this round collapses immediately and is **out of
 contention** for the final score, same as any other collapse — no
-special exception for the Sundering. Failing all 3 trials is written
+special exception for the Sundering. Losing all 3 trials is written
 below to guarantee this outcome on stats alone, on top of whatever the
 death checks have already done to the family line — a house that
-fails the whole gauntlet does not limp away from it.
+loses the whole gauntlet does not limp away from it.
 
 ### Trial 1: The Wild Surge — Legend + Cunning
 The sky opens first. Color bleeds out of the world in slow pulses, and
 for one unbearable moment every oath ever sworn, every curse ever
 laid, every legend ever earned comes due at once — a tide of raw,
 undirected magic sweeping over everything a house has ever done to be
-remembered. **Fail:** this house loses **2 Legend and 1 Cunning** —
-the surge doesn't just wound reputation, it unravels the cleverness a
-house relies on to navigate what comes next — and **EVERY relative
-tracked by this house** (Leader, spouse, every descendant and their
-own spouses/children still in the family tree) takes an immediate
-death check. Not one chosen sacrifice — the whole bloodline stands in
-the surge together. **Succeed:** the house holds its shape against the
-tide.
+remembered.
+
+- **Decisive win:** the house holds its shape against the tide, but
+  not without cost — lose **1 Cunning**.
+- **Narrow win:** lose **1 Legend and 1 Cunning**, and the player's
+  choice of ONE relative takes a death check — the house comes through
+  scarred.
+- **Loss:** lose **2 Legend and 1 Cunning**, and **EVERY relative
+  tracked by this house** (Leader, spouse, every descendant and their
+  own spouses/children still in the family tree) takes a death check.
+  Not one chosen sacrifice — the whole bloodline stands in the surge
+  together.
 
 ### Trial 2: The Restless Dead — Manpower + Wealth
 What the surge does not claim outright, it wakes. Barrows crack open.
 Old battlefields give up what they buried. Every soldier a house ever
 spent, every soul lost to the long slow bleed of War, rises now and
-walks toward the living. **Fail:** this house's standing army breaks
-entirely — **lose ALL Manpower and ALL Wealth** (the coin spent
-buying loyalty and steel is worthless against the dead; there is
-nothing left to hire, nothing left to arm) — and **EVERY relative**
-takes another death check, on top of whatever Trial 1 already cost
-this family. **Succeed:** the line holds.
+walks toward the living.
+
+- **Decisive win:** the line holds, but the cost is real — lose **1
+  Manpower**.
+- **Narrow win:** lose **1 Manpower and 1 Wealth**, and ONE chosen
+  relative assigned to the defense takes a death check.
+- **Loss:** this house's standing army breaks entirely — **lose ALL
+  Manpower and ALL Wealth** (the coin spent buying loyalty and steel
+  is worthless against the dead; there is nothing left to hire,
+  nothing left to arm) — and **EVERY relative** takes another death
+  check, on top of whatever Trial 1 already cost this family.
 
 ### Trial 3: The Land Unmade — Land + Wealth
 Last, and worst: the ground itself stops agreeing to exist. Fields,
 walls, ancestral halls — the very earth a house's claim was built on
 buckles, folds, and in places simply isn't there anymore when the
-light comes back. **Fail:** **lose ALL remaining Land and ALL
-remaining Wealth** — there is no "half" left to lose by this point, a
-house that reaches this trial already wounded loses whatever ground
-it still stood on — and **EVERY relative** takes a third death check.
-**Succeed:** something of the house still stands when the ground
-stops moving.
+light comes back.
 
-Failing Trial 2 and Trial 3 together already zeroes Manpower, Wealth,
+- **Decisive win:** something of the house still stands when the
+  ground stops moving — lose **1 Land**.
+- **Narrow win:** lose **1 Land and 1 Wealth**, and ONE chosen
+  relative takes a death check.
+- **Loss:** **lose ALL remaining Land and ALL remaining Wealth** —
+  there is no "half" left to lose by this point, a house that loses
+  this trial already wounded loses whatever ground it still stood on
+  — and **EVERY relative** takes a third death check.
+
+Losing Trial 2 and Trial 3 together already zeroes Manpower, Wealth,
 AND Land at once — full Ruin, guaranteed, regardless of Trial 1's
-result. Failing all three additionally means the family line has taken
+result. Losing all three additionally means the family line has taken
 three consecutive age-worsened death checks — Extinction is a very
 live possibility on top of Ruin, not a separate bad-luck outcome.
-**There is no version of failing the whole gauntlet that leaves a
+**There is no version of losing the whole gauntlet that leaves a
 house quietly surviving.**
 
 ## Determining the winner

@@ -1449,3 +1449,37 @@ Sundering is treated one age-tier worse than normal (stacks with
 Sickly/Long-Lived) — the Calamity doesn't spare the young or strong.
 Added full narrative prose per trial (dark, visceral, matching the
 "hit hard" ask) rather than dry mechanical bullets.
+
+## Sundering trials converted to Competitive-vs-Calamity, alliance added (2026-08-12)
+
+Designer flagged 3 more issues after seeing the trials laid out: (1)
+wanted alliance explicitly supported ("these could be handled in
+alliance, which is intended"), (2) wanted even a SUCCESS to cost
+something, not just failure, (3) wanted the check type changed off the
+normal ~33%-regardless-of-size Static formula, to either a flat target
+or a Competitive check against the Calamity itself.
+
+Went with **Competitive against a fixed Calamity pool** — reuses the
+existing margin-band machinery, and the narrow-win tier gives "success
+still hurts" for free instead of needing a bolted-on rule. First
+proposed a flat escalating pool (6/8/10) — designer caught that this
+goes stale fast ("10 might be too small, think 10 turns in, if
+someone gets up to 20 legend by turn 10, it makes the check a
+breeze"). Fixed by scaling the Calamity's pool to the campaign itself:
+**pool for Trial N = (current decade number) × N** — at decade 10:
+10/20/30. Scales automatically with however long the campaign ran, so
+it can't go stale, and escalates hard trial to trial.
+
+Each trial now has 3 outcomes instead of pass/fail:
+- **Decisive win:** small cost only (1 stat point) — no death checks.
+- **Narrow win:** small cost + ONE chosen relative takes a death
+  check.
+- **Loss:** the original harsh full-fail effects (stats zeroed,
+  EVERY relative death-checks) — unchanged from the previous pass.
+
+**Alliance:** any houses facing the same trial may pool their relevant
+stats into one combined roll against the Calamity. The single result
+applies to every allied house, but consequences still land
+individually — each house loses its OWN stats per the outcome, not a
+shared amount. Banding together for better odds is intended and
+encouraged; it doesn't reduce individual stakes.
