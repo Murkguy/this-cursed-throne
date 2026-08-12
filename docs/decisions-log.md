@@ -886,6 +886,29 @@ without changes).
   any other, no other house's cooperation needed. Self-contained,
   unlike the rejected lending version.
 
+**Diamonds confirmed.**
+
+## Spades drafted fresh under Ace-high (2026-08-11) — ALL FOUR SUITS DONE
+
+Fourth and final suit, done directly under the established framework
+from the start rather than needing a second pass. No house-vs-personal
+migration needed — Calamity/Doom traits (magical traditions, espionage
+reputations) read institutional naturally, same pattern as Clubs and
+Diamonds. Counting surfaced the same "3 bespoke traits for 4 unique-
+tier slots" mismatch as Diamonds: only Magical, Doom-Touched, and
+Harbinger were truly bespoke. **Shadow-Bound**'s conditional dice bonus
+(+2/-2 Espionage depending on whether the target was the King's house)
+was upgraded into a genuine unique mechanic, **Crown's Shadow** (Ace):
+Espionage actions against the King's house ignore margin restrictions
+entirely — even a narrow win or tie counts as decisive. **Paranoid**
+(2) reuses the now-standard success-threshold-restriction pattern
+(Diplomacy only counts 6s) established across all three other suits'
+rank-2 cards (Ill-Trained Levies, Leprosy, Close-Fisted).
+
+All 52 entries across all four suits are now built under the same
+Ace-high framework. Awaiting designer confirm on Spades before the
+house trait table is considered fully locked.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
