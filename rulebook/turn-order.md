@@ -68,7 +68,11 @@ Military/Political, ♠ Calamity/Doom), rank = outcome quality (low→high =
 bad→good). If any house has Legend 10+ (including any King, who gets +10
 automatically), that house draws extra cards per every 10 Legend and
 keeps the lowest. If the kept card is an Ace/2/3, the Doom Clock advances
-by 1. Deck is reshuffled after every draw.
+by 1. Deck is reshuffled after every draw. **The Doom Clock's current
+value is public** — tracked openly at the table (a visible counter or
+token), not a GM secret. It threatens every house's win condition
+equally, so there's no reason to hide it — consistent with the game's
+general move away from GM-gatekept information.
 
 This is also where a declared Revolt (from this same decade's Phase 2)
 resolves, if one was declared — NOT next decade's Kingdom Scene, this

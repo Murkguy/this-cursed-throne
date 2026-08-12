@@ -141,7 +141,9 @@ Harbinger (K), and Fate's Hand (A) are all purely protective/predictive
 as a result: Doom-Touched sees the next card of ANY events-deck draw
 before it happens; Harbinger can outright prevent a Doom Clock advance
 once per decade; Fate's Hand can only push the Clock BACK, never
-forward, buying the whole realm time.
+forward, buying the whole realm time. (Harbinger no longer claims to
+"know the Doom Clock's value" — that's public information already,
+tracked openly at the table, so it wasn't actually granting anything.)
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
@@ -156,7 +158,7 @@ forward, buying the whole realm time.
 | 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
 | J | **Doom-Touched** | This house may always look at the top card of the events deck before ANY draw in the game, not just ones targeting them — they see the shape of what's coming before anyone else. | -2 dice on Diplomacy tasks — people are wary of a house that speaks of omens. |
 | Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | -1 die on Diplomacy tasks — a house openly touched by magic unsettles the courts of the realm. |
-| K | **Harbinger** | This house always knows the exact current Doom Clock value. Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
+| K | **Harbinger** | Once per decade, this house may prevent the Doom Clock from advancing entirely, regardless of what card is drawn — a harbinger who reads the signs may simply refuse to let doom advance. | -2 dice on Stewardship tasks — obsessed with the coming end, neglects the mundane. |
 | A | **Fate's Hand** | Once per campaign, this house may push the Doom Clock BACK by up to 3 — buying the entire realm more time. The rarest gift a house can give: more time before the end, for everyone. | -1 die on Espionage tasks — too consumed by fate itself to bother with mundane secrets. |
 
 ---
