@@ -96,10 +96,18 @@ one bids for it.
 **The King's per-turn powers happen here too**, as the second half of
 this phase: after the events-deck reveal above (and after Revolt
 resolution, if any), the King must grant 1 resource from the unclaimed
-pool, may then redistribute one resource between houses, may confer an
-eligible moniker, and **may move 1 house's position in the house order**
+pool, may then redistribute one resource between houses, may confer a
+**moniker**, and **may move 1 house's position in the house order**
 (see Phase 2's scene-conflict priority rule). All four are exercised
 during Kingdom Scene, not as a separate phase.
+
+**Monikers are pure fluff, no mechanical effect** — the King may name
+any ONE House Leader (any house, including their own) with a title
+("the Just," "the Butcher") fitting whatever that Leader has actually
+done. No eligibility gate, no roll, no table — freely improvised by
+the table at the moment the King confers it. **Capped at one moniker
+per Leader, ever** — once a Leader has one, they're done, though a
+later Leader of the same house can still earn their own.
 
 House order is therefore not fixed for the campaign — it only ever
 changes when the King chooses to spend this power, one house at a time,

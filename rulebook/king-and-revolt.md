@@ -173,9 +173,10 @@ list.
 ---
 
 ## Open items this page surfaced (not yet resolved)
-- Moniker eligibility's exact mechanical threshold — decisions-log.md
-  gestures at "a Legend/events-table threshold," but the precise
-  number was never locked. Conferral itself (a King's per-turn power)
-  is already defined in `turn-order.md`.
 - Calamity compensation's exact Destiny trigger, pending the
   undrafted Calamity module content.
+
+(Moniker eligibility, previously flagged here as an unresolved
+threshold, was simplified away — see `turn-order.md` Phase 4:
+monikers are now pure fluff with no eligibility gate, freely conferred
+by the King, capped at one per Leader.)

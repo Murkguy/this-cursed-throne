@@ -1304,3 +1304,17 @@ anything left needing a judgment call. Resolved:
 
 Updated the note in `king-and-revolt.md` that had flagged this as a
 known leftover — no longer applicable.
+
+## Moniker eligibility simplified away (2026-08-12)
+
+Previously flagged open: eligibility was tentatively described (early
+in the project) as "mechanical — a leader crosses a Legend/events-
+table threshold." Revisited and simplified per designer feedback:
+**monikers were always meant to be pure fluff, fun flavor, not another
+mechanically-gated system.** Dropped the eligibility threshold
+entirely — the King may confer a moniker on any ONE House Leader
+whenever they choose, no roll, no table, no gate. Text is freely
+improvised at the table to fit what the Leader actually did. **Capped
+at one moniker per Leader, ever** (a later Leader of the same house
+can still earn their own). Documented in `turn-order.md` Phase 4;
+removed the now-resolved open item from `king-and-revolt.md`.
