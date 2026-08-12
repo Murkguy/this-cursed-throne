@@ -1103,3 +1103,58 @@ follow-up edit needed there.
   per rank)
 - Whether the spouse can start at a different age than the Leader by
   player choice, or must always match
+
+## Rules-consistency gap analysis (2026-08-12)
+
+Full read-through of every rulebook/ and tables/ file, cross-checking
+terminology, mechanics, and references against each other. Fixed 3
+concrete cross-reference bugs (all committed): house-archetypes.md's
+Magical Order cited "Spades 10" for the Magical trait, which is
+actually Spades Q (Spades 10 is Omen-Marked, an unrelated Magic-dice
+trait); setup-order.md and tasks.md both called it "the Magic house
+trait" when its real name is "Magical"; tasks.md's Magic-gating
+paragraph still described "Sickly's Ace-2-of-Spades conversion," a
+mechanic dropped when Sickly was simplified to flat +2 Piety. Also
+clarified in the same pass: Magic-task access is gated per-CHARACTER
+(a relative who underwent Magic conversion at Birth Deal), not
+automatically house-wide just from having the Magical trait.
+
+Larger structural gaps found, not fixed (need designer input, logged
+here for tracking):
+- **No dedicated rulebook page for King & Revolt, or for Destiny.**
+  Both are referenced constantly and are load-bearing for several
+  locked house traits (Kingmaker, Warmonger, Ambitious, Cursed,
+  Charmed Life) and for turn-order.md's Kingdom Scene phase, but the
+  actual mechanics (Revolt's bid/alliance-bloc/resolution procedure,
+  the failure cost, Destiny's earn triggers and spend effect, moniker
+  eligibility thresholds) only exist in `design-notes-original.txt`
+  and scattered decisions-log summaries — never carried into a clean
+  `rulebook/` file the way setup/turn-order/tasks/birth-death were. A
+  new player following only the current rulebook/ can't actually
+  resolve a Revolt or spend Destiny.
+- **Static check target number is still unconfirmed** (`tasks.md`'s
+  own open-items list flags "proposing 2 successes, not yet
+  confirmed") — this underlies every STATIC action in the game
+  (Broker Deal, Arrange Marriage, Forge Alliance, Court Favor, Invoke
+  Faith, Ordain a Novice, Fortify, Scry, Bless, Steadfast's bonus,
+  etc.), making it the single most load-bearing unresolved number in
+  the ruleset.
+- **Zealous** (Clubs 6, house-traits.md) reads "+2 dice on the first
+  task a relative attempts each decade / -2 dice on every other task
+  that same relative attempts that decade" — but turn-order.md's "one
+  Task per relative per decade" rule plus the one-decade gap between a
+  Task being assigned (Phase 5) and resolved (next decade's Phase 1)
+  means it's unclear the downside can trigger in normal play at all
+  (only a same-decade Scene-check + Task-resolution overlap would do
+  it). As written it may function as a near-pure-upside trait, which
+  breaks the "no trait is pure upside" design principle applied
+  everywhere else in the table.
+- **Magical Order archetype grants a 5th trait for free.**
+  house-traits.md states flatly "every house has 4 traits" with no
+  exception; house-archetypes.md's Magical Order grants the Magical
+  trait's effect "without spending one of the 4 trait picks" — meaning
+  a Magical Order house actually carries 5 traits (Magical + 2 chosen
+  + 2 rolled), contradicting the "4 traits, always" framing elsewhere.
+  Might be intentional (archetype identity should feel bigger than a
+  normal trait pick), but the "always 4" line needs an explicit
+  exception noted if so.
