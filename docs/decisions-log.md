@@ -973,6 +973,21 @@ time, never hastening the end. This principle should carry forward into
 the still-undrafted events table and Calamity module content, where
 Doom Clock interactions will come up again.
 
+## Doom Clock is public information (2026-08-11)
+
+Established: the Doom Clock's current value is tracked openly at the
+table — a visible counter or token, not a GM secret. It threatens
+every house's win condition equally, so there's no reason to hide it,
+and it's consistent with the game's broader move away from GM-gatekept
+information (see the earlier no-GM-discretion principle). Documented
+in `rulebook/turn-order.md`, Phase 4, where the Doom Clock is first
+introduced.
+
+This made **Harbinger**'s "always knows the exact current Doom Clock
+value" clause redundant — everyone already knows it by default, so the
+clause wasn't actually granting anything. Removed; Harbinger now just
+grants the once-per-decade prevent-an-advance power.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
