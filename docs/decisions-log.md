@@ -1028,6 +1028,27 @@ Magic trait requirement:
 Clock cluster, so it didn't need replacing. Full definitions for all
 three new actions added to `rulebook/tasks.md`.
 
+## Spades J/K/A: Magic-gating dropped in favor of direct luck abilities (2026-08-11)
+
+Same day, one more pivot: the "unlocks a new Magic action" versions of
+Time-Binder/Unweaver/Soul Trade were flagged as flawed — gating them
+behind the Magic house trait meant a house without a Magic-capable
+character couldn't use them at all, regardless of which J/K/A card
+they rolled. **Magical (Q) stayed untouched** throughout — the fix
+targets only J/K/A. New versions, all direct house-level abilities
+with no Magic-task dependency:
+
+- **Ill-Starred** (J) — once every 10 years, force an opponent to
+  redraw 1 card (any single card draw in the game, reflipped).
+- **Fortune's Grace** (K) — once every 20 years, redraw one of this
+  house's OWN card draws.
+- **Charmed Life** (A) — whenever this house spends Destiny, roll 1
+  die; on a 5 or 6, the house keeps Destiny instead of losing it
+  (still gains the spent effect that time, but the flag isn't used up).
+
+Removed the now-orphaned Time-Binder's Rite/Unweaving/Soul Trade's Rite
+definitions from `rulebook/tasks.md`.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
