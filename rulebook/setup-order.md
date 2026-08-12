@@ -132,7 +132,8 @@ No house starts as King. Nobody knows who the king will be yet.
 **But the throne cannot stay empty past Decade 1.** If one or more
 houses declare a bid during Decade 1's Scene Declaration (Phase 2), it
 resolves normally at Decade 1's Kingdom Scene via the standard
-alliance/bloc mechanism — same as any later Revolt. But if NO house
+alliance/bloc mechanism — same as any later Revolt, see
+`king-and-revolt.md`. But if NO house
 volunteers a bid, the GM flips one card per house at the start of Decade
 1's Kingdom Scene; **the house with the highest card is forced to
 assume the throne** (redraw among tied houses only). The curse doesn't

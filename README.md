@@ -33,6 +33,9 @@ collaborative design approach).
   - `tasks.md` — the six tasks: stats, check types, example actions
   - `house-archetypes.md` — House Archetype (7 options) and Succession
     Custom (4 options), setup-time choices distinct from house traits
+  - `king-and-revolt.md` — how a house takes and loses the throne
+    (Revolt: bids, alliances, the roll, failure cost, Mercy), and
+    Destiny (the single-use flag, how it's earned and spent)
 
 ## Status
 

@@ -27,10 +27,11 @@ Opens the decade by settling everything set in motion last decade.
    a Destiny-triggering event (death of the house's leader, the house
    overtaking #1 in some ranking, the house becoming the new lowest-
    ranked, calamity compensation, resolving a vendetta, or winning the
-   crown), that character may swap one existing trait for a newly
-   flipped one — a single card flip, same 13-entry trait table lookup as
-   Birth Deal. Reuses the Destiny trigger list rather than a separate
-   "how major is major" judgment call.
+   crown — see `king-and-revolt.md` for the full Destiny trigger list),
+   that character may swap one existing trait for a newly flipped one —
+   a single card flip, same 13-entry trait table lookup as Birth Deal.
+   Reuses the Destiny trigger list rather than a separate "how major is
+   major" judgment call.
 
 ## Phase 2: Scene Declaration
 Every house writes **exactly 1 scene intent** for the decade on a
@@ -77,7 +78,8 @@ general move away from GM-gatekept information.
 This is also where a declared Revolt (from this same decade's Phase 2)
 resolves, if one was declared — NOT next decade's Kingdom Scene, this
 one, later in the same loop. Alliances are drawn live at this point if a
-Revolt is resolving.
+Revolt is resolving. See `king-and-revolt.md` for the full Revolt
+procedure (bids, alliances, the roll, failure cost, Mercy).
 
 **Decade 1 is a special case: the throne cannot leave this Kingdom Scene
 still vacant.** If a house declared a bid in Decade 1's Phase 2, it

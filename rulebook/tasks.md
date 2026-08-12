@@ -113,7 +113,8 @@ concrete outcomes.
   instead, having overreached.
 - **Broker Peace** — NO ROLL. Pure roleplay resolution — ends an active
   vendetta or a standing War peacefully. Grants +1 Honor. Can also
-  trigger Destiny, per the existing "resolving a vendetta" trigger.
+  trigger Destiny, per the existing "resolving a vendetta" trigger —
+  see `king-and-revolt.md` for the full Destiny mechanic.
 
 ## Espionage — Cunning-based
 Always COMPETITIVE, opposed by the target's **Land** (the same stat

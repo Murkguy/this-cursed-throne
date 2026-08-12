@@ -1158,3 +1158,49 @@ here for tracking):
   Might be intentional (archetype identity should feel bigger than a
   normal trait pick), but the "always 4" line needs an explicit
   exception noted if so.
+
+## Gap #1 closed: King & Revolt and Destiny now have a rulebook page (2026-08-12)
+
+New file `rulebook/king-and-revolt.md`. This was porting already-
+RESOLVED content from `design-notes-original.txt` into a clean page,
+plus nailing down a handful of pieces the original notes had left
+genuinely open or that needed reconciling with systems built since.
+Designer decisions this pass:
+
+- **Revolt bloc pool = Manpower + Wealth** (same combo as War) — a
+  Revolt is civil war, fought with armies funded by treasuries.
+- **Failure cost = 1/4 of Land, Manpower, AND Wealth**, rounded down,
+  calculated separately per stat (not a lump sum) — same three stats
+  Ruin already checks.
+- **Every relative committed to a losing bloc's contribution** takes a
+  death check, not just the challenging Leader — each house's Leader
+  is automatically committed; a player may nominate additional
+  relatives too (no extra dice, just shared risk).
+- **Revolt is binary win/lose**, not 3-tier margin-graded — a crown
+  can't be half-won. Whichever bloc has the most successes wins;
+  ties redraw among only the tied blocs.
+- **The King's own house auto-joins the loyalist bloc** with its own
+  Manpower + Wealth — never a passive bystander waiting on allies.
+- **A dethroned King's house pays the same failure cost as a failed
+  challenger** — losing a Revolt is dangerous regardless of which side
+  started the fight. The permanent +10 Legend curse-mark is a
+  separate, additional consequence, not a substitute for this cost.
+- **The Decade 1 forced-draw King also earns the crowning Destiny** —
+  one rule for however the crown was obtained, not a special case.
+- **Mercy is available to whichever bloc wins**, not King-only as the
+  original notes framed it — a victorious challenger sparing the old
+  King's loyalists is the same story beat, generalized to one rule.
+
+Destiny itself is now fully specified on the same page (single-use
+flag, one per house, 6s-explode-when-spent effect, full earn-trigger
+list) — previously only existed in the frozen original notes and
+scattered decisions-log mentions, despite being load-bearing for
+Ambitious, Cursed, and Charmed Life.
+
+Added cross-references from `turn-order.md`, `tasks.md`, and
+`setup-order.md` at their existing Revolt/Destiny mentions, and listed
+the new file in `README.md`. Left open on the new page: moniker
+eligibility's exact mechanical threshold (conferral was already
+resolved as a King's power; eligibility's precise trigger wasn't), and
+Calamity compensation's exact Destiny trigger (pending the undrafted
+Calamity module content).
