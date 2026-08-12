@@ -225,6 +225,13 @@ traits are now direct house-level luck abilities instead — see
 `tables/house-traits.md`, Ill-Starred, Fortune's Grace, and Charmed
 Life — with no Magic-task definitions needed here.)
 
+**Each Calamity module also grants exactly one dedicated Magic action**
+for preparing against its own ending — a Task Assignment slot spent
+today in exchange for a real edge when the module's final round
+arrives. Magic-Born's is the **Ritual of the Unbroken Ward** (see
+`tables/calamity-magic-born.md`). The other 3 modules, once drafted,
+will each define their own.
+
 ---
 
 ## Open items this pass surfaced (not yet resolved)

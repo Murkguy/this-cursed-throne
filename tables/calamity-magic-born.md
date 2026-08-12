@@ -25,6 +25,35 @@ more houses lean into Legend, the faster the Clock fills. (Other
 modules, once drafted, will define their own distinct advance
 triggers — this one doesn't generalize.)
 
+## Preparing for the End: the Ritual of the Unbroken Ward
+Every Calamity module gives houses exactly ONE dedicated way to
+prepare for its ending, at the cost of a Task Assignment slot that
+could otherwise go toward growing the house today — Magic-Born's is
+the **Ritual of the Unbroken Ward**.
+
+A new Magic action, **STATIC, Legend + Cunning**, gated the same as
+any other Magic action (see `tasks.md` — needs a relative who
+underwent Magic conversion at Birth Deal). Attemptable **once per
+decade**, any decade from the moment the module is chosen — not just
+in the final stretch. A house that starts preparing early has more
+chances to succeed than one that panics at Doom Clock 8.
+
+- **Success:** bank **1 Ward**. A house may hold at most **3 Wards**
+  at once — one per trial, no point banking more than the gauntlet
+  can use.
+- **Failure:** the meddling stirs the very thing it's trying to
+  survive — **the Doom Clock advances by 1 immediately.** Reaching for
+  a ward against the end of the world risks hastening it.
+
+**Spending Wards, during the Sundering:** after a trial's roll
+resolves (so the house knows exactly how bad it is before deciding),
+spend any number of banked Wards to upgrade that trial's outcome one
+tier per Ward spent (Loss→Narrow win, Narrow win→Decisive win — a
+Loss can be pushed all the way to Decisive by spending 2 Wards on it).
+Wards don't guarantee anything and can't prevent a bad roll, only
+soften what it costs — and a house that never invested in Magic
+across the campaign has none to spend when it matters most.
+
 ## The Final Round: The Sundering
 Ten decades of mounting Legend have worn the world thin. When the
 Doom Clock strikes its final mark, the wound tears open all at once —

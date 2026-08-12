@@ -1502,3 +1502,28 @@ guarantees Ruin" finding even further: for most houses, **even a
 single lost trial now threatens Ruin on its own**, and losing any two
 guarantees it outright regardless of the third. Decisive/narrow win
 tiers unchanged (weren't flagged as weak).
+
+## Ritual of the Unbroken Ward added, new module-wide design principle (2026-08-12)
+
+Designer wanted a proactive magical countermeasure for Magic-Born
+specifically ("it's magical in nature, maybe houses can make a ritual
+to save themselves from it?"), which surfaced a **general principle
+for all 4 Calamity modules: each one always gets exactly ONE dedicated
+prep action, costing a Task Assignment slot today in exchange for an
+edge when its ending arrives** ("at the expense of not focusing on
+today"). This applies going forward to the 3 still-undrafted modules
+too, each with its own themed version.
+
+Magic-Born's version: **Ritual of the Unbroken Ward** — new Magic
+action, Static, Legend+Cunning, gated like any Magic action (needs a
+Magic-converted relative), attemptable once per decade from the moment
+the module is chosen. Success banks 1 Ward (max 3, one per trial);
+failure advances the Doom Clock by 1 (reaching for protection risks
+hastening the end). During the Sundering, after a trial's roll
+resolves, spend any number of banked Wards to upgrade that trial's
+outcome one tier per Ward (a Loss can be pushed to Decisive by
+spending 2). Rewards early, sustained Magic investment over the whole
+campaign rather than only mattering in the final decades.
+
+Added to `tables/calamity-magic-born.md` and cross-referenced from
+`tasks.md`'s Magic section.
