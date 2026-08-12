@@ -955,6 +955,24 @@ Stewardship, Trade), not a stat.
 Still awaiting final designer confirm on Spades (and the table as a
 whole) before considering all 52 entries locked.
 
+## Design principle: nothing rewards advancing the Doom Clock (2026-08-11)
+
+Caught on Doom-Touched, Harbinger, and Fate's Hand, all of which either
+rewarded or enabled a house for wanting the Doom Clock to advance.
+"No one wins by getting the doom clock up" — the Clock threatens every
+house's win condition equally (you can't win if the realm collapses),
+so nothing in the game should ever give a rational reason to want it
+higher. Locked as a general rule for all future content, not just this
+pass: **Doom-Touched** (J) now sees the top card of any events-deck
+draw before it happens (pure foresight, no reward tied to the Clock
+itself). **Harbinger** (K) can now outright prevent a Doom Clock
+advance once per decade (was a vaguer "force a redraw," which didn't
+guarantee the outcome). **Fate's Hand** (A) dropped its "advance the
+Clock" option entirely — can only push it back, buying the whole realm
+time, never hastening the end. This principle should carry forward into
+the still-undrafted events table and Calamity module content, where
+Doom Clock interactions will come up again.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
