@@ -119,7 +119,7 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 | 3 | **Cruel** | +1 die on Espionage tasks. | -2 dice on Stewardship tasks — smallfolk resent and resist cruel rule. |
 | 4 | **Silver-Tongued** | +1 die on Diplomacy tasks — generations of skilled orators and negotiators. | -2 dice on War tasks. |
 | 5 | **Boastful** | +2 dice on War tasks — a warfare culture built on grand declarations and bravado. | -2 dice on Espionage tasks — too loud a reputation for subtlety. |
-| 6 | **Zealous** | +2 dice on the first task a relative attempts each decade. | -2 dice on every other task that same relative attempts that decade. |
+| 6 | **Zealous** | +2 dice on the first Task any relative of this house attempts each decade — the whole house's fervor channels into one endeavor. | -2 dice on every OTHER task any relative of this house attempts that same decade — nothing else gets the same devotion. |
 | 7 | **Disciplined** | +1 die on War and Stewardship tasks. | -1 die on Diplomacy and Espionage tasks. |
 | 8 | **Great Warriors** | +2 dice on War tasks. | -1 die on Diplomacy tasks. |
 | 9 | **Expansionist** | +2 dice on War tasks. | -1 die on Stewardship tasks — always looking outward. |
@@ -128,6 +128,14 @@ J/Q/K/A abandon dice math entirely for unique, positive mechanics.
 | Q | **Kingmaker** | Whichever side (King's loyalists or a challenger's bloc) this house joins during a Revolt resolution gets +3 dice on the roll — regardless of this house's own stat contribution. Their endorsement carries the weight, not their army. | -1 die on Magic tasks — all politics, no patience for mysticism. |
 | K | **Tyrannical** | While this house holds the crown, it may exercise EACH King's per-turn power (grant, redistribute, confer a moniker, move house order) twice per decade instead of once. | While this house holds the crown, -1 die on every OTHER task type — absolute power, absolute overreach. |
 | A | **Ambitious** | Whenever this house declares a bid to contest the crown (Revolt), they immediately gain 1 ADDITIONAL Destiny — even if they already hold one. Deliberate exception to the "only one Destiny per house" rule: their hunger for power bends fate at the crucial moment, rules be damned. | -1 die on Stewardship tasks — too fixed on the throne to tend their own lands. |
+
+**Zealous note:** when a house assigns multiple relatives to Tasks in
+the same decade's Phase 5, the player declares which one assignment is
+"first" (gets the +2) at the moment of assignment — not an arbitrary
+order. (Originally scoped per-relative rather than per-house; changed
+after a gap-analysis pass found the per-relative version's downside
+essentially never triggered under the "one Task per relative per
+decade" rule — see `docs/decisions-log.md`.)
 
 ## ♠ Spades — Calamity/Doom
 

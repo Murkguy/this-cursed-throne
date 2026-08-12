@@ -1235,3 +1235,25 @@ decisive; 5-13 → decisive needs margin 2+; 14+ → decisive needs margin
 validated by simulation but, like King/Revolt/Destiny, never actually
 made it from decisions-log.md into a rulebook file until now. Removed
 the now-resolved open item from `tasks.md`'s open-items list.
+
+## Gap #3 closed: Zealous rescoped house-wide (2026-08-12)
+
+Traced exactly when Zealous's downside (Clubs 6) could fire under the
+current rules: a Task is *assigned* in Phase 5 but doesn't *resolve*
+until Phase 1 of the NEXT decade, so a single relative's assigned Task
+and any Scene-check they make almost never land in the same decade —
+the only window is the Scene+Task double-booking rule (capped at 2
+relatives/house). For the ordinary case (one Task, no Scene overlap),
+the old per-relative wording was a clean +2 with no cost that decade,
+breaking the "no trait is pure upside" principle applied to every
+other entry in the table.
+
+Rescoped to house-wide: **+2 dice on the first Task any relative of
+this house attempts each decade, -2 dice on every OTHER task any
+relative of the house attempts that same decade** — reliably triggers
+whenever a house runs more than one Task assignment in a decade (the
+common case for any house with more than one active relative), and
+reads better thematically too (the whole house's fervor channels into
+one endeavor at the expense of everything else). Added a note that the
+"first" task is a player declaration at assignment time, not an
+arbitrary order.
