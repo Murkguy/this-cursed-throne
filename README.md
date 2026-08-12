@@ -23,8 +23,12 @@ collaborative design approach).
     suit+rank lookup) — **LOCKED**, all four suits confirmed
   - `character-traits-bank.md` — personality traits pulled out of the
     house table, held for the future character trait table
-  - (character traits proper, events deck, Calamity modules not yet
-    drafted)
+  - `calamity-magic-born.md` — first of the 4 Calamity modules,
+    **DRAFTED**: Doom Clock advance trigger, and the final-round
+    gauntlet + survivor score tally that answers "how does a campaign
+    conclude, who wins"
+  - (character trait table proper, events deck, and the other 3
+    Calamity modules not yet drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop
@@ -47,9 +51,11 @@ Core systems are specified: the decade loop, dice-pool task resolution,
 Birth Deal (card-based character generation), the unified events deck,
 the King/Legend curse mechanic, and the Fate Check (birth/death). The
 **house trait table is fully drafted and locked** (52 entries, all four
-suits). Remaining table content — character trait table, events table,
-Calamity modules — has not been drafted yet. One larger gap surfaced by
-`gameflow.md`'s worked example: **there is no mechanic yet for what
-happens when the Doom Clock reaches its max, or what "surviving the
-Calamity" resolves as** — the game's stated win condition has no
-endgame procedure defined. See `gameflow.md`'s closing section.
+suits). The endgame gap `gameflow.md`'s worked example surfaced (no
+mechanic existed for what happens when the Doom Clock maxes out, or
+what "surviving the Calamity" means) is now resolved: each Calamity
+module ends in a final-round gauntlet of bespoke trials, then a
+survivor score tally. **Magic-born is the first module drafted** under
+that shape (`tables/calamity-magic-born.md`). Remaining content:
+character trait table, events table, and 3 more Calamity modules
+(external invasion, economic collapse, blight).

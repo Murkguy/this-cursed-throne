@@ -1380,3 +1380,41 @@ action, or how a campaign actually concludes. Likely needs its own
 per-Calamity-module "the Calamity strikes" procedure. Flagged as
 probably the single biggest remaining design hole in the game — not
 fixed on this pass, needs a dedicated design discussion.
+
+## Endgame mechanic resolved + Magic-born Calamity module drafted (2026-08-12)
+
+Closed the biggest gap `gameflow.md` surfaced. Decisions, in order:
+
+- **Modules are fully bespoke**, not a shared template with only
+  flavor differing — confirmed after initially proposing the opposite.
+- **When a module's Doom Clock maxes out, one final ROUND (not an
+  instant end)** — designer wanted this to genuinely punish houses
+  across MULTIPLE trials, not a single roll, with real stakes:
+  "houses should die out during this stage."
+- **The ending itself is universal in shape across all modules**
+  (final gauntlet of module-specific trials → any house that collapsed
+  during the round is out → survivors sum all 7 stats → highest wins
+  the campaign) — this doubles as the answer to "how does a campaign
+  conclude, who wins," which the game never had an answer to at all
+  before today.
+- **Honor/Infamy counts as absolute magnitude** in the score sum, not
+  signed — a deeply infamous house is just as formidable in the tally
+  as a beloved one; only near-total neutrality contributes little.
+- Collapsed houses (Extinction/Ruin, including during the final round
+  itself) are **out of contention** for the win.
+
+**Magic-born drafted first** (`tables/calamity-magic-born.md`),
+establishing this shape concretely: Doom Clock 0-10, advance trigger
+is the EXISTING King/Legend curse draw (an Ace/2/3 kept card advances
+it by 1) — this reframes that mechanic as Magic-born-SPECIFIC rather
+than universal, since other modules will need their own distinct
+triggers. The final round ("the Sundering") is 3 sequential Static
+trials, each hitting a different stat combo (Legend+Cunning,
+Manpower+Wealth, Land+Wealth), each with real per-house stakes (stat
+loss, death checks, one trial costing half of remaining Land+Wealth)
+that compound as pools shrink trial to trial.
+
+Updated `turn-order.md` Phase 4 (Doom Clock consequence is now
+module-dependent, not hardcoded), `setup-order.md` step 2 (Magic-born
+marked drafted, other 3 still open), `README.md`, and `gameflow.md`'s
+closing section to reflect the gap as resolved.

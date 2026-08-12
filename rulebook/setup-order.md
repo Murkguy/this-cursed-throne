@@ -36,14 +36,14 @@ to move one house's position (see `turn-order.md`, Phase 4).
 ## 2. Choose a Calamity module
 Before anything else about the world is decided, the table picks ONE
 Calamity module together — this is the shared threat the campaign is
-building toward. Candidate module types: magic-born (tied to Legend),
-external invasion, systemic collapse of the zero-sum economy, slow
-environmental/supernatural blight.
+building toward, and each module defines its own Doom Clock starting
+length/max, its own advance trigger, and its own final-round trials
+(see `gameflow.md` for how this fits the rest of play).
 
-*(Open: the actual module write-ups don't exist yet — this step can't be
-fully executed until that content is drafted. Doom Clock starting length
-likely belongs here too, as a per-module value rather than one universal
-number.)*
+- **Magic-born** (tied to Legend) — **DRAFTED**, see
+  `tables/calamity-magic-born.md`.
+- External invasion, systemic collapse of the zero-sum economy, slow
+  environmental/supernatural blight — *(Open: not yet drafted.)*
 
 ## 3. Create your House
 

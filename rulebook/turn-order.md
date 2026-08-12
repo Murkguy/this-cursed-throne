@@ -71,13 +71,19 @@ lookup decides the outcome either way). Suit = category (♥
 Dynastic/Personal, ♦ Wealth/Trade, ♣ Military/Political, ♠
 Calamity/Doom), rank = outcome quality (low→high = bad→good). If any
 house has Legend 10+ (including any King, who gets +10 automatically),
-that house draws extra cards per every 10 Legend and keeps the lowest.
-If the kept card is an Ace/2/3, the Doom Clock advances by 1. Deck is
-reshuffled after every draw. **The Doom Clock's current value is
-public** — tracked openly at the table (a visible counter or token),
-never hidden. It threatens every house's win condition equally, so
-there's no reason to hide it — consistent with there being no
-persistent GM to gatekeep it in the first place.
+that house draws extra cards per every 10 Legend and keeps the lowest
+— this King/Legend curse draw happens regardless of which Calamity
+module the table picked, since it's the crown's curse, not the
+Calamity itself. Deck is reshuffled after every draw. **What the kept
+card does to the Doom Clock depends on the chosen Calamity module** —
+each module defines its own trigger (see `tables/calamity-*.md`; under
+Magic-Born, a kept Ace/2/3 advances the Clock by 1). **The Doom
+Clock's current value is public** — tracked openly at the table (a
+visible counter or token), never hidden. It threatens every house's
+win condition equally, so there's no reason to hide it — consistent
+with there being no persistent GM to gatekeep it in the first place.
+See `tables/calamity-magic-born.md` for what happens when the Clock
+reaches its max.
 
 This is also where a declared Revolt (from this same decade's Phase 2)
 resolves, if one was declared — NOT next decade's Kingdom Scene, this

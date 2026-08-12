@@ -241,21 +241,14 @@ traces back to one of:
 2. **The 52-entry events deck content** (Kingdom Scene reveals) — the
    mechanical shell (suit/rank/Legend-draw/Doom-Clock-trigger) is
    fully specified, only the actual table entries are missing.
-3. **Calamity module write-ups** (setup step 2) — including, per
-   `setup-order.md`'s own open item, each module's Doom Clock starting
-   length.
+3. **Calamity module write-ups** (setup step 2) — 1 of 4 drafted
+   (Magic-born, see `tables/calamity-magic-born.md`); external
+   invasion, economic collapse, and blight remain.
 
-**One larger gap this trace did surface, not just missing content:**
-
-⚠️ **There is no mechanic anywhere for what happens when the Doom
-Clock reaches its maximum, or what "surviving the Calamity" actually
-resolves as.** The Doom Clock advancing is fully specified
-(`turn-order.md` Phase 4), and the README states the game's entire win
-condition depends on it ("the crown only counts if the looming
-Calamity has been survived") — but nothing defines the Doom Clock's
-max value, what triggers when it's reached, whether survival is a
-roll/check/collective action, or how a campaign actually concludes.
-This isn't a table-content gap like the other three (more rows to
-write) — it's a missing mechanic, likely Calamity-module-specific
-(each module probably needs its own "the Calamity strikes" procedure),
-and is probably the single biggest remaining design hole in the game.
+**The larger gap this trace surfaced — no endgame mechanic existed at
+all — is now RESOLVED** (2026-08-12). Each Calamity module defines its
+own Doom Clock start/max/advance-trigger and, when the Clock maxes
+out, its own final round of bespoke trials; survivors are scored by
+summing all 7 stats (Honor/Infamy as absolute magnitude), highest
+total wins the campaign. Magic-born established this shape first; the
+remaining 3 modules are expected to reuse it with their own trials.
