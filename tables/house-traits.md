@@ -131,16 +131,17 @@ Counting existing entries surfaced the same mismatch pattern as
 Diamonds: only 3 truly bespoke traits for 4 unique-tier slots.
 
 The J/Q/K/A tier went through several concepts (Shadow-Bound's
-conditional dice bonus, then a Doom Clock-focused cluster) before
-settling on its final theme: **magic that lets a house cheat the
-normal rules of the game.** Time-Binder (J), Unweaver (K), and Soul
-Trade (A) each unlock a brand-new Magic action (see `rulebook/tasks.md`
-for the full definitions) that breaks an established rule on purpose —
-doing two Tasks in one decade, capturing a resource with no roll and no
-opposition, or converting an active stat straight into Legend without
-earning it through deeds. Magical (Q) is the one holdover from the
-original draft, since it was never part of the rejected Doom Clock
-cluster.
+conditional dice bonus, a Doom Clock-focused cluster, then a "magic
+that cheats the rules" cluster gated behind the Magic trait) before
+settling on its final theme: **extreme luck**, expressed as direct
+house-level abilities — deliberately NOT gated behind the Magic trait,
+since a house without a Magic-capable character couldn't have used the
+earlier versions at all. Ill-Starred (J) and Fortune's Grace (K) let
+this house redraw card results (against an opponent, or its own, on
+different timers); Charmed Life (A) gives a chance to not actually
+spend Destiny when used. Magical (Q) is the one holdover from the
+original draft — untouched, since it was never part of what got
+rejected.
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|
@@ -153,10 +154,10 @@ cluster.
 | 8 | **Scholarly** | +2 dice on Magic tasks. | -1 die on War tasks. |
 | 9 | **Ruthless** | +2 dice on Espionage tasks. | Whenever this house would gain Honor from an event, gain 1 less. |
 | 10 | **Omen-Marked** | +2 dice on Magic tasks. | -1 die on Espionage tasks — their omens give them away. |
-| J | **Time-Binder** | Unlocks a new Magic action: once per decade, one relative may perform TWO Tasks in the same decade instead of the normal limit of one — magic cheats time itself. | -1 die on War tasks — their focus turns inward and arcane, not martial. |
+| J | **Ill-Starred** | Once every 10 years (1 decade), this house may force an opponent to redraw 1 card — any single card draw in the game, reflipped, using the new result instead. A direct house-level ability, not gated behind Magic. | -1 die on Espionage tasks — a house that spreads ill luck draws its own share of suspicion. |
 | Q | **Magical** | The Magic-conversion trigger includes any face card (J/Q/K), not just the Ace of Spades (see `birth-death.md`). | -1 die on Diplomacy tasks — a house openly touched by magic unsettles the courts of the realm. |
-| K | **Unweaver** | Unlocks a new Magic action: COMPETITIVE, Legend + Cunning vs. the target's same. Success directly removes 1 point of any ONE active stat from the target house — pure sabotage, bypassing War, Trade War, and Espionage entirely. | -1 die on Diplomacy tasks — a house known to unmake others is trusted by none. |
-| A | **Soul Trade** | Unlocks a new Magic action: once per campaign, sacrifice any amount of one active stat to gain an equal amount of Legend — cheating the rule that Legend only grows through dramatic deeds, trading mundane power directly for renown. | -1 die on Trade tasks — magic that consumes wealth for glory leaves little room for commerce. |
+| K | **Fortune's Grace** | Once every 20 years (2 decades), this house may redraw 1 of its own card draws — any single card draw in the game, reflipped, using the new result instead. A direct house-level ability, not gated behind Magic. | -1 die on Trade tasks — fortune favored, they never learned to hustle for it. |
+| A | **Charmed Life** | Whenever this house spends Destiny, immediately roll 1 die — on a 5 or 6, the house keeps Destiny instead of losing it (still gains the spent effect, but the flag itself isn't used up). A direct house-level ability, not gated behind Magic. | -1 die on War tasks — a charmed life is rarely a warlike one. |
 
 ---
 
