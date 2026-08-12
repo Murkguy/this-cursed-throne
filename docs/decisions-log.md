@@ -1257,3 +1257,21 @@ reads better thematically too (the whole house's fervor channels into
 one endeavor at the expense of everything else). Added a note that the
 "first" task is a player declaration at assignment time, not an
 arbitrary order.
+
+## Gap #4 closed: Magical Order's 5th trait documented as an exception (2026-08-12)
+
+house-traits.md stated flatly "every house has 4 traits," but Magical
+Order's archetype bonus (`house-archetypes.md`) grants the Magical
+trait's effects on top of the normal 2 chosen + 2 rolled, not in place
+of one — a Magical Order house actually carries 5. This was already a
+deliberate design choice (archetype identity should feel bigger than
+an ordinary trait pick), so no mechanical change — added an explicit
+"Exception: a Magical Order house has 5" clause to house-traits.md's
+opening framing instead of leaving the "always 4" line to silently
+contradict it.
+
+**Gap analysis complete — all 4 items closed.** Fixes: 3 stale
+Magical-trait cross-references, `rulebook/king-and-revolt.md` (new),
+Static check target number + Check Types section in `tasks.md`,
+Zealous rescoped house-wide, Magical Order's 5-trait exception
+documented.

@@ -7,6 +7,13 @@ Every house has 4 traits: 2 chosen freely by the player, 2 rolled (see
 same 52-entry list — "chosen" means picking which card's trait you want,
 not inventing a new one.
 
+**Exception:** a **Magical Order** house (see `house-archetypes.md`)
+has **5** — its archetype bonus grants the Magical trait's effects
+(Spades Q) on top of the normal 2 chosen + 2 rolled, not in place of
+one of them. Deliberate: the archetype's identity bonus is meant to
+feel bigger than an ordinary trait pick, not just a free choice of
+which one to take.
+
 **Rolling:** flip 1 card. Its exact identity (e.g. "7 of Hearts") is a
 direct lookup below — no math, no summing, just find that card. Suit is
 the same four categories as the events deck (♥ Dynastic/Personal, ♦
