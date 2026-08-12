@@ -1000,6 +1000,34 @@ grants +1 Piety and +1 Legend whenever it pushes the Clock back. Both
 keep the shared realm-wide benefit, but now also reward the specific
 house that acted.
 
+## Spades J/Q/K/A: Doom Clock cluster rejected, replaced with rule-breaking magic (2026-08-11)
+
+The designer rejected the whole Doom Clock theme for the top tier
+outright: "I don't want doom clock mechanisms here." New direction:
+**magic that lets a house cheat the game's normal rules**, with
+"functional changes," not small numeric tweaks. Three new bespoke
+Magic actions, each unlocked by its own house trait on top of the base
+Magic trait requirement:
+
+- **Time-Binder** (J) — unlocks a Magic action letting one relative
+  perform TWO Tasks in the same decade, once per decade. Breaks the
+  one-task-per-relative limit on purpose.
+- **Unweaver** (K) — unlocks a Competitive Magic action (Legend +
+  Cunning vs. the target's same) that destroys 1 point of any active
+  stat of the caster's choice from the target — no War, Trade War, or
+  Espionage needed, bypassing the normal capture economy entirely.
+  Full margin table: decisive win destroys the stat (sent to the
+  unclaimed pool), narrow win fizzles with no effect, loss backfires
+  onto the caster's own chosen stat.
+- **Soul Trade** (A) — unlocks a no-roll Magic action (a purely
+  voluntary, internal sacrifice) converting any amount of one active
+  stat directly into an equal amount of Legend — cheats the established
+  rule that Legend only grows through dramatic deeds.
+
+**Magical** (Q) was untouched — it was never part of the rejected Doom
+Clock cluster, so it didn't need replacing. Full definitions for all
+three new actions added to `rulebook/tasks.md`.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
