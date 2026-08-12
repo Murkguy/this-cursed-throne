@@ -168,10 +168,14 @@ Border Raid (see above).
 Every Magic action uses **Legend + Cunning** — the second explicit
 exception to "passive stats aren't rolled." Magic is thematically
 singular enough to justify it: mystical renown (Legend) channeled
-through cleverness (Cunning). Always STATIC unless noted. Gated behind
-the Magic house trait (or a narrower trigger, like Sickly's
-Ace-2-of-Spades conversion — see `tables/house-traits.md`). Never
-touches the standard resource economy — the payoff is always a unique
+through cleverness (Cunning). Always STATIC unless noted. Gated at the
+CHARACTER level: only a relative who underwent Magic conversion during
+Birth Deal (see `setup-order.md` step 4.3 — an Ace of Spades is always
+eligible, any face card is eligible if the house has the **Magical**
+house trait) can attempt a Magic action. Having the Magical trait
+widens the odds of conversion happening; it doesn't by itself let every
+relative in the house cast. Never touches the standard resource
+economy — the payoff is always a unique
 effect or a passive-stat change, never an active-stat claim.
 
 - **Scry** — **Legend + Cunning**. Peek at the next card of any deck

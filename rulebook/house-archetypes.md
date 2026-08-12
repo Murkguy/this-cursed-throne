@@ -28,7 +28,7 @@ this is a foundational choice, not a free upgrade.
   births — doesn't replace the Fate Check, just adds a second path.
 - **Magical Order** — bound by Legend and Magic, not land or lineage.
   Automatically has the effects of the **Magical** house trait (see
-  `tables/house-traits.md`, Spades 10) without spending one of the 4
+  `tables/house-traits.md`, Spades Q) without spending one of the 4
   trait picks on it. -1 die on War actions — mages, not soldiers.
 - **Knightly Order** — oath-bound military service, not bloodline. +1
   die on War actions. -1 die on Trade actions — knights serve, they

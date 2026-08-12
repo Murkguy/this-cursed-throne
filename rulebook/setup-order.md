@@ -106,8 +106,8 @@ narratively justify otherwise.
 2. Flip that many cards; each rank is a row-lookup on the 13-entry
    mixed character trait table.
 3. An Ace of Spades is always eligible for Magic conversion; if the
-   house has the Magic house trait, any face card is also eligible.
-   Conversion is a player choice.
+   house has the **Magical** house trait, any face card is also
+   eligible. Conversion is a player choice.
 
 *(Open: the character trait table itself hasn't been drafted yet — this
 step can't be fully executed until that content exists.)*
