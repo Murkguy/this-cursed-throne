@@ -934,6 +934,18 @@ house trait table is considered fully locked.
   to 3 in either direction — ties directly into the suit's core theme
   rather than being an Espionage-margin edge case.
 
+## Rank-2 restriction diversified once more (2026-08-11)
+
+Even after moving Spades' Paranoid off Diplomacy, Hearts (Leprosy) and
+Diamonds (Close-Fisted) still both used Diplomacy. Moved **Close-Fisted**
+to **Stewardship** instead ("too miserly to invest in their own land's
+upkeep and development") — the success-threshold restriction is now
+spread across four distinct tasks with no repeats: Manpower (Clubs),
+Diplomacy (Hearts), Stewardship (Diamonds), Trade (Spades).
+
+Still awaiting final designer confirm on Spades (and the table as a
+whole) before considering all 52 entries locked.
+
 ## Still open / not yet drafted
 
 - Calamity module content (the actual magic-born / invasion / systemic-
