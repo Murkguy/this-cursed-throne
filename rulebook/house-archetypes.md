@@ -69,20 +69,10 @@ no heir — this is the EXTINCTION collapse condition already defined in
 `birth-death.md`, unaffected by which custom was chosen. A surviving
 spouse does NOT inherit under any of the four customs — they're consort,
 not blood heir, so a childless widow/widower doesn't continue the
-house's leadership line. *(Flagging this as a real design choice, not
-an oversight — happy to add a regency/spousal exception if it feels too
-harsh at the table.)*
+house's leadership line. **Confirmed as final** (2026-08-12) — no
+spousal regency exception; a childless spouse never inherits.
 
 A very young heir (e.g. an infant under Ultimogeniture, or any custom
 if the only qualifying child is newborn) simply becomes the new Leader
 outright — no formal regency mechanic. Narrate it as guided by family
 elders until they're grown; nothing mechanically different happens.
-
----
-
-## Open items this pass surfaced (not yet resolved)
-- Whether a spousal-regency exception is wanted (currently: no, a
-  childless spouse never inherits)
-- Where exactly Archetype + Succession Custom slot into the setup
-  sequence relative to the 4 house traits (need to update
-  `setup-order.md`)

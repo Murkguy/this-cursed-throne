@@ -1330,3 +1330,25 @@ size** — Assassinate is its own bespoke margin table (win/tie/narrow-
 loss/bad-loss, not the standard decisive/narrow/loss shape) and stays
 that way on purpose. Removed the "not yet confirmed" flag from
 `tasks.md`.
+
+## Last two small open items resolved (2026-08-12)
+
+- **Spouse starting age**: confirmed a spouse may start at a different
+  age than the Leader if a player wants to narratively justify it (the
+  text already allowed this — `birth-death.md` and `setup-order.md`
+  were just flagging it as unconfirmed). Age only ever feeds the
+  death-band tier, so no new mechanic needed. Removed the open item
+  from `birth-death.md`.
+- **Spousal regency**: confirmed as final — no exception, a childless
+  spouse never inherits under any Succession Custom, house goes
+  Extinct same as always. Removed the open item from
+  `house-archetypes.md` (which also had a second, already-stale open
+  item — where Archetype/Succession Custom slot into setup — that had
+  in fact already been resolved into `setup-order.md` step 3a; removed
+  too).
+
+This closes out every item raised in the "ok so we should be good now?"
+follow-up list: no-GM-discretion terminology, moniker eligibility,
+Assassinate's breakpoints, spouse age, and spousal regency. Remaining
+known gap is purely content-drafting (character trait table, events
+deck, Calamity modules) — not a consistency issue.

@@ -23,8 +23,12 @@ Resolution phases have passed since this character was born (or, for
 starting characters, since setup)."
 
 **Starting age at setup:** the House Leader begins at **age 3** (30-39
-years old). The spouse is assumed to start at the same age unless a
-player wants to narratively justify otherwise.
+years old). **Confirmed:** the spouse may start at a different age if
+a player wants to narratively justify it (an older political match, a
+young second marriage) — otherwise assumed to match the Leader's age
+3. Age only ever feeds into the death-band tier (see below), so a
+different starting age needs no new mechanic — it just shifts which
+row of the table the spouse's Fate Check uses from the start.
 
 ## Death Check — per relative, per decade
 Every tracked living relative gets **one card flip** per decade. Death
@@ -98,9 +102,3 @@ triggers:
 
 See `geography.md` for what happens to a fallen house's ring position,
 and to the player.
-
----
-
-## Open items this pass surfaced (not yet resolved)
-- Whether the spouse can start at a different age than the Leader by
-  player choice, or must always match
