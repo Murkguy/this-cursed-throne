@@ -23,12 +23,16 @@ collaborative design approach).
     suit+rank lookup) — **LOCKED**, all four suits confirmed
   - `character-traits-bank.md` — personality traits pulled out of the
     house table, held for the future character trait table
-  - `calamity-magic-born.md` — first of the 4 Calamity modules,
-    **DRAFTED**: Doom Clock advance trigger, and the final-round
-    gauntlet + survivor score tally that answers "how does a campaign
-    conclude, who wins"
-  - (character trait table proper, events deck, and the other 3
-    Calamity modules not yet drafted)
+  - `calamity-shared-endgame.md` — mechanics shared by every Calamity
+    module (Competitive-vs-Calamity trials, decade×trial scaling,
+    alliance, the standard decisive/narrow/loss shape, the survivor
+    score tally that answers "how does a campaign conclude, who wins")
+  - `calamity-magic-born.md` — 1st of 4 Calamity modules, **DRAFTED**
+  - `calamity-invasion.md` — 2nd of 4, **DRAFTED** (one content
+    dependency flagged: its Doom Clock trigger needs specific
+    events-deck cards that don't exist yet)
+  - (character trait table proper, events deck, and 2 more Calamity
+    modules — economic collapse, blight — not yet drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop
@@ -55,7 +59,7 @@ suits). The endgame gap `gameflow.md`'s worked example surfaced (no
 mechanic existed for what happens when the Doom Clock maxes out, or
 what "surviving the Calamity" means) is now resolved: each Calamity
 module ends in a final-round gauntlet of bespoke trials, then a
-survivor score tally. **Magic-born is the first module drafted** under
-that shape (`tables/calamity-magic-born.md`). Remaining content:
-character trait table, events table, and 3 more Calamity modules
-(external invasion, economic collapse, blight).
+survivor score tally. **Magic-born and External Invasion are drafted**
+(`tables/calamity-magic-born.md`, `tables/calamity-invasion.md`).
+Remaining content: character trait table, events table, and 2 more
+Calamity modules (economic collapse, blight).

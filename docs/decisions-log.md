@@ -1527,3 +1527,39 @@ campaign rather than only mattering in the final decades.
 
 Added to `tables/calamity-magic-born.md` and cross-referenced from
 `tasks.md`'s Magic section.
+
+## Shared endgame mechanics extracted, External Invasion drafted (2026-08-13)
+
+Before drafting the 2nd module, factored the now-proven-universal
+Final Round shape out of `calamity-magic-born.md` into a new
+`tables/calamity-shared-endgame.md`: Competitive-vs-Calamity check
+type, decade×trial pool scaling, alliance, the standard
+decisive/narrow/loss shape (1-stat cost / 2-stat cost+1 death check /
+flat -5-all-stats+every-relative), age-worsened death checks, and the
+survivor score tally. Reasoning: re-writing this identically in 4
+separate module files risked drift on future edits (exactly the kind
+of thing this project's gap-analysis passes exist to catch) — one
+source of truth is safer. `calamity-magic-born.md` trimmed to just its
+unique content (theme, Doom Clock trigger, the Ward ritual, its 3
+trials) referencing the shared file.
+
+**External Invasion drafted** (`tables/calamity-invasion.md`), 2nd of
+4 modules:
+
+- **Doom Clock trigger — flagged as content-dependent, not fixed
+  this pass:** designer's call — rather than a structural rule (I'd
+  proposed War/Border Raid declarations feeding it), the trigger
+  should come from specific **Spades-suit event cards** (the existing
+  Calamity/Doom category) once the 52-entry events table is drafted.
+  Unlike Magic-Born's Legend-tied structural mechanism, Invasion's
+  escalation is meant to come from the realm's unfolding story as told
+  by the events deck itself.
+- **Prep action: Muster the Border Watch** — War action, Static,
+  Manpower+Land, once/decade, banks Bulwarks (same role as Wards).
+  Failure cost deliberately differs from Magic-Born's (resource loss,
+  not a Doom Clock advance) — fortifying against invaders shouldn't
+  itself cause more invasion, unlike reaching for more magic feeding a
+  magic-born calamity.
+- **Final Round "The Siege":** 3 trials — Vanguard (Manpower+Wealth),
+  Siege Lines (Land+Wealth), the Breach (Manpower+Cunning) — using the
+  shared standard outcome shape throughout.

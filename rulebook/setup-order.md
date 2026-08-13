@@ -42,8 +42,11 @@ length/max, its own advance trigger, and its own final-round trials
 
 - **Magic-born** (tied to Legend) — **DRAFTED**, see
   `tables/calamity-magic-born.md`.
-- External invasion, systemic collapse of the zero-sum economy, slow
-  environmental/supernatural blight — *(Open: not yet drafted.)*
+- **External invasion** — **DRAFTED**, see `tables/calamity-invasion.md`
+  (one content dependency flagged: its Doom Clock trigger needs
+  specific events-deck cards that don't exist yet).
+- Systemic collapse of the zero-sum economy, slow environmental/
+  supernatural blight — *(Open: not yet drafted.)*
 
 ## 3. Create your House
 

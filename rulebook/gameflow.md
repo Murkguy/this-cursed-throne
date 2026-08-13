@@ -241,9 +241,10 @@ traces back to one of:
 2. **The 52-entry events deck content** (Kingdom Scene reveals) — the
    mechanical shell (suit/rank/Legend-draw/Doom-Clock-trigger) is
    fully specified, only the actual table entries are missing.
-3. **Calamity module write-ups** (setup step 2) — 1 of 4 drafted
-   (Magic-born, see `tables/calamity-magic-born.md`); external
-   invasion, economic collapse, and blight remain.
+3. **Calamity module write-ups** (setup step 2) — 2 of 4 drafted
+   (Magic-born and External Invasion); economic collapse and blight
+   remain. Invasion's Doom Clock trigger has its own content
+   dependency on the still-undrafted events table (item 2 above).
 
 **The larger gap this trace surfaced — no endgame mechanic existed at
 all — is now RESOLVED** (2026-08-12). Each Calamity module defines its
