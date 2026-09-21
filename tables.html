@@ -32,7 +32,12 @@
     <li><a href="#spades">♠ Spades</a></li>
   </ul>
   <h3 id="character-traits">Character Traits <span class="badge locked">Locked</span></h3>
-  <ul><li><a href="#char-table">The 13 traits</a></li></ul>
+  <ul>
+    <li><a href="#char-hearts">♥ Hearts</a></li>
+    <li><a href="#char-diamonds">♦ Diamonds</a></li>
+    <li><a href="#char-clubs">♣ Clubs</a></li>
+    <li><a href="#char-spades">♠ Spades</a></li>
+  </ul>
   <h3 id="events-deck">Events Deck <span class="badge locked">Locked</span></h3>
   <ul>
     <li><a href="#ev-hearts">♥ Hearts</a></li>
@@ -137,23 +142,83 @@
 
   <hr>
 
-  <h2 id="char-table">Character Trait Table <span class="badge locked">Locked</span></h2>
-  <p>The 13-entry table Birth Deal draws from. Only <strong>rank</strong> matters here — suit is ignored — and it's <strong>Ace-low</strong> (the standard convention; the house table's Ace-high is its own deliberate exception). Duplicates reroll. Magic conversion is handled at the Birth Deal level, not a row here.</p>
+  <h2 id="char-table-anchor">Character Trait Table <span class="badge locked">Locked</span></h2>
+  <p>The table Birth Deal draws from — 52 entries, same structure as House Traits: flip 1 card, direct suit+rank lookup. <strong>Ace-low</strong> (the standard convention; the house table's Ace-high is its own deliberate exception). Same 4 categories as House Traits and the Events Deck. Duplicates reroll. Magic conversion is handled at the Birth Deal level, not a row here.</p>
+
+  <h3 id="char-hearts">♥ Hearts — Dynastic/Personal</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">Emotional and relational temperament.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>A</td><td><strong>Vengeful</strong></td><td>+1 die Espionage.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>2</td><td><strong>Timid</strong></td><td>+1 die Stewardship.</td><td>-2 dice War.</td></tr>
+    <tr><td>3</td><td><strong>Brittle</strong></td><td>+1 die Magic.</td><td>-2 dice War.</td></tr>
+    <tr><td>4</td><td><strong>Possessive</strong></td><td>+1 die Stewardship.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>5</td><td><strong>Doting</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>6</td><td><strong>Nostalgic</strong></td><td>+2 dice Stewardship.</td><td>-2 dice War.</td></tr>
+    <tr><td>7</td><td><strong>Gossiping</strong></td><td>+2 dice Espionage.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>8</td><td><strong>Devoted</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>9</td><td><strong>Jealous</strong></td><td>+2 dice Espionage.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>10</td><td><strong>Beloved</strong></td><td>+2 dice Diplomacy.</td><td>-1 die War.</td></tr>
+    <tr><td>J</td><td><strong>Charming</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>Q</td><td><strong>Prideful</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Stewardship.</td></tr>
+    <tr><td>K</td><td><strong>Magnetic</strong></td><td>+3 dice Diplomacy.</td><td>-1 die Espionage.</td></tr>
+  </table></div>
+
+  <h3 id="char-diamonds">♦ Diamonds — Wealth/Trade</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">Practical and material temperament.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>A</td><td><strong>Miserly</strong></td><td>+1 die Trade.</td><td>-2 dice War.</td></tr>
+    <tr><td>2</td><td><strong>Anxious</strong></td><td>+1 die Stewardship.</td><td>-2 dice War.</td></tr>
+    <tr><td>3</td><td><strong>Envious</strong></td><td>+1 die Trade.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>4</td><td><strong>Guarded</strong></td><td>+1 die Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>5</td><td><strong>Humble</strong></td><td>+2 dice Stewardship.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>6</td><td><strong>Thrifty</strong></td><td>+2 dice Trade.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>7</td><td><strong>Calculating</strong></td><td>+2 dice Trade.</td><td>-2 dice Magic.</td></tr>
+    <tr><td>8</td><td><strong>Meticulous</strong></td><td>+2 dice Stewardship.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>9</td><td><strong>Shrewd</strong></td><td>+2 dice Trade.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>10</td><td><strong>Stoic</strong></td><td>+2 dice Stewardship.</td><td>-1 die Magic.</td></tr>
+    <tr><td>J</td><td><strong>Steady</strong></td><td>+2 dice Stewardship.</td><td>-1 die Diplomacy.</td></tr>
+    <tr><td>Q</td><td><strong>Patient</strong></td><td>+2 dice Trade.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>K</td><td><strong>Unshakeable</strong></td><td>+3 dice Stewardship.</td><td>-1 die Trade.</td></tr>
+  </table></div>
+
+  <h3 id="char-clubs">♣ Clubs — Military/Political</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">Ambitious and martial temperament.</p>
   <div class="table-scroll"><table>
     <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
     <tr><td>A</td><td><strong>Cowardly</strong></td><td>+1 die Espionage.</td><td>-2 dice War.</td></tr>
-    <tr><td>2</td><td><strong>Timid</strong></td><td>+1 die Stewardship.</td><td>-2 dice War.</td></tr>
-    <tr><td>3</td><td><strong>Vengeful</strong></td><td>+1 die Espionage.</td><td>-2 dice Diplomacy.</td></tr>
-    <tr><td>4</td><td><strong>Melancholic</strong></td><td>+1 die Magic.</td><td>-2 dice Trade.</td></tr>
-    <tr><td>5</td><td><strong>Doting</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice Espionage.</td></tr>
-    <tr><td>6</td><td><strong>Humble</strong></td><td>+2 dice Stewardship.</td><td>-2 dice Diplomacy.</td></tr>
-    <tr><td>7</td><td><strong>Calculating</strong></td><td>+2 dice Trade.</td><td>-2 dice Magic.</td></tr>
-    <tr><td>8</td><td><strong>Restless</strong></td><td>+2 dice War.</td><td>-2 dice Trade.</td></tr>
-    <tr><td>9</td><td><strong>Hot-Blooded</strong></td><td>+2 dice War.</td><td>-2 dice Stewardship.</td></tr>
-    <tr><td>10</td><td><strong>Prideful</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Stewardship.</td></tr>
-    <tr><td>J</td><td><strong>Charming</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Espionage.</td></tr>
-    <tr><td>Q</td><td><strong>Stoic</strong></td><td>+2 dice Stewardship.</td><td>-1 die Magic.</td></tr>
+    <tr><td>2</td><td><strong>Suspicious</strong></td><td>+1 die Espionage.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>3</td><td><strong>Arrogant</strong></td><td>+1 die Diplomacy.</td><td>-2 dice War.</td></tr>
+    <tr><td>4</td><td><strong>Impulsive</strong></td><td>+1 die War.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>5</td><td><strong>Domineering</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice War.</td></tr>
+    <tr><td>6</td><td><strong>Scheming</strong></td><td>+2 dice Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>7</td><td><strong>Restless</strong></td><td>+2 dice War.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>8</td><td><strong>Hot-Blooded</strong></td><td>+2 dice War.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>9</td><td><strong>Merciless</strong></td><td>+2 dice War.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>10</td><td><strong>Commanding</strong></td><td>+2 dice Diplomacy.</td><td>-1 die War.</td></tr>
+    <tr><td>J</td><td><strong>Fearless</strong></td><td>+2 dice War.</td><td>-1 die Stewardship.</td></tr>
+    <tr><td>Q</td><td><strong>Daring</strong></td><td>+2 dice Espionage.</td><td>-1 die Diplomacy.</td></tr>
     <tr><td>K</td><td><strong>Reckless</strong></td><td>+3 dice War.</td><td>-1 die Espionage.</td></tr>
+  </table></div>
+
+  <h3 id="char-spades">♠ Spades — Calamity/Doom</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">Mystical and fatalistic temperament.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>A</td><td><strong>Fatalistic</strong></td><td>+1 die War.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>2</td><td><strong>Melancholic</strong></td><td>+1 die Magic.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>3</td><td><strong>Haunted</strong></td><td>+1 die Espionage.</td><td>-2 dice War.</td></tr>
+    <tr><td>4</td><td><strong>Fretful</strong></td><td>+1 die Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>5</td><td><strong>Brooding</strong></td><td>+2 dice Magic.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>6</td><td><strong>Fey</strong></td><td>+2 dice Magic.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>7</td><td><strong>Grim</strong></td><td>+2 dice War.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>8</td><td><strong>Wary</strong></td><td>+2 dice Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>9</td><td><strong>Ill-Favored</strong></td><td>+2 dice Espionage.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>10</td><td><strong>Resolute</strong></td><td>+2 dice Magic.</td><td>-1 die War.</td></tr>
+    <tr><td>J</td><td><strong>Visionary</strong></td><td>+2 dice Magic.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>Q</td><td><strong>Prophetic</strong></td><td>+2 dice Magic.</td><td>-1 die Diplomacy.</td></tr>
+    <tr><td>K</td><td><strong>Untouchable</strong></td><td>+3 dice War.</td><td>-1 die Espionage.</td></tr>
   </table></div>
 
   <hr>
