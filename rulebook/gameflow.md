@@ -238,15 +238,15 @@ traces back to one of:
 
 1. ~~The 13-entry character trait table~~ — **RESOLVED**, see
    `tables/character-traits.md`.
-2. **The 52-entry events deck content** (Kingdom Scene reveals) — the
-   mechanical shell (suit/rank/Legend-draw/Doom-Clock-trigger) is
-   fully specified, only the actual table entries are missing. The
-   last remaining blocker for actually playtesting the game.
+2. ~~The 52-entry events deck content~~ — **RESOLVED**, see
+   `tables/events-deck.md`. This closes the last blocker — the game is
+   fully playtestable now.
 3. **Calamity module write-ups** (setup step 2) — 2 of 4 locked
-   (Magic-born and External Invasion); a Blight draft exists but is
-   pinned pending more distinct mechanics; economic collapse not yet
-   started. Invasion's Doom Clock trigger has its own content
-   dependency on the still-undrafted events table (item 2 above).
+   (Magic-born and External Invasion, the latter's Doom Clock trigger
+   now resolved via specific Spades-suit cards); a Blight draft exists
+   but is pinned pending more distinct mechanics; economic collapse
+   not yet started. None of these block playtesting — Magic-born or
+   Invasion can be selected as the campaign's Calamity module today.
 
 **The larger gap this trace surfaced — no endgame mechanic existed at
 all — is now RESOLVED** (2026-08-12). Each Calamity module defines its

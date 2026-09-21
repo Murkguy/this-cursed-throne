@@ -31,14 +31,17 @@ collaborative design approach).
     alliance, the standard decisive/narrow/loss shape, the survivor
     score tally that answers "how does a campaign conclude, who wins")
   - `calamity-magic-born.md` — 1st of 4 Calamity modules, **DRAFTED**
-  - `calamity-invasion.md` — 2nd of 4, **DRAFTED** (one content
-    dependency flagged: its Doom Clock trigger needs specific
-    events-deck cards that don't exist yet)
+  - `calamity-invasion.md` — 2nd of 4, **DRAFTED** — its Doom Clock
+    trigger (Ace/2/3 of Spades in the events deck) is now resolved
   - `calamity-blight.md` — 3rd of 4, drafted but **PINNED, not
     locked** — the shared 3-trial shape felt too reskinned across
     modules; wants genuinely distinct mechanics on a future pass
-  - (events deck, the 4th Calamity module — economic collapse — not
-    yet drafted)
+  - `events-deck.md` — the 52-entry table drawn every Kingdom Scene —
+    **LOCKED**. Varied effect types (dice bonuses, free task attempts,
+    cursed/blessed luck, alliance bonds, PERSONAL death-check/trait-
+    gain cards hitting a fixed Leader/heir role, a CONTEST card per
+    suit), plus randomized pool amounts instead of flat numbers
+  - (the 4th Calamity module — economic collapse — not yet drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop
@@ -68,7 +71,9 @@ module ends in a final-round gauntlet of bespoke trials, then a
 survivor score tally. **Magic-born and External Invasion are locked**
 (`tables/calamity-magic-born.md`, `tables/calamity-invasion.md`); a
 **Blight** draft exists but is pinned pending more distinct mechanics.
-**The character trait table is now locked** (`tables/character-traits.md`)
-— everything needed for Birth Deal to actually run is in place.
-Remaining content: the events table (52 entries) and the Economic
-Collapse Calamity module.
+**The character trait table is now locked** (`tables/character-traits.md`),
+and **the events deck is now locked** (`tables/events-deck.md`) — the
+last remaining playtest blocker is gone. **The game is fully
+playtestable now**, using Magic-born or External Invasion as the
+Calamity module. Remaining content: the Economic Collapse Calamity
+module, and a Blight rewrite with more distinct final-round mechanics.

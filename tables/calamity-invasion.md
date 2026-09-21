@@ -1,7 +1,6 @@
 # Calamity Module: External Invasion
 
-**STATUS: DRAFTED**, with one content dependency flagged below (the
-Doom Clock trigger). Second of the 4 Calamity modules, built on the
+**STATUS: DRAFTED.** Second of the 4 Calamity modules, built on the
 shared endgame shape — see `tables/calamity-shared-endgame.md` for the
 mechanics common to every module (Competitive-vs-Calamity, decade×
 trial scaling, alliance, the standard decisive/narrow/loss shape, the
@@ -20,16 +19,14 @@ grudges against its own neighbors.
 ## The Doom Clock
 Starts at **0**, maxes at **10**.
 
-**Advance trigger — 🚧 CONTENT-DEPENDENT:** certain **Spades-suit**
-event cards (the events deck's existing Calamity/Doom category — see
-`turn-order.md` Phase 4) carry an "the invasion draws closer" effect
-that advances the Doom Clock by 1 when drawn at Kingdom Scene. Which
-specific ranks/cards carry this effect isn't decided yet — that's part
-of the still-undrafted 52-entry events table content, not a gap in
-this module's design. Unlike Magic-Born (whose trigger is a
-structural mechanic tied to Legend), Invasion's escalation is meant to
-come from the realm's unfolding story as told by the events deck
-itself.
+**Advance trigger:** when the **Ace, 2, or 3 of Spades** is drawn at
+Kingdom Scene (the events deck's existing Calamity/Doom category —
+see `tables/events-deck.md` and `turn-order.md` Phase 4), the Doom
+Clock advances by 1. Deliberately mirrors Magic-Born's own Ace/2/3
+range, but on a fixed suit rather than a stat-driven draw — unlike
+Magic-Born (whose trigger is a structural mechanic tied to Legend),
+Invasion's escalation comes from the realm's unfolding story as told
+by the events deck itself.
 
 ## Preparing for the End: Muster the Border Watch
 A new **War** action, **STATIC, Manpower + Land**, attemptable **once
@@ -106,8 +103,3 @@ regardless of Trial 3's result. **There is no version of losing the
 whole Siege — or even losing badly partway through it — that leaves a
 house quietly surviving.**
 
----
-
-## Open items this module surfaced (not yet resolved)
-- Which specific events-deck cards carry the Doom Clock advance
-  effect — depends on the still-undrafted 52-entry events table.

@@ -1605,3 +1605,72 @@ this table. Updated `setup-order.md` step 4 (removed the "not yet
 drafted" open item), `gameflow.md`'s content-gap list, and `README.md`.
 **This closes the first of the two remaining playtest blockers — only
 the 52-entry events deck remains.**
+
+## Events deck LOCKED — the last playtest blocker is gone (2026-08-14)
+
+Built the full 52-entry table (`tables/events-deck.md`) across several
+rounds of designer feedback, each one sharpening the design:
+
+**Framework established first:**
+- **5 targeting shapes**: POOL (feeds/drains the unclaimed pool, no
+  target), RANKED (hits whoever's highest/lowest in one stat per
+  suit — Hearts→Honor/Infamy, Diamonds→Wealth, Clubs→Legend,
+  Spades→Piety; low rank hits the current highest, high rank helps
+  the current lowest), RANDOM (a dedicated extra card flip counts
+  around the house ring from the King's seat), ALL (every house), and
+  a new **CONTEST** shape (any house may declare interest, flip a
+  card, highest wins — added when the designer asked for tourneys/
+  pageants specifically).
+- Designer's exact split request — "half feed unclaimed pool, a
+  quarter target specific houses, an eighth random houses, an eighth
+  all houses" — guided the original 26/13/13 proportions, though the
+  final per-suit mix (13 each: ~3 RANKED, ~5 POOL, ~3 RANDOM, 1
+  CONTEST, 1 ALL) evolved organically once variety work started.
+
+**Three designer-driven revision passes, each catching something the
+first draft missed:**
+1. First draft was pure "±1/2/3 to a stat," repeated with only flavor
+   text varying — designer: "these need to be more dynamic, some
+   should be like tourneys, pageants, earthquakes... think of the
+   houses operating within each other and the events are the outside
+   world." This is the same "reskinning, not real variety" critique
+   Blight got — reinforces it's a general standard for this designer,
+   not module-specific. Reframed the whole deck as "the world acting
+   on a closed system of houses," added the CONTEST shape, and
+   diversified titles into genuinely different happenings.
+2. Designer wanted card-ready text: "a small descriptor or narrative
+   for each, and any rules explanations that could fit on a playing
+   card easily" — reformatted every entry to title/flavor/rule
+   columns, each terse enough for an actual card face.
+3. Designer added **PERSONAL effects** (plagues/accidents/formative
+   journeys hitting a person: a death check or a new trait) — then
+   caught TWO real design violations in the first PERSONAL card ("A
+   Season Abroad"): (a) it implied the house CHOSE to send someone
+   traveling, breaking "things happen TO a house, not by its
+   volition" — fixed by reframing as "Lost in the Storm" (an
+   involuntary weather event); (b) it let the affected house's player
+   CHOOSE which relative — fixed by requiring every PERSONAL card to
+   name a **fixed role** (always the House Leader or the current
+   heir, never a pick).
+4. Final pass: "the effects look repetitive, can we add some spice?"
+   — even with varied flavor, ~40 of 52 cards still just moved a
+   number. Added a broader effect toolbox (banked dice bonus on a
+   named future task, free STATIC-action attempts at no Task cost,
+   cursed/blessed luck on a future card draw via 2-keep-worst/best —
+   reusing Magic's Curse/Bless mechanic, and lasting alliance bonds)
+   and reworked ~12 cards across all 4 suits to use it instead of flat
+   stat math. Then: **POOL amounts randomized** instead of flat
+   numbers (a dedicated card flip: additions 2-4→+1, 5-7→+2, 8-10→+3,
+   J-K-A→+4; removals 2-6→-1, 7-10→-2, J-K-A→-3) — "as this is the
+   main way to populate the pool, I like a possible random amount."
+
+**Also resolved as a side effect:** Invasion's flagged content
+dependency (its Doom Clock trigger needed specific events-deck cards)
+— **Ace, 2, and 3 of Spades now advance Invasion's Doom Clock**,
+mirroring Magic-Born's own Ace/2/3 range. Updated
+`calamity-invasion.md` to remove the dependency flag.
+
+**This closes the second and final playtest blocker.** The game is
+now fully playtestable end to end, using Magic-born or External
+Invasion as the Calamity module. Updated `README.md`, `gameflow.md`'s
+content-gap list, and `turn-order.md`'s Kingdom Scene cross-reference.

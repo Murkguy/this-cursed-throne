@@ -65,7 +65,7 @@ task-type dice system rather than a separate "scene mechanic."
 
 ## Phase 4: Kingdom Scene
 **The King's player** reveals the decade's big public moment by drawing
-from the **events deck** — or, if the throne is currently vacant, any
+from the **events deck** (`tables/events-deck.md`) — or, if the throne is currently vacant, any
 player does (it doesn't matter who physically draws, the fixed table
 lookup decides the outcome either way). Suit = category (♥
 Dynastic/Personal, ♦ Wealth/Trade, ♣ Military/Political, ♠
