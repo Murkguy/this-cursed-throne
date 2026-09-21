@@ -1563,3 +1563,45 @@ trials) referencing the shared file.
 - **Final Round "The Siege":** 3 trials — Vanguard (Manpower+Wealth),
   Siege Lines (Land+Wealth), the Breach (Manpower+Cunning) — using the
   shared standard outcome shape throughout.
+
+## Blight drafted, then pinned; pivot to playtest-blocking content (2026-08-13/14)
+
+Drafted the 3rd Calamity module (`tables/calamity-blight.md`, 3
+trials: The Withering, The Long Despair, The Rot Made Flesh) per
+designer's ask for a Piety-centered "religious counter" theme and an
+explicit Honor/Infamy "shoehorn" — Trial 2 (The Long Despair) rolls
+Piety + Honor/Infamy magnitude, a third deliberate exception to
+"passive stats aren't rolled" alongside Declare Heresy and Magic.
+
+Designer's reaction: the 3-trials-per-module shape was starting to
+feel reskinned rather than genuinely distinct across modules. Decision:
+**pin Blight as an unlocked draft** for a future pass with more varied
+mechanics, and **stop iterating on Calamity endgame content for now**
+in favor of what actually blocks playtesting — the character trait
+table (blocks Birth Deal, i.e. creating anyone at all) and the events
+deck (blocks every Kingdom Scene). `calamity-blight.md` stays
+uncommitted-in-spirit (tracked in git but explicitly not LOCKED) until
+revisited.
+
+## Character trait table locked (2026-08-14)
+
+13-entry table (`tables/character-traits.md`) for Birth Deal — Ace-low
+(matches Birth Deal/events deck convention, the house table's Ace-high
+is its own deliberate exception), weak/costly at low ranks ramping to
+strong/cheap at high ranks, all 8 previously-banked candidates used
+(Timid, Humble, Hot-Blooded, Doting, Prideful, Vengeful, Restless,
+Cowardly) plus 5 new ones (Melancholic, Calculating, Charming, Stoic,
+Reckless) to fill all 13 rows.
+
+First draft had Diplomacy as the cost on 4 of 13 entries — flagged and
+fixed: Calculating and Stoic's costs moved to Magic (both "too
+grounded/practical to trust the unprovable" — a natural thematic
+pairing), Prideful's moved to Stewardship ("too proud to stoop to
+slow administration"). Final cost spread: Espionage×3, everything
+else×2 — much tighter than the original 4/3/3/2/1/0.
+
+`character-traits-bank.md` is now historical — its content lives in
+this table. Updated `setup-order.md` step 4 (removed the "not yet
+drafted" open item), `gameflow.md`'s content-gap list, and `README.md`.
+**This closes the first of the two remaining playtest blockers — only
+the 52-entry events deck remains.**

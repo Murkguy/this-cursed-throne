@@ -21,8 +21,11 @@ collaborative design approach).
 - `tables/` — trait tables, the events deck, Calamity modules
   - `house-traits.md` — the 52-entry house trait table (1 card, direct
     suit+rank lookup) — **LOCKED**, all four suits confirmed
-  - `character-traits-bank.md` — personality traits pulled out of the
-    house table, held for the future character trait table
+  - `character-traits.md` — the 13-entry character trait table used by
+    Birth Deal — **LOCKED**
+  - `character-traits-bank.md` — historical: the personality traits
+    originally pulled out of the house table, now folded into
+    `character-traits.md` above
   - `calamity-shared-endgame.md` — mechanics shared by every Calamity
     module (Competitive-vs-Calamity trials, decade×trial scaling,
     alliance, the standard decisive/narrow/loss shape, the survivor
@@ -31,8 +34,11 @@ collaborative design approach).
   - `calamity-invasion.md` — 2nd of 4, **DRAFTED** (one content
     dependency flagged: its Doom Clock trigger needs specific
     events-deck cards that don't exist yet)
-  - (character trait table proper, events deck, and 2 more Calamity
-    modules — economic collapse, blight — not yet drafted)
+  - `calamity-blight.md` — 3rd of 4, drafted but **PINNED, not
+    locked** — the shared 3-trial shape felt too reskinned across
+    modules; wants genuinely distinct mechanics on a future pass
+  - (events deck, the 4th Calamity module — economic collapse — not
+    yet drafted)
 - `rulebook/` — the eventual polished rulebook
   - `setup-order.md` — full campaign setup, step by step
   - `turn-order.md` — the five-phase decade loop
@@ -59,7 +65,10 @@ suits). The endgame gap `gameflow.md`'s worked example surfaced (no
 mechanic existed for what happens when the Doom Clock maxes out, or
 what "surviving the Calamity" means) is now resolved: each Calamity
 module ends in a final-round gauntlet of bespoke trials, then a
-survivor score tally. **Magic-born and External Invasion are drafted**
-(`tables/calamity-magic-born.md`, `tables/calamity-invasion.md`).
-Remaining content: character trait table, events table, and 2 more
-Calamity modules (economic collapse, blight).
+survivor score tally. **Magic-born and External Invasion are locked**
+(`tables/calamity-magic-born.md`, `tables/calamity-invasion.md`); a
+**Blight** draft exists but is pinned pending more distinct mechanics.
+**The character trait table is now locked** (`tables/character-traits.md`)
+— everything needed for Birth Deal to actually run is in place.
+Remaining content: the events table (52 entries) and the Economic
+Collapse Calamity module.
