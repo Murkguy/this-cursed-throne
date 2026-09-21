@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rules Reference — This Cursed Throne</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand"><span class="crown">♛</span><a href="index.html">This Cursed Throne</a><span class="tag">rules reference</span></div>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="setup.html">How to Start</a>
+      <a href="gameplay.html">Playing a Decade</a>
+      <a href="rules.html" class="active">Rules Reference</a>
+      <a href="tables.html">Tables &amp; Decks</a>
+    </nav>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="toc">
+  <input class="search-box" type="text" id="pageSearch" placeholder="Filter this page…" onkeyup="filterPage()">
+  <h3>Checks</h3>
+  <ul>
+    <li><a href="#stats">Active vs. Passive stats</a></li>
+    <li><a href="#checktypes">Static vs. Competitive</a></li>
+  </ul>
+  <h3 id="tasks">Tasks</h3>
+  <ul>
+    <li><a href="#war">War</a></li>
+    <li><a href="#trade">Trade</a></li>
+    <li><a href="#diplomacy">Diplomacy</a></li>
+    <li><a href="#espionage">Espionage</a></li>
+    <li><a href="#stewardship">Stewardship</a></li>
+    <li><a href="#magic">Magic</a></li>
+  </ul>
+  <h3 id="birth-death">Birth &amp; Death</h3>
+  <ul>
+    <li><a href="#age-death">Age &amp; Death Check</a></li>
+    <li><a href="#birth">Birth Check</a></li>
+    <li><a href="#collapse">House Collapse</a></li>
+  </ul>
+  <h3 id="geography">Geography</h3>
+  <ul><li><a href="#the-ring">The Ring</a></li></ul>
+  <h3 id="archetypes">House Identity</h3>
+  <ul>
+    <li><a href="#house-archetypes">House Archetypes</a></li>
+    <li><a href="#succession">Succession Custom</a></li>
+  </ul>
+  <h3>The Crown</h3>
+  <ul>
+    <li><a href="#becoming-king">Becoming King</a></li>
+    <li><a href="#revolt">Declaring a Revolt</a></li>
+    <li><a href="#destiny">Destiny</a></li>
+  </ul>
+</aside>
+<main id="pageMain">
+
+  <h1>Rules Reference</h1>
+  <p class="lede">The full rulebook in one place — stats, checks, every task action, births and deaths, the map, House identity, and the throne.</p>
+
+  <h2 id="stats">Active vs. Passive stats</h2>
+  <p>The house stat block splits into two groups:</p>
+  <ul>
+    <li><strong>ACTIVE stats — rolled in Task actions:</strong> Land, Manpower, Wealth, Cunning.</li>
+    <li><strong>PASSIVE stats — never rolled:</strong> Honor/Infamy, Piety, Legend. Checked by events for who's highest/lowest, rewarded or punished accordingly — never something a player actively spends dice on.</li>
+  </ul>
+  <div class="callout">
+    <div class="callout-label">Task categories are not stats</div>
+    <p>War, Trade, Diplomacy, Espionage, Stewardship, and Magic are groupings of actions, not rollable values. Any opposition always names the actual stat.</p>
+  </div>
+  <p><strong>Two explicit exceptions</strong> to "passive stats are never rolled": <strong>Declare Heresy</strong> uses Piety, and <strong>all of Magic</strong> uses Legend — both thematically unique enough to justify breaking the rule on purpose.</p>
+  <p><strong>Cunning</strong> starts at 3 for every House — a small flat value, not part of the 12-point budget, so Espionage isn't nearly impossible early on. Grows through play: a decisive win on any Espionage or Border Raid action grants +1 Cunning.</p>
+  <p><strong>Combo actions</strong> add both listed stats together into one bigger pool.</p>
+
+  <h2 id="checktypes">Static vs. Competitive</h2>
+  <p>Every die in a pool succeeds on a <strong>5 or 6</strong>. Both check types use that same base roll — they differ in what counts as success.</p>
+
+  <div class="callout">
+    <div class="callout-label">STATIC</div>
+    <p>Pure pass/fail, no margin grading. Succeed if successes are <strong>at least round(pool ÷ 3) + 1</strong>. This target scales with pool size so the odds stay roughly 1-in-3 whether you're rolling 2 dice or 20 — a pool of 6 needs 3 successes (~32%), a pool of 15 needs 6 (~38%). Tension comes from which Task slot to spend, not from padding the pool.</p>
+  </div>
+  <div class="callout">
+    <div class="callout-label">COMPETITIVE</div>
+    <p>Opposed roll — both sides roll their pool, compare successes. The margin decides the outcome, using a band width that scales with the larger pool involved:</p>
+    <ul>
+      <li>Pool under 5 dice → any win at all is decisive (no denial band)</li>
+      <li>Pool 5–13 → decisive needs a margin of 2+</li>
+      <li>Pool 14+ → decisive needs a margin of 3+</li>
+    </ul>
+    <p>A margin inside the denial band is a narrow win; losing (or tying, where an action calls it out) is a loss. Each action below spells out its own decisive/narrow/loss outcomes.</p>
+  </div>
+
+  <h2 id="war">War — Manpower-based</h2>
+  <p>Always targets a ring-adjacent house.</p>
+  <ul>
+    <li><strong>Border Raid</strong> — one-off strike. COMPETITIVE, Manpower+Cunning vs. the target's Land. Stakes: 1 Wealth — decisive win captures it, narrow win destroys it, loss gets nothing. No death check.</li>
+    <li><strong>War</strong> — a <em>standing state</em>, not one-off. Declaring it resolves an immediate battle: COMPETITIVE, Manpower+Wealth vs. the same combo. Stakes: 1 Land AND 1 Manpower — decisive win captures both, narrow win sends both to the unclaimed pool, loss gets nothing. The declaring relative takes a War Death Check. <strong>Once declared, it continues automatically every decade</strong> until either house resolves Broker Peace.</li>
+  </ul>
+
+  <h2 id="trade">Trade — Wealth-based</h2>
+  <ul>
+    <li><strong>Broker Deal</strong> — STATIC, Wealth+Cunning. Claim unclaimed Wealth from the pool.</li>
+    <li><strong>Trade War</strong> — COMPETITIVE, Wealth+Cunning vs. same. Decisive win captures 1 Wealth from the target; narrow win destroys it instead; loss gets nothing. Not restricted by geography.</li>
+    <li><strong>Renegotiate</strong> — NO ROLL. A cooperative deal between two willing, ring-adjacent houses — exchange any amount of Land/Manpower/Wealth at whatever rate they agree. Doesn't touch the unclaimed pool.</li>
+  </ul>
+
+  <h2 id="diplomacy">Diplomacy — mixed</h2>
+  <p>The most roleplay-forward category — most of the actual work happens in the Scene itself; the roll only matters for specific, concrete outcomes.</p>
+  <ul>
+    <li><strong>Arrange Marriage</strong> — STATIC, Wealth+Land. Only rolled for a foreign marriage (into/from another player House). Success: spouse generated via Birth Deal, both houses gain +2 dice acting together going forward, then flip 1 card for a dowry (Queen or King transfers 1 Wealth). Failure: no marriage.</li>
+    <li><strong>Forge Alliance</strong> — STATIC, Manpower+Cunning. Same lasting +2-dice bond as Arrange Marriage, without a marriage.</li>
+    <li><strong>Court Favor</strong> — STATIC, Cunning alone. Claim unclaimed Honor from the pool.</li>
+    <li><strong>Invoke Faith</strong> — STATIC, Wealth+Land. Claim unclaimed Piety from the pool.</li>
+    <li><strong>Declare Heresy</strong> — COMPETITIVE, Piety+2 (flat) vs. same. Decisive win: target branded heretic, -2 Diplomacy dice until cleared. Narrow win: same penalty but only until the target's next Diplomacy attempt. Loss: it backfires — the accuser takes the full indefinite penalty instead.</li>
+    <li><strong>Broker Peace</strong> — NO ROLL. Ends a vendetta or standing War peacefully. Grants +1 Honor, can trigger Destiny.</li>
+  </ul>
+
+  <h2 id="espionage">Espionage — Cunning-based</h2>
+  <p>Always COMPETITIVE, opposed by the target's Land.</p>
+  <ul>
+    <li><strong>Assassinate</strong> — Cunning+Manpower, targets a specific relative. Fixed breakpoints, not scaled by pool size:
+      <ul>
+        <li>Win by any margin: the relative dies cleanly, assassin undiscovered.</li>
+        <li>Tie: the relative dies, but the assassin is discovered and captured.</li>
+        <li>Lose by 1: fails cleanly, assassin escapes.</li>
+        <li>Lose by 2+: fails, and the assassin is discovered and captured.</li>
+      </ul>
+      Captured ≠ dead — a real narrative complication (ransom, hostage, execution), not an automatic death check.
+    </li>
+    <li><strong>Steal Secrets</strong> — Cunning alone. Decisive win: pick one of the target's passive stats and reduce it by 2. Narrow win: reduce by 1. Loss: nothing.</li>
+    <li><strong>Sow Rumors</strong> — Cunning+Wealth. Always Honor/Infamy specifically. Decisive win: target's Honor/Infamy shifts 2 toward Infamy. Narrow win: shifts 1. Loss: backfires — the attacker shifts 1 toward Infamy instead.</li>
+  </ul>
+
+  <h2 id="stewardship">Stewardship — Land-based</h2>
+  <p>Always STATIC. Never initiates a Competitive check, but Land is what a house rolls defensively against Espionage or a Border Raid.</p>
+  <ul>
+    <li><strong>Develop Territory</strong> — Land+Manpower. Claim unclaimed Land, Wealth, OR Manpower (your choice).</li>
+    <li><strong>Fortify</strong> — Land+Wealth. No claim — instead, +2 dice banked for your next Espionage or Border Raid defense.</li>
+  </ul>
+
+  <h2 id="magic">Magic — Legend-based</h2>
+  <p>Every Magic action uses <strong>Legend+Cunning</strong> — the second explicit exception to "passive stats aren't rolled." Always STATIC unless noted. <strong>Gated at the character level</strong>: only a relative who underwent Magic conversion during Birth Deal can attempt a Magic action — having the Magical house trait widens the <em>odds</em> of conversion, it doesn't let every relative cast.</p>
+  <ul>
+    <li><strong>Scry</strong> — Legend+Cunning. Peek at the next card of any deck before it's drawn.</li>
+    <li><strong>Curse</strong> — COMPETITIVE, Legend+Cunning vs. same. Decisive win: target draws 2 keep worst on their next TWO relevant draws. Narrow win: same, next ONE draw. Loss: backfires on the caster instead.</li>
+    <li><strong>Bless</strong> — Legend+Cunning, no opposed roll, targets another house only. Draws 2 keep best on their next relevant draw, +1 Piety.</li>
+  </ul>
+  <p>Each Calamity module also grants exactly one dedicated prep action for its own ending — see <a href="tables.html#calamity">Calamity Modules</a>.</p>
+
+  <hr>
+
+  <h2 id="age-death">Birth &amp; Death — The Fate Check</h2>
+  <p>Runs every decade, Resolution Phase 1, step 1 — the ambient background life-cycle mechanic. Only the House Leader, spouse, and direct descendants (and their own spouses/children, if developed) are tracked.</p>
+  <p><strong>Age</strong> is measured in decades since birth (age 0 = born this decade, 10 years per point). The House Leader starts at age 3 (30–39). A spouse may start at a different age if narratively justified.</p>
+
+  <div class="table-scroll">
+  <table>
+    <tr><th>Age</th><th>Death band</th><th>Approx. odds</th></tr>
+    <tr><td>0–2 (0–29 yrs)</td><td>Ace</td><td>~7.7%</td></tr>
+    <tr><td>3–5 (30–59 yrs)</td><td>Ace–2</td><td>~15.4%</td></tr>
+    <tr><td>6–8 (60–89 yrs)</td><td>Ace–4</td><td>~30.8%</td></tr>
+    <tr><td>9+ (90+ yrs)</td><td>Ace–7</td><td>~53.8%</td></tr>
+  </table>
+  </div>
+  <p>One card flip per relative per decade — death occurs if the rank falls in-band. <strong>Sickly</strong> shifts one tier older; <strong>Long-Lived</strong> shifts one tier younger (floor at tier 0). Median death age ~50 years; Sickly drags it to ~33, Long-Lived extends it to ~68.</p>
+  <p><strong>War Death Check:</strong> a relative assigned to War gets one additional death check when that task's outcome is determined — win or lose.</p>
+
+  <h3 id="birth">Birth Check</h3>
+  <p>One flip per viable couple per decade, independent of the death check. Birth occurs on rank <strong>Queen–King</strong> (~15.4%), not age-weighted. <strong>Fecund</strong> widens the range to 9–King (~30.8%). A birth generates the child immediately via Birth Deal, age 0.</p>
+
+  <h3 id="collapse">House Collapse</h3>
+  <ul>
+    <li><strong>Extinction:</strong> the House Leader dies with no living heir to inherit.</li>
+    <li><strong>Ruin:</strong> Land, Manpower, AND Wealth all hit 0 simultaneously — not any one alone, so a low-Land/high-Wealth merchant house is safe.</li>
+  </ul>
+  <p>A fallen house is removed from the ring (the gap closes), but <strong>the player is never eliminated</strong> — they build a fresh house via the identical setup procedure, inserted into the ring adjacent to a house of their choosing.</p>
+
+  <h2 id="the-ring">Geography — The Ring</h2>
+  <p>House order isn't just a scene-conflict tiebreaker — it's a ring, and it's the map of the realm. Houses sit in a circle; the King's seat is the capital (flavor only, not a mechanical hub). Every house has exactly 2 neighbors.</p>
+  <div class="callout">
+    <p><strong>War can only target an adjacent house.</strong> Trade, Diplomacy, Espionage, Stewardship, and Magic are all unrestricted by geography.</p>
+  </div>
+  <p>The King's per-turn power to move 1 house's ring position has real teeth here — it changes who can go to war with whom, not just scene priority. The crown quite literally draws the borders.</p>
+
+  <h2 id="house-archetypes">House Archetypes</h2>
+  <p>What kind of institution a house actually is — a one-time choice, made at setup alongside Succession Custom. Every non-baseline archetype gets one small dice bonus and one small dice cost.</p>
+  <div class="table-scroll">
+  <table>
+    <tr><th>Archetype</th><th>Bonus</th><th>Cost</th></tr>
+    <tr><td><strong>Noble House</strong></td><td colspan="2">The default — no bonus, no cost.</td></tr>
+    <tr><td><strong>Merchant House</strong></td><td>+1 die Trade</td><td>-1 die War</td></tr>
+    <tr><td><strong>Mercenary Company</strong></td><td>+1 die War</td><td>-1 die Stewardship</td></tr>
+    <tr><td><strong>Priestly Cloister</strong></td><td>+1 die Invoke Faith &amp; Declare Heresy; gains <em>Ordain a Novice</em></td><td>-1 die Trade</td></tr>
+    <tr><td><strong>Magical Order</strong></td><td>Auto-grants the Magical house trait, free (5th trait)</td><td>-1 die War</td></tr>
+    <tr><td><strong>Knightly Order</strong></td><td>+1 die War</td><td>-1 die Trade</td></tr>
+    <tr><td><strong>Scholarly Order</strong></td><td>+1 die Stewardship</td><td>-1 die Diplomacy</td></tr>
+  </table>
+  </div>
+  <p><strong>Ordain a Novice</strong> (Priestly Cloister only) — new Diplomacy action, STATIC, Wealth+Land. Success generates a relative via Birth Deal at age 2 (an adult convert), an additional growth path alongside ordinary births.</p>
+
+  <h2 id="succession">Succession Custom</h2>
+  <p>Determines the new Leader when the old one dies, by any means. Chosen once at setup. All four are fully deterministic — no election, no contest.</p>
+  <ul>
+    <li><strong>Primogeniture</strong> — eldest living child, any gender.</li>
+    <li><strong>Patriarchal</strong> — eldest living son; eldest daughter if no sons.</li>
+    <li><strong>Matriarchal</strong> — eldest living daughter; eldest son if no daughters.</li>
+    <li><strong>Ultimogeniture</strong> — youngest living child.</li>
+  </ul>
+  <p>No qualifying heir = Extinction, regardless of custom. A surviving spouse never inherits under any custom — confirmed final, no regency exception.</p>
+
+  <hr>
+
+  <h2 id="becoming-king">Becoming King</h2>
+  <p>Exactly two paths to the throne: <strong>winning a Revolt</strong> (any decade after the first), or <strong>Decade 1's forced draw</strong> if nobody bids.</p>
+  <p>Either way, becoming King grants immediately and permanently: <strong>+10 Legend</strong> (never reverts — the curse's mark) and <strong>1 Destiny</strong>.</p>
+
+  <h2 id="revolt">Declaring a Revolt</h2>
+  <p>Any house may bid during Scene Declaration — uses that house's one scene slot. No ring-adjacency requirement. Resolves at that same decade's Kingdom Scene.</p>
+  <h3>Alliances</h3>
+  <p>Drawn live at Kingdom Scene. The King's house auto-anchors the loyalist bloc. Each bidder anchors their own challenger bloc. Any other house may join any bloc, or abstain. Each house is represented by its Leader (automatically committed); a player may nominate additional relatives to share the risk.</p>
+  <h3>The Roll</h3>
+  <p>COMPETITIVE, <strong>binary win/lose</strong> — no narrow-win distinction. Each bloc's pool = sum of every member house's Manpower+Wealth, plus flat trait bonuses. Highest successes wins the crown. Ties redraw among only the tied blocs.</p>
+  <h3>Outcomes</h3>
+  <p><strong>Winning bloc takes the throne</strong> — a single house's Leader becomes King immediately; a coalition must agree among themselves (not mechanically resolved — a fractured deal can spiral into a following Revolt).</p>
+  <p><strong>Every losing bloc pays the same failure cost</strong>, including a dethroned King's house: 1/4 of Land, Manpower, and Wealth (rounded down, each stat separately) to the unclaimed pool, and every relative committed to that bloc's contribution takes a death check.</p>
+  <p><strong>Mercy:</strong> the winning bloc's Leader may spare any specific losing house from the failure cost entirely — free, available to whichever side wins, granted per-house.</p>
+
+  <h2 id="destiny">Destiny</h2>
+  <p>A <strong>single-use flag</strong>, not a resource pool. A house either holds it or doesn't — only ONE at a time (Ambitious is the sole exception, granting a second even if one's held).</p>
+  <p><strong>Effect when spent:</strong> every 6 rolled in that check's pool explodes — reroll and keep adding, chaining on new 6s too. Spent at the moment the player chooses. Charmed Life modifies this: roll 1 die on spend, 5–6 keeps the flag instead of losing it.</p>
+  <p><strong>Earned by</strong> (always a moment of change):</p>
+  <ul>
+    <li>The House Leader dies — the new heir gains Destiny (or keeps it, if already held)</li>
+    <li>A house overtakes the current #1 in some ranking</li>
+    <li>A house becomes the new lowest-ranked</li>
+    <li>Calamity compensation (module-specific)</li>
+    <li>Resolving a vendetta against another house</li>
+    <li>Winning the crown, by any path</li>
+  </ul>
+  <p><strong>Related but separate:</strong> whenever a character is directly involved in any trigger above, they may also swap one existing trait for a freshly flipped one — automatic, regardless of whether a new Destiny flag was actually granted.</p>
+
+</main>
+</div>
+
+<footer class="site-footer">This Cursed Throne — playtest reference, updated as design decisions lock in.</footer>
+
+<script>
+function filterPage() {
+  const q = document.getElementById('pageSearch').value.toLowerCase();
+  const main = document.getElementById('pageMain');
+  const blocks = main.querySelectorAll('h2, h3');
+  if (!q) {
+    main.querySelectorAll('[data-hidden]').forEach(el => { el.classList.remove('hidden'); el.removeAttribute('data-hidden'); });
+    return;
+  }
+  blocks.forEach(h => {
+    let el = h.nextElementSibling;
+    let sectionText = h.textContent.toLowerCase();
+    const groupEls = [h];
+    while (el && el.tagName !== 'H2' && el.tagName !== 'H3' && el.tagName !== 'HR') {
+      sectionText += ' ' + el.textContent.toLowerCase();
+      groupEls.push(el);
+      el = el.nextElementSibling;
+    }
+    const match = sectionText.includes(q);
+    groupEls.forEach(g => {
+      if (match) { g.classList.remove('hidden'); g.removeAttribute('data-hidden'); }
+      else { g.classList.add('hidden'); g.setAttribute('data-hidden','1'); }
+    });
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Start — This Cursed Throne</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand"><span class="crown">♛</span><a href="index.html">This Cursed Throne</a><span class="tag">rules reference</span></div>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="setup.html" class="active">How to Start</a>
+      <a href="gameplay.html">Playing a Decade</a>
+      <a href="rules.html">Rules Reference</a>
+      <a href="tables.html">Tables &amp; Decks</a>
+    </nav>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="toc">
+  <h3>On this page</h3>
+  <ul>
+    <li><a href="#players">1. Gather players</a></li>
+    <li><a href="#calamity">2. Choose a Calamity</a></li>
+    <li><a href="#house">3. Create your House</a></li>
+    <li><a href="#leader">4. Create your Leader</a></li>
+    <li><a href="#family">5. Starting family</a></li>
+    <li><a href="#throne">6. The vacant throne</a></li>
+    <li><a href="#begin">7. Begin play</a></li>
+  </ul>
+</aside>
+<main>
+
+  <h1>How to Start</h1>
+  <p class="lede">Follow these seven steps in order. Every step is a resolved rule — nothing here should require the table to guess.</p>
+
+  <div class="callout">
+    <div class="callout-label">No GM</div>
+    <p>This game has <strong>no persistent Game Master</strong>. Every check resolves by fixed rule — a dice pool, a card flip, or a table lookup — never by adjudication. During play, the King's player hosts the Kingdom Scene reveal (see <a href="gameplay.html#phase4">Phase 4</a>); before any King exists, any player can handle purely mechanical bookkeeping like Decade 1's forced draw. It never matters who physically flips a card — the fixed rule decides the outcome either way.</p>
+  </div>
+
+  <h2 id="players">1. Gather players</h2>
+  <p>Each player creates and leads one noble House for the campaign.</p>
+  <ul>
+    <li><strong>Minimum 4 players.</strong> No upper cap — table size is the players' own call. Scene count scales automatically with player count (one Scene per House per decade), so more players just means more Scenes running in parallel, not more per House.</li>
+    <li>Establish a <strong>house order</strong> now — sort out among yourselves who sits where in a ring. No roll, no fixed rule, pure table negotiation. This is also the <a href="rules.html#geography">map of the realm</a> — the ring determines who can go to War with whom, and it only changes later when a King spends their per-turn power to move a House.</li>
+  </ul>
+
+  <h2 id="calamity">2. Choose a Calamity module</h2>
+  <p>Before anything else about the world is decided, the table picks <strong>one</strong> Calamity module together — the shared threat the campaign is building toward. Each module defines its own Doom Clock length, its own advance trigger, its own prep action, and its own Final Round. See <a href="tables.html#calamity">Calamity Modules</a> for full detail.</p>
+  <div class="pill-row">
+    <span class="pill">✅ Magic-Born — locked, ready to play</span>
+    <span class="pill">✅ External Invasion — locked, ready to play</span>
+    <span class="pill">🚧 Economic Collapse — not yet drafted</span>
+    <span class="pill">🚧 Blight — drafted, pinned for a rework</span>
+  </div>
+
+  <h2 id="house">3. Create your House</h2>
+
+  <h3>3a. House Archetype &amp; Succession Custom</h3>
+  <p>Pick a <strong>House Archetype</strong> and a <strong>Succession Custom</strong> — both one-time choices for the whole campaign. See <a href="rules.html#archetypes">House Archetypes</a> for the full list and what each does. Done first because some archetypes affect the next two steps (Magical Order auto-grants the Magical trait; Golden affects your resource budget).</p>
+
+  <h3>3b. Generate house traits</h3>
+  <p>Every House has <strong>4 traits total</strong>: 2 chosen freely by the player, 2 rolled on the <a href="tables.html#house-traits">House Trait table</a> (flip 1 card, look up its exact suit+rank directly, no math). Every trait — chosen or rolled — needs a narrative justification when picked; that justification <em>is</em> the House's lineage. Done before resource allocation, since one trait (<strong>Golden</strong>) changes the budget in step 3c.</p>
+
+  <h3>3c. Allocate starting resources</h3>
+  <p>Divide <strong>12 points</strong> (or <strong>14</strong>, with Golden) among Land, Manpower, and Wealth — minimum 1 in each. E.g. a war-first House might go 8/2/2; a balanced House might go 4/4/4. Each House gets the same budget, allocated independently.</p>
+
+  <h3>3d–3g. Set starting stats</h3>
+  <div class="table-scroll">
+  <table>
+    <tr><th>Stat</th><th>Starting value</th><th>Notes</th></tr>
+    <tr><td>Honor/Infamy</td><td>0</td><td>Grows only from events during play.</td></tr>
+    <tr><td>Legend</td><td>0</td><td>Built entirely through play — dramatic acts, Magic, surviving Calamity.</td></tr>
+    <tr><td>Piety</td><td>0</td><td>Passive — never rolled in a Task, only checked by events.</td></tr>
+    <tr><td>Cunning</td><td>3</td><td>A small flat value, not part of the 12-point budget, so Espionage isn't impossible early on. Grows via decisive Espionage/Border Raid wins.</td></tr>
+  </table>
+  </div>
+
+  <h2 id="leader">4. Create your House Leader</h2>
+  <p>Generated with the same <strong>Birth Deal</strong> procedure used for any birth during play — no special case for the starting Leader. Starts at <strong>age 3</strong> (30–39 years old).</p>
+  <div class="phase-step"><span class="num">1</span>Roll <strong>10d6</strong>, counting successes on 5–6. Add automatic hits equal to the House's <strong>Legend ÷ 5, rounded down</strong>. No floor, no cap — a Legend-0 House can rarely roll as few as 0 traits; a high-Legend House can roll well past what the old system ever allowed.</div>
+  <div class="phase-step"><span class="num">2</span>Flip that many cards; each rank is a row-lookup on the <a href="tables.html#character-traits">13-entry Character Trait table</a>.</div>
+  <div class="phase-step"><span class="num">3</span>An Ace of Spades is always eligible for <strong>Magic conversion</strong>; if the House has the Magical trait, any face card is also eligible. Conversion is a player choice.</div>
+
+  <h2 id="family">5. Create your Leader's starting family</h2>
+  <p>Every House begins with a <strong>spouse</strong> and <strong>at least 1 child</strong>, in addition to the Leader.</p>
+  <ul>
+    <li><strong>Spouse:</strong> generated via the same Birth Deal procedure. May start at a different age than the Leader if narratively justified (an older political match, a young second marriage) — otherwise assumed to match.</li>
+    <li><strong>Child(ren):</strong> exactly 1, via Birth Deal — unless the House took <strong>Fecund</strong>, which starts it with 1–2 <em>extra</em> children instead (flip 1 card: Ace–6 → 1 extra, 7–King → 2 extra). Each extra child is individually generated via Birth Deal.</li>
+  </ul>
+
+  <h2 id="throne">6. Confirm the throne is vacant</h2>
+  <p>No House starts as King. But the throne <strong>cannot stay empty past Decade 1</strong>: if any House bids during Decade 1's Scene Declaration, it resolves normally as a Revolt. If nobody bids, any player flips one card per House at Decade 1's Kingdom Scene — highest card is forced onto the throne (redraw ties). The curse doesn't wait for volunteers.</p>
+
+  <h2 id="begin">7. Begin play</h2>
+  <p>Proceed to the first decade's Resolution phase. See <a href="gameplay.html">Playing a Decade</a> for the full loop, and a worked example across five decades of play.</p>
+
+</main>
+</div>
+
+<footer class="site-footer">This Cursed Throne — playtest reference, updated as design decisions lock in.</footer>
+
+</body>
+</html>

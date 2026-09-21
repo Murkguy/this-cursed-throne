@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tables &amp; Decks — This Cursed Throne</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="brand"><span class="crown">♛</span><a href="index.html">This Cursed Throne</a><span class="tag">rules reference</span></div>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="setup.html">How to Start</a>
+      <a href="gameplay.html">Playing a Decade</a>
+      <a href="rules.html">Rules Reference</a>
+      <a href="tables.html" class="active">Tables &amp; Decks</a>
+    </nav>
+  </div>
+</header>
+
+<div class="layout">
+<aside class="toc">
+  <input class="search-box" type="text" id="pageSearch" placeholder="Filter this page…" onkeyup="filterPage()">
+  <h3 id="house-traits">House Traits <span class="badge locked">Locked</span></h3>
+  <ul>
+    <li><a href="#hearts">♥ Hearts</a></li>
+    <li><a href="#diamonds">♦ Diamonds</a></li>
+    <li><a href="#clubs">♣ Clubs</a></li>
+    <li><a href="#spades">♠ Spades</a></li>
+  </ul>
+  <h3 id="character-traits">Character Traits <span class="badge locked">Locked</span></h3>
+  <ul><li><a href="#char-table">The 13 traits</a></li></ul>
+  <h3 id="events-deck">Events Deck <span class="badge locked">Locked</span></h3>
+  <ul>
+    <li><a href="#ev-hearts">♥ Hearts</a></li>
+    <li><a href="#ev-diamonds">♦ Diamonds</a></li>
+    <li><a href="#ev-clubs">♣ Clubs</a></li>
+    <li><a href="#ev-spades">♠ Spades</a></li>
+  </ul>
+  <h3 id="calamity">Calamity Modules</h3>
+  <ul>
+    <li><a href="#shared-endgame">Shared endgame shape</a></li>
+    <li><a href="#magic-born">Magic-Born</a> <span class="badge locked">Locked</span></li>
+    <li><a href="#invasion">External Invasion</a> <span class="badge locked">Locked</span></li>
+    <li><a href="#blight">Blight</a> <span class="badge pinned">Pinned</span></li>
+  </ul>
+</aside>
+<main id="pageMain">
+
+  <h1>Tables &amp; Decks</h1>
+  <p class="lede">Every card table in the game, in one place. All use a standard 52-card deck, reshuffled after every draw.</p>
+
+  <h2>House Trait Table <span class="badge locked">Locked</span></h2>
+  <p>Every house has <strong>4 traits</strong>: 2 chosen freely, 2 rolled (flip 1 card, direct suit+rank lookup — no math). A Magical Order house has 5 (see <a href="rules.html#house-archetypes">House Archetypes</a>).</p>
+  <div class="callout">
+    <div class="callout-label">Ace-High — the one deliberate exception</div>
+    <p>Rank here runs the <em>opposite</em> of everywhere else in the game: <strong>2 is worst, Ace is best.</strong> Ranks 2–4 skew weak benefit/real cost (2 also carries a bespoke restriction beyond dice), 5–7 are a net-zero sidegrade, 8–10 skew strong benefit/light cost, and J/Q/K/A abandon dice math entirely for unique mechanics.</p>
+  </div>
+  <p><strong>Duplicates reroll.</strong> <strong>Sickly and Long-Lived are mutually exclusive</strong> — direct contradictions, reroll if you already hold the other.</p>
+
+  <h3 id="hearts">♥ Hearts — Dynastic</h3>
+  <p>Institutional, bloodline, generational — not one person's mood.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>2</td><td><strong>Leprosy</strong></td><td>Once/100 years, generate 1 free relative via Birth Deal.</td><td>Diplomacy rolls only count 6s as successes.</td></tr>
+    <tr><td>3</td><td><strong>Sickly</strong></td><td>+2 Piety.</td><td>Death band +1 tier.</td></tr>
+    <tr><td>4</td><td><strong>Fostering Tradition</strong></td><td>+1 die Diplomacy.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>5</td><td><strong>Kinslayers</strong></td><td>+2 dice War.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>6</td><td><strong>Hostage Culture</strong></td><td>+2 dice Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>7</td><td><strong>Steadfast</strong></td><td>+1 die all STATIC checks.</td><td>-1 die all COMPETITIVE checks.</td></tr>
+    <tr><td>8</td><td><strong>Long Memory</strong></td><td>+2 dice Diplomacy.</td><td>-1 die War.</td></tr>
+    <tr><td>9</td><td><strong>Ancestral Seat</strong></td><td>+2 dice Stewardship.</td><td>-1 die Magic.</td></tr>
+    <tr><td>10</td><td><strong>Madness</strong></td><td>Once/decade, draw 2 keep BEST for any one action.</td><td>Death band +1 tier.</td></tr>
+    <tr><td>J</td><td><strong>Fecund</strong></td><td>Birth band widens to 9–King.</td><td>-1 Wealth per birth.</td></tr>
+    <tr><td>Q</td><td><strong>Long-Lived</strong></td><td>Death band -1 tier.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>K</td><td><strong>Cursed</strong></td><td>+1 Legend whenever this house's Leader dies.</td><td>None (deliberate exception).</td></tr>
+    <tr><td>A</td><td><strong>Giant's Blood</strong></td><td>Every connected character wards off death ONE TIME, any cause.</td><td>-1 die Espionage.</td></tr>
+  </table></div>
+
+  <h3 id="diamonds">♦ Diamonds — Wealth/Trade</h3>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>2</td><td><strong>Close-Fisted</strong></td><td>+1 die Trade.</td><td>Stewardship rolls only count 6s as successes.</td></tr>
+    <tr><td>3</td><td><strong>Pious</strong></td><td>+1 die Stewardship.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>4</td><td><strong>Cunning Traders</strong></td><td>+1 die Trade.</td><td>-2 dice War.</td></tr>
+    <tr><td>5</td><td><strong>Stewards Born</strong></td><td>+2 dice Stewardship.</td><td>-2 dice War.</td></tr>
+    <tr><td>6</td><td><strong>Isolationist</strong></td><td>+2 dice Stewardship.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>7</td><td><strong>Extravagant</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>8</td><td><strong>Enterprising</strong></td><td>+2 dice Trade.</td><td>-1 die Stewardship.</td></tr>
+    <tr><td>9</td><td><strong>Charitable</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Trade.</td></tr>
+    <tr><td>10</td><td><strong>Frugal</strong></td><td>+2 dice Trade.</td><td>-1 die War.</td></tr>
+    <tr><td>J</td><td><strong>Ostentatious</strong></td><td>STATIC Diplomacy actions always succeed.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>Q</td><td><strong>Landed Gentry</strong></td><td>Once/100 years, claim ALL unclaimed Land, no roll.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>K</td><td><strong>Golden</strong></td><td>Starting budget is 14 instead of 12.</td><td>-1 die War.</td></tr>
+    <tr><td>A</td><td><strong>Endless Ledgers</strong></td><td>Once/decade, convert any amount of one active stat into another.</td><td>-1 die War.</td></tr>
+  </table></div>
+
+  <h3 id="clubs">♣ Clubs — Military/Political</h3>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>2</td><td><strong>Ill-Trained Levies</strong></td><td>+1 die Trade.</td><td>War tasks (Border Raid, War) only count 6s as successes.</td></tr>
+    <tr><td>3</td><td><strong>Cruel</strong></td><td>+1 die Espionage.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>4</td><td><strong>Silver-Tongued</strong></td><td>+1 die Diplomacy.</td><td>-2 dice War.</td></tr>
+    <tr><td>5</td><td><strong>Boastful</strong></td><td>+2 dice War.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>6</td><td><strong>Zealous</strong></td><td>+2 dice on the house's first Task each decade.</td><td>-2 dice on every other task any relative attempts that decade.</td></tr>
+    <tr><td>7</td><td><strong>Disciplined</strong></td><td>+1 die War &amp; Stewardship.</td><td>-1 die Diplomacy &amp; Espionage.</td></tr>
+    <tr><td>8</td><td><strong>Great Warriors</strong></td><td>+2 dice War.</td><td>-1 die Diplomacy.</td></tr>
+    <tr><td>9</td><td><strong>Expansionist</strong></td><td>+2 dice War.</td><td>-1 die Stewardship.</td></tr>
+    <tr><td>10</td><td><strong>Duplicitous</strong></td><td>+2 dice Espionage.</td><td>-1 die Diplomacy.</td></tr>
+    <tr><td>J</td><td><strong>Warmonger</strong></td><td>Decisive War/Border Raid wins capture DOUBLE stakes.</td><td>-1 Honor per event gain.</td></tr>
+    <tr><td>Q</td><td><strong>Kingmaker</strong></td><td>+3 dice to whichever Revolt side this house joins.</td><td>-1 die Magic.</td></tr>
+    <tr><td>K</td><td><strong>Tyrannical</strong></td><td>While holding the crown, exercise each King's power twice/decade.</td><td>While holding the crown, -1 die every OTHER task type.</td></tr>
+    <tr><td>A</td><td><strong>Ambitious</strong></td><td>Declaring a Revolt bid grants 1 ADDITIONAL Destiny, even if held.</td><td>-1 die Stewardship.</td></tr>
+  </table></div>
+  <p style="font-size:0.9em;color:var(--ink-faint)">Zealous: the player declares which Task assignment is "first" at the moment of assignment, not an arbitrary order.</p>
+
+  <h3 id="spades">♠ Spades — Calamity/Doom</h3>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>2</td><td><strong>Paranoid</strong></td><td>+1 die Espionage.</td><td>Trade rolls only count 6s as successes.</td></tr>
+    <tr><td>3</td><td><strong>Superstitious</strong></td><td>+1 die Magic.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>4</td><td><strong>Reclusive</strong></td><td>+1 die Magic.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>5</td><td><strong>Sly</strong></td><td>+2 dice Espionage.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>6</td><td><strong>Secretive</strong></td><td>+2 dice Espionage.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>7</td><td><strong>Watchful</strong></td><td>+2 dice Magic.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>8</td><td><strong>Scholarly</strong></td><td>+2 dice Magic.</td><td>-1 die War.</td></tr>
+    <tr><td>9</td><td><strong>Ruthless</strong></td><td>+2 dice Espionage.</td><td>-1 Honor per event gain.</td></tr>
+    <tr><td>10</td><td><strong>Omen-Marked</strong></td><td>+2 dice Magic.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>J</td><td><strong>Ill-Starred</strong></td><td>Once/10yrs, force an opponent to redraw 1 card.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>Q</td><td><strong>Magical</strong></td><td>Magic-conversion trigger includes any face card.</td><td>-1 die Diplomacy.</td></tr>
+    <tr><td>K</td><td><strong>Fortune's Grace</strong></td><td>Once/20yrs, redraw one of this house's own card draws.</td><td>-1 die Trade.</td></tr>
+    <tr><td>A</td><td><strong>Charmed Life</strong></td><td>Spending Destiny: roll 1d6, keep Destiny on 5–6.</td><td>-1 die War.</td></tr>
+  </table></div>
+
+  <hr>
+
+  <h2 id="char-table">Character Trait Table <span class="badge locked">Locked</span></h2>
+  <p>The 13-entry table Birth Deal draws from. Only <strong>rank</strong> matters here — suit is ignored — and it's <strong>Ace-low</strong> (the standard convention; the house table's Ace-high is its own deliberate exception). Duplicates reroll. Magic conversion is handled at the Birth Deal level, not a row here.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Trait</th><th>Benefit</th><th>Cost</th></tr>
+    <tr><td>A</td><td><strong>Cowardly</strong></td><td>+1 die Espionage.</td><td>-2 dice War.</td></tr>
+    <tr><td>2</td><td><strong>Timid</strong></td><td>+1 die Stewardship.</td><td>-2 dice War.</td></tr>
+    <tr><td>3</td><td><strong>Vengeful</strong></td><td>+1 die Espionage.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>4</td><td><strong>Melancholic</strong></td><td>+1 die Magic.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>5</td><td><strong>Doting</strong></td><td>+2 dice Diplomacy.</td><td>-2 dice Espionage.</td></tr>
+    <tr><td>6</td><td><strong>Humble</strong></td><td>+2 dice Stewardship.</td><td>-2 dice Diplomacy.</td></tr>
+    <tr><td>7</td><td><strong>Calculating</strong></td><td>+2 dice Trade.</td><td>-2 dice Magic.</td></tr>
+    <tr><td>8</td><td><strong>Restless</strong></td><td>+2 dice War.</td><td>-2 dice Trade.</td></tr>
+    <tr><td>9</td><td><strong>Hot-Blooded</strong></td><td>+2 dice War.</td><td>-2 dice Stewardship.</td></tr>
+    <tr><td>10</td><td><strong>Prideful</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Stewardship.</td></tr>
+    <tr><td>J</td><td><strong>Charming</strong></td><td>+2 dice Diplomacy.</td><td>-1 die Espionage.</td></tr>
+    <tr><td>Q</td><td><strong>Stoic</strong></td><td>+2 dice Stewardship.</td><td>-1 die Magic.</td></tr>
+    <tr><td>K</td><td><strong>Reckless</strong></td><td>+3 dice War.</td><td>-1 die Espionage.</td></tr>
+  </table></div>
+
+  <hr>
+
+  <h2 id="ev-hearts-anchor">Events Deck <span class="badge locked">Locked</span></h2>
+  <p>Drawn every decade at Kingdom Scene. Suit = category, rank = quality (Ace-low, standard convention). Deck reshuffles after every draw.</p>
+
+  <h3>How a card resolves</h3>
+  <p>The houses are a closed system — they only otherwise act on each other through Tasks and Scenes. <strong>The events deck is everything outside that system</strong>: weather, disasters, foreign courts, traveling spectacle, omens.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Shape</th><th>What it means</th></tr>
+    <tr><td><strong>POOL</strong></td><td>Adds to (or on low ranks, removes from) the unclaimed pool. No targeting.</td></tr>
+    <tr><td><strong>RANKED</strong></td><td>Targets a house via its standing in one stat: <strong>♥Honor/Infamy, ♦Wealth, ♣Legend, ♠Piety.</strong> Low rank hits the current highest (fall from grace); high rank helps the current lowest (ladder up).</td></tr>
+    <tr><td><strong>RANDOM</strong></td><td>Flip 1 additional card; its rank, counted around the ring from the King's seat, picks the house.</td></tr>
+    <tr><td><strong>ALL</strong></td><td>Applies to every house equally.</td></tr>
+    <tr><td><strong>CONTEST</strong></td><td>Any house may declare interest; each flips 1 card, highest wins (redraw ties).</td></tr>
+  </table></div>
+  <p><strong>PERSONAL cards</strong> (plagues, accidents, formative journeys) hit a person instead of a stat — a <strong>death check</strong> or <strong>gains 1 new trait</strong>, always the fixed <strong>House Leader</strong> or <strong>current heir</strong>, never a player choice.</p>
+  <p><strong>POOL amounts are randomized</strong> — flip 1 card. Additions: 2-4→+1, 5-7→+2, 8-10→+3, J-K-A→+4. Removals: 2-6→-1, 7-10→-2, J-K-A→-3.</p>
+
+  <h3 id="ev-hearts">♥ Hearts — Dynastic/Personal</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">POOL entries feed <strong>Honor</strong>.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Shape</th><th>Title</th><th>Rule</th></tr>
+    <tr><td>A</td><td>RANKED</td><td>A Vicious Rumor</td><td>Highest Honor house: -2</td></tr>
+    <tr><td>2</td><td>POOL</td><td>An Unmourned Passing</td><td>Remove Honor (pool)</td></tr>
+    <tr><td>3</td><td>RANDOM</td><td>A Fortune-Teller's Warning</td><td>Random house's next draw: 2, keep worst</td></tr>
+    <tr><td>4</td><td>RANKED</td><td>A Sickness Passes Through</td><td>Highest Honor house's Leader: death check</td></tr>
+    <tr><td>5</td><td>RANDOM</td><td>A Traveling Bard's Ballad</td><td>Random house: +2 dice next Diplomacy task</td></tr>
+    <tr><td>6</td><td>RANDOM</td><td>Lost in the Storm</td><td>Random house's heir: gains 1 new trait</td></tr>
+    <tr><td>7</td><td>CONTEST</td><td>A Traveling Tourney</td><td>Winner: +2 Honor</td></tr>
+    <tr><td>8</td><td>RANDOM</td><td>An Invitation to the Masquerade</td><td>Random house: free Forge Alliance attempt</td></tr>
+    <tr><td>9</td><td>POOL</td><td>A Royal Pageant</td><td>Add Honor (pool)</td></tr>
+    <tr><td>10</td><td>RANKED</td><td>An Act of Grace</td><td>Lowest Honor house: +2</td></tr>
+    <tr><td>J</td><td>RANDOM</td><td>A Remarkable Birth</td><td>Random house: free relative via Birth Deal</td></tr>
+    <tr><td>Q</td><td>RANKED</td><td>A Legendary Marriage Alliance</td><td>Lowest Honor house: +3, plus a lasting alliance bond</td></tr>
+    <tr><td>K</td><td>ALL</td><td>A Realm-Wide Jubilee</td><td>All houses: +1 Honor</td></tr>
+  </table></div>
+
+  <h3 id="ev-diamonds">♦ Diamonds — Wealth/Trade</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">POOL entries feed <strong>Wealth</strong>.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Shape</th><th>Title</th><th>Rule</th></tr>
+    <tr><td>A</td><td>RANKED</td><td>A Market Collapse</td><td>Highest Wealth house: -2</td></tr>
+    <tr><td>2</td><td>RANDOM</td><td>A Failed Harvest</td><td>Random house's next draw: 2, keep worst</td></tr>
+    <tr><td>3</td><td>POOL</td><td>Bandits on the Trade Road</td><td>Remove Wealth (pool)</td></tr>
+    <tr><td>4</td><td>RANDOM</td><td>A Shipwreck</td><td>Random house's heir: death check</td></tr>
+    <tr><td>5</td><td>POOL</td><td>A Modest Trade Season</td><td>Add Wealth (pool)</td></tr>
+    <tr><td>6</td><td>RANDOM</td><td>A Traveling Merchant's Fair</td><td>Random house: +2 dice next Trade task</td></tr>
+    <tr><td>7</td><td>CONTEST</td><td>A Gold Rush</td><td>Winner: +2 Wealth</td></tr>
+    <tr><td>8</td><td>RANDOM</td><td>A Generous Foreign Patron</td><td>Random house: free Broker Deal attempt</td></tr>
+    <tr><td>9</td><td>POOL</td><td>A Bountiful Harvest</td><td>Add Wealth (pool)</td></tr>
+    <tr><td>10</td><td>RANKED</td><td>A Debt Forgiven</td><td>Lowest Wealth house: +2</td></tr>
+    <tr><td>J</td><td>RANDOM</td><td>A Buried Hoard</td><td>Random house's heir: gains 1 new trait</td></tr>
+    <tr><td>Q</td><td>RANKED</td><td>A Trade Monopoly Granted</td><td>Lowest Wealth house: +3, plus +2 dice next Trade task</td></tr>
+    <tr><td>K</td><td>ALL</td><td>A Golden Age of Trade</td><td>All houses: +1 Wealth</td></tr>
+  </table></div>
+
+  <h3 id="ev-clubs">♣ Clubs — Military/Political</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">POOL entries feed <strong>Manpower</strong> (Legend can't be pooled).</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Shape</th><th>Title</th><th>Rule</th></tr>
+    <tr><td>A</td><td>RANKED</td><td>A Legend Tarnished</td><td>Highest Legend house: -2</td></tr>
+    <tr><td>2</td><td>POOL</td><td>Deserters</td><td>Remove Manpower (pool)</td></tr>
+    <tr><td>3</td><td>RANDOM</td><td>A Failed Muster</td><td>Random house's next draw: 2, keep worst</td></tr>
+    <tr><td>4</td><td>RANDOM</td><td>Caught in a Border Skirmish</td><td>Random house's Leader: death check</td></tr>
+    <tr><td>5</td><td>POOL</td><td>Mercenaries Passing Through</td><td>Add Manpower (pool)</td></tr>
+    <tr><td>6</td><td>RANDOM</td><td>A Successful Muster</td><td>Random house: +2 dice next War task</td></tr>
+    <tr><td>7</td><td>CONTEST</td><td>A War Council Is Called</td><td>Winner: +2 Legend</td></tr>
+    <tr><td>8</td><td>RANDOM</td><td>A Foreign Ambassador's Praise</td><td>Random house: free Court Favor attempt</td></tr>
+    <tr><td>9</td><td>POOL</td><td>Veterans Return</td><td>Add Manpower (pool)</td></tr>
+    <tr><td>10</td><td>RANKED</td><td>A Champion's Tale Spreads</td><td>Lowest Legend house: +2</td></tr>
+    <tr><td>J</td><td>RANDOM</td><td>Survives a Coup</td><td>Random house's Leader: gains 1 new trait</td></tr>
+    <tr><td>Q</td><td>RANKED</td><td>A Foreign Crown's Favor</td><td>Lowest Legend house: +3, plus +2 dice next Diplomacy task</td></tr>
+    <tr><td>K</td><td>ALL</td><td>A Great Peace Is Declared</td><td>All houses: +1 Legend</td></tr>
+  </table></div>
+
+  <h3 id="ev-spades">♠ Spades — Calamity/Doom</h3>
+  <p style="color:var(--ink-faint);font-size:0.9em">POOL entries feed <strong>Piety</strong>. <strong>Ace, 2, and 3 also advance External Invasion's Doom Clock</strong> if that's the chosen module.</p>
+  <div class="table-scroll"><table>
+    <tr><th>Rank</th><th>Shape</th><th>Title</th><th>Rule</th></tr>
+    <tr><td>A</td><td>RANKED</td><td>A Temple Defiled</td><td>Highest Piety house: -2</td></tr>
+    <tr><td>2</td><td>POOL</td><td>An Ill Omen</td><td>Remove Piety (pool)</td></tr>
+    <tr><td>3</td><td>RANDOM</td><td>A Blood Moon</td><td>Random house's next draw: 2, keep worst</td></tr>
+    <tr><td>4</td><td>RANDOM</td><td>A Plague Passes Through</td><td>Random house's Leader: death check</td></tr>
+    <tr><td>5</td><td>POOL</td><td>A Quiet Season of Faith</td><td>Add Piety (pool)</td></tr>
+    <tr><td>6</td><td>RANDOM</td><td>A Minor Miracle Claimed</td><td>Random house: +2 dice next Magic task</td></tr>
+    <tr><td>7</td><td>CONTEST</td><td>A Holy Relic Surfaces</td><td>Winner: +2 Piety</td></tr>
+    <tr><td>8</td><td>RANDOM</td><td>A Pilgrim's Blessing</td><td>Random house: free Invoke Faith attempt</td></tr>
+    <tr><td>9</td><td>POOL</td><td>A Season of Good Omens</td><td>Add Piety (pool)</td></tr>
+    <tr><td>10</td><td>RANKED</td><td>A Humble House Uplifted</td><td>Lowest Piety house: +2</td></tr>
+    <tr><td>J</td><td>RANDOM</td><td>Touched by Something Unseen</td><td>Random house's heir: gains 1 new trait</td></tr>
+    <tr><td>Q</td><td>RANKED</td><td>A Prophecy Fulfilled</td><td>Lowest Piety house: +3, plus next draw: 2, keep BEST</td></tr>
+    <tr><td>K</td><td>ALL</td><td>A Holy Day Observed Realm-Wide</td><td>All houses: +1 Piety</td></tr>
+  </table></div>
+
+  <hr>
+
+  <h2 id="calamity-anchor">Calamity Modules</h2>
+  <p>One module is chosen at setup — the shared threat the whole campaign builds toward. All four share the same endgame shape; each defines its own theme, Doom Clock trigger, prep action, and Final Round trials.</p>
+
+  <h3 id="shared-endgame">Shared Endgame Shape</h3>
+  <div class="callout">
+    <p><strong>The Final Round</strong> triggers the decade a module's Doom Clock hits max — the last decade of the campaign. Every house still standing faces 3 sequential trials, each <strong>COMPETITIVE against the Calamity itself</strong>. The Calamity's pool for Trial N = <strong>(current decade number) × N</strong> — a Final Round in decade 10 pits Trial 1 against a pool of 10, Trial 2 against 20, Trial 3 against 30.</p>
+    <p><strong>Houses may ally</strong> on any trial, pooling dice into one combined roll — the outcome applies to everyone allied, but consequences still land individually. Every death check rolled is one age-tier worse than normal. Ruin/Extinction knocks a house out of contention immediately.</p>
+  </div>
+  <div class="table-scroll"><table>
+    <tr><th>Outcome</th><th>What happens</th></tr>
+    <tr><td><strong>Decisive win</strong></td><td>Lose 1 point from ONE of the trial's two pool stats.</td></tr>
+    <tr><td><strong>Narrow win</strong></td><td>Lose 1 point from EACH of the trial's two pool stats, and the player's choice of ONE relative takes a death check.</td></tr>
+    <tr><td><strong>Loss</strong></td><td>Lose <strong>5 points from EVERY one of the house's 7 stats</strong> (floored at 0), and EVERY relative tracked by the house takes a death check.</td></tr>
+  </table></div>
+  <p>The Loss penalty stacks across trials (-10 for two lost, -15 for three) — for most houses, even one lost trial threatens Ruin, and losing any two guarantees it. <strong>Determining the winner:</strong> among houses still standing after all 3 trials, sum all 7 stats (Honor/Infamy as absolute magnitude) — highest total wins the campaign.</p>
+  <p>Every module also grants exactly <strong>one dedicated prep action</strong> — a Task slot spent today for an edge at the Final Round.</p>
+
+  <h3 id="magic-born">Magic-Born <span class="badge locked">Locked</span></h3>
+  <p><em>Magic itself is the threat — the more legendary the realm's houses become, the closer that mark pulls reality toward rupture.</em></p>
+  <p><strong>Doom Clock:</strong> 0–10. Advances when the King/Legend curse draw's kept card is Ace/2/3.</p>
+  <p><strong>Prep action — Ritual of the Unbroken Ward:</strong> Magic, Static, Legend+Cunning, once/decade. Success banks 1 Ward (max 3). Failure advances the Doom Clock by 1. Spend Wards during the Final Round to upgrade a trial's outcome one tier each.</p>
+  <p><strong>Final Round: The Sundering</strong></p>
+  <div class="table-scroll"><table>
+    <tr><th>Trial</th><th>Pool</th><th>Decisive</th><th>Narrow</th></tr>
+    <tr><td>1. The Wild Surge</td><td>Legend+Cunning</td><td>-1 Cunning</td><td>-1 Legend, -1 Cunning, +death check</td></tr>
+    <tr><td>2. The Restless Dead</td><td>Manpower+Wealth</td><td>-1 Manpower</td><td>-1 Manpower, -1 Wealth, +death check</td></tr>
+    <tr><td>3. The Land Unmade</td><td>Land+Wealth</td><td>-1 Land</td><td>-1 Land, -1 Wealth, +death check</td></tr>
+  </table></div>
+  <p style="font-size:0.9em;color:var(--ink-faint)">Losing Trials 2 &amp; 3 together guarantees full Ruin regardless of Trial 1.</p>
+
+  <h3 id="invasion">External Invasion <span class="badge locked">Locked</span></h3>
+  <p><em>A foreign power coming to take the realm entire — indifferent to who holds the throne.</em></p>
+  <p><strong>Doom Clock:</strong> 0–10. Advances when the Ace, 2, or 3 of Spades is drawn at Kingdom Scene.</p>
+  <p><strong>Prep action — Muster the Border Watch:</strong> War, Static, Manpower+Land, once/decade. Success banks 1 Bulwark (max 3). Failure: lose 1 Manpower and 1 Wealth.</p>
+  <p><strong>Final Round: The Siege</strong></p>
+  <div class="table-scroll"><table>
+    <tr><th>Trial</th><th>Pool</th><th>Decisive</th><th>Narrow</th></tr>
+    <tr><td>1. The Vanguard</td><td>Manpower+Wealth</td><td>-1 Wealth</td><td>-1 Manpower, -1 Wealth, +death check</td></tr>
+    <tr><td>2. The Siege Lines</td><td>Land+Wealth</td><td>-1 Land</td><td>-1 Land, -1 Wealth, +death check</td></tr>
+    <tr><td>3. The Breach</td><td>Manpower+Cunning</td><td>-1 Manpower</td><td>-1 Manpower, -1 Cunning, +death check</td></tr>
+  </table></div>
+  <p style="font-size:0.9em;color:var(--ink-faint)">Losing Trials 1 &amp; 2 together guarantees full Ruin regardless of Trial 3.</p>
+
+  <h3 id="blight">Blight <span class="badge pinned">Pinned — not locked</span></h3>
+  <div class="callout warn">
+    <div class="callout-label">Not locked</div>
+    <p>Drafted, but explicitly pinned for a rework — the 3-trials shape felt too similar to the other modules. Usable for playtesting, but expect it to change.</p>
+  </div>
+  <p><em>Nothing arrives all at once — an absence, spreading wherever faith isn't actively holding it back.</em></p>
+  <p><strong>Doom Clock:</strong> 0–10. Advances if no house at the table has Piety 5+ at Kingdom Scene.</p>
+  <p><strong>Prep action — Kindle the Ward-Light:</strong> Diplomacy, Static, Piety+Land, once/decade. Success banks 1 Beacon (max 3). Failure: -1 Piety.</p>
+  <p><strong>Final Round: The Long Dark</strong></p>
+  <div class="table-scroll"><table>
+    <tr><th>Trial</th><th>Pool</th><th>Decisive</th><th>Narrow</th></tr>
+    <tr><td>1. The Withering</td><td>Land+Wealth</td><td>-1 Wealth</td><td>-1 Land, -1 Wealth, +death check</td></tr>
+    <tr><td>2. The Long Despair</td><td>Piety+Honor/Infamy (magnitude)</td><td>-1 Piety</td><td>-1 Piety, Honor/Infamy shifts 1 toward neutral, +death check</td></tr>
+    <tr><td>3. The Rot Made Flesh</td><td>Manpower+Piety</td><td>-1 Manpower</td><td>-1 Manpower, -1 Piety, +death check</td></tr>
+  </table></div>
+  <p style="font-size:0.9em;color:var(--ink-faint)">Losing Trials 1 &amp; 3 together guarantees full Ruin regardless of Trial 2.</p>
+
+</main>
+</div>
+
+<footer class="site-footer">This Cursed Throne — playtest reference, updated as design decisions lock in.</footer>
+
+<script>
+function filterPage() {
+  const q = document.getElementById('pageSearch').value.toLowerCase();
+  const main = document.getElementById('pageMain');
+  if (!q) {
+    main.querySelectorAll('tr[data-hidden]').forEach(el => { el.classList.remove('hidden'); el.removeAttribute('data-hidden'); });
+    return;
+  }
+  main.querySelectorAll('tbody tr, table tr').forEach(row => {
+    if (row.querySelector('th')) return;
+    const match = row.textContent.toLowerCase().includes(q);
+    if (match) { row.classList.remove('hidden'); row.removeAttribute('data-hidden'); }
+    else { row.classList.add('hidden'); row.setAttribute('data-hidden','1'); }
+  });
+}
+</script>
+
+</body>
+</html>
