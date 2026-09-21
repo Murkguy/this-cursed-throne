@@ -9,6 +9,10 @@ the crown only counts if the looming Calamity has been survived.
 Companion project to *Rifts & Revolvers* (same designer, same
 collaborative design approach).
 
+**Rules reference site:** https://murkguy.github.io/this-cursed-throne/
+— lives on the `gh-pages` branch, rebuilt manually (not auto-synced
+with `master`) whenever the reference content needs updating.
+
 ## Structure
 
 - `docs/` — design notes and decision history

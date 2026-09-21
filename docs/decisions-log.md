@@ -1674,3 +1674,46 @@ mirroring Magic-Born's own Ace/2/3 range. Updated
 now fully playtestable end to end, using Magic-born or External
 Invasion as the Calamity module. Updated `README.md`, `gameflow.md`'s
 content-gap list, and `turn-order.md`'s Kingdom Scene cross-reference.
+
+## GitHub Pages rules reference site launched (2026-08-14)
+
+Designer asked for "a github pages site with proper rules lookup, how
+to start, the tables available, and overall a display of the playtest
+end to end" — plus a recommended physical components list, since
+custom printed pieces don't exist yet.
+
+Built as a 5-page static site (no build step) on a new `gh-pages`
+branch, built via a `git worktree` so `master` was never touched:
+`index.html` (overview + recommended components), `setup.html` (the
+7-step setup walkthrough), `gameplay.html` (the 5-phase decade loop +
+the full worked 5-decade example from `gameflow.md`), `rules.html`
+(tasks/checks, birth-death, geography, house archetypes, king/revolt/
+destiny — with a page-filter search box), and `tables.html` (all 52
+house traits, 13 character traits, 52 events, and all 3 drafted
+Calamity modules — also filterable).
+
+**Recommended components**, derived directly from the mechanics rather
+than generic TTRPG advice: 3-4 standard 52-card decks (every table in
+the game is a flip-and-lookup, multiple decks prevent bottlenecking
+during simultaneous draws), 20-30 d6 per player plus a shared reserve
+of 50+ (pools scale with stats and can combine across houses in a
+Revolt or Calamity Final Round), 100-150 index cards (Scene
+Declaration, one per house per decade), poker chips in 3-4 colors for
+the fast-changing active stats (Land/Manpower/Wealth) plus a large
+shared "unclaimed pool" stash, and distinct tokens for Destiny (one
+per house, binary) and Calamity prep banks (Wards/Bulwarks/Beacons,
+max 3 each).
+
+**Hosting hit a real snag:** GitHub Pages doesn't work on a private
+repo without a paid plan ("Your current plan does not support GitHub
+Pages for this repository"). Presented the tradeoff — make the repo
+public, upgrade to a paid plan, or host on a free third-party service
+instead (Netlify/Vercel/Cloudflare Pages) — designer chose to make the
+repo public. Repo visibility flipped via `gh repo edit`, then Pages
+enabled via `gh api` against the Pages API (source: `gh-pages` branch,
+root path).
+
+**Live at https://murkguy.github.io/this-cursed-throne/** — not
+auto-synced with `master`; the `gh-pages` branch needs a manual rebuild
+whenever rulebook/table content changes and the reference site should
+reflect it.
