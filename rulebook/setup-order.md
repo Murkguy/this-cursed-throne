@@ -115,9 +115,9 @@ narratively justify otherwise.
    high-Legend house can roll well past what the old card-table's max
    of 7 ever allowed — Legend paying off as a visible dynastic engine
    is the point.
-2. Flip that many cards; each rank is a row-lookup on the 13-entry
-   mixed character trait table (`tables/character-traits.md` —
-   **LOCKED**).
+2. Flip that many cards; each card's exact suit+rank is a direct
+   lookup on the 52-entry character trait table
+   (`tables/character-traits.md` — **LOCKED**).
 3. An Ace of Spades is always eligible for Magic conversion; if the
    house has the **Magical** house trait, any face card is also
    eligible. Conversion is a player choice.

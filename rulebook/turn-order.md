@@ -29,9 +29,9 @@ Opens the decade by settling everything set in motion last decade.
    ranked, calamity compensation, resolving a vendetta, or winning the
    crown — see `king-and-revolt.md` for the full Destiny trigger list),
    that character may swap one existing trait for a newly flipped one —
-   a single card flip, same 13-entry trait table lookup as Birth Deal.
-   Reuses the Destiny trigger list rather than a separate "how major is
-   major" judgment call.
+   a single card flip, same 52-entry character trait table lookup as
+   Birth Deal. Reuses the Destiny trigger list rather than a separate
+   "how major is major" judgment call.
 
 ## Phase 2: Scene Declaration
 Every house writes **exactly 1 scene intent** for the decade on a

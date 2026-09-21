@@ -25,8 +25,9 @@ with `master`) whenever the reference content needs updating.
 - `tables/` — trait tables, the events deck, Calamity modules
   - `house-traits.md` — the 52-entry house trait table (1 card, direct
     suit+rank lookup) — **LOCKED**, all four suits confirmed
-  - `character-traits.md` — the 13-entry character trait table used by
-    Birth Deal — **LOCKED**
+  - `character-traits.md` — the 52-entry character trait table (1
+    card, direct suit+rank lookup, same 4 categories as house traits)
+    used by Birth Deal — **LOCKED**
   - `character-traits-bank.md` — historical: the personality traits
     originally pulled out of the house table, now folded into
     `character-traits.md` above

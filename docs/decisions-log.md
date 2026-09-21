@@ -1717,3 +1717,38 @@ root path).
 auto-synced with `master`; the `gh-pages` branch needs a manual rebuild
 whenever rulebook/table content changes and the reference site should
 reflect it.
+
+## Character trait table expanded to a full 52-entry suit+rank table (2026-08-15)
+
+Designer noticed the site's Character Trait table only showed 13
+entries while House Traits and the Events Deck showed 52, and asked
+to expand it into a full suited table to match — not a site display
+issue, a genuine design change.
+
+**Framework confirmed before drafting** (mirrors how the other two
+52-entry tables were built): reuse the same 4 category mappings as
+House Traits/Events Deck (♥Dynastic-Personal, ♦Wealth-Trade,
+♣Military-Political, ♠Calamity-Doom) so one convention covers the
+whole game; keep Character Traits' existing **Ace-low** convention
+(House Traits' Ace-high stays its own deliberate exception, not
+something to generalize); redistribute the 13 existing traits by
+thematic fit rather than forcing an even per-suit split.
+
+**Placement:** Hearts (emotional/relational) got Vengeful, Doting,
+Prideful, Charming, Timid; Diamonds (practical/material) got
+Calculating, Stoic, Humble; Clubs (ambitious/martial) got Restless,
+Hot-Blooded, Reckless, Cowardly; Spades (mystical/fatalistic) got
+Melancholic. 39 new traits filled the remaining slots, all checked
+against both House Trait and Character Trait names for collisions.
+Same weak-tier/mid-tier/strong-tier magnitude curve as the existing
+13 (and as House Traits): A-4 net -1 die, 5-9 net 0, 10-K net +1 to
++2 die, costs diversified per suit across task categories rather than
+concentrating on one (the same fix the original 13-entry table needed
+once already, applied proactively this time).
+
+Updated every cross-reference to the old "13-entry" framing:
+`setup-order.md` step 4 (Birth Deal now does a direct suit+rank
+lookup, not a rank-only one), `turn-order.md`'s trait-swap mechanic,
+`gameflow.md`'s worked example (both the Decade-1 Leader creation and
+the Decade-4 trait-swap, including removing a stale
+content-needed marker), and `README.md`.

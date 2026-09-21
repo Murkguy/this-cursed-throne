@@ -66,10 +66,10 @@ Honor 0, Legend 0, Piety 0, Cunning 3.
 ### 4. Create the House Leader — Birth Deal
 1. Roll 10d6, count 5-6s. Legend is 0, so 0 automatic hits. Example
    roll: 4 successes → **4 traits**.
-2. Flip 4 cards, look up each on the 13-entry character trait table.
-   🚧 **CONTENT NEEDED** — that table isn't drafted. Standing in with
-   4 of the real banked candidates from `character-traits-bank.md`
-   for this example: **Restless, Prideful, Doting, Hot-Blooded.**
+2. Flip 4 cards, direct suit+rank lookup on the 52-entry character
+   trait table (`tables/character-traits.md`). Example result:
+   **Restless (Clubs 7), Prideful (Hearts Q), Doting (Hearts 5),
+   Hot-Blooded (Clubs 8).**
 3. None of the 4 flips were an Ace of Spades or (Magical is present,
    so) a face card, so no Magic conversion this time.
 
@@ -195,9 +195,8 @@ Per Primogeniture, his eldest living child (Elenor, now an adult)
 inherits as the new House Leader. This is a Destiny-triggering event —
 Ashvale's house didn't already hold one, so **the new Leader (Elenor)
 gains Destiny**. Because Elenor was directly involved, she may also
-swap one existing trait for a freshly flipped one (same character
-trait table — still 🚧 content-needed, using another banked candidate
-as a stand-in).
+swap one existing trait for a freshly flipped one — flip 1 card,
+direct suit+rank lookup on the same 52-entry character trait table.
 
 ## Decade 5
 
@@ -236,8 +235,9 @@ conferral, and a full Revolt). **No new mechanical gap was found
 beyond the three already-known content types** — every 🚧 marker above
 traces back to one of:
 
-1. ~~The 13-entry character trait table~~ — **RESOLVED**, see
-   `tables/character-traits.md`.
+1. ~~The character trait table~~ — **RESOLVED**, see
+   `tables/character-traits.md` (expanded to a full 52-entry
+   suit+rank table, matching the house trait table's structure).
 2. ~~The 52-entry events deck content~~ — **RESOLVED**, see
    `tables/events-deck.md`. This closes the last blocker — the game is
    fully playtestable now.
