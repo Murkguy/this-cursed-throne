@@ -1,6 +1,6 @@
 THRONE GAME — DESIGN NOTES (working title)
 =============================================
-A GoT-style political RPG where players lead noble houses vying for the
+A political RPG where players lead noble houses vying for the
 throne while a shared calamity looms over the realm.
 
 -------------------------------------------
@@ -34,7 +34,7 @@ Core stats (zero-sum, pooled across all houses):
     resources by default (split evenly? whoever the event narratively
     involves? contested via a task?) — TBD when drafting the actual
     event tables.
-  - LEGEND — NEW house stat (Targaryen-inspired). Rises through
+  - LEGEND — NEW house stat. Rises through
     dramatic/magical acts (winning duels others feared to attempt,
     surviving calamities, successful Magic use). RESOLVED roles:
     (1) likely the stat MAGIC tasks roll against, (2) a high Legend
@@ -302,7 +302,7 @@ MONIKERS
 - Two flavors under consideration:
   - PHYSICAL monikers ("the Tall," "the One-Eyed," "the Fair") — could
     be a birth-roll table alongside traits.
-  - REPUTATION monikers ("the Butcher," "the Just," "the Kingslayer") —
+  - REPUTATION monikers ("the Butcher," "the Just," "the Usurper") —
     EARNED through play, not rolled at birth.
 - DECISION: Only the HOUSE LEADER can earn a reputation moniker, and
   only through actions (not rolled at birth). This keeps monikers

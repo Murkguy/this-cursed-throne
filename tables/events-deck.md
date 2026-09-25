@@ -110,7 +110,7 @@ entries check).
 | 8 | RANDOM | An Invitation to the Masquerade | A single invitation, no explanation given. | Random house may immediately attempt **Forge Alliance** with any house, no Task Assignment cost. |
 | 9 | POOL | A Royal Pageant | Beauty and wit, judged before a crowd. | **Add Honor** to the pool (addition amount, see above). |
 | 10 | RANKED | An Act of Grace | The right thing, when it would've been easier not to. | Lowest Honor/Infamy house: **+2 Honor.** |
-| J | RANDOM | A Remarkable Birth | Born under a sign the septons won't stop discussing. | Random house: **free relative** via Birth Deal (age 0). |
+| J | RANDOM | A Remarkable Birth | Born under a sign the priests won't stop discussing. | Random house: **free relative** via Birth Deal (age 0). |
 | Q | RANKED | A Legendary Marriage Alliance | Two names never meant to share a table. | Lowest Honor/Infamy house: **+3 Honor**, and forms a lasting **alliance bond** (+2 dice acting together) with one house of its choosing. |
 | K | ALL | A Realm-Wide Jubilee | An excuse for everyone to celebrate. | All houses: **+1 Honor.** |
 

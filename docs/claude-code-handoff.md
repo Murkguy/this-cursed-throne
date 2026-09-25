@@ -3,8 +3,8 @@
 ## What this is
 Pick up an in-progress original TTRPG design and set it up properly as a
 project: a GitHub repo, organized docs, and continued iterative design work
-inside Claude Code. This is a companion project to "Rifts & Revolvers" —
-same designer, same collaborative approach, different game.
+inside Claude Code. It is an original game by a single designer, worked on
+collaboratively with Claude.
 
 The attached file `design-notes-original.txt` is the full running design
 doc from a long design conversation with Claude (chat), preserved as-is.
@@ -13,7 +13,7 @@ It's the source of truth for the decisions made in that conversation. See
 is now "This Cursed Throne").
 
 ## The pitch
-A Game of Thrones-style political RPG. Each player leads a noble House and
+A political RPG of dynasty and decline. Each player leads a noble House and
 plays across DECADES, not single scenes — a campaign can span generations,
 with characters dying/aging out and heirs stepping up. It's explicitly a
 hybrid: RPG-first (roleplayed scenes, character voice, narrative stakes),

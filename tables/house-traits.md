@@ -87,8 +87,7 @@ retired (there were 4 candidates for 3 weak-tier slots) and replaced
 with a new unique mechanic to fill out J/Q/K/A (which otherwise only
 had 3 existing unique traits for 4 slots) — that slot went through two
 versions before landing on Endless Ledgers (a lending/debt version,
-Iron Bank, felt too on-the-nose as a Game of Thrones reference, and
-loaning mechanics don't fit this game).
+Iron Bank, was dropped because loaning mechanics don't fit this game).
 
 | Rank | Trait | Benefit | Cost |
 |---|---|---|---|

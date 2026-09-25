@@ -1,13 +1,10 @@
 # This Cursed Throne
 
-A Game of Thrones-style political TTRPG. Each player leads a noble House
+A political TTRPG of dynasty and decline. Each player leads a noble House
 across DECADES, not single sessions — a campaign can span generations,
 with characters dying/aging out and heirs stepping up. The throne itself
 is cursed; you cannot win by seizing power while the realm collapses —
 the crown only counts if the looming Calamity has been survived.
-
-Companion project to *Rifts & Revolvers* (same designer, same
-collaborative design approach).
 
 **Rules reference site:** https://murkguy.github.io/this-cursed-throne/
 — lives on the `gh-pages` branch, rebuilt manually (not auto-synced

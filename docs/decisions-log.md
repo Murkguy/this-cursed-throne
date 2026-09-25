@@ -879,8 +879,8 @@ without changes).
   is. This also resolves the earlier open question about what happens
   if the pool has less than 2 Land — moot now, since it just takes
   whatever exists.
-- **Iron Bank** (A) replaced entirely — judged too on-the-nose a Game
-  of Thrones reference, and lending/debt mechanics don't fit this
+- **Iron Bank** (A) replaced entirely — judged too derivative of an
+  existing property's name, and lending/debt mechanics don't fit this
   game. New: **Endless Ledgers** — once per decade, convert any amount
   of one active stat (Land, Manpower, Wealth) into an equal amount of
   any other, no other house's cooperation needed. Self-contained,
